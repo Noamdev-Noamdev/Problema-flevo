@@ -1,14 +1,16 @@
 import { useParams, Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
-import ExerciseCard from "@/components/ExerciseCard";
+import VakCard from "@/components/VakCard";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft } from "lucide-react";
 import { getRichting } from "@/data/richtingen";
+import { getVakkenForRichting } from "@/data/vakken";
 
 const RichtingDetail = () => {
   const { year, richting } = useParams<{ year: string; richting: string }>();
   const yearNumber = parseInt(year || "1");
   const richtingData = getRichting(yearNumber, richting || "");
+  const vakken = getVakkenForRichting(richting || "");
 
   if (!richtingData) {
     return (
@@ -23,43 +25,6 @@ const RichtingDetail = () => {
       </div>
     );
   }
-
-  // Sample exercises (will be replaced with real data later)
-  const freeExercises = [
-    {
-      title: "Basisoefeningen Wiskunde",
-      description: "Oefen met algebra en functies",
-      category: "Wiskunde",
-    },
-    {
-      title: "Natuurkunde - Mechanica",
-      description: "Krachten en beweging begrijpen",
-      category: "Natuurkunde",
-    },
-    {
-      title: "Chemie - Periodiek Systeem",
-      description: "Leer de elementen kennen",
-      category: "Chemie",
-    },
-    {
-      title: "Biologie - Cellen",
-      description: "Celstructuur en functie",
-      category: "Biologie",
-    },
-  ];
-
-  const premiumExercises = [
-    {
-      title: "Gevorderde Differentiaalvergelijkingen",
-      description: "Voor wie extra uitdaging zoekt",
-      category: "Wiskunde",
-    },
-    {
-      title: "Kwantummechanica Introductie",
-      description: "Verdieping in moderne natuurkunde",
-      category: "Natuurkunde",
-    },
-  ];
 
   return (
     <div className="min-h-screen bg-background">
@@ -85,47 +50,25 @@ const RichtingDetail = () => {
             {richtingData.name} - {richtingData.fullName}
           </h1>
           <p className="text-lg text-muted-foreground">
-            Kies een oefening om te starten
+            Kies een vak om oefeningen te bekijken
           </p>
         </div>
 
-        {/* Free Exercises */}
-        <section className="mb-12">
+        {/* Vakken Grid */}
+        <section>
           <h2 className="mb-6 text-2xl font-bold text-foreground">
-            Gratis Oefeningen
+            Beschikbare Vakken
           </h2>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {freeExercises.map((exercise, index) => (
-              <ExerciseCard
-                key={index}
-                title={exercise.title}
-                description={exercise.description}
-                category={exercise.category}
-              />
-            ))}
-          </div>
-        </section>
-
-        {/* Premium Teaser */}
-        <section>
-          <div className="mb-6 flex items-center justify-between">
-            <h2 className="text-2xl font-bold text-foreground">
-              Premium Oefeningen
-            </h2>
-            <Button asChild variant="outline" className="gap-2">
-              <Link to="/premium">
-                Ontgrendel Premium
-              </Link>
-            </Button>
-          </div>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {premiumExercises.map((exercise, index) => (
-              <ExerciseCard
-                key={index}
-                title={exercise.title}
-                description={exercise.description}
-                category={exercise.category}
-                isPremium
+            {vakken.map((vak) => (
+              <VakCard
+                key={vak.id}
+                id={vak.id}
+                name={vak.name}
+                description={vak.description}
+                year={yearNumber}
+                richtingId={richting || ""}
+                hasOnderdelen={vak.hasOnderdelen}
               />
             ))}
           </div>
