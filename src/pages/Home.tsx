@@ -4,7 +4,7 @@ import { BookOpen } from "lucide-react";
 
 const Home = () => {
   const years = [
-    { year: 6, description: "Eindexamen voorbereiding" },
+    { year: 6, description: "De laatste loodjes" },
     { year: 5, description: "Richting-specifieke oefeningen" },
     { year: 4, description: "Start van de tweede graad" },
     { year: 3, description: "Vervolg eerste graad" },
@@ -27,7 +27,7 @@ const Home = () => {
               Gratis Oefeningen voor Secundair Onderwijs
             </h1>
             <p className="text-lg text-muted-foreground sm:text-xl">
-              Bereid je voor op examens met honderden gratis oefeningen, 
+              Bereid je voor op examens met honderden online oefeningen, 
               speciaal ontwikkeld voor het Vlaamse onderwijssysteem.
             </p>
           </div>
