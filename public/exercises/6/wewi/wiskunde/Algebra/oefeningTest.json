@@ -1,0 +1,107 @@
+{
+  "vak": "Wiskunde",
+  "onderdeel": "Algebra",
+  "jaar": 6,
+  "richting": "wewi",
+  "laatst_bijgewerkt": "2024-01-15",
+  "oefeningen": [
+    {
+      "id": "algebra-001",
+      "titel": "Kwadratische vergelijkingen oplossen",
+      "beschrijving": "Los verschillende kwadratische vergelijkingen op met de abc-formule",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Algebra",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "vraag": "Los op: x² + 5x + 6 = 0",
+          "uitleg": "Gebruik de abc-formule of factorisatie",
+          "antwoord": "x = -2 of x = -3",
+          "stappen": [
+            "Identificeer a=1, b=5, c=6",
+            "Pas de abc-formule toe: x = (-b ± √(b²-4ac)) / 2a",
+            "Discriminant: D = 25 - 24 = 1",
+            "x = (-5 ± 1) / 2",
+            "x₁ = -2, x₂ = -3"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "vraag": "Los op: 2x² - 3x - 2 = 0",
+          "uitleg": "Gebruik de abc-formule",
+          "antwoord": "x = 2 of x = -0.5",
+          "stappen": [
+            "Identificeer a=2, b=-3, c=-2",
+            "Discriminant: D = 9 + 16 = 25",
+            "x = (3 ± 5) / 4",
+            "x₁ = 2, x₂ = -0.5"
+          ],
+          "punten": 5
+        }
+      ],
+      "totaal_punten": 10,
+      "geschatte_tijd": "15 minuten",
+      "leerdoelen": [
+        "Kwadratische vergelijkingen herkennen",
+        "De abc-formule correct toepassen",
+        "Discriminant berekenen en interpreteren"
+      ],
+      "tips": [
+        "Controleer altijd je antwoord door terug te substitutieren",
+        "Let op het teken van de discriminant",
+        "Vereenvoudig je eindantwoord"
+      ]
+    },
+    {
+      "id": "algebra-002",
+      "titel": "Vergelijkingen met parameters",
+      "beschrijving": "Oefen met vergelijkingen die parameters bevatten",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Algebra",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "vraag": "Voor welke waarde van k heeft de vergelijking x² + kx + 4 = 0 precies één oplossing?",
+          "uitleg": "Een vergelijking heeft precies één oplossing als de discriminant gelijk is aan 0",
+          "antwoord": "k = 4 of k = -4",
+          "stappen": [
+            "Discriminant moet 0 zijn: D = b² - 4ac = 0",
+            "k² - 16 = 0",
+            "k² = 16",
+            "k = ±4"
+          ],
+          "punten": 8
+        }
+      ],
+      "totaal_punten": 8,
+      "geschatte_tijd": "20 minuten",
+      "leerdoelen": [
+        "Werken met parameters in vergelijkingen",
+        "De betekenis van de discriminant begrijpen",
+        "Problemen oplossen met voorwaarden"
+      ],
+      "tips": [
+        "Denk aan de betekenis van de discriminant",
+        "Parameters kunnen meerdere waarden hebben",
+        "Teken eventueel een grafiek om je intuïtie te helpen"
+      ]
+    }
+  ],
+  "extra_informatie": {
+    "voorkennis": [
+      "Basiskennis van lineaire vergelijkingen",
+      "Werken met breuken en wortels"
+    ],
+    "vervolgonderwerpen": [
+      "Hogeregraadsvergelijkingen",
+      "Stelsels van vergelijkingen"
+    ],
+    "bronnen": [
+      "Leerboek Wiskunde 6de jaar",
+      "Online oefenplatform"
+    ]
+  }
+}
