@@ -8,6 +8,7 @@ import YearOverview from "./pages/YearOverview";
 import RichtingDetail from "./pages/RichtingDetail";
 import VakDetail from "./pages/VakDetail";
 import OnderdeelDetail from "./pages/OnderdeelDetail";
+import Exercise from "./pages/Exercise";
 import Premium from "./pages/Premium";
 import NotFound from "./pages/NotFound";
 
@@ -25,6 +26,8 @@ const App = () => (
           <Route path="/jaar/:year/:richting" element={<RichtingDetail />} />
           <Route path="/jaar/:year/:richting/:vak" element={<VakDetail />} />
           <Route path="/jaar/:year/:richting/:vak/:onderdeel" element={<OnderdeelDetail />} />
+          <Route path="/jaar/:year/:richting/:vak/oefening/:exerciseId" element={<Exercise />} />
+          <Route path="/jaar/:year/:richting/:vak/:onderdeel/oefening/:exerciseId" element={<Exercise />} />
           <Route path="/premium" element={<Premium />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

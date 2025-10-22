@@ -1,4 +1,5 @@
 import { useParams, Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 import Navigation from "@/components/Navigation";
 import OnderdeelCard from "@/components/OnderdeelCard";
 import ExerciseCard from "@/components/ExerciseCard";
@@ -7,12 +8,15 @@ import { ChevronLeft } from "lucide-react";
 import { getRichting } from "@/data/richtingen";
 import { getVak } from "@/data/vakken";
 import { getOnderdelenForVak } from "@/data/onderdelen";
+import { loadOefeningen, Oefening } from "@/lib/exerciseLoader";
 
 const VakDetail = () => {
   const { year, richting, vak } = useParams<{ year: string; richting: string; vak: string }>();
   const yearNumber = parseInt(year || "1");
   const richtingData = getRichting(yearNumber, richting || "");
   const vakData = getVak(richting || "", vak || "");
+  const [oefeningen, setOefeningen] = useState<Oefening[]>([]);
+  const [loading, setLoading] = useState(true);
 
   if (!richtingData || !vakData) {
     return (
@@ -32,24 +36,19 @@ const VakDetail = () => {
   const onderdelen = getOnderdelenForVak(vak || "");
   const hasOnderdelen = onderdelen.length > 0;
 
-  // Sample exercises (placeholder - will be loaded from JSON later)
-  const sampleExercises = [
-    {
-      title: "Oefening 1",
-      description: "Basisoefeningen voor beginners",
-      category: vakData.name,
-    },
-    {
-      title: "Oefening 2",
-      description: "Gemiddelde moeilijkheidsgraad",
-      category: vakData.name,
-    },
-    {
-      title: "Oefening 3",
-      description: "Gevorderde oefeningen",
-      category: vakData.name,
-    },
-  ];
+  useEffect(() => {
+    const loadExercises = async () => {
+      if (!hasOnderdelen && year && richting && vak) {
+        const data = await loadOefeningen(yearNumber, richting, vak);
+        if (data) {
+          setOefeningen(data.oefeningen);
+        }
+      }
+      setLoading(false);
+    };
+    
+    loadExercises();
+  }, [year, richting, vak, hasOnderdelen, yearNumber]);
 
   return (
     <div className="min-h-screen bg-background">
@@ -104,22 +103,34 @@ const VakDetail = () => {
             <h2 className="mb-6 text-2xl font-bold text-foreground">
               Beschikbare Oefeningen
             </h2>
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {sampleExercises.map((exercise, index) => (
-                <ExerciseCard
-                  key={index}
-                  title={exercise.title}
-                  description={exercise.description}
-                  category={exercise.category}
-                />
-              ))}
-            </div>
-            <div className="mt-8 rounded-lg border border-muted bg-muted/30 p-6 text-center">
-              <p className="text-muted-foreground">
-                Meer oefeningen worden binnenkort toegevoegd. 
-                Gebruik de JSON template om eigen oefeningen toe te voegen.
-              </p>
-            </div>
+            {loading ? (
+              <p>Oefeningen laden...</p>
+            ) : oefeningen.length > 0 ? (
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {oefeningen.map((oefening) => (
+                  <ExerciseCard
+                    key={oefening.id}
+                    id={oefening.id}
+                    title={oefening.titel}
+                    description={oefening.beschrijving}
+                    category={oefening.categorie}
+                    difficulty={oefening.moeilijkheidsgraad}
+                    points={oefening.totaal_punten}
+                    estimatedTime={oefening.geschatte_tijd}
+                    isPremium={oefening.type === "premium"}
+                    year={yearNumber}
+                    richtingId={richting || ""}
+                    vakId={vak || ""}
+                  />
+                ))}
+              </div>
+            ) : (
+              <div className="rounded-lg border border-muted bg-muted/30 p-6 text-center">
+                <p className="text-muted-foreground">
+                  Geen oefeningen gevonden. Voeg oefeningen toe via de JSON template in de exercises map.
+                </p>
+              </div>
+            )}
           </section>
         )}
       </div>

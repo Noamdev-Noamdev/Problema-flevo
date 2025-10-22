@@ -30,6 +30,19 @@ public/exercises/
 
 Zie `template.json` voor het exacte formaat van oefeningen.
 
+## Wiskundige notatie
+
+In de JSON bestanden kun je wiskundige formules schrijven met LaTeX syntax:
+- Inline formules: `$x^2 + y^2 = z^2$`
+- Display formules: `$$\sqrt{x} + \frac{a}{b}$$`
+
+Voorbeelden:
+- Wortels: `$\sqrt{16} = 4$` of `$\sqrt[3]{27} = 3$`
+- Breuken: `$\frac{1}{2}$`
+- Machten: `$x^2$` of `$2^{10}$`
+- Haakjes: `$\left( \frac{a}{b} \right)^2$`
+- Griekse letters: `$\alpha$`, `$\beta$`, `$\pi$`
+
 ## Hoe oefeningen toevoegen?
 
 1. Navigeer naar de juiste map (of maak deze aan)
