@@ -14,6 +14,9 @@ const Exercise = () => {
   const [oefening, setOefening] = useState<Oefening | null>(null);
   const [showSolutions, setShowSolutions] = useState<{ [key: number]: boolean }>({});
   const [loading, setLoading] = useState(true);
+  const [selectedAnswers, setSelectedAnswers] = useState<{ [key: number]: number }>({});
+  const [connections, setConnections] = useState<{ [key: number]: { [left: string]: string } }>({});
+  const [selectedLeft, setSelectedLeft] = useState<{ [key: number]: string | null }>({});
 
   useEffect(() => {
     const loadExercise = async () => {
@@ -49,6 +52,49 @@ const Exercise = () => {
       ...prev,
       [questionNumber]: !prev[questionNumber]
     }));
+  };
+
+  const selectAnswer = (questionNumber: number, answerIndex: number) => {
+    setSelectedAnswers(prev => ({
+      ...prev,
+      [questionNumber]: answerIndex
+    }));
+  };
+
+  const selectLeftItem = (questionNumber: number, item: string) => {
+    setSelectedLeft(prev => ({
+      ...prev,
+      [questionNumber]: item
+    }));
+  };
+
+  const connectItems = (questionNumber: number, rightItem: string) => {
+    const left = selectedLeft[questionNumber];
+    if (!left) return;
+
+    setConnections(prev => ({
+      ...prev,
+      [questionNumber]: {
+        ...(prev[questionNumber] || {}),
+        [left]: rightItem
+      }
+    }));
+
+    setSelectedLeft(prev => ({
+      ...prev,
+      [questionNumber]: null
+    }));
+  };
+
+  const removeConnection = (questionNumber: number, leftItem: string) => {
+    setConnections(prev => {
+      const newConnections = { ...(prev[questionNumber] || {}) };
+      delete newConnections[leftItem];
+      return {
+        ...prev,
+        [questionNumber]: newConnections
+      };
+    });
   };
 
   if (loading) {
@@ -163,45 +209,95 @@ const Exercise = () => {
                 {vraag.type === "meerkeuze" && (
                   <div className="space-y-2">
                     {(vraag as MeerkeuzeVraag).opties.map((optie, index) => (
-                      <div 
+                      <button 
                         key={index}
-                        className={`p-3 rounded-lg border ${
+                        onClick={() => selectAnswer(vraag.vraag_nummer, index)}
+                        disabled={showSolutions[vraag.vraag_nummer]}
+                        className={`w-full p-3 rounded-lg border text-left transition-all ${
                           showSolutions[vraag.vraag_nummer] && index === (vraag as MeerkeuzeVraag).correct_antwoord
                             ? 'bg-green-500/10 border-green-500/30'
-                            : 'bg-muted/10 border-muted'
-                        }`}
+                            : selectedAnswers[vraag.vraag_nummer] === index
+                            ? 'bg-primary/10 border-primary'
+                            : 'bg-muted/10 border-muted hover:bg-muted/20'
+                        } ${showSolutions[vraag.vraag_nummer] ? 'cursor-default' : 'cursor-pointer'}`}
                       >
                         <div className="flex items-start gap-2">
                           <span className="font-semibold min-w-[24px]">{String.fromCharCode(65 + index)}.</span>
                           <MathRenderer content={optie} className="flex-1" />
                         </div>
                         {showSolutions[vraag.vraag_nummer] && (vraag as MeerkeuzeVraag).uitleg_per_optie?.[index] && (
-                          <p className="text-sm text-muted-foreground mt-2 ml-8">
-                            {(vraag as MeerkeuzeVraag).uitleg_per_optie![index]}
-                          </p>
+                          <MathRenderer 
+                            content={(vraag as MeerkeuzeVraag).uitleg_per_optie![index]}
+                            className="text-sm text-muted-foreground mt-2 ml-8"
+                          />
                         )}
-                      </div>
+                      </button>
                     ))}
                   </div>
                 )}
 
                 {vraag.type === "verbinding" && (
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="space-y-2">
-                      <h4 className="font-semibold text-sm mb-2">Links:</h4>
-                      {(vraag as VerbindingVraag).links_items.map((item, index) => (
-                        <div key={index} className="p-3 rounded-lg bg-muted/10 border border-muted">
-                          <MathRenderer content={item} />
-                        </div>
-                      ))}
-                    </div>
-                    <div className="space-y-2">
-                      <h4 className="font-semibold text-sm mb-2">Rechts:</h4>
-                      {(vraag as VerbindingVraag).rechts_items.map((item, index) => (
-                        <div key={index} className="p-3 rounded-lg bg-muted/10 border border-muted">
-                          <MathRenderer content={item} />
-                        </div>
-                      ))}
+                  <div>
+                    {!showSolutions[vraag.vraag_nummer] && (
+                      <p className="text-sm text-muted-foreground mb-3">
+                        Klik eerst op een item links, dan op een item rechts om een verbinding te maken
+                      </p>
+                    )}
+                    <div className="grid md:grid-cols-2 gap-4">
+                      <div className="space-y-2">
+                        <h4 className="font-semibold text-sm mb-2">Links:</h4>
+                        {(vraag as VerbindingVraag).links_items.map((item, index) => {
+                          const isSelected = selectedLeft[vraag.vraag_nummer] === item;
+                          const hasConnection = connections[vraag.vraag_nummer]?.[item];
+                          return (
+                            <button
+                              key={index}
+                              onClick={() => !showSolutions[vraag.vraag_nummer] && selectLeftItem(vraag.vraag_nummer, item)}
+                              disabled={showSolutions[vraag.vraag_nummer]}
+                              className={`w-full p-3 rounded-lg border text-left transition-all ${
+                                isSelected
+                                  ? 'bg-primary/20 border-primary'
+                                  : hasConnection
+                                  ? 'bg-green-500/10 border-green-500/30'
+                                  : 'bg-muted/10 border-muted hover:bg-muted/20'
+                              } ${showSolutions[vraag.vraag_nummer] ? 'cursor-default' : 'cursor-pointer'}`}
+                            >
+                              <MathRenderer content={item} />
+                              {hasConnection && !showSolutions[vraag.vraag_nummer] && (
+                                <div className="mt-2 pt-2 border-t border-muted flex items-center justify-between">
+                                  <span className="text-xs text-muted-foreground">→ {hasConnection}</span>
+                                  <button
+                                    onClick={(e) => {
+                                      e.stopPropagation();
+                                      removeConnection(vraag.vraag_nummer, item);
+                                    }}
+                                    className="text-xs text-destructive hover:underline"
+                                  >
+                                    Verwijder
+                                  </button>
+                                </div>
+                              )}
+                            </button>
+                          );
+                        })}
+                      </div>
+                      <div className="space-y-2">
+                        <h4 className="font-semibold text-sm mb-2">Rechts:</h4>
+                        {(vraag as VerbindingVraag).rechts_items.map((item, index) => (
+                          <button
+                            key={index}
+                            onClick={() => !showSolutions[vraag.vraag_nummer] && connectItems(vraag.vraag_nummer, item)}
+                            disabled={!selectedLeft[vraag.vraag_nummer] || showSolutions[vraag.vraag_nummer]}
+                            className={`w-full p-3 rounded-lg border text-left transition-all ${
+                              selectedLeft[vraag.vraag_nummer] && !showSolutions[vraag.vraag_nummer]
+                                ? 'bg-muted/10 border-muted hover:bg-primary/10 hover:border-primary cursor-pointer'
+                                : 'bg-muted/10 border-muted'
+                            } ${showSolutions[vraag.vraag_nummer] ? 'cursor-default' : ''}`}
+                          >
+                            <MathRenderer content={item} />
+                          </button>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 )}
@@ -239,9 +335,13 @@ const Exercise = () => {
                     {vraag.type === "meerkeuze" && (
                       <div>
                         <h4 className="font-semibold mb-2 text-sm">Correct antwoord:</h4>
-                        <p className="text-foreground">
-                          {String.fromCharCode(65 + (vraag as MeerkeuzeVraag).correct_antwoord)}. {(vraag as MeerkeuzeVraag).opties[(vraag as MeerkeuzeVraag).correct_antwoord]}
-                        </p>
+                        <div className="flex items-start gap-2">
+                          <span className="font-semibold">{String.fromCharCode(65 + (vraag as MeerkeuzeVraag).correct_antwoord)}.</span>
+                          <MathRenderer 
+                            content={(vraag as MeerkeuzeVraag).opties[(vraag as MeerkeuzeVraag).correct_antwoord]}
+                            className="text-foreground flex-1"
+                          />
+                        </div>
                       </div>
                     )}
 
