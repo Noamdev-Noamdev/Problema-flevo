@@ -30,6 +30,23 @@ public/exercises/
 
 Zie `template.json` voor het exacte formaat van oefeningen.
 
+### Vraag types
+
+Er zijn 3 types vragen mogelijk:
+
+1. **Open vragen** (`"type": "open"`):
+   - Vragen waar de student een uitgewerkt antwoord moet geven
+   - Bevat: `antwoord` en optioneel `stappen`
+
+2. **Meerkeuze vragen** (`"type": "meerkeuze"`):
+   - Vragen met voorgedefinieerde antwoordopties
+   - Bevat: `opties` (array van strings), `correct_antwoord` (index 0-based)
+   - Optioneel: `uitleg_per_optie` voor feedback per optie
+
+3. **Verbindingsvragen** (`"type": "verbinding"`):
+   - Vragen waar items aan elkaar gekoppeld moeten worden
+   - Bevat: `links_items`, `rechts_items`, en `correcte_verbindingen`
+
 ## Wiskundige notatie
 
 In de JSON bestanden kun je wiskundige formules schrijven met LaTeX syntax:

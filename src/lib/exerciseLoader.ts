@@ -1,11 +1,37 @@
-export interface Vraag {
+export interface VraagBase {
   vraag_nummer: number;
   vraag: string;
   uitleg: string;
+  punten: number;
+  type: "open" | "meerkeuze" | "verbinding";
+}
+
+export interface OpenVraag extends VraagBase {
+  type: "open";
   antwoord: string;
   stappen?: string[];
-  punten: number;
 }
+
+export interface MeerkeuzeVraag extends VraagBase {
+  type: "meerkeuze";
+  opties: string[];
+  correct_antwoord: number; // index van correcte optie (0-based)
+  uitleg_per_optie?: string[];
+}
+
+export interface VerbindingsItem {
+  links: string;
+  rechts: string;
+}
+
+export interface VerbindingVraag extends VraagBase {
+  type: "verbinding";
+  links_items: string[];
+  rechts_items: string[];
+  correcte_verbindingen: VerbindingsItem[];
+}
+
+export type Vraag = OpenVraag | MeerkeuzeVraag | VerbindingVraag;
 
 export interface Oefening {
   id: string;

@@ -5,7 +5,7 @@ import MathRenderer from "@/components/MathRenderer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ChevronLeft, Eye, EyeOff, Clock, Target } from "lucide-react";
-import { loadOefeningen, Oefening } from "@/lib/exerciseLoader";
+import { loadOefeningen, Oefening, OpenVraag, MeerkeuzeVraag, VerbindingVraag } from "@/lib/exerciseLoader";
 import { toast } from "sonner";
 
 const Exercise = () => {
@@ -159,29 +159,104 @@ const Exercise = () => {
                   )}
                 </Button>
 
+                {/* Vraag type specifieke content */}
+                {vraag.type === "meerkeuze" && (
+                  <div className="space-y-2">
+                    {(vraag as MeerkeuzeVraag).opties.map((optie, index) => (
+                      <div 
+                        key={index}
+                        className={`p-3 rounded-lg border ${
+                          showSolutions[vraag.vraag_nummer] && index === (vraag as MeerkeuzeVraag).correct_antwoord
+                            ? 'bg-green-500/10 border-green-500/30'
+                            : 'bg-muted/10 border-muted'
+                        }`}
+                      >
+                        <div className="flex items-start gap-2">
+                          <span className="font-semibold min-w-[24px]">{String.fromCharCode(65 + index)}.</span>
+                          <MathRenderer content={optie} className="flex-1" />
+                        </div>
+                        {showSolutions[vraag.vraag_nummer] && (vraag as MeerkeuzeVraag).uitleg_per_optie?.[index] && (
+                          <p className="text-sm text-muted-foreground mt-2 ml-8">
+                            {(vraag as MeerkeuzeVraag).uitleg_per_optie![index]}
+                          </p>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+
+                {vraag.type === "verbinding" && (
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div className="space-y-2">
+                      <h4 className="font-semibold text-sm mb-2">Links:</h4>
+                      {(vraag as VerbindingVraag).links_items.map((item, index) => (
+                        <div key={index} className="p-3 rounded-lg bg-muted/10 border border-muted">
+                          <MathRenderer content={item} />
+                        </div>
+                      ))}
+                    </div>
+                    <div className="space-y-2">
+                      <h4 className="font-semibold text-sm mb-2">Rechts:</h4>
+                      {(vraag as VerbindingVraag).rechts_items.map((item, index) => (
+                        <div key={index} className="p-3 rounded-lg bg-muted/10 border border-muted">
+                          <MathRenderer content={item} />
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
                 {showSolutions[vraag.vraag_nummer] && (
                   <div className="space-y-4 p-4 rounded-lg bg-muted/30 border border-muted">
-                    <div>
-                      <h4 className="font-semibold mb-2 text-sm">Antwoord:</h4>
-                      <MathRenderer 
-                        content={vraag.antwoord}
-                        className="text-foreground"
-                      />
-                    </div>
+                    {vraag.type === "open" && (
+                      <>
+                        <div>
+                          <h4 className="font-semibold mb-2 text-sm">Antwoord:</h4>
+                          <MathRenderer 
+                            content={(vraag as OpenVraag).antwoord}
+                            className="text-foreground"
+                          />
+                        </div>
 
-                    {vraag.stappen && vraag.stappen.length > 0 && (
+                        {(vraag as OpenVraag).stappen && (vraag as OpenVraag).stappen!.length > 0 && (
+                          <div>
+                            <h4 className="font-semibold mb-2 text-sm">Stappen:</h4>
+                            <ol className="list-decimal list-inside space-y-2">
+                              {(vraag as OpenVraag).stappen!.map((stap, index) => (
+                                <li key={index}>
+                                  <MathRenderer 
+                                    content={stap}
+                                    className="inline text-foreground"
+                                  />
+                                </li>
+                              ))}
+                            </ol>
+                          </div>
+                        )}
+                      </>
+                    )}
+
+                    {vraag.type === "meerkeuze" && (
                       <div>
-                        <h4 className="font-semibold mb-2 text-sm">Stappen:</h4>
-                        <ol className="list-decimal list-inside space-y-2">
-                          {vraag.stappen.map((stap, index) => (
-                            <li key={index}>
-                              <MathRenderer 
-                                content={stap}
-                                className="inline text-foreground"
-                              />
+                        <h4 className="font-semibold mb-2 text-sm">Correct antwoord:</h4>
+                        <p className="text-foreground">
+                          {String.fromCharCode(65 + (vraag as MeerkeuzeVraag).correct_antwoord)}. {(vraag as MeerkeuzeVraag).opties[(vraag as MeerkeuzeVraag).correct_antwoord]}
+                        </p>
+                      </div>
+                    )}
+
+                    {vraag.type === "verbinding" && (
+                      <div>
+                        <h4 className="font-semibold mb-2 text-sm">Correcte verbindingen:</h4>
+                        <ul className="space-y-2">
+                          {(vraag as VerbindingVraag).correcte_verbindingen.map((verbinding, index) => (
+                            <li key={index} className="flex items-center gap-2 text-sm">
+                              <MathRenderer content={verbinding.links} className="flex-1" />
+                              <span>→</span>
+                              <MathRenderer content={verbinding.rechts} className="flex-1" />
                             </li>
                           ))}
-                        </ol>
+                        </ul>
                       </div>
                     )}
 
