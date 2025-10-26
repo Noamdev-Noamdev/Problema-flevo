@@ -16,6 +16,7 @@ interface ExerciseCardProps {
   richtingId: string;
   vakId: string;
   onderdeelId?: string;
+  questionsCount?: number;
 }
 
 const ExerciseCard = ({ 
@@ -30,7 +31,8 @@ const ExerciseCard = ({
   year,
   richtingId,
   vakId,
-  onderdeelId
+  onderdeelId,
+  questionsCount
 }: ExerciseCardProps) => {
   const exerciseUrl = onderdeelId 
     ? `/jaar/${year}/${richtingId}/${vakId}/${onderdeelId}/oefening/${id}`
@@ -53,8 +55,9 @@ const ExerciseCard = ({
             </div>
             <CardTitle className="text-lg">{title}</CardTitle>
             <CardDescription className="mt-1">{description}</CardDescription>
-            {(points || estimatedTime) && (
+            {(points || estimatedTime || questionsCount) && (
               <div className="mt-2 flex gap-3 text-xs text-muted-foreground">
+                {questionsCount && <span>{questionsCount} {questionsCount === 1 ? 'vraag' : 'vragen'}</span>}
                 {points && <span>{points} punten</span>}
                 {estimatedTime && <span>{estimatedTime}</span>}
               </div>
