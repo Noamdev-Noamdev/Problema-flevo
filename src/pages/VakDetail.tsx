@@ -33,7 +33,7 @@ const VakDetail = () => {
   }
 
   // Check if this subject has onderdelen (wiskunde or latijn)
-  const onderdelen = getOnderdelenForVak(vak || "");
+  const onderdelen = getOnderdelenForVak(yearNumber, vak || "");
   const hasOnderdelen = onderdelen.length > 0;
 
   useEffect(() => {

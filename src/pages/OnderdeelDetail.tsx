@@ -20,7 +20,7 @@ const OnderdeelDetail = () => {
   const yearNumber = parseInt(year || "1");
   const richtingData = getRichting(yearNumber, richting || "");
   const vakData = getVak(richting || "", vak || "");
-  const onderdeelData = getOnderdeel(vak || "", onderdeel || "");
+  const onderdeelData = getOnderdeel(yearNumber, vak || "", onderdeel || "");
   const [oefeningen, setOefeningen] = useState<Oefening[]>([]);
   const [loading, setLoading] = useState(true);
 
