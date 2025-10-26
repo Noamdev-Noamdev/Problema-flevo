@@ -104,6 +104,7 @@ const OnderdeelDetail = () => {
                   richtingId={richting || ""}
                   vakId={vak || ""}
                   onderdeelId={onderdeel}
+                  questionsCount={oefening.vragen.length}
                 />
               ))}
             </div>

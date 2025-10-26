@@ -108,20 +108,21 @@ const VakDetail = () => {
             ) : oefeningen.length > 0 ? (
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {oefeningen.map((oefening) => (
-                  <ExerciseCard
-                    key={oefening.id}
-                    id={oefening.id}
-                    title={oefening.titel}
-                    description={oefening.beschrijving}
-                    category={oefening.categorie}
-                    difficulty={oefening.moeilijkheidsgraad}
-                    points={oefening.totaal_punten}
-                    estimatedTime={oefening.geschatte_tijd}
-                    isPremium={oefening.type === "premium"}
-                    year={yearNumber}
-                    richtingId={richting || ""}
-                    vakId={vak || ""}
-                  />
+                <ExerciseCard
+                  key={oefening.id}
+                  id={oefening.id}
+                  title={oefening.titel}
+                  description={oefening.beschrijving}
+                  category={oefening.categorie}
+                  difficulty={oefening.moeilijkheidsgraad}
+                  points={oefening.totaal_punten}
+                  estimatedTime={oefening.geschatte_tijd}
+                  isPremium={oefening.type === "premium"}
+                  year={yearNumber}
+                  richtingId={richting || ""}
+                  vakId={vak || ""}
+                  questionsCount={oefening.vragen.length}
+                />
                 ))}
               </div>
             ) : (
