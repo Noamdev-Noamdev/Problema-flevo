@@ -42,7 +42,7 @@ export const onderdelenConfig: OnderdelenConfig = {
     // Jaar 5
     { id: "functies", name: "Functies", description: "Transcendente functies", jaar: 5 },
     { id: "analyse", name: "Analyse", description: "Afgeleiden en toepassingen", jaar: 5 },
-    { id: "integraalrekening", name: "Integraalrekening", description: "Primitieven en integralen", jaar: 5 },
+    { id: "goniometrie", name: "Goniometrie", description: "De leer van de hoeken", jaar: 5 },
     { id: "statistiek", name: "Statistiek", description: "Inferentiële statistiek", jaar: 5 },
     { id: "vectoren", name: "Vectoren", description: "Vectoren in de ruimte", jaar: 5 },
     // Jaar 6
