@@ -15,7 +15,7 @@ const Navigation = () => {
             <div className="rounded-lg bg-primary p-2">
               <GraduationCap className="h-6 w-6 text-primary-foreground" />
             </div>
-            <span className="text-xl font-bold text-foreground">StudiePlus</span>
+            <span className="text-xl font-bold text-foreground">Problema</span>
           </Link>
 
           {/* Navigation Links */}

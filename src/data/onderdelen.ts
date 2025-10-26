@@ -9,14 +9,13 @@ export interface Onderdeel {
 
 // Wiskunde onderdelen (general - can be customized per year)
 export const wiskundeOnderdelen: Onderdeel[] = [
-  { id: "algebra", name: "Algebra", description: "Vergelijkingen en ongelijkheden" },
-  { id: "functies", name: "Functies", description: "Lineaire en kwadratische functies" },
-  { id: "meetkunde", name: "Meetkunde", description: "Vlakke en ruimtemmeetkunde" },
-  { id: "goniometrie", name: "Goniometrie", description: "Hoeken en driehoeken" },
-  { id: "analyse", name: "Analyse", description: "Limieten en afgeleiden" },
-  { id: "integraalrekening", name: "Integraalrekening", description: "Integralen en toepassingen" },
-  { id: "statistiek", name: "Statistiek", description: "Kansrekening en statistiek" },
-  { id: "vectoren", name: "Vectoren", description: "Vectorrekening" },
+  { id: "analyse", name: "Analyse", description: "Trancendende functies en afgeleiden" },
+  { id: "integraaltechnieken", name: "Integraaltechnieken", description: "Substitutie, partiële integratie, eneigenlijke integralen" },
+  { id: "lineaire_algebra", name: "Lineaire Algebra", description: "Stelsels, eigenwaarden en eigenvectoren" },
+  { id: "meetkunde", name: "Vlakke en Ruimtemeetkunde", description: "Analytische meetkunde in 2/3D" },
+  { id: "kansrekening", name: "Kansrekening en Statistiek", description: "Combinarotiek, voorwaardelijke kans, verdelingen" },
+  { id: "rijen", name: "Rijen en Reeksen", description: "Bestuderen van convergente en divergente rijen" },
+  { id: "kegelsneden", name: "Kegelsneden", description: "Cirkel, parabool, elips en hyperbool" },
 ];
 
 // Latijn onderdelen
@@ -27,6 +26,10 @@ export const latijnOnderdelen: Onderdeel[] = [
   { id: "literatuur", name: "Literatuur", description: "Klassieke Latijnse teksten" },
   { id: "cultuur", name: "Cultuur", description: "Romeinse geschiedenis en cultuur" },
 ];
+
+// Chemie onderdelen
+//export const chemieOnderdelen: Onderdeel[] = [
+
 
 export const getOnderdelenForVak = (vakId: string): Onderdeel[] => {
   switch (vakId) {
