@@ -1,0 +1,147 @@
+{
+  "vak": "Wiskunde",
+  "onderdeel": "Algebra",
+  "jaar": 6,
+  "richting": "wewi",
+  "laatst_bijgewerkt": "2024-01-15",
+  "oefeningen": [
+    {
+      "id": "algebra-001",
+      "titel": "Kwadratische vergelijkingen oplossen",
+      "beschrijving": "Los verschillende kwadratische vergelijkingen op met de abc-formule",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Algebra",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Los op: $x^2 + 5x + 6 = 0$",
+          "uitleg": "Gebruik de abc-formule of factorisatie",
+          "antwoord": "$x = -2$ of $x = -3$",
+          "stappen": [
+            "Identificeer $a=1$, $b=5$, $c=6$",
+            "Pas de abc-formule toe: $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$",
+            "Discriminant: $D = 25 - 24 = 1$",
+            "$x = \\frac{-5 \\pm 1}{2}$",
+            "$x_1 = -2$, $x_2 = -3$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "meerkeuze",
+          "vraag": "Wat is de discriminant van $2x^2 - 3x - 2 = 0$?",
+          "opties": [
+            "$D = 1$",
+            "$D = 9$",
+            "$D = 25$",
+            "$D = -7$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De discriminant bereken je met $D = b^2 - 4ac = (-3)^2 - 4(2)(-2) = 9 + 16 = 25$",
+          "uitleg_per_optie": [
+            "Dit zou kloppen als je $b^2$ vergeet.",
+            "Dit is alleen $b^2$, je vergeet $-4ac$.",
+            "Correct! $D = 9 + 16 = 25$",
+            "Let op de tekens bij het vermenigvuldigen."
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "verbinding",
+          "vraag": "Verbind elke vergelijking met het aantal oplossingen",
+          "links_items": [
+            "$x^2 + 2x + 1 = 0$",
+            "$x^2 + 5x + 6 = 0$",
+            "$x^2 + x + 1 = 0$"
+          ],
+          "rechts_items": [
+            "Geen reële oplossingen",
+            "Eén oplossing",
+            "Twee oplossingen"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$x^2 + 2x + 1 = 0$",
+              "rechts": "Eén oplossing"
+            },
+            {
+              "links": "$x^2 + 5x + 6 = 0$",
+              "rechts": "Twee oplossingen"
+            },
+            {
+              "links": "$x^2 + x + 1 = 0$",
+              "rechts": "Geen reële oplossingen"
+            }
+          ],
+          "uitleg": "Het aantal oplossingen hangt af van de discriminant: $D < 0$ (geen), $D = 0$ (één), $D > 0$ (twee)",
+          "punten": 6
+        }
+      ],
+      "totaal_punten": 14,
+      "geschatte_tijd": "20 minuten",
+      "leerdoelen": [
+        "Kwadratische vergelijkingen herkennen",
+        "De abc-formule correct toepassen",
+        "Discriminant berekenen en interpreteren"
+      ],
+      "tips": [
+        "Controleer altijd je antwoord door terug te substitutieren",
+        "Let op het teken van de discriminant",
+        "Vereenvoudig je eindantwoord"
+      ]
+    },
+    {
+      "id": "algebra-002",
+      "titel": "Vergelijkingen met parameters",
+      "beschrijving": "Oefen met vergelijkingen die parameters bevatten",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Algebra",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Voor welke waarde van $k$ heeft de vergelijking $x^2 + kx + 4 = 0$ precies één oplossing?",
+          "uitleg": "Een vergelijking heeft precies één oplossing als de discriminant gelijk is aan 0",
+          "antwoord": "$k = 4$ of $k = -4$",
+          "stappen": [
+            "Discriminant moet 0 zijn: $D = b^2 - 4ac = 0$",
+            "$k^2 - 16 = 0$",
+            "$k^2 = 16$",
+            "$k = \\pm 4$"
+          ],
+          "punten": 8
+        }
+      ],
+      "totaal_punten": 8,
+      "geschatte_tijd": "20 minuten",
+      "leerdoelen": [
+        "Werken met parameters in vergelijkingen",
+        "De betekenis van de discriminant begrijpen",
+        "Problemen oplossen met voorwaarden"
+      ],
+      "tips": [
+        "Denk aan de betekenis van de discriminant",
+        "Parameters kunnen meerdere waarden hebben",
+        "Teken eventueel een grafiek om je intuïtie te helpen"
+      ]
+    }
+  ],
+  "extra_informatie": {
+    "voorkennis": [
+      "Basiskennis van lineaire vergelijkingen",
+      "Werken met breuken en wortels"
+    ],
+    "vervolgonderwerpen": [
+      "Hogeregraadsvergelijkingen",
+      "Stelsels van vergelijkingen"
+    ],
+    "bronnen": [
+      "Leerboek Wiskunde 6de jaar",
+      "Online oefenplatform"
+    ]
+  }
+}

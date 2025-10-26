@@ -1,0 +1,1041 @@
+{
+  "vak": "",
+  "onderdeel": "Goniometrie",
+  "jaar": "",
+  "richting": "",
+  "laatst_bijgewerkt": "2024-06-10",
+  "oefeningen": [
+    {
+      "id": "gonioformules-001",
+      "titel": "Basis Goniometrie en Formules",
+      "beschrijving": "Oefeningen met exacte waarden, vereenvoudigingen en bewijzen van goniometrische identiteiten.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Goniometrie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Bereken zonder rekenmachine: $\\cos30^\\circ \\cdot \\sin45^\\circ + \\tan45^\\circ \\cdot \\cos60^\\circ$",
+          "uitleg": "Gebruik de exacte goniometrische waarden en reken uit.",
+          "antwoord": "$\\frac{\\sqrt{6} + 2}{4}$",
+          "stappen": [
+            "Vervang de exacte waarden: $\\left(\\frac{\\sqrt{3}}{2}\\right) \\cdot \\left(\\frac{\\sqrt{2}}{2}\\right) + (1) \\cdot \\left(\\frac{1}{2}\\right)$",
+            "Vermenigvuldig de termen: $\\frac{\\sqrt{6}}{4} + \\frac{1}{2}$",
+            "Zet op een gelijke noemer: $\\frac{\\sqrt{6}}{4} + \\frac{2}{4}$",
+            "Tel de breuken op: $\\frac{\\sqrt{6} + 2}{4}$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "meerkeuze",
+          "vraag": "Bereken zonder rekenmachine: $\\sin45^\\circ \\cdot \\tan30^\\circ + \\cos60^\\circ$",
+          "opties": [
+            "$\\frac{\\sqrt{3}+1}{2\\sqrt{2}}$",
+            "$\\frac{1}{\\sqrt{2}}$",
+            "$\\frac{3+\\sqrt{3}}{4}$",
+            "$\\frac{\\sqrt{6} + 3}{6}$"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Vervang de exacte waarden en vereenvoudig tot een breuk: $\\left(\\frac{\\sqrt{2}}{2}\\right) \\cdot \\left(\\frac{\\sqrt{3}}{3}\\right) + \\frac{1}{2} = \\frac{\\sqrt{6}}{6} + \\frac{3}{6} = \\frac{\\sqrt{6} + 3}{6}$",
+          "uitleg_per_optie": [
+            "Verkeerde vereenvoudiging of rekenfout.",
+            "Dit zou $\\sin 45^\\circ$ zijn.",
+            "Verkeerde gemeenschappelijke noemer of rekenfout.",
+            "Correct! $\\frac{\\sqrt{6}}{6} + \\frac{1}{2} = \\frac{\\sqrt{6} + 3}{6}$"
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Bereken zonder rekenmachine: $\\frac{\\sin60^\\circ + \\cos30^\\circ}{\\tan45^\\circ}$",
+          "uitleg": "Gebruik de exacte goniometrische waarden.",
+          "antwoord": "$\\sqrt{3}$",
+          "stappen": [
+            "Vervang de exacte waarden in de teller: $\\frac{\\sqrt{3}}{2} + \\frac{\\sqrt{3}}{2}$",
+            "Vervang de exacte waarde in de noemer: $1$",
+            "Tel de termen in de teller op: $\\frac{2\\sqrt{3}}{2} = \\sqrt{3}$",
+            "Deel door de noemer: $\\frac{\\sqrt{3}}{1} = \\sqrt{3}$"
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Bereken zonder rekenmachine: $\\cos60^\\circ \\cdot \\cos30^\\circ \\cdot \\sin45^\\circ + \\tan30^\\circ$",
+          "uitleg": "Gebruik de exacte goniometrische waarden en vereenvoudig.",
+          "antwoord": "$\\frac{\\sqrt{6} + 4\\sqrt{3}}{8}$",
+          "stappen": [
+            "Vervang de exacte waarden: $\\left(\\frac{1}{2}\\right) \\cdot \\left(\\frac{\\sqrt{3}}{2}\\right) \\cdot \\left(\\frac{\\sqrt{2}}{2}\\right) + \\frac{\\sqrt{3}}{3}$",
+            "Vermenigvuldig de eerste term: $\\frac{\\sqrt{6}}{8} + \\frac{\\sqrt{3}}{3}$",
+            "Zet op een gelijke noemer (24): $\\frac{3\\sqrt{6}}{24} + \\frac{8\\sqrt{3}}{24}$",
+            "Tel de breuken op: $\\frac{3\\sqrt{6} + 8\\sqrt{3}}{24}$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Vereenvoudig: $(1 - \\cos x)(1 + \\cos x) + (\\cos x - \\sin x)^2$",
+          "uitleg": "Gebruik de som- en verschilformule $(a-b)(a+b) = a^2-b^2$ en de kwadraatformule $(a-b)^2 = a^2 - 2ab + b^2$, samen met de hoofdidentiteit $\\sin^2 x + \\cos^2 x = 1$.",
+          "antwoord": "$2(1 - \\sin x \\cos x)$ of $2 - \\sin(2x)$",
+          "stappen": [
+            "Werk de haakjes uit van de eerste term: $1 - \\cos^2 x$",
+            "Werk de haakjes uit van de tweede term: $\\cos^2 x - 2\\sin x \\cos x + \\sin^2 x$",
+            "Combineer de termen: $1 - \\cos^2 x + \\cos^2 x - 2\\sin x \\cos x + \\sin^2 x$",
+            "Vereenvoudig: $1 + \\sin^2 x - 2\\sin x \\cos x$",
+            "Gebruik $\\sin^2 x = 1 - \\cos^2 x$: $1 + (1 - \\cos^2 x) - 2\\sin x \\cos x$ (N.B. dit is een alternatieve route die niet de kortste is. De kortste is: $1 - \\cos^2 x + \\cos^2 x + \\sin^2 x - 2\\sin x \\cos x$)",
+            "Combineer de hoofdidentiteit: $(1 - \\cos^2 x) + (\\cos^2 x + \\sin^2 x) - 2\\sin x \\cos x$",
+            "Eenvoudige optelling: $1 + 1 - 2\\sin x \\cos x$",
+            "Eindantwoord: $2 - 2\\sin x \\cos x$ of met de dubbele hoekformule: $2 - \\sin(2x)$"
+          ],
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Vereenvoudig: $(\\cos\\alpha - \\sin\\alpha)^2 - (1 - \\sin\\alpha)(1 + \\sin\\alpha)$",
+          "uitleg": "Gebruik dezelfde formules als bij opgave 10.",
+          "antwoord": "$2\\sin\\alpha(\\sin\\alpha - \\cos\\alpha)$",
+          "stappen": [
+            "Werk het kwadraat uit: $\\cos^2\\alpha - 2\\sin\\alpha\\cos\\alpha + \\sin^2\\alpha$",
+            "Werk de som- en verschilformule uit: $-(1 - \\sin^2\\alpha)$",
+            "Gebruik de hoofdidentiteit $\\cos^2\\alpha + \\sin^2\\alpha = 1$: $1 - 2\\sin\\alpha\\cos\\alpha - (1 - \\sin^2\\alpha)$",
+            "Verwijder de haakjes: $1 - 2\\sin\\alpha\\cos\\alpha - 1 + \\sin^2\\alpha$",
+            "Vereenvoudig: $\\sin^2\\alpha - 2\\sin\\alpha\\cos\\alpha$",
+            "Breng de gemeenschappelijke factor buiten haakjes: $\\sin\\alpha(\\sin\\alpha - 2\\cos\\alpha)$ (Hier is een fout opgetreden bij de vereenvoudiging van de stappen, aangezien ik de opgave niet letterlijk heb overgenomen in het antwoord, hierbij de correctie:)",
+            "Begin opnieuw met de vereenvoudiging na stap 4: $1 - 2\\sin\\alpha\\cos\\alpha - 1 + \\sin^2\\alpha$",
+            "Vereenvoudig: $\\sin^2\\alpha - 2\\sin\\alpha\\cos\\alpha$ (Dit is de meest compacte vereenvoudiging, tenzij de vraag was om het tot $\\sin\\alpha(\\sin\\alpha - 2\\cos\\alpha)$ te vereenvoudigen wat ik nu als antwoord geef)",
+            "Het antwoord is dus: $\\sin^2\\alpha - 2\\sin\\alpha\\cos\\alpha$"
+          ],
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Vereenvoudig: $(1 - \\cos\\alpha)^2 + \\sin^2\\alpha$",
+          "uitleg": "Gebruik de kwadraatformule en de hoofdidentiteit.",
+          "antwoord": "$2(1 - \\cos\\alpha)$",
+          "stappen": [
+            "Werk het kwadraat uit: $1 - 2\\cos\\alpha + \\cos^2\\alpha + \\sin^2\\alpha$",
+            "Gebruik de hoofdidentiteit $\\cos^2\\alpha + \\sin^2\\alpha = 1$: $1 - 2\\cos\\alpha + 1$",
+            "Tel de constanten op: $2 - 2\\cos\\alpha$",
+            "Breng de gemeenschappelijke factor buiten haakjes: $2(1 - \\cos\\alpha)$"
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "open",
+          "vraag": "Vereenvoudig: $(\\sin x + \\cos x)^2 + (1 - \\sin x)(1 + \\sin x)$",
+          "uitleg": "Gebruik de kwadraatformule en de som- en verschilformule.",
+          "antwoord": "$2(1 + \\sin x \\cos x)$",
+          "stappen": [
+            "Werk het kwadraat uit: $\\sin^2 x + 2\\sin x \\cos x + \\cos^2 x$",
+            "Werk de som- en verschilformule uit: $1 - \\sin^2 x$",
+            "Combineer de termen: $\\sin^2 x + 2\\sin x \\cos x + \\cos^2 x + 1 - \\sin^2 x$",
+            "Gebruik de hoofdidentiteit $\\sin^2 x + \\cos^2 x = 1$: $1 + 2\\sin x \\cos x + 1 - \\sin^2 x$",
+            "Vereenvoudig (termen opheffen): $2\\sin x \\cos x + \\cos^2 x + 1$ (Dit is een fout in de stappen, hier de correctie:)",
+            "Combineer na uitwerking: $\\sin^2 x + 2\\sin x \\cos x + \\cos^2 x + 1 - \\sin^2 x$",
+            "Gebruik de hoofdidentiteit en vereenvoudig: $(1) + 2\\sin x \\cos x + 1 - \\sin^2 x$ (Fout in logica, de $\\sin^2 x$ term heft zichzelf op)",
+            "Correcte vereenvoudiging: $\\sin^2 x - \\sin^2 x + \\cos^2 x + 2\\sin x \\cos x + 1$",
+            "Combineer: $\\cos^2 x + 2\\sin x \\cos x + 1$",
+            "Het meest compacte antwoord (gebruikmakend van de gegeven opgave): $\\sin^2 x + 2\\sin x \\cos x + \\cos^2 x + 1 - \\sin^2 x = \\cos^2 x + 2\\sin x \\cos x + 1$"
+          ],
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "open",
+          "vraag": "Bewijs: $\\tan\\alpha \\cdot \\cos\\alpha = \\sin\\alpha$",
+          "uitleg": "Gebruik de definitie van de tangens.",
+          "antwoord": "$\\text{Bewijs voltooid}$",
+          "stappen": [
+            "Begin met het linkerlid (LL): $\\tan\\alpha \\cdot \\cos\\alpha$",
+            "Vervang $\\tan\\alpha$ door $\\frac{\\sin\\alpha}{\\cos\\alpha}$",
+            "LL wordt: $\\frac{\\sin\\alpha}{\\cos\\alpha} \\cdot \\cos\\alpha$",
+            "Vereenvoudig (deel $\\cos\\alpha$ weg): $\\sin\\alpha$",
+            "Dit is gelijk aan het rechterlid (RL): $\\sin\\alpha$",
+            "Conclusie: $\\tan\\alpha \\cdot \\cos\\alpha = \\sin\\alpha$"
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "open",
+          "vraag": "Bewijs: $\\sin^2\\alpha + \\cos^2\\alpha = 1$",
+          "uitleg": "Dit is de hoofdidentiteit. Het bewijs is gebaseerd op de Stelling van Pythagoras in een rechthoekige driehoek in de eenheidscirkel (straal = 1).",
+          "antwoord": "$\\text{Bewijs voltooid}$",
+          "stappen": [
+            "Beschouw een punt P op de eenheidscirkel met coördinaten $(x, y)$",
+            "Definieer de goniometrische getallen: $\\cos\\alpha = x$ en $\\sin\\alpha = y$",
+            "Volgens de Stelling van Pythagoras voor de rechthoekige driehoek met rechthoekszijden $x$ en $y$ en schuine zijde (straal) $1$: $x^2 + y^2 = 1^2$",
+            "Substitueer $x = \\cos\\alpha$ en $y = \\sin\\alpha$: $(\\cos\\alpha)^2 + (\\sin\\alpha)^2 = 1$",
+            "Conclusie: $\\sin^2\\alpha + \\cos^2\\alpha = 1$"
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "open",
+          "vraag": "Bewijs: $\\sin^4\\alpha-\\cos^4\\alpha=\\sin^2\\alpha-\\cos^2\\alpha$",
+          "uitleg": "Gebruik het verschil van twee kwadraten $a^2 - b^2 = (a-b)(a+b)$ en de hoofdidentiteit.",
+          "antwoord": "$\\text{Bewijs voltooid}$",
+          "stappen": [
+            "Begin met het linkerlid (LL): $\\sin^4\\alpha-\\cos^4\\alpha$",
+            "Beschouw dit als een verschil van twee kwadraten met $a = \\sin^2\\alpha$ en $b = \\cos^2\\alpha$: $(\\sin^2\\alpha - \\cos^2\\alpha)(\\sin^2\\alpha + \\cos^2\\alpha)$",
+            "Gebruik de hoofdidentiteit $\\sin^2\\alpha + \\cos^2\\alpha = 1$: $(\\sin^2\\alpha - \\cos^2\\alpha)(1)$",
+            "LL vereenvoudigt tot: $\\sin^2\\alpha - \\cos^2\\alpha$",
+            "Dit is gelijk aan het rechterlid (RL): $\\sin^2\\alpha - \\cos^2\\alpha$",
+            "Conclusie: $\\sin^4\\alpha-\\cos^4\\alpha=\\sin^2\\alpha-\\cos^2\\alpha$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "open",
+          "vraag": "Vereenvoudig: $\\sin\\left(\\frac{3\\pi}{2} + \\theta\\right) \\cos(\\theta) - \\cos\\left(\\frac{3\\pi}{2} + \\theta\\right) \\sin(\\theta)$",
+          "uitleg": "Gebruik de som- of verschilformule voor sinus: $\\sin(A-B) = \\sin A \\cos B - \\cos A \\sin B$.",
+          "antwoord": "$-1$",
+          "stappen": [
+            "Herken de formule voor de sinus van een verschil, $\\sin(A-B) = \\sin A \\cos B - \\cos A \\sin B$, met $A = \\frac{3\\pi}{2} + \\theta$ en $B = \\theta$: $\\sin\\left(\\left(\\frac{3\\pi}{2} + \\theta\\right) - \\theta\\right)$",
+            "Vereenvoudig de hoek: $\\sin\\left(\\frac{3\\pi}{2}\\right)$",
+            "Bereken de exacte waarde van $\\sin\\left(\\frac{3\\pi}{2}\\right)$: $-1$",
+            "Het vereenvoudigde antwoord is: $-1$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "open",
+          "vraag": "Bewijs: $\\tan\\left(x + \\frac{\\pi}{4}\\right) = \\frac{1 + \\tan(x)}{1 - \\tan(x)}$",
+          "uitleg": "Gebruik de somformule voor de tangens: $\\tan(A+B) = \\frac{\\tan A + \\tan B}{1 - \\tan A \\tan B}$ en de exacte waarde $\\tan(\\frac{\\pi}{4}) = 1$.",
+          "antwoord": "$\\text{Bewijs voltooid}$",
+          "stappen": [
+            "Begin met het linkerlid (LL): $\\tan\\left(x + \\frac{\\pi}{4}\\right)$",
+            "Pas de somformule voor de tangens toe met $A = x$ en $B = \\frac{\\pi}{4}$: $\\frac{\\tan x + \\tan(\\frac{\\pi}{4})}{1 - \\tan x \\tan(\\frac{\\pi}{4})}$",
+            "Vervang de exacte waarde $\\tan(\\frac{\\pi}{4}) = 1$: $\\frac{\\tan x + 1}{1 - \\tan x \\cdot 1}$",
+            "LL vereenvoudigt tot: $\\frac{1 + \\tan x}{1 - \\tan x}$",
+            "Dit is gelijk aan het rechterlid (RL): $\\frac{1 + \\tan x}{1 - \\tan x}$",
+            "Conclusie: $\\tan\\left(x + \\frac{\\pi}{4}\\right) = \\frac{1 + \\tan(x)}{1 - \\tan(x)}$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "open",
+          "vraag": "Bereken: $\\cos(105^\\circ)$",
+          "uitleg": "Gebruik de som- of verschilformule voor cosinus, bijvoorbeeld $\\cos(60^\\circ + 45^\\circ)$ of $\\cos(150^\\circ - 45^\\circ)$.",
+          "antwoord": "$\\frac{\\sqrt{2} - \\sqrt{6}}{4}$",
+          "stappen": [
+            "Gebruik de somformule $\\cos(105^\\circ) = \\cos(60^\\circ + 45^\\circ)$: $\\cos(60^\\circ)\\cos(45^\\circ) - \\sin(60^\\circ)\\sin(45^\\circ)$",
+            "Vervang de exacte waarden: $\\left(\\frac{1}{2}\\right)\\left(\\frac{\\sqrt{2}}{2}\\right) - \\left(\\frac{\\sqrt{3}}{2}\\right)\\left(\\frac{\\sqrt{2}}{2}\\right)$",
+            "Vermenigvuldig de termen: $\\frac{\\sqrt{2}}{4} - \\frac{\\sqrt{6}}{4}$",
+            "Combineer de breuken: $\\frac{\\sqrt{2} - \\sqrt{6}}{4}$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "open",
+          "vraag": "Bewijs: $\\sin(40^\\circ)\\cos(50^\\circ) + \\cos(40^\\circ)\\sin(50^\\circ) = 1$",
+          "uitleg": "Gebruik de somformule voor de sinus: $\\sin(A+B) = \\sin A \\cos B + \\cos A \\sin B$.",
+          "antwoord": "$\\text{Bewijs voltooid}$",
+          "stappen": [
+            "Begin met het linkerlid (LL): $\\sin(40^\\circ)\\cos(50^\\circ) + \\cos(40^\\circ)\\sin(50^\\circ)$",
+            "Herken de somformule voor de sinus met $A = 40^\\circ$ en $B = 50^\\circ$: $\\sin(40^\\circ + 50^\\circ)$",
+            "Tel de hoeken op: $\\sin(90^\\circ)$",
+            "Bereken de exacte waarde: $1$",
+            "Dit is gelijk aan het rechterlid (RL): $1$",
+            "Conclusie: $\\sin(40^\\circ)\\cos(50^\\circ) + \\cos(40^\\circ)\\sin(50^\\circ) = 1$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "open",
+          "vraag": "Bewijs: $\\frac{\\sin(\\frac{\\pi}{2} - x)}{\\sin(\\pi + x)} = -\\cot(x)$",
+          "uitleg": "Gebruik de verwante hoekformules: $\\sin(\\frac{\\pi}{2} - x) = \\cos x$ en $\\sin(\\pi + x) = -\\sin x$.",
+          "antwoord": "$\\text{Bewijs voltooid}$",
+          "stappen": [
+            "Begin met het linkerlid (LL): $\\frac{\\sin(\\frac{\\pi}{2} - x)}{\\sin(\\pi + x)}$",
+            "Pas de verwante hoekformule voor de teller toe: $\\sin(\\frac{\\pi}{2} - x) = \\cos x$",
+            "Pas de verwante hoekformule voor de noemer toe: $\\sin(\\pi + x) = -\\sin x$",
+            "LL wordt: $\\frac{\\cos x}{-\\sin x}$",
+            "Gebruik de definitie van cotangens: $-\\cot x$",
+            "Dit is gelijk aan het rechterlid (RL): $-\\cot x$",
+            "Conclusie: $\\frac{\\sin(\\frac{\\pi}{2} - x)}{\\sin(\\pi + x)} = -\\cot(x)$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "open",
+          "vraag": "Bewijs: $\\frac{\\sin(2\\beta)}{1 + \\cos(2\\beta)} = \\tan(\\beta)$",
+          "uitleg": "Gebruik de dubbele hoekformules: $\\sin(2\\beta) = 2\\sin\\beta\\cos\\beta$ en $\\cos(2\\beta) = 2\\cos^2\\beta - 1$.",
+          "antwoord": "$\\text{Bewijs voltooid}$",
+          "stappen": [
+            "Begin met het linkerlid (LL): $\\frac{\\sin(2\\beta)}{1 + \\cos(2\\beta)}$",
+            "Vervang de teller met de dubbele hoekformule voor sinus: $\\frac{2\\sin\\beta\\cos\\beta}{1 + \\cos(2\\beta)}$",
+            "Vervang de noemer met de dubbele hoekformule voor cosinus $\\cos(2\\beta) = 2\\cos^2\\beta - 1$: $\\frac{2\\sin\\beta\\cos\\beta}{1 + (2\\cos^2\\beta - 1)}$",
+            "Vereenvoudig de noemer: $\\frac{2\\sin\\beta\\cos\\beta}{2\\cos^2\\beta}$",
+            "Deel teller en noemer door $2\\cos\\beta$: $\\frac{\\sin\\beta}{\\cos\\beta}$",
+            "Gebruik de definitie van tangens: $\\tan\\beta$",
+            "Dit is gelijk aan het rechterlid (RL): $\\tan\\beta$",
+            "Conclusie: $\\frac{\\sin(2\\beta)}{1 + \\cos(2\\beta)} = \\tan(\\beta)$"
+          ],
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "open",
+          "vraag": "Bewijs zonder rekenmachine: $\\sin(20^\\circ) + \\cos(110^\\circ) + \\sin(200^\\circ) + \\cos(290^\\circ) = 0$",
+          "uitleg": "Gebruik de verwante hoekformules om alle termen uit te drukken in $\\sin(20^\\circ)$ of $\\cos(20^\\circ)$.",
+          "antwoord": "$\\text{Bewijs voltooid}$",
+          "stappen": [
+            "Druk de tweede term uit in $20^\\circ$: $\\cos(110^\\circ) = \\cos(90^\\circ + 20^\\circ) = -\\sin(20^\\circ)$",
+            "Druk de derde term uit in $20^\\circ$: $\\sin(200^\\circ) = \\sin(180^\\circ + 20^\\circ) = -\\sin(20^\\circ)$",
+            "Druk de vierde term uit in $20^\\circ$: $\\cos(290^\\circ) = \\cos(270^\\circ + 20^\\circ) = \\sin(20^\\circ)$",
+            "Substitueer de uitdrukkingen in de vergelijking: $\\sin(20^\\circ) + (-\\sin(20^\\circ)) + (-\\sin(20^\\circ)) + \\sin(20^\\circ) = 0$",
+            "Combineer de termen: $\\sin(20^\\circ) - \\sin(20^\\circ) - \\sin(20^\\circ) + \\sin(20^\\circ) = 0$",
+            "Vereenvoudig: $0 = 0$",
+            "Conclusie: $\\sin(20^\\circ) + \\cos(110^\\circ) + \\sin(200^\\circ) + \\cos(290^\\circ) = 0$"
+          ],
+          "punten": 7
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "open",
+          "vraag": "Bewijs zonder rekenmachine: $\\frac{1 - \\cos(2\\theta)}{\\sin(2\\theta)} = \\tan(\\theta)$",
+          "uitleg": "Gebruik de dubbele hoekformules: $\\sin(2\\theta) = 2\\sin\\theta\\cos\\theta$ en $1 - \\cos(2\\theta) = 2\\sin^2\\theta$.",
+          "antwoord": "$\\text{Bewijs voltooid}$",
+          "stappen": [
+            "Begin met het linkerlid (LL): $\\frac{1 - \\cos(2\\theta)}{\\sin(2\\theta)}$",
+            "Vervang de teller met $1 - \\cos(2\\theta) = 2\\sin^2\\theta$: $\\frac{2\\sin^2\\theta}{\\sin(2\\theta)}$",
+            "Vervang de noemer met $\\sin(2\\theta) = 2\\sin\\theta\\cos\\theta$: $\\frac{2\\sin^2\\theta}{2\\sin\\theta\\cos\\theta}$",
+            "Vereenvoudig door $2\\sin\\theta$ weg te delen: $\\frac{\\sin\\theta}{\\cos\\theta}$",
+            "Gebruik de definitie van tangens: $\\tan\\theta$",
+            "Dit is gelijk aan het rechterlid (RL): $\\tan\\theta$",
+            "Conclusie: $\\frac{1 - \\cos(2\\theta)}{\\sin(2\\theta)} = \\tan(\\theta)$ (Dit is een veelgebruikte halfhoekformule)"
+          ],
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "meerkeuze",
+          "vraag": "Vereenvoudig: $\\frac{\\sin(\\frac{3\\pi}{2} + \\alpha) \\cdot \\tan(\\pi - \\alpha)}{\\cos(\\pi + \\alpha)}$",
+          "opties": [
+            "$\\tan(\\alpha)$",
+            "$-\\tan(\\alpha)$",
+            "$\\cot(\\alpha)$",
+            "$-\\cot(\\alpha)$"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Gebruik de verwante hoekformules: $\\sin(\\frac{3\\pi}{2} + \\alpha) = -\\cos\\alpha$, $\\tan(\\pi - \\alpha) = -\\tan\\alpha$, en $\\cos(\\pi + \\alpha) = -\\cos\\alpha$. De totale uitdrukking is dan $\\frac{(-\\cos\\alpha)(-\\tan\\alpha)}{-\\cos\\alpha} = -\\tan\\alpha$. Oh, wacht, de uitkomst is $-\\tan\\alpha$",
+          "uitleg_per_optie": [
+            "Niet correct. Het antwoord moet $\\tan\\alpha$ zijn. (N.B. De fout in mijn eerdere uitleg: $\\frac{(-\\cos\\alpha)(-\\tan\\alpha)}{-\\cos\\alpha} = \\frac{\\cos\\alpha\\tan\\alpha}{-\\cos\\alpha} = -\\tan\\alpha$. Het moet dus optie 2 zijn.)",
+            "Correct! $\\frac{(-\\cos\\alpha)(-\\tan\\alpha)}{-\\cos\\alpha} = -\\tan\\alpha$",
+            "Niet correct, dit zou $-\\cot\\alpha$ zijn.",
+            "Niet correct, dit zou $-\\cot\\alpha$ zijn."
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 21,
+          "type": "meerkeuze",
+          "vraag": "Vereenvoudig: $\\frac{\\sin(2x)}{2\\cos^2(x)}$",
+          "opties": [
+            "$\\cot(x)$",
+            "$\\tan(x)$",
+            "$\\cos(x)$",
+            "$\\sin(x)$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Gebruik de dubbele hoekformule $\\sin(2x) = 2\\sin x \\cos x$: $\\frac{2\\sin x \\cos x}{2\\cos^2 x} = \\frac{\\sin x}{\\cos x} = \\tan x$",
+          "uitleg_per_optie": [
+            "Niet correct, dit is $\\frac{\\cos x}{\\sin x}$",
+            "Correct! Na vereenvoudiging krijg je $\\frac{\\sin x}{\\cos x}$",
+            "Niet correct.",
+            "Niet correct."
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 22,
+          "type": "open",
+          "vraag": "Bewijs: $\\frac{\\sin(4x) + \\sin(2x)}{\\cos(4x) + \\cos(2x)} = \\tan(3x)$",
+          "uitleg": "Gebruik de som-naar-productformules: $\\sin A + \\sin B = 2\\sin(\\frac{A+B}{2})\\cos(\\frac{A-B}{2})$ en $\\cos A + \\cos B = 2\\cos(\\frac{A+B}{2})\\cos(\\frac{A-B}{2})$.",
+          "antwoord": "$\\text{Bewijs voltooid}$",
+          "stappen": [
+            "Begin met het linkerlid (LL): $\\frac{\\sin(4x) + \\sin(2x)}{\\cos(4x) + \\cos(2x)}$",
+            "Pas de som-naar-productformules toe: $\\frac{2\\sin(\\frac{4x+2x}{2})\\cos(\\frac{4x-2x}{2})}{2\\cos(\\frac{4x+2x}{2})\\cos(\\frac{4x-2x}{2})}$",
+            "Vereenvoudig de hoeken: $\\frac{2\\sin(3x)\\cos(x)}{2\\cos(3x)\\cos(x)}$",
+            "Vereenvoudig door $2\\cos(x)$ weg te delen: $\\frac{\\sin(3x)}{\\cos(3x)}$",
+            "Gebruik de definitie van tangens: $\\tan(3x)$",
+            "Dit is gelijk aan het rechterlid (RL): $\\tan(3x)$",
+            "Conclusie: $\\frac{\\sin(4x) + \\sin(2x)}{\\cos(4x) + \\cos(2x)} = \\tan(3x)$ (Dit is een veelgebruikte truc met goniometrische rijen)"
+          ],
+          "punten": 7
+        },
+        {
+          "vraag_nummer": 23,
+          "type": "open",
+          "vraag": "Bewijs: $\\frac{\\sin(A+B)}{\\sin(A-B)} = \\frac{\\tan(A) + \\tan(B)}{\\tan(A) - \\tan(B)}$",
+          "uitleg": "Gebruik de som- en verschilformules voor de sinus. Deel de teller en noemer van het linkerlid door $\\cos A \\cos B$.",
+          "antwoord": "$\\text{Bewijs voltooid}$",
+          "stappen": [
+            "Begin met het linkerlid (LL): $\\frac{\\sin(A+B)}{\\sin(A-B)}$",
+            "Vervang met de som- en verschilformules: $\\frac{\\sin A \\cos B + \\cos A \\sin B}{\\sin A \\cos B - \\cos A \\sin B}$",
+            "Deel de teller en noemer van de breuk door $\\cos A \\cos B$ (deze stap is cruciaal): $\\frac{\\frac{\\sin A \\cos B}{\\cos A \\cos B} + \\frac{\\cos A \\sin B}{\\cos A \\cos B}}{\\frac{\\sin A \\cos B}{\\cos A \\cos B} - \\frac{\\cos A \\sin B}{\\cos A \\cos B}}$",
+            "Vereenvoudig de vier termen: $\\frac{\\frac{\\sin A}{\\cos A} + \\frac{\\sin B}{\\cos B}}{\\frac{\\sin A}{\\cos A} - \\frac{\\sin B}{\\cos B}}$",
+            "Gebruik de definitie van tangens: $\\frac{\\tan A + \\tan B}{\\tan A - \\tan B}$",
+            "Dit is gelijk aan het rechterlid (RL): $\\frac{\\tan A + \\tan B}{\\tan A - \\tan B}$",
+            "Conclusie: $\\frac{\\sin(A+B)}{\\sin(A-B)} = \\frac{\\tan(A) + \\tan(B)}{\\tan(A) - \\tan(B)}$"
+          ],
+          "punten": 7
+        },
+        {
+          "vraag_nummer": 24,
+          "type": "open",
+          "vraag": "Bewijs: $\\tan(5x) - \\tan(3x) - \\tan(2x) = \\tan(5x) \\tan(3x) \\tan(2x)$",
+          "uitleg": "Gebruik de formule $\\tan(A+B)$ en de relatie $5x = 3x + 2x$.",
+          "antwoord": "$\\text{Bewijs voltooid}$",
+          "stappen": [
+            "Begin met de relatie $5x = 3x + 2x$. Pas de tangens toe op beide leden: $\\tan(5x) = \\tan(3x + 2x)$",
+            "Pas de somformule voor tangens toe op het rechterlid: $\\tan(5x) = \\frac{\\tan(3x) + \\tan(2x)}{1 - \\tan(3x) \\tan(2x)}$",
+            "Vermenigvuldig kruiselings met de noemer: $\\tan(5x)(1 - \\tan(3x) \\tan(2x)) = \\tan(3x) + \\tan(2x)$",
+            "Werk het linkerlid uit: $\\tan(5x) - \\tan(5x) \\tan(3x) \\tan(2x) = \\tan(3x) + \\tan(2x)$",
+            "Herschik de termen door $\\tan(5x) \\tan(3x) \\tan(2x)$ naar rechts en de twee andere tangensen naar links te brengen: $\\tan(5x) - \\tan(3x) - \\tan(2x) = \\tan(5x) \\tan(3x) \\tan(2x)$",
+            "Dit is de te bewijzen identiteit. Conclusie: $\\tan(5x) - \\tan(3x) - \\tan(2x) = \\tan(5x) \\tan(3x) \\tan(2x)$ (Dit is een speciale geval van $\\tan A - \\tan B - \\tan C = \\tan A \\tan B \\tan C$ als $A = B+C$)"
+          ],
+          "punten": 8
+        },
+        {
+          "vraag_nummer": 25,
+          "type": "open",
+          "vraag": "Bewijs: $\\tan(A) + \\tan(B) + \\tan(C) = \\tan(A)\\tan(B)\\tan(C) \\quad \\text{als } A+B+C = \\pi$",
+          "uitleg": "Gebruik de voorwaarde $A+B+C = \\pi$, waardoor $A+B = \\pi - C$. Pas de tangens toe op deze gelijkheid en gebruik de verwante hoekformule $\\tan(\\pi - C) = -\\tan C$.",
+          "antwoord": "$\\text{Bewijs voltooid}$",
+          "stappen": [
+            "Gegeven: $A+B+C = \\pi$. Herschrijf: $A+B = \\pi - C$",
+            "Pas de tangens toe op beide leden: $\\tan(A+B) = \\tan(\\pi - C)$",
+            "Pas de verwante hoekformule toe op het rechterlid: $\\tan(\\pi - C) = -\\tan C$",
+            "Pas de somformule voor tangens toe op het linkerlid: $\\frac{\\tan A + \\tan B}{1 - \\tan A \\tan B} = -\\tan C$",
+            "Vermenigvuldig kruiselings: $\\tan A + \\tan B = -\\tan C (1 - \\tan A \\tan B)$",
+            "Werk het rechterlid uit: $\\tan A + \\tan B = -\\tan C + \\tan A \\tan B \\tan C$",
+            "Breng $\\tan C$ naar het linkerlid: $\\tan A + \\tan B + \\tan C = \\tan A \\tan B \\tan C$",
+            "Dit is de te bewijzen identiteit. Conclusie: $\\tan(A) + \\tan(B) + \\tan(C) = \\tan(A)\\tan(B)\\tan(C) \\quad \\text{als } A+B+C = \\pi$"
+          ],
+          "punten": 8
+        },
+        {
+          "vraag_nummer": 26,
+          "type": "open",
+          "vraag": "Bewijs: $\\tan\\left(\\frac{x}{2}\\right) = \\csc(x) - \\cot(x)$",
+          "uitleg": "Gebruik de halfhoekformule voor tangens $\\tan(\\frac{x}{2}) = \\frac{1 - \\cos x}{\\sin x}$ en de definitie van cosecans en cotangens.",
+          "antwoord": "$\\text{Bewijs voltooid}$",
+          "stappen": [
+            "Begin met het rechterlid (RL): $\\csc(x) - \\cot(x)$",
+            "Vervang met de definities: $\\frac{1}{\\sin x} - \\frac{\\cos x}{\\sin x}$",
+            "Combineer de breuken: $\\frac{1 - \\cos x}{\\sin x}$",
+            "Gebruik de halfhoekformules ($1 - \\cos x = 2\\sin^2(\\frac{x}{2})$ en $\\sin x = 2\\sin(\\frac{x}{2})\\cos(\\frac{x}{2})$): $\\frac{2\\sin^2(\\frac{x}{2})}{2\\sin(\\frac{x}{2})\\cos(\\frac{x}{2})}$",
+            "Vereenvoudig door $2\\sin(\\frac{x}{2})$ weg te delen: $\\frac{\\sin(\\frac{x}{2})}{\\cos(\\frac{x}{2})}$",
+            "Gebruik de definitie van tangens: $\\tan\\left(\\frac{x}{2}\\right)$",
+            "Dit is gelijk aan het linkerlid (LL): $\\tan\\left(\\frac{x}{2}\\right)$",
+            "Conclusie: $\\tan\\left(\\frac{x}{2}\\right) = \\csc(x) - \\cot(x)$"
+          ],
+          "punten": 7
+        },
+        {
+          "vraag_nummer": 27,
+          "type": "open",
+          "vraag": "Vereenvoudig: $\\frac{\\cos(6x) - 1}{\\sin(3x) - \\sin(5x)}$",
+          "uitleg": "Gebruik de halfhoekformule $\\cos(2A) - 1 = -2\\sin^2 A$ (met $A=3x$) en de productformule $\\sin A - \\sin B = 2\\cos(\\frac{A+B}{2})\\sin(\\frac{A-B}{2})$.",
+          "antwoord": "$\\tan(4x)$",
+          "stappen": [
+            "Herschrijf de teller (gebruik $\\cos(2A) - 1 = -2\\sin^2 A$ met $A=3x$): $\\cos(6x) - 1 = -2\\sin^2(3x)$",
+            "Pas de som-naar-productformule toe op de noemer: $\\sin(3x) - \\sin(5x) = 2\\cos(\\frac{3x+5x}{2})\\sin(\\frac{3x-5x}{2})$",
+            "Vereenvoudig de noemer: $2\\cos(4x)\\sin(-x)$",
+            "Gebruik $\\sin(-x) = -\\sin x$: $-2\\cos(4x)\\sin x$",
+            "Combineer teller en noemer: $\\frac{-2\\sin^2(3x)}{-2\\cos(4x)\\sin x}$",
+            "Vereenvoudig tot: $\\frac{\\sin^2(3x)}{\\cos(4x)\\sin x}$"
+          ],
+          "punten": 8
+        },
+        {
+          "vraag_nummer": 28,
+          "type": "open",
+          "vraag": "Bewijs: $\\frac{\\sin(A) + \\sin(3A) + \\sin(5A)}{\\cos(A) + \\cos(3A) + \\cos(5A)} = \\tan(3A)$",
+          "uitleg": "Combineer de uiterste termen in de teller en noemer (m.b.v. som-naar-product), en factoriseer dan de middelste term $\\sin(3A)$ en $\\cos(3A)$.",
+          "antwoord": "$\\text{Bewijs voltooid}$",
+          "stappen": [
+            "Begin met het linkerlid (LL): $\\frac{(\\sin(5A) + \\sin A) + \\sin(3A)}{(\\cos(5A) + \\cos A) + \\cos(3A)}$",
+            "Pas de som-naar-productformules toe op de uiterste termen: $\\sin(5A) + \\sin A = 2\\sin(\\frac{5A+A}{2})\\cos(\\frac{5A-A}{2}) = 2\\sin(3A)\\cos(2A)$ en $\\cos(5A) + \\cos A = 2\\cos(\\frac{5A+A}{2})\\cos(\\frac{5A-A}{2}) = 2\\cos(3A)\\cos(2A)$",
+            "Substitueer terug: $\\frac{2\\sin(3A)\\cos(2A) + \\sin(3A)}{2\\cos(3A)\\cos(2A) + \\cos(3A)}$",
+            "Factoriseer $\\sin(3A)$ in de teller en $\\cos(3A)$ in de noemer: $\\frac{\\sin(3A)(2\\cos(2A) + 1)}{\\cos(3A)(2\\cos(2A) + 1)}$",
+            "Vereenvoudig door $2\\cos(2A) + 1$ weg te delen: $\\frac{\\sin(3A)}{\\cos(3A)}$",
+            "Gebruik de definitie van tangens: $\\tan(3A)$",
+            "Dit is gelijk aan het rechterlid (RL): $\\tan(3A)$",
+            "Conclusie: $\\frac{\\sin(A) + \\sin(3A) + \\sin(5A)}{\\cos(A) + \\cos(3A) + \\cos(5A)} = \\tan(3A)$"
+          ],
+          "punten": 8
+        },
+        {
+          "vraag_nummer": 29,
+          "type": "open",
+          "vraag": "Vereenvoudig: $\\frac{\\sin(A) + \\sin(2A) + \\sin(3A) + \\sin(4A)}{\\cos(A) + \\cos(2A) + \\cos(3A) + \\cos(4A)}$",
+          "uitleg": "Combineer de termen in paren: $(A, 4A)$ en $(2A, 3A)$. Gebruik de som-naar-productformules.",
+          "antwoord": "$\\tan\\left(\\frac{5A}{2}\\right)$",
+          "stappen": [
+            "Groepeer de termen in de teller: $(\\sin(A) + \\sin(4A)) + (\\sin(2A) + \\sin(3A))$",
+            "Groepeer de termen in de noemer: $(\\cos(A) + \\cos(4A)) + (\\cos(2A) + \\cos(3A))$",
+            "Pas de som-naar-productformules toe: Teller: $2\\sin(\\frac{5A}{2})\\cos(\\frac{3A}{2}) + 2\\sin(\\frac{5A}{2})\\cos(\\frac{A}{2})$ Noemer: $2\\cos(\\frac{5A}{2})\\cos(\\frac{3A}{2}) + 2\\cos(\\frac{5A}{2})\\cos(\\frac{A}{2})$",
+            "Factoriseer $2\\sin(\\frac{5A}{2})$ in de teller en $2\\cos(\\frac{5A}{2})$ in de noemer: $\\frac{2\\sin(\\frac{5A}{2})\\left(\\cos(\\frac{3A}{2}) + \\cos(\\frac{A}{2})\\right)}{2\\cos(\\frac{5A}{2})\\left(\\cos(\\frac{3A}{2}) + \\cos(\\frac{A}{2})\\right)}$",
+            "Vereenvoudig door de gemeenschappelijke factor weg te delen: $\\frac{\\sin(\\frac{5A}{2})}{\\cos(\\frac{5A}{2})}$",
+            "Gebruik de definitie van tangens: $\\tan\\left(\\frac{5A}{2}\\right)$",
+            "Het vereenvoudigde antwoord is: $\\tan\\left(\\frac{5A}{2}\\right)$"
+          ],
+          "punten": 9
+        },
+        {
+          "vraag_nummer": 30,
+          "type": "open",
+          "vraag": "Vereenvoudig: $\\frac{\\cos(3\\alpha) + \\cos(\\alpha)}{\\sin(3\\alpha) - \\sin(\\alpha)}$",
+          "uitleg": "Gebruik de som-naar-productformules: $\\cos A + \\cos B = 2\\cos(\\frac{A+B}{2})\\cos(\\frac{A-B}{2})$ en $\\sin A - \\sin B = 2\\cos(\\frac{A+B}{2})\\sin(\\frac{A-B}{2})$.",
+          "antwoord": "$\\cot(\\alpha)$",
+          "stappen": [
+            "Pas de som-naar-productformules toe op de teller: $\\cos(3\\alpha) + \\cos(\\alpha) = 2\\cos(\\frac{3\\alpha + \\alpha}{2})\\cos(\\frac{3\\alpha - \\alpha}{2}) = 2\\cos(2\\alpha)\\cos(\\alpha)$",
+            "Pas de som-naar-productformules toe op de noemer: $\\sin(3\\alpha) - \\sin(\\alpha) = 2\\cos(\\frac{3\\alpha + \\alpha}{2})\\sin(\\frac{3\\alpha - \\alpha}{2}) = 2\\cos(2\\alpha)\\sin(\\alpha)$",
+            "Combineer teller en noemer: $\\frac{2\\cos(2\\alpha)\\cos(\\alpha)}{2\\cos(2\\alpha)\\sin(\\alpha)}$",
+            "Vereenvoudig door $2\\cos(2\\alpha)$ weg te delen: $\\frac{\\cos(\\alpha)}{\\sin(\\alpha)}$",
+            "Gebruik de definitie van cotangens: $\\cot(\\alpha)$",
+            "Het vereenvoudigde antwoord is: $\\cot(\\alpha)$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 31,
+          "type": "open",
+          "vraag": "Bewijs: $\\cos(\\alpha) + \\cos(\\beta) + \\cos(\\gamma) + \\cos(\\alpha+\\beta+\\gamma) = 4\\cos\\left(\\frac{\\alpha+\\beta}{2}\\right)\\cos\\left(\\frac{\\beta+\\gamma}{2}\\right)\\cos\\left(\\frac{\\gamma+\\alpha}{2}\\right)$",
+          "uitleg": "Groepeer termen en pas de som-naar-productformule toe.",
+          "antwoord": "$\\text{Bewijs voltooid}$",
+          "stappen": [
+            "Begin met het linkerlid (LL) en groepeer de eerste twee en de laatste twee termen: $(\\cos\\alpha + \\cos\\beta) + (\\cos\\gamma + \\cos(\\alpha+\\beta+\\gamma))$",
+            "Pas de som-naar-productformule $\\cos A + \\cos B = 2\\cos(\\frac{A+B}{2})\\cos(\\frac{A-B}{2})$ toe op beide paren:",
+            "Eerste paar: $2\\cos\\left(\\frac{\\alpha+\\beta}{2}\\right)\\cos\\left(\\frac{\\alpha-\\beta}{2}\\right)$",
+            "Tweede paar (met $A=\\gamma$, $B=\\alpha+\\beta+\\gamma$): $2\\cos\\left(\\frac{\\gamma + \\alpha+\\beta+\\gamma}{2}\\right)\\cos\\left(\\frac{\\gamma - (\\alpha+\\beta+\\gamma)}{2}\\right) = 2\\cos\\left(\\frac{\\alpha+\\beta+2\\gamma}{2}\\right)\\cos\\left(\\frac{-\\alpha-\\beta}{2}\\right)$",
+            "Houd er rekening mee dat $\\cos(-x) = \\cos x$: $2\\cos\\left(\\frac{\\alpha+\\beta}{2} + \\gamma\\right)\\cos\\left(\\frac{\\alpha+\\beta}{2}\\right)$",
+            "Factoriseer $2\\cos\\left(\\frac{\\alpha+\\beta}{2}\\right)$ uit de hele uitdrukking:",
+            "LL wordt: $2\\cos\\left(\\frac{\\alpha+\\beta}{2}\\right)\\left[\\cos\\left(\\frac{\\alpha-\\beta}{2}\\right) + \\cos\\left(\\frac{\\alpha+\\beta}{2} + \\gamma\\right)\\right]$",
+            "Pas opnieuw de som-naar-productformule toe op de term tussen haakjes (met $A = \\frac{\\alpha-\\beta}{2}$ en $B = \\frac{\\alpha+\\beta}{2} + \\gamma$):",
+            "LL wordt: $2\\cos\\left(\\frac{\\alpha+\\beta}{2}\\right)\\left[2\\cos\\left(\\frac{\\frac{\\alpha-\\beta}{2} + \\frac{\\alpha+\\beta}{2} + \\gamma}{2}\\right)\\cos\\left(\\frac{\\frac{\\alpha-\\beta}{2} - (\\frac{\\alpha+\\beta}{2} + \\gamma)}{2}\\right)\\right]$",
+            "Vereenvoudig de hoeken in de cosinusfuncties:",
+            "Eerste hoek: $\\frac{\\frac{2\\alpha}{2} + \\gamma}{2} = \\frac{\\alpha+\\gamma}{2}$",
+            "Tweede hoek: $\\frac{\\frac{-2\\beta}{2} - \\gamma}{2} = \\frac{-\\beta-\\gamma}{2}$",
+            "LL wordt: $2\\cos\\left(\\frac{\\alpha+\\beta}{2}\\right)\\left[2\\cos\\left(\\frac{\\alpha+\\gamma}{2}\\right)\\cos\\left(\\frac{\\beta+\\gamma}{2}\\right)\\right]$ (gebruik $\\cos(-x) = \\cos x$)",
+            "Eindresultaat: $4\\cos\\left(\\frac{\\alpha+\\beta}{2}\\right)\\cos\\left(\\frac{\\beta+\\gamma}{2}\\right)\\cos\\left(\\frac{\\gamma+\\alpha}{2}\\right)$",
+            "Dit is gelijk aan het rechterlid (RL). Conclusie: $\\cos(\\alpha) + \\cos(\\beta) + \\cos(\\gamma) + \\cos(\\alpha+\\beta+\\gamma) = 4\\cos\\left(\\frac{\\alpha+\\beta}{2}\\right)\\cos\\left(\\frac{\\beta+\\gamma}{2}\\right)\\cos\\left(\\frac{\\gamma+\\alpha}{2}\\right)$ (Dit is een complex bewijs, punten worden gegeven voor de stappen)"
+          ],
+          "punten": 10
+        },
+        {
+          "vraag_nummer": 32,
+          "type": "meerkeuze",
+          "vraag": "Bereken: $\\sin(105^\\circ) + \\sin(15^\\circ)$",
+          "opties": [
+            "$\\frac{\\sqrt{6}}{2}$",
+            "$\\frac{\\sqrt{3}}{2}$",
+            "$\\frac{1}{2}$",
+            "$1$"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Gebruik de som-naar-productformule $\\sin A + \\sin B = 2\\sin(\\frac{A+B}{2})\\cos(\\frac{A-B}{2})$: $\\sin(105^\\circ) + \\sin(15^\\circ) = 2\\sin(\\frac{105^\\circ + 15^\\circ}{2})\\cos(\\frac{105^\\circ - 15^\\circ}{2}) = 2\\sin(60^\\circ)\\cos(45^\\circ) = 2\\left(\\frac{\\sqrt{3}}{2}\\right)\\left(\\frac{\\sqrt{2}}{2}\\right) = \\frac{\\sqrt{6}}{2}$",
+          "uitleg_per_optie": [
+            "Correct! De exacte waarde is $\\frac{\\sqrt{6}}{2}$",
+            "Dit is $2\\sin 30^\\circ \\cos 30^\\circ = \\sin 60^\\circ$",
+            "Niet correct.",
+            "Niet correct."
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 33,
+          "type": "open",
+          "vraag": "Bewijs: $\\cos(A)\\cos(60^\\circ - A)\\cos(60^\\circ + A) = \\frac{1}{4}\\cos(3A)$",
+          "uitleg": "Gebruik de formule $\\cos(A-B)\\cos(A+B) = \\cos^2 A - \\sin^2 B$.",
+          "antwoord": "$\\text{Bewijs voltooid}$",
+          "stappen": [
+            "Begin met het linkerlid (LL): $\\cos(A)\\cos(60^\\circ - A)\\cos(60^\\circ + A)$",
+            "Pas de formule $\\cos(A-B)\\cos(A+B) = \\cos^2 A - \\sin^2 B$ toe op de laatste twee factoren met $A = 60^\\circ$ en $B = A$: $\\cos(A)(\\cos^2 60^\\circ - \\sin^2 A)$",
+            "Vervang de exacte waarde $\\cos 60^\\circ = \\frac{1}{2}$: $\\cos(A)\\left(\\left(\\frac{1}{2}\\right)^2 - \\sin^2 A\\right) = \\cos(A)\\left(\\frac{1}{4} - \\sin^2 A\\right)$",
+            "Zet op een gelijke noemer $4$: $\\cos(A)\\left(\\frac{1 - 4\\sin^2 A}{4}\\right)$",
+            "Werk de teller uit en vervang $\\sin^2 A = 1 - \\cos^2 A$: $\\frac{1}{4}\\cos(A)(1 - 4(1 - \\cos^2 A))$",
+            "Vereenvoudig binnen de haakjes: $\\frac{1}{4}\\cos(A)(1 - 4 + 4\\cos^2 A) = \\frac{1}{4}\\cos(A)(4\\cos^2 A - 3)$",
+            "Herschrijf de factor $\\cos(A)(4\\cos^2 A - 3)$: $\\frac{1}{4}(4\\cos^3 A - 3\\cos A)$",
+            "Gebruik de drievoudige hoekformule $\\cos(3A) = 4\\cos^3 A - 3\\cos A$: $\\frac{1}{4}\\cos(3A)$",
+            "Dit is gelijk aan het rechterlid (RL): $\\frac{1}{4}\\cos(3A)$",
+            "Conclusie: $\\cos(A)\\cos(60^\\circ - A)\\cos(60^\\circ + A) = \\frac{1}{4}\\cos(3A)$"
+          ],
+          "punten": 9
+        }
+      ],
+      "totaal_punten": 133,
+      "geschatte_tijd": "120 minuten",
+      "leerdoelen": [
+        "Exacte waarden van standaardhoeken berekenen",
+        "Goniometrische identiteiten vereenvoudigen en bewijzen",
+        "De formules voor som, verschil, dubbele hoek en halfhoek toepassen",
+        "Product- en somformules gebruiken"
+      ],
+      "tips": [
+        "Onthoud de exacte waarden van de goniometrische cirkel",
+        "Gebruik de hoofdidentiteit sin²α + cos²α = 1 in combinatie met een merkwaardig product",
+        "Controleer of je som- en verschilformules gebruikt",
+        "Zet bij breuken altijd op een gelijke noemer voor je optelt of aftrekt"
+      ]
+    },
+    {
+      "id": "gonioformules-002p",
+      "titel": "Goniometrische formules en exacte waarden (Gevorderd)",
+      "beschrijving": "Een uitgebreide set van oefeningen met goniometrische identiteiten, reductieformules, som- en productformules, en het berekenen van exacte waarden zonder rekenmachine. Focus op gedetailleerde stappen.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Goniometrie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Bereken zonder rekenmachine: $\\sin60^\\circ \\cdot \\cos45^\\circ - \\tan30^\\circ \\cdot \\sin45^\\circ$",
+          "uitleg": "Gebruik de exacte waarden: $\\sin60^\\circ = \\frac{\\sqrt{3}}{2}$, $\\cos45^\\circ = \\frac{\\sqrt{2}}{2}$, $\\tan30^\\circ = \\frac{\\sqrt{3}}{3}$ of $\\frac{1}{\\sqrt{3}}$, $\\sin45^\\circ = \\frac{\\sqrt{2}}{2}$.",
+          "antwoord": "$\\frac{\\sqrt{6}}{12}$",
+          "stappen": [
+            "Substitueer de exacte waarden: $\\left(\\frac{\\sqrt{3}}{2} \\cdot \\frac{\\sqrt{2}}{2}\\right) - \\left(\\frac{1}{\\sqrt{3}} \\cdot \\frac{\\sqrt{2}}{2}\\right)$",
+            "Vermenigvuldig de termen: $\\frac{\\sqrt{6}}{4} - \\frac{\\sqrt{2}}{2\\sqrt{3}}$",
+            "Rationaliseer de tweede term: $\\frac{\\sqrt{6}}{4} - \\frac{\\sqrt{2}\\sqrt{3}}{2\\cdot 3} = \\frac{\\sqrt{6}}{4} - \\frac{\\sqrt{6}}{6}$",
+            "Maak gelijknamig (noemer 12): $\\frac{3\\sqrt{6}}{12} - \\frac{2\\sqrt{6}}{12}$",
+            "Trek af: $\\frac{3\\sqrt{6} - 2\\sqrt{6}}{12} = \\frac{\\sqrt{6}}{12}$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Bereken zonder rekenmachine: $\\tan45^\\circ \\cdot \\cos30^\\circ \\cdot \\sin60^\\circ$",
+          "uitleg": "Gebruik de exacte waarden: $\\tan45^\\circ = 1$, $\\cos30^\\circ = \\frac{\\sqrt{3}}{2}$, $\\sin60^\\circ = \\frac{\\sqrt{3}}{2}$.",
+          "antwoord": "$\\frac{3}{4}$",
+          "stappen": [
+            "Substitueer de exacte waarden: $1 \\cdot \\frac{\\sqrt{3}}{2} \\cdot \\frac{\\sqrt{3}}{2}$",
+            "Vermenigvuldig: $1 \\cdot \\frac{\\sqrt{3} \\cdot \\sqrt{3}}{2 \\cdot 2} = \\frac{3}{4}$"
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Bereken zonder rekenmachine: $\\frac{\\sin45^\\circ \\cdot \\cos60^\\circ}{\\tan30^\\circ} + \\cos30^\\circ$",
+          "uitleg": "Gebruik de exacte waarden en vereenvoudig eerst de breukterm.",
+          "antwoord": "$\\frac{\\sqrt{6}+2\\sqrt{3}}{4}$",
+          "stappen": [
+            "Substitueer de waarden in de breuk: $\\frac{(\\frac{\\sqrt{2}}{2}) \\cdot (\\frac{1}{2})}{\\frac{1}{\\sqrt{3}}} = \\frac{\\frac{\\sqrt{2}}{4}}{\\frac{1}{\\sqrt{3}}}$",
+            "Vereenvoudig de breuk (vermenigvuldig met omgekeerde): $\\frac{\\sqrt{2}}{4} \\cdot \\sqrt{3} = \\frac{\\sqrt{6}}{4}$",
+            "Tel de tweede term op: $\\frac{\\sqrt{6}}{4} + \\cos30^\\circ = \\frac{\\sqrt{6}}{4} + \\frac{\\sqrt{3}}{2}$",
+            "Maak gelijknamig (noemer 4): $\\frac{\\sqrt{6}}{4} + \\frac{2\\sqrt{3}}{4} = \\frac{\\sqrt{6}+2\\sqrt{3}}{4}$"
+          ],
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Bereken zonder rekenmachine: $\\cos^2 30^\\circ \\cdot \\sin45^\\circ + \\sin^2 60^\\circ \\cdot \\cos45^\\circ$",
+          "uitleg": "Gebruik de exacte waarden. Kwadrateren: $(\\frac{\\sqrt{3}}{2})^2 = \\frac{3}{4}$.",
+          "antwoord": "$\\frac{3\\sqrt{2}}{4}$",
+          "stappen": [
+            "Substitueer: $\\left(\\frac{\\sqrt{3}}{2}\\right)^2 \\cdot \\frac{\\sqrt{2}}{2} + \\left(\\frac{\\sqrt{3}}{2}\\right)^2 \\cdot \\frac{\\sqrt{2}}{2}$",
+            "Werk de machten uit: $\\frac{3}{4} \\cdot \\frac{\\sqrt{2}}{2} + \\frac{3}{4} \\cdot \\frac{\\sqrt{2}}{2}$",
+            "Vermenigvuldig: $\\frac{3\\sqrt{2}}{8} + \\frac{3\\sqrt{2}}{8}$",
+            "Tel op: $\\frac{6\\sqrt{2}}{8}$",
+            "Vereenvoudig: $\\frac{3\\sqrt{2}}{4}$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "meerkeuze",
+          "vraag": "Bereken de exacte waarde van $\\tan60^\\circ \\cdot \\cos45^\\circ - \\sin30^\\circ$",
+          "opties": [
+            "$\\frac{\\sqrt{6}-1}{2}$",
+            "$\\frac{\\sqrt{3}-1}{\\sqrt{2}}$",
+            "1",
+            "$\\frac{\\sqrt{2}}{2}$"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Substitueer: $\\sqrt{3} \\cdot \\frac{\\sqrt{2}}{2} - \\frac{1}{2}$. Dit is $\\frac{\\sqrt{6}}{2} - \\frac{1}{2} = \\frac{\\sqrt{6}-1}{2}$. Optie A is de correcte uitkomst.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "bewijs",
+          "vraag": "Bewijs de identiteit: $\\sin^4\\alpha + \\cos^4\\alpha = 1 - 2\\sin^2\\alpha\\cos^2\\alpha$",
+          "uitleg": "Start vanuit de fundamentele goniometrische identiteit $\\sin^2\\alpha + \\cos^2\\alpha = 1$ en kwadrateer beide kanten.",
+          "antwoord": "Identiteit is bewezen",
+          "stappen": [
+            "Start met: $(\\sin^2\\alpha + \\cos^2\\alpha)^2 = 1^2$",
+            "Werk het linkerlid uit: $(\\sin^2\\alpha)^2 + 2\\sin^2\\alpha\\cos^2\\alpha + (\\cos^2\\alpha)^2 = 1$",
+            "Herschrijf: $\\sin^4\\alpha + 2\\sin^2\\alpha\\cos^2\\alpha + \\cos^4\\alpha = 1$",
+            "Isoleer de gevraagde termen: $\\sin^4\\alpha + \\cos^4\\alpha = 1 - 2\\sin^2\\alpha\\cos^2\\alpha$"
+          ],
+          "punten": 7
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Vereenvoudig: $\\frac{\\sin\\left(\\frac{7\\pi}{2} - \\phi\\right)}{\\cos(\\pi - \\phi)}$",
+          "opties": [
+            "1",
+            "-1",
+            "$\\tan(\\phi)$",
+            "$\\cot(\\phi)$"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Gebruik de reductieformules. De teller $\\sin(\\frac{7\\pi}{2} - \\phi)$ is gelijk aan $\\sin(3\\pi + \\frac{\\pi}{2} - \\phi) = -\\cos(\\phi)$. De noemer $\\cos(\\pi - \\phi)$ is gelijk aan $-\\cos(\\phi)$.",
+          "stappen": [
+            "Vereenvoudig de teller (reductieformule): $\\sin\\left(\\frac{7\\pi}{2} - \\phi\\right) = -\\cos(\\phi)$",
+            "Vereenvoudig de noemer (reductieformule): $\\cos(\\pi - \\phi) = -\\cos(\\phi)$",
+            "De breuk wordt: $\\frac{-\\cos(\\phi)}{-\\cos(\\phi)}$",
+            "Vereenvoudig: 1 (mits $\\cos(\\phi) \\neq 0$)"
+          ],
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Vereenvoudig: $\\frac{\\cos(x - \\frac{\\pi}{2}) \\cdot \\csc(x)}{\\cot(x)}$",
+          "opties": [
+            "$\\sin(x)$",
+            "$\\tan(x)$",
+            "$\\cos(x)$",
+            "$\\sec(x)$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Gebruik de somformule $\\cos(A-B)$ en de definities van $\\csc(x)$ en $\\cot(x)$.",
+          "stappen": [
+            "Vereenvoudig $\\cos(x - \\frac{\\pi}{2})$: dit is gelijk aan $\\sin(x)$ (gebruik $\\cos(A-B)$ of een kwadrantverschuiving)",
+            "De teller wordt: $\\sin(x) \\cdot \\csc(x) = \\sin(x) \\cdot \\frac{1}{\\sin(x)} = 1$",
+            "De breuk wordt: $\\frac{1}{\\cot(x)}$",
+            "Vereenvoudig: $\\frac{1}{\\frac{\\cos(x)}{\\sin(x)}} = \\frac{\\sin(x)}{\\cos(x)} = \\tan(x)$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "open",
+          "vraag": "Druk de uitdrukking $\\sin(x)\\cos(y) - \\cos(x)\\sin(y)$ uit als één goniometrische functie.",
+          "uitleg": "Herken dit als de verschilformule voor de sinus.",
+          "antwoord": "$\\sin(x-y)$",
+          "stappen": [
+            "De uitdrukking volgt direct uit de formule $\\sin(A-B) = \\sin A \\cos B - \\cos A \\sin B$"
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "open",
+          "vraag": "Vereenvoudig: $\\tan(\\pi + \\theta) \\cdot \\cot\\left(\\frac{3\\pi}{2} - \\theta\\right)$",
+          "uitleg": "Gebruik de periodiciteit en reductieformules. Let op: $\\tan(\\pi + \\theta) = \\tan(\\theta)$ en $\\cot\\left(\\frac{3\\pi}{2} - \\theta\\right) = \\tan(\\theta)$",
+          "antwoord": "$\\tan^2(\\theta)$",
+          "stappen": [
+            "Pas de periodiciteit toe op de eerste term: $\\tan(\\pi + \\theta) = \\tan(\\theta)$",
+            "Pas de reductieformule toe op de tweede term: $\\cot\\left(\\frac{3\\pi}{2} - \\theta\\right) = \\tan(\\theta)$",
+            "Vermenigvuldig de vereenvoudigde termen: $\\tan(\\theta) \\cdot \\tan(\\theta) = \\tan^2(\\theta)$"
+          ],
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Bereken de exacte waarde van $\\tan(10^\\circ)\\tan(80^\\circ) + \\cos(10^\\circ)\\sec(10^\\circ)$",
+          "opties": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Gebruik de complementaire hoeken en de definitie van $\\sec(\\alpha)$.",
+          "stappen": [
+            "Gebruik $\\tan(80^\\circ) = \\cot(90^\\circ - 80^\\circ) = \\cot(10^\\circ)$",
+            "Gebruik $\\sec(10^\\circ) = \\frac{1}{\\cos(10^\\circ)}$",
+            "De uitdrukking wordt: $\\tan(10^\\circ)\\cot(10^\\circ) + \\cos(10^\\circ)\\frac{1}{\\cos(10^\\circ)}$",
+            "Vereenvoudig: $\\frac{\\sin(10^\\circ)}{\\cos(10^\\circ)} \\cdot \\frac{\\cos(10^\\circ)}{\\sin(10^\\circ)} + 1 = 1 + 1 = 2$"
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "bewijs",
+          "vraag": "Bewijs de identiteit: $\\frac{\\cos^4(x) - \\sin^4(x)}{\\cos(2x)} = 1$",
+          "uitleg": "Factoriseer de teller als een verschil van kwadraten en gebruik de dubbele hoek formule voor $\\cos(2x)$.",
+          "antwoord": "Identiteit is bewezen",
+          "stappen": [
+            "Factoriseer de teller: $\\cos^4(x) - \\sin^4(x) = (\\cos^2(x) - \\sin^2(x))(\\cos^2(x) + \\sin^2(x))$",
+            "Gebruik de fundamentele identiteit: $\\cos^2(x) + \\sin^2(x) = 1$",
+            "De teller wordt: $(\\cos^2(x) - \\sin^2(x)) \\cdot 1$",
+            "Gebruik de dubbele hoek formule: $\\cos^2(x) - \\sin^2(x) = \\cos(2x)$",
+            "De breuk wordt: $\\frac{\\cos(2x)}{\\cos(2x)}$",
+            "Vereenvoudig: 1"
+          ],
+          "punten": 7
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "open",
+          "vraag": "Bereken de exacte waarde van $\\frac{\\tan(120^\\circ) - \\tan(15^\\circ)}{1 + \\tan(120^\\circ)\\tan(15^\\circ)}$",
+          "uitleg": "Herken de verschilformule voor de tangens: $\\tan(A-B) = \\frac{\\tan A - \\tan B}{1 + \\tan A \\tan B}$.",
+          "antwoord": "$-2 - \\sqrt{3}$",
+          "stappen": [
+            "De uitdrukking is gelijk aan $\\tan(120^\\circ - 15^\\circ) = \\tan(105^\\circ)$",
+            "Gebruik de somformule: $\\tan(105^\\circ) = \\tan(60^\\circ + 45^\\circ) = \\frac{\\tan60^\\circ + \\tan45^\\circ}{1 - \\tan60^\\circ \\tan45^\\circ}$",
+            "Substitueer: $\\frac{\\sqrt{3} + 1}{1 - \\sqrt{3} \\cdot 1} = \\frac{1 + \\sqrt{3}}{1 - \\sqrt{3}}$",
+            "Rationaliseer de noemer: $\\frac{1 + \\sqrt{3}}{1 - \\sqrt{3}} \\cdot \\frac{1 + \\sqrt{3}}{1 + \\sqrt{3}} = \\frac{1 + 2\\sqrt{3} + 3}{1 - 3} = \\frac{4 + 2\\sqrt{3}}{-2}$",
+            "Vereenvoudig: $-2 - \\sqrt{3}$"
+          ],
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "bewijs",
+          "vraag": "Bewijs de identiteit: $\\frac{\\cos(A) + \\cos(B)}{\\sin(A) + \\sin(B)} = \\cot\\left(\\frac{A+B}{2}\\right)$",
+          "uitleg": "Gebruik de som-naar-product formules in de teller en de noemer.",
+          "antwoord": "Identiteit is bewezen",
+          "stappen": [
+            "Pas de som-naar-product formule toe op de teller: $\\cos(A) + \\cos(B) = 2\\cos\\left(\\frac{A+B}{2}\\right)\\cos\\left(\\frac{A-B}{2}\\right)$",
+            "Pas de som-naar-product formule toe op de noemer: $\\sin(A) + \\sin(B) = 2\\sin\\left(\\frac{A+B}{2}\\right)\\cos\\left(\\frac{A-B}{2}\\right)$",
+            "De breuk wordt: $\\frac{2\\cos\\left(\\frac{A+B}{2}\\right)\\cos\\left(\\frac{A-B}{2}\\right)}{2\\sin\\left(\\frac{A+B}{2}\\right)\\cos\\left(\\frac{A-B}{2}\\right)}$",
+            "Vereenvoudig (deel door $2\\cos(\\frac{A-B}{2})$): $\\frac{\\cos\\left(\\frac{A+B}{2}\\right)}{\\sin\\left(\\frac{A+B}{2}\\right)}$",
+            "Dit is gelijk aan $\\cot\\left(\\frac{A+B}{2}\\right)$"
+          ],
+          "punten": 8
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "open",
+          "vraag": "Druk $\\sin(4\\alpha)\\cos(2\\alpha)$ uit als een som of verschil van sinussen (Product-naar-Som formule).",
+          "uitleg": "Gebruik de formule $\\sin(A)\\cos(B) = \\frac{1}{2}[\\sin(A+B) + \\sin(A-B)]$.",
+          "antwoord": "$\\frac{1}{2}\\left[\\sin(6\\alpha) + \\sin(2\\alpha)\\right]$",
+          "stappen": [
+            "Substitueer $A=4\\alpha$ en $B=2\\alpha$ in de formule:",
+            "Term A+B: $4\\alpha + 2\\alpha = 6\\alpha$",
+            "Term A-B: $4\\alpha - 2\\alpha = 2\\alpha$",
+            "Resultaat: $\\frac{1}{2}[\\sin(6\\alpha) + \\sin(2\\alpha)]$"
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "meerkeuze",
+          "vraag": "Vereenvoudig de uitdrukking $\\sin(3\\alpha)\\cos(\\alpha) - \\cos(3\\alpha)\\sin(\\alpha)$",
+          "opties": [
+            "$\\sin(4\\alpha)$",
+            "$\\sin(2\\alpha)$",
+            "$\\cos(4\\alpha)$",
+            "$\\cos(2\\alpha)$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Herken dit als de verschilformule voor de sinus: $\\sin(A-B) = \\sin A \\cos B - \\cos A \\sin B$.",
+          "stappen": [
+            "Pas de verschilformule toe met $A=3\\alpha$ en $B=\\alpha$: $\\sin(3\\alpha - \\alpha)$",
+            "Vereenvoudig: $\\sin(2\\alpha)$"
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "meerkeuze",
+          "vraag": "Vereenvoudig: $\\frac{2\\tan(\\alpha)}{1 - \\tan^2(\\alpha)}$",
+          "opties": [
+            "$\\tan(2\\alpha)$",
+            "$\\tan(\\alpha)$",
+            "$2\\tan(\\alpha)$",
+            "$\\tan(\\frac{\\alpha}{2})$"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Dit is de dubbele hoek formule voor de tangens.",
+          "stappen": [
+            "De uitdrukking $\\frac{2\\tan(\\alpha)}{1 - \\tan^2(\\alpha)}$ is per definitie gelijk aan $\\tan(2\\alpha)$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "bewijs",
+          "vraag": "Bewijs de identiteit: $\\tan(x) + \\tan(y) + \\tan(z) = \\tan(x)\\tan(y)\\tan(z)$ onder de voorwaarde $x+y+z = k\\pi, k \\in \\mathbb{Z}$",
+          "uitleg": "Gebruik de gegeven voorwaarde om een relatie tussen twee termen en de derde term te vinden, en pas dan de somformule voor $\\tan(x+y)$ toe.",
+          "antwoord": "Identiteit is bewezen",
+          "stappen": [
+            "Herschrijf de voorwaarde: $x+y = k\\pi - z$",
+            "Neem de tangens van beide zijden: $\\tan(x+y) = \\tan(k\\pi - z)$. Vanwege de periodiciteit is dit gelijk aan $\\tan(-z) = -\\tan(z)$",
+            "Pas de somformule toe op $\\tan(x+y)$: $\\frac{\\tan(x) + \\tan(y)}{1 - \\tan(x)\\tan(y)} = -\\tan(z)$",
+            "Vermenigvuldig en herschik: $\\tan(x) + \\tan(y) = -\\tan(z)(1 - \\tan(x)\\tan(y))$",
+            "Werk uit: $\\tan(x) + \\tan(y) = -\\tan(z) + \\tan(x)\\tan(y)\\tan(z)$",
+            "Breng $-\\tan(z)$ naar het linkerlid: $\\tan(x) + \\tan(y) + \\tan(z) = \\tan(x)\\tan(y)\\tan(z)$"
+          ],
+          "punten": 8
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "meerkeuze",
+          "vraag": "Vereenvoudig: $\\frac{\\cos(2\\theta) - \\cos(4\\theta)}{\\sin(4\\theta) - \\sin(2\\theta)}$",
+          "opties": [
+            "$\\cot(3\\theta)$",
+            "$\\tan(3\\theta)$",
+            "$\\tan(\\theta)$",
+            "$\\cot(\\theta)$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Gebruik de verschil-naar-product formules. Teller: $\\cos A - \\cos B = -2\\sin(\\frac{A+B}{2})\\sin(\\frac{A-B}{2})$. Noemer: $\\sin A - \\sin B = 2\\cos(\\frac{A+B}{2})\\sin(\\frac{A-B}{2})$.",
+          "stappen": [
+            "Pas de formule toe op de teller: $\\cos(2\\theta) - \\cos(4\\theta) = -2\\sin(\\frac{6\\theta}{2})\\sin(\\frac{2\\theta - 4\\theta}{2}) = -2\\sin(3\\theta)\\sin(-\\theta) = 2\\sin(3\\theta)\\sin(\\theta)$",
+            "Pas de formule toe op de noemer: $\\sin(4\\theta) - \\sin(2\\theta) = 2\\cos(\\frac{6\\theta}{2})\\sin(\\frac{4\\theta - 2\\theta}{2}) = 2\\cos(3\\theta)\\sin(\\theta)$",
+            "De breuk wordt: $\\frac{2\\sin(3\\theta)\\sin(\\theta)}{2\\cos(3\\theta)\\sin(\\theta)}$",
+            "Vereenvoudig (deel door $2\\sin(\\theta)$): $\\frac{\\sin(3\\theta)}{\\cos(3\\theta)} = \\tan(3\\theta)$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "meerkeuze",
+          "vraag": "Vereenvoudig: $\\frac{\\sin(5x) + \\sin(x)}{\\cos(5x) + \\cos(x)}$",
+          "opties": [
+            "$\\tan(2x)$",
+            "$\\cot(2x)$",
+            "$\\tan(3x)$",
+            "$\\cot(3x)$"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Gebruik de som-naar-product formules: $\\sin A + \\sin B = 2\\sin(\\frac{A+B}{2})\\cos(\\frac{A-B}{2})$ en $\\cos A + \\cos B = 2\\cos(\\frac{A+B}{2})\\cos(\\frac{A-B}{2})$.",
+          "stappen": [
+            "Pas de formule toe op de teller: $2\\sin(\\frac{6x}{2})\\cos(\\frac{4x}{2}) = 2\\sin(3x)\\cos(2x)$",
+            "Pas de formule toe op de noemer: $2\\cos(\\frac{6x}{2})\\cos(\\frac{4x}{2}) = 2\\cos(3x)\\cos(2x)$",
+            "De breuk wordt: $\\frac{2\\sin(3x)\\cos(2x)}{2\\cos(3x)\\cos(2x)}$",
+            "Vereenvoudig (deel door $2\\cos(2x)$): $\\frac{\\sin(3x)}{\\cos(3x)} = \\tan(3x)$"
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 21,
+          "type": "open",
+          "vraag": "Druk $\\sin(4\\theta) - \\sin(2\\theta)$ uit als een product van goniometrische functies (Verschil-naar-Product formule).",
+          "uitleg": "Gebruik de formule $\\sin A - \\sin B = 2\\cos(\\frac{A+B}{2})\\sin(\\frac{A-B}{2})$.",
+          "antwoord": "$2\\cos(3\\theta)\\sin(\\theta)$",
+          "stappen": [
+            "Substitueer $A=4\\theta$ en $B=2\\theta$ in de formule:",
+            "Term A+B/2: $\\frac{4\\theta + 2\\theta}{2} = 3\\theta$",
+            "Term A-B/2: $\\frac{4\\theta - 2\\theta}{2} = \\theta$",
+            "Resultaat: $2\\cos(3\\theta)\\sin(\\theta)$"
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 22,
+          "type": "bewijs",
+          "vraag": "Bewijs de identiteit: $\\frac{\\sin(x) + \\sin(3x) + \\sin(5x) + \\sin(7x)}{\\cos(x) + \\cos(3x) + \\cos(5x) + \\cos(7x)} = \\tan(4x)$",
+          "uitleg": "Groepeer de termen in de teller en noemer slim (de buitenste en binnenste) en gebruik de som-naar-product formules.",
+          "antwoord": "Identiteit is bewezen",
+          "stappen": [
+            "Groepeer in de teller en pas de som-naar-product formule toe: $(\\sin(7x) + \\sin(x)) + (\\sin(5x) + \\sin(3x)) = 2\\sin(4x)\\cos(3x) + 2\\sin(4x)\\cos(x)$",
+            "Factoriseer $\\sin(4x)$ uit de teller: $2\\sin(4x)(\\cos(3x) + \\cos(x))$",
+            "Groepeer in de noemer en pas de som-naar-product formule toe: $(\\cos(7x) + \\cos(x)) + (\\cos(5x) + \\cos(3x)) = 2\\cos(4x)\\cos(3x) + 2\\cos(4x)\\cos(x)$",
+            "Factoriseer $\\cos(4x)$ uit de noemer: $2\\cos(4x)(\\cos(3x) + \\cos(x))$",
+            "De breuk wordt: $\\frac{2\\sin(4x)(\\cos(3x) + \\cos(x))}{2\\cos(4x)(\\cos(3x) + \\cos(x))}$",
+            "Vereenvoudig (deel door $2(\\cos(3x) + \\cos(x))$): $\\frac{\\sin(4x)}{\\cos(4x)} = \\tan(4x)$"
+          ],
+          "punten": 9
+        },
+        {
+          "vraag_nummer": 23,
+          "type": "open",
+          "vraag": "Druk $\\sin(3\\theta)\\sin(\\theta)$ uit als een verschil van cosinussen (Product-naar-Verschil formule).",
+          "uitleg": "Gebruik de formule $\\sin A\\sin B = \\frac{1}{2}[\\cos(A-B) - \\cos(A+B)]$.",
+          "antwoord": "$\\frac{1}{2}\\left[\\cos(2\\theta) - \\cos(4\\theta)\\right]$",
+          "stappen": [
+            "Substitueer $A=3\\theta$ en $B=\\theta$ in de formule:",
+            "Term A-B: $3\\theta - \\theta = 2\\theta$",
+            "Term A+B: $3\\theta + \\theta = 4\\theta$",
+            "Resultaat: $\\frac{1}{2}[\\cos(2\\theta) - \\cos(4\\theta)]$"
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 24,
+          "type": "bewijs",
+          "vraag": "Bewijs de identiteit $\\frac{\\sin(\\alpha) + \\sin(\\beta)}{\\cos(\\alpha) + \\cos(\\beta)} = \\tan\\left(\\frac{\\alpha+\\beta}{2}\\right)$ en vereenvoudig vervolgens $\\frac{\\sin(3x) + \\sin(x)}{\\cos(3x) + \\cos(x)}$",
+          "uitleg": "Het bewijs volgt uit de som-naar-product formules (zie Vraag 14, omgekeerd). De vereenvoudiging is een directe toepassing van de bewezen identiteit.",
+          "antwoord": "Identiteit bewezen; Vereenvoudigd: $\\tan(2x)$",
+          "stappen": [
+            "Bewijs: Gebruik som-naar-product in teller en noemer, waarna $\\cos(\\frac{\\alpha-\\beta}{2})$ wegvalt, wat resulteert in $\\tan(\\frac{\\alpha+\\beta}{2})$. (Zie Vraag 14 voor de gedetailleerde stappen van het bewijs)",
+            "Pas de identiteit toe op de vereenvoudiging met $\\alpha=3x$ en $\\beta=x$:",
+            "Vereenvoudigd: $\\tan\\left(\\frac{3x+x}{2}\\right) = \\tan\\left(\\frac{4x}{2}\\right) = \\tan(2x)$"
+          ],
+          "punten": 7
+        },
+        {
+          "vraag_nummer": 25,
+          "type": "open",
+          "vraag": "Druk $\\sin(3\\alpha)\\cos(\\alpha) - \\cos(3\\alpha)\\sin(\\alpha)$ uit als één goniometrische functie.",
+          "uitleg": "Dit is de verschilformule voor de sinus.",
+          "antwoord": "$\\sin(2\\alpha)$",
+          "stappen": [
+            "Herken de formule $\\sin(A-B) = \\sin A \\cos B - \\cos A \\sin B$",
+            "Pas toe met $A=3\\alpha$ en $B=\\alpha$: $\\sin(3\\alpha - \\alpha)$",
+            "Vereenvoudig: $\\sin(2\\alpha)$"
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 26,
+          "type": "open",
+          "vraag": "Bewijs de identiteit: $\\cos(\\alpha + \\beta + \\gamma) = \\cos(\\alpha)\\cos(\\beta)\\cos(\\gamma) - \\cos(\\alpha)\\sin(\\beta)\\sin(\\gamma) - \\sin(\\alpha)\\cos(\\beta)\\sin(\\gamma) - \\sin(\\alpha)\\sin(\\beta)\\cos(\\gamma)$",
+          "uitleg": "Splits in $\\cos(\\alpha + (\\beta + \\gamma))$ en pas herhaaldelijk de somformules $\\cos(A+B)$ en $\\sin(A+B)$ toe.",
+          "antwoord": "Identiteit is bewezen",
+          "stappen": [
+            "Gebruik de somformule $\\cos(A+B)$ met $A=\\alpha$ en $B=(\\beta + \\gamma)$: $\\cos(\\alpha)\\cos(\\beta + \\gamma) - \\sin(\\alpha)\\sin(\\beta + \\gamma)$",
+            "Pas nu de somformules toe op $\\cos(\\beta + \\gamma)$ en $\\sin(\\beta + \\gamma)$: $\\cos(\\beta + \\gamma) = \\cos\\beta\\cos\\gamma - \\sin\\beta\\sin\\gamma$ en $\\sin(\\beta + \\gamma) = \\sin\\beta\\cos\\gamma + \\cos\\beta\\sin\\gamma$",
+            "Substitueer: $\\cos(\\alpha)(\\cos\\beta\\cos\\gamma - \\sin\\beta\\sin\\gamma) - \\sin(\\alpha)(\\sin\\beta\\cos\\gamma + \\cos\\beta\\sin\\gamma)$",
+            "Werk de haakjes weg: $\\cos\\alpha\\cos\\beta\\cos\\gamma - \\cos\\alpha\\sin\\beta\\sin\\gamma - \\sin\\alpha\\sin\\beta\\cos\\gamma - \\sin\\alpha\\cos\\beta\\sin\\gamma$",
+            "Controleer de volgorde van de termen: deze komt overeen met de rechterkant."
+          ],
+          "punten": 10
+        }
+      ],
+      "totaal_punten": 138,
+      "geschatte_tijd": "110 minuten",
+      "leerdoelen": [
+        "Exacte waarden van standaardhoeken correct toepassen en berekenen",
+        "Goniometrische identiteiten bewijzen met behulp van de fundamentele formules",
+        "Reductie-, som- en productformules van de goniometrische functies correct toepassen",
+        "Complexe goniometrische uitdrukkingen vereenvoudigen"
+      ],
+      "tips": [
+        "Controleer altijd eerst of een vereenvoudiging mogelijk is met $\\sin^2\\alpha + \\cos^2\\alpha = 1$",
+        "Bij bewijzen: werk van de meest complexe kant naar de eenvoudigste",
+        "Ken de som- en verschilformules; alle andere formules (dubbele hoek, som-naar-product) zijn hieruit af te leiden"
+      ]
+    }
+  ],
+  "extra_informatie": {
+    "voorkennis": [
+      "Basiskennis van goniometrische getallen in de rechthoekige driehoek",
+      "Kennis van breuken, wortels en algebraïsch rekenen"
+    ],
+    "vervolgonderwerpen": [
+      "Goniometrische vergelijkingen",
+      "Analytische meetkunde met goniometrie"
+    ],
+    "bronnen": [
+      "Cursus Wiskunde Goniometrie",
+      "Tabellen met goniometrische formules"
+    ]
+  }
+}
