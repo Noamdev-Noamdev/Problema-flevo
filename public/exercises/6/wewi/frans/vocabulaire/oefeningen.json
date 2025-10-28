@@ -36,7 +36,7 @@
           "type": "verbinding",
           "vraag": "Verbind de Franse adjectieven met hun Nederlandse vertaling.",
           "links_items": ["facile", "difficile", "cher", "intéressant", "ennuyeux", "heureux", "triste", "content"],
-          "rechts_items": ["makkelijk", "moeilijk", "duur", "interessant", "vervelend", "gelukkig", "triestig", "tevreden"],
+          "rechts_items": ["duur", "triestig", "makkelijk", "tevreden", "gelukkig", "vervelend", "moeilijk", "interessant"],
           "correcte_verbindingen": [{"links": "facile", "rechts": "makkelijk"}, {"links": "difficile", "rechts": "moeilijk"}, {"links": "cher", "rechts": "duur"}, {"links": "intéressant", "rechts": "interessant"}, {"links": "ennuyeux", "rechts": "vervelend"}, {"links": "heureux", "rechts": "gelukkig"}, {"links": "triste", "rechts": "triestig"}, {"links": "content", "rechts": "tevreden"}],
           "uitleg": "Deze woorden beschrijven de moeilijkheidsgraad of een emotionele toestand."
         },
@@ -45,7 +45,7 @@
           "type": "verbinding",
           "vraag": "Verbind de Franse adjectieven met hun Nederlandse vertaling.",
           "links_items": ["malade", "propre", "sale", "rapide", "lent", "chaud", "froid", "proche"],
-          "rechts_items": ["ziek", "schoon", "vuil", "snel", "traag", "warm", "koud", "dichtbij"],
+          "rechts_items": ["warm", "snel", "traag", "vuil", "schoon", "dichtbij", "ziek", "koud"],
           "correcte_verbindingen": [{"links": "malade", "rechts": "ziek"}, {"links": "propre", "rechts": "schoon"}, {"links": "sale", "rechts": "vuil"}, {"links": "rapide", "rechts": "snel"}, {"links": "lent", "rechts": "traag"}, {"links": "chaud", "rechts": "warm"}, {"links": "froid", "rechts": "koud"}, {"links": "proche", "rechts": "dichtbij"}],
           "uitleg": "Let op de fysieke en locatieve beschrijvingen."
         },
@@ -54,7 +54,7 @@
           "type": "verbinding",
           "vraag": "Verbind de Franse adjectieven met hun Nederlandse vertaling.",
           "links_items": ["loin", "clair", "sombre", "calme", "bruyant", "occupé", "libre", "simple"],
-          "rechts_items": ["ver", "helder", "donker", "kalm", "lawaaierig", "bezet", "vrij", "eenvoudig"],
+          "rechts_items": ["kalm", "lawaaierig", "eenvoudig", "donker", "helder", "vrij", "ver", "bezet"],
           "correcte_verbindingen": [{"links": "loin", "rechts": "ver"}, {"links": "clair", "rechts": "helder"}, {"links": "sombre", "rechts": "donker"}, {"links": "calme", "rechts": "kalm"}, {"links": "bruyant", "rechts": "lawaaierig"}, {"links": "occupé", "rechts": "bezet"}, {"links": "libre", "rechts": "vrij"}, {"links": "simple", "rechts": "eenvoudig"}],
           "uitleg": "Dit zijn adjectieven die contrasten aanduiden (ver/dichtbij, licht/donker, kalm/lawaaierig)."
         },
@@ -63,7 +63,7 @@
           "type": "verbinding",
           "vraag": "Verbind de resterende Franse adjectieven met hun Nederlandse vertaling.",
           "links_items": ["compliqué", "important", "spécial", "dangereux", "sûr", "drôle"],
-          "rechts_items": ["ingewikkeld", "belangrijk", "speciaal", "gevaarlijk", "zeker/veilig", "grappig"],
+          "rechts_items": ["ingewikkeld", "grappig", "speciaal", "belangrijk", "zeker/veilig", "gevaarlijk"],
           "correcte_verbindingen": [{"links": "compliqué", "rechts": "ingewikkeld"}, {"links": "important", "rechts": "belangrijk"}, {"links": "spécial", "rechts": "speciaal"}, {"links": "dangereux", "rechts": "gevaarlijk"}, {"links": "sûr", "rechts": "zeker/veilig"}, {"links": "drôle", "rechts": "grappig"}],
           "uitleg": "Dit zijn adjectieven die de complexiteit, waarde of risico beschrijven."
         },
@@ -72,7 +72,7 @@
           "type": "verbinding",
           "vraag": "Verbind de Franse naamwoorden over Mensen en Familie met hun Nederlandse vertaling.",
           "links_items": ["homme", "femme", "enfant", "garçon", "fille", "père", "mère", "frère"],
-          "rechts_items": ["jongen", "meisje", "vader", "moeder", "broer", "man", "vrouw", "kind"],
+          "rechts_items": ["vrouw", "jongen", "man", "broer", "moeder", "kind", "vader", "meisje"],
           "correcte_verbindingen": [{"links": "homme", "rechts": "man"}, {"links": "femme", "rechts": "vrouw"}, {"links": "enfant", "rechts": "kind"}, {"links": "garçon", "rechts": "jongen"}, {"links": "fille", "rechts": "meisje"}, {"links": "père", "rechts": "vader"}, {"links": "mère", "rechts": "moeder"}, {"links": "frère", "rechts": "broer"}],
           "uitleg": "Dit zijn de meest elementaire familieleden."
         },
@@ -81,7 +81,7 @@
           "type": "verbinding",
           "vraag": "Verbind de resterende Franse naamwoorden over Mensen en Familie met hun Nederlandse vertaling.",
           "links_items": ["soeur", "ami", "amie", "oncle", "tante", "grand-père", "grand-mère", "cousin"],
-          "rechts_items": ["neef (m)", "tante", "oom", "vriendin", "vriend", "zus", "grootvader", "grootmoeder"],
+          "rechts_items": ["neef", "vriend", "oom", "grootmoeder", "grootvader", "zus", "vriendin", "tante"],
           "correcte_verbindingen": [{"links": "soeur", "rechts": "zus"}, {"links": "ami", "rechts": "vriend"}, {"links": "amie", "rechts": "vriendin"}, {"links": "oncle", "rechts": "oom"}, {"links": "tante", "rechts": "tante"}, {"links": "grand-père", "rechts": "grootvader"}, {"links": "grand-mère", "rechts": "grootmoeder"}, {"links": "cousin", "rechts": "neef (m)"}]
         },
         {
@@ -89,7 +89,7 @@
           "type": "verbinding",
           "vraag": "Verbind de laatste Franse naamwoorden over Mensen en Familie met hun Nederlandse vertaling.",
           "links_items": ["cousine", "voisin", "voisine", "professeur", "élève", "camarade", "directeur", "directrice", "bébé", "adolescent"],
-          "rechts_items": ["leerling", "klasgenoot", "directrice", "directeur", "neef (v)", "buurman", "buurvrouw", "leraar", "baby", "adolescent"],
+          "rechts_items": ["leerling", "klasgenoot", "directrice", "directeur", "nicht", "buurman", "buurvrouw", "leraar", "baby", "adolescent"],
           "correcte_verbindingen": [{"links": "cousine", "rechts": "neef (v)"}, {"links": "voisin", "rechts": "buurman"}, {"links": "voisine", "rechts": "buurvrouw"}, {"links": "professeur", "rechts": "leraar"}, {"links": "élève", "rechts": "leerling"}, {"links": "camarade", "rechts": "klasgenoot"}, {"links": "directeur", "rechts": "directeur"}, {"links": "directrice", "rechts": "directrice"}, {"links": "bébé", "rechts": "baby"}, {"links": "adolescent", "rechts": "adolescent"}],
           "uitleg": "Dit zijn beroepen en sociale rollen. Let op de mannelijke en vrouwelijke vormen."
         },
