@@ -17,7 +17,7 @@ export const vakkenData: Record<string, Vak[]> = {
     { id: "biologie", name: "Biologie", description: "Cel- en evolutiebiologie", hasOnderdelen: false },
     { id: "nederlands", name: "Nederlands", description: "Taal en literatuur", hasOnderdelen: false },
     { id: "engels", name: "Engels", description: "Taal en literatuur", hasOnderdelen: false },
-    { id: "frans", name: "Frans", description: "Taal en literatuur", hasOnderdelen: false },
+    { id: "frans", name: "Frans", description: "Taal en literatuur", hasOnderdelen: true },
   ],
   // LWi vakken
   lwi: [

@@ -82,7 +82,34 @@ export const onderdelenConfig: OnderdelenConfig = {
     { id: "literatuur", name: "Literatuur", description: "Klassieke auteurs en werken", jaar: 6 },
     { id: "cultuur", name: "Cultuur", description: "Romeinse cultuur en erfgoed", jaar: 6 },
   ],
+  frans: [
+    // Jaar 1
+    { id: "vocabulaire", name: "Vocabulaire", description: "Basiswoordenschat", jaar: 1 },
+    { id: "grammaire", name: "Grammaire", description: "Basisgrammatica", jaar: 1 },
+    { id: "conjugaison", name: "Conjugaison", description: "Werkwoordvervoegingen", jaar: 1 },
+    // Jaar 2
+    { id: "vocabulaire", name: "Vocabulaire", description: "Basiswoordenschat", jaar: 2 },
+    { id: "grammaire", name: "Grammaire", description: "Basisgrammatica", jaar: 2 },
+    { id: "conjugaison", name: "Conjugaison", description: "Werkwoordvervoegingen", jaar: 2 },
+    // Jaar 3
+    { id: "vocabulaire", name: "Vocabulaire", description: "Basiswoordenschat", jaar: 3 },
+    { id: "grammaire", name: "Grammaire", description: "Basisgrammatica", jaar: 3 },
+    { id: "conjugaison", name: "Conjugaison", description: "Werkwoordvervoegingen", jaar: 3 },
+    // Jaar 4
+    { id: "vocabulaire", name: "Vocabulaire", description: "Basiswoordenschat", jaar: 4 },
+    { id: "grammaire", name: "Grammaire", description: "Basisgrammatica", jaar: 4 },
+    { id: "conjugaison", name: "Conjugaison", description: "Werkwoordvervoegingen", jaar: 4 },
+    // Jaar 5
+    { id: "vocabulaire", name: "Vocabulaire", description: "Basiswoordenschat", jaar: 5 },
+    { id: "grammaire", name: "Grammaire", description: "Basisgrammatica", jaar: 5 },
+    { id: "conjugaison", name: "Conjugaison", description: "Werkwoordvervoegingen", jaar: 5 },
+    // Jaar 6
+    { id: "vocabulaire", name: "Vocabulaire", description: "Basiswoordenschat", jaar: 6 },
+    { id: "grammaire", name: "Grammaire", description: "Basisgrammatica", jaar: 6 },
+    { id: "conjugaison", name: "Conjugaison", description: "Werkwoordvervoegingen", jaar: 6 },
+  ]
 };
+ 
 
 export const getOnderdelenForVak = (year: number, vakId: string): Onderdeel[] => {
   if (!onderdelenConfig[vakId]) {
