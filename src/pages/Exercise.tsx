@@ -2,6 +2,7 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Navigation from "@/components/Navigation";
 import MathRenderer from "@/components/MathRenderer";
+import ConnectionExercise from "@/components/ConnectionExercise";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ChevronLeft, Eye, EyeOff, Clock, Target } from "lucide-react";
@@ -15,8 +16,6 @@ const Exercise = () => {
   const [showSolutions, setShowSolutions] = useState<{ [key: number]: boolean }>({});
   const [loading, setLoading] = useState(true);
   const [selectedAnswers, setSelectedAnswers] = useState<{ [key: number]: number }>({});
-  const [connections, setConnections] = useState<{ [key: number]: { [left: string]: string } }>({});
-  const [selectedLeft, setSelectedLeft] = useState<{ [key: number]: string | null }>({});
 
   useEffect(() => {
     const loadExercise = async () => {
@@ -59,42 +58,6 @@ const Exercise = () => {
       ...prev,
       [questionNumber]: answerIndex
     }));
-  };
-
-  const selectLeftItem = (questionNumber: number, item: string) => {
-    setSelectedLeft(prev => ({
-      ...prev,
-      [questionNumber]: item
-    }));
-  };
-
-  const connectItems = (questionNumber: number, rightItem: string) => {
-    const left = selectedLeft[questionNumber];
-    if (!left) return;
-
-    setConnections(prev => ({
-      ...prev,
-      [questionNumber]: {
-        ...(prev[questionNumber] || {}),
-        [left]: rightItem
-      }
-    }));
-
-    setSelectedLeft(prev => ({
-      ...prev,
-      [questionNumber]: null
-    }));
-  };
-
-  const removeConnection = (questionNumber: number, leftItem: string) => {
-    setConnections(prev => {
-      const newConnections = { ...(prev[questionNumber] || {}) };
-      delete newConnections[leftItem];
-      return {
-        ...prev,
-        [questionNumber]: newConnections
-      };
-    });
   };
 
   if (loading) {
@@ -237,123 +200,13 @@ const Exercise = () => {
                 )}
 
                 {vraag.type === "verbinding" && (
-                  <div className="space-y-4">
-                    {!showSolutions[vraag.vraag_nummer] && (
-                      <div className="bg-primary/10 border border-primary/20 rounded-lg p-3">
-                        <p className="text-sm font-medium">
-                          {selectedLeft[vraag.vraag_nummer] 
-                            ? '✓ Klik nu op een item rechts om de verbinding te maken' 
-                            : '① Klik eerst op een item links'}
-                        </p>
-                      </div>
-                    )}
-                    <div className="grid md:grid-cols-[1fr_auto_1fr] gap-6 items-start">
-                      {/* Linker kolom */}
-                      <div className="space-y-3">
-                        <h4 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide">Linker items</h4>
-                        {(vraag as VerbindingVraag).links_items.map((item, index) => {
-                          const isSelected = selectedLeft[vraag.vraag_nummer] === item;
-                          const connection = connections[vraag.vraag_nummer]?.[item];
-                          return (
-                            <div key={index} className="relative">
-                              <button
-                                onClick={() => {
-                                  if (!showSolutions[vraag.vraag_nummer]) {
-                                    if (connection) {
-                                      removeConnection(vraag.vraag_nummer, item);
-                                    } else {
-                                      selectLeftItem(vraag.vraag_nummer, item);
-                                    }
-                                  }
-                                }}
-                                disabled={showSolutions[vraag.vraag_nummer]}
-                                className={`w-full p-4 rounded-lg border-2 text-left transition-all ${
-                                  isSelected
-                                    ? 'bg-primary/20 border-primary shadow-lg scale-105'
-                                    : connection
-                                    ? 'bg-green-500/10 border-green-500'
-                                    : 'bg-card border-border hover:border-primary/50 hover:shadow-md'
-                                } ${showSolutions[vraag.vraag_nummer] ? 'cursor-default' : 'cursor-pointer'}`}
-                              >
-                                <div className="flex items-center gap-2">
-                                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center text-xs font-bold">
-                                    {index + 1}
-                                  </span>
-                                  <MathRenderer content={item} className="flex-1" />
-                                </div>
-                              </button>
-                              {connection && !showSolutions[vraag.vraag_nummer] && (
-                                <div className="absolute -right-3 top-1/2 -translate-y-1/2 z-10">
-                                  <div className="bg-green-500 text-white rounded-full p-1">
-                                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                                    </svg>
-                                  </div>
-                                </div>
-                              )}
-                            </div>
-                          );
-                        })}
-                      </div>
-
-                      {/* Middenlijn */}
-                      <div className="hidden md:flex flex-col items-center justify-center h-full min-h-[200px]">
-                        <div className="w-0.5 h-full bg-border"></div>
-                      </div>
-
-                      {/* Rechter kolom */}
-                      <div className="space-y-3">
-                        <h4 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide">Rechter items</h4>
-                        {(vraag as VerbindingVraag).rechts_items.map((item, index) => {
-                          const isConnected = Object.values(connections[vraag.vraag_nummer] || {}).includes(item);
-                          const canConnect = selectedLeft[vraag.vraag_nummer] && !showSolutions[vraag.vraag_nummer];
-                          return (
-                            <button
-                              key={index}
-                              onClick={() => canConnect && connectItems(vraag.vraag_nummer, item)}
-                              disabled={!canConnect}
-                              className={`w-full p-4 rounded-lg border-2 text-left transition-all ${
-                                canConnect
-                                  ? 'bg-card border-border hover:border-primary hover:shadow-md cursor-pointer hover:scale-105'
-                                  : isConnected
-                                  ? 'bg-green-500/10 border-green-500 cursor-default'
-                                  : 'bg-card border-border cursor-not-allowed opacity-50'
-                              }`}
-                            >
-                              <div className="flex items-center gap-2">
-                                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-secondary/20 flex items-center justify-center text-xs font-bold">
-                                  {String.fromCharCode(65 + index)}
-                                </span>
-                                <MathRenderer content={item} className="flex-1" />
-                              </div>
-                            </button>
-                          );
-                        })}
-                      </div>
-                    </div>
-
-                    {/* Gemaakte verbindingen tonen */}
-                    {!showSolutions[vraag.vraag_nummer] && Object.keys(connections[vraag.vraag_nummer] || {}).length > 0 && (
-                      <div className="bg-muted/30 rounded-lg p-4 border border-muted">
-                        <h4 className="font-semibold text-sm mb-3">Jouw verbindingen:</h4>
-                        <div className="space-y-2">
-                          {Object.entries(connections[vraag.vraag_nummer] || {}).map(([left, right], index) => (
-                            <div key={index} className="flex items-center gap-3 text-sm bg-card p-2 rounded">
-                              <MathRenderer content={left} className="flex-1" />
-                              <span className="text-green-500 font-bold">→</span>
-                              <MathRenderer content={right} className="flex-1" />
-                              <button
-                                onClick={() => removeConnection(vraag.vraag_nummer, left)}
-                                className="text-destructive hover:underline text-xs px-2 py-1 rounded hover:bg-destructive/10"
-                              >
-                                ✕
-                              </button>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-                  </div>
+                  <ConnectionExercise
+                    questionNumber={vraag.vraag_nummer}
+                    linksItems={(vraag as VerbindingVraag).links_items}
+                    rechtsItems={(vraag as VerbindingVraag).rechts_items}
+                    correcteVerbindingen={(vraag as VerbindingVraag).correcte_verbindingen}
+                    showSolution={showSolutions[vraag.vraag_nummer]}
+                  />
                 )}
 
                 {showSolutions[vraag.vraag_nummer] && (
