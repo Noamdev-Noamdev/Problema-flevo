@@ -82,7 +82,7 @@
           "vraag": "Verbind de resterende Franse naamwoorden over Mensen en Familie met hun Nederlandse vertaling.",
           "links_items": ["soeur", "ami", "amie", "oncle", "tante", "grand-père", "grand-mère", "cousin"],
           "rechts_items": ["neef", "vriend", "oom", "grootmoeder", "grootvader", "zus", "vriendin", "tante"],
-          "correcte_verbindingen": [{"links": "soeur", "rechts": "zus"}, {"links": "ami", "rechts": "vriend"}, {"links": "amie", "rechts": "vriendin"}, {"links": "oncle", "rechts": "oom"}, {"links": "tante", "rechts": "tante"}, {"links": "grand-père", "rechts": "grootvader"}, {"links": "grand-mère", "rechts": "grootmoeder"}, {"links": "cousin", "rechts": "neef (m)"}]
+          "correcte_verbindingen": [{"links": "soeur", "rechts": "zus"}, {"links": "ami", "rechts": "vriend"}, {"links": "amie", "rechts": "vriendin"}, {"links": "oncle", "rechts": "oom"}, {"links": "tante", "rechts": "tante"}, {"links": "grand-père", "rechts": "grootvader"}, {"links": "grand-mère", "rechts": "grootmoeder"}, {"links": "cousin", "rechts": "neef"}]
         },
         {
           "vraag_nummer": 9,
@@ -90,7 +90,7 @@
           "vraag": "Verbind de laatste Franse naamwoorden over Mensen en Familie met hun Nederlandse vertaling.",
           "links_items": ["cousine", "voisin", "voisine", "professeur", "élève", "camarade", "directeur", "directrice", "bébé", "adolescent"],
           "rechts_items": ["leerling", "klasgenoot", "directrice", "directeur", "nicht", "buurman", "buurvrouw", "leraar", "baby", "adolescent"],
-          "correcte_verbindingen": [{"links": "cousine", "rechts": "neef (v)"}, {"links": "voisin", "rechts": "buurman"}, {"links": "voisine", "rechts": "buurvrouw"}, {"links": "professeur", "rechts": "leraar"}, {"links": "élève", "rechts": "leerling"}, {"links": "camarade", "rechts": "klasgenoot"}, {"links": "directeur", "rechts": "directeur"}, {"links": "directrice", "rechts": "directrice"}, {"links": "bébé", "rechts": "baby"}, {"links": "adolescent", "rechts": "adolescent"}],
+          "correcte_verbindingen": [{"links": "cousine", "rechts": "nicht"}, {"links": "voisin", "rechts": "buurman"}, {"links": "voisine", "rechts": "buurvrouw"}, {"links": "professeur", "rechts": "leraar"}, {"links": "élève", "rechts": "leerling"}, {"links": "camarade", "rechts": "klasgenoot"}, {"links": "directeur", "rechts": "directeur"}, {"links": "directrice", "rechts": "directrice"}, {"links": "bébé", "rechts": "baby"}, {"links": "adolescent", "rechts": "adolescent"}],
           "uitleg": "Dit zijn beroepen en sociale rollen. Let op de mannelijke en vrouwelijke vormen."
         },
         {
@@ -134,7 +134,7 @@
           "type": "verbinding",
           "vraag": "Verbind de resterende Franse naamwoorden over Huis en Omgeving met hun Nederlandse vertaling.",
           "links_items": ["table", "chaise", "lit", "canapé", "tapis", "rideau", "lampe", "miroir", "escalier", "mur", "toit", "balcon", "garage", "cave", "grenier", "bureau", "bibliothèque"],
-          "rechts_items": ["tafel", "stoel", "bed", "sofa/bank", "tapijt", "gordijn", "lamp", "spiegel", "trap", "muur", "dak", "balkon", "garage", "kelder", "zolder", "bureau (kamer/meubel)", "bibliotheek"],
+          "rechts_items": ["dak", "muur", "lamp", "stoel", "garage", "zolder", "tafel", "balkon", "trap", "spiegel", "bed", "bibliotheek", "sofa/bank", "tapijt", "kelder", "bureau (kamer/meubel)", "gordijn"],
           "correcte_verbindingen": [{"links": "table", "rechts": "tafel"}, {"links": "chaise", "rechts": "stoel"}, {"links": "lit", "rechts": "bed"}, {"links": "canapé", "rechts": "sofa/bank"}, {"links": "tapis", "rechts": "tapijt"}, {"links": "rideau", "rechts": "gordijn"}, {"links": "lampe", "rechts": "lamp"}, {"links": "miroir", "rechts": "spiegel"}, {"links": "escalier", "rechts": "trap"}, {"links": "mur", "rechts": "muur"}, {"links": "toit", "rechts": "dak"}, {"links": "balcon", "rechts": "balkon"}, {"links": "garage", "rechts": "garage"}, {"links": "cave", "rechts": "kelder"}, {"links": "grenier", "rechts": "zolder"}, {"links": "bureau", "rechts": "bureau (kamer/meubel)"}, {"links": "bibliothèque", "rechts": "bibliotheek"}]
         },
         {
@@ -142,7 +142,7 @@
           "type": "verbinding",
           "vraag": "Verbind de Franse naamwoorden over School en Leren met hun Nederlandse vertaling.",
           "links_items": ["école", "classe", "professeur", "élève", "livre", "cahier", "stylo", "crayon", "tableau", "bureau", "chaise", "gomme", "règle", "dictionnaire"],
-          "rechts_items": ["school", "klas", "leraar", "leerling", "boek", "schrift", "pen", "potlood", "bord/schilderij", "bureau (meubel)", "stoel", "gom", "liniaal", "woordenboek"],
+          "rechts_items": ["klas", "gom", "woordenboek", "leraar", "potlood", "bord/schilderij", "pen", "liniaal", "boek", "bureau (meubel)", "leerling", "school", "stoel", "schrift"],
           "correcte_verbindingen": [{"links": "école", "rechts": "school"}, {"links": "classe", "rechts": "klas"}, {"links": "professeur", "rechts": "leraar"}, {"links": "élève", "rechts": "leerling"}, {"links": "livre", "rechts": "boek"}, {"links": "cahier", "rechts": "schrift"}, {"links": "stylo", "rechts": "pen"}, {"links": "crayon", "rechts": "potlood"}, {"links": "tableau", "rechts": "bord/schilderij"}, {"links": "bureau", "rechts": "bureau (meubel)"}, {"links": "chaise", "rechts": "stoel"}, {"links": "gomme", "rechts": "gom"}, {"links": "règle", "rechts": "liniaal"}, {"links": "dictionnaire", "rechts": "woordenboek"}]
         },
         {
@@ -150,7 +150,7 @@
           "type": "verbinding",
           "vraag": "Verbind de resterende Franse naamwoorden over School en Leren met hun Nederlandse vertaling.",
           "links_items": ["feuille", "ordinateur", "cartable", "trousse", "examen", "devoir", "leçon", "récréation", "matinée", "après-midi", "année scolaire", "matière"],
-          "rechts_items": ["blad/vel", "computer", "schooltas", "etui", "examen", "huiswerk/plicht", "les", "speeltijd/pauze", "voormiddag", "namiddag", "schooljaar", "vak/materie"],
+          "rechts_items": ["blad/vel", "examen", "vak/materie", "huiswerk/plicht", "schooljaar", "namiddag", "etui", "voormiddag", "schooltas", "speeltijd/pauze", "les", "computer"],
           "correcte_verbindingen": [{"links": "feuille", "rechts": "blad/vel"}, {"links": "ordinateur", "rechts": "computer"}, {"links": "cartable", "rechts": "schooltas"}, {"links": "trousse", "rechts": "etui"}, {"links": "examen", "rechts": "examen"}, {"links": "devoir", "rechts": "huiswerk/plicht"}, {"links": "leçon", "rechts": "les"}, {"links": "récréation", "rechts": "speeltijd/pauze"}, {"links": "matinée", "rechts": "voormiddag"}, {"links": "après-midi", "rechts": "namiddag"}, {"links": "année scolaire", "rechts": "schooljaar"}, {"links": "matière", "rechts": "vak/materie"}]
         },
         {
@@ -158,7 +158,7 @@
           "type": "verbinding",
           "vraag": "Verbind de Franse naamwoorden over Dagelijkse Voorwerpen met hun Nederlandse vertaling.",
           "links_items": ["vêtement", "chaussure", "sac", "montre", "téléphone", "ordinateur", "lampe", "clé", "porte-monnaie"],
-          "rechts_items": ["kledingstuk", "schoen", "tas", "horloge", "telefoon", "computer", "lamp", "sleutel", "portemonnee"],
+          "rechts_items": ["schoen", "tas", "portemonnee", "lamp", "sleutel", "horloge", "telefoon", "kledingstuk", "computer"],
           "correcte_verbindingen": [{"links": "vêtement", "rechts": "kledingstuk"}, {"links": "chaussure", "rechts": "schoen"}, {"links": "sac", "rechts": "tas"}, {"links": "montre", "rechts": "horloge"}, {"links": "téléphone", "rechts": "telefoon"}, {"links": "ordinateur", "rechts": "computer"}, {"links": "lampe", "rechts": "lamp"}, {"links": "clé", "rechts": "sleutel"}, {"links": "porte-monnaie", "rechts": "portemonnee"}]
         },
         {
@@ -166,7 +166,7 @@
           "type": "verbinding",
           "vraag": "Verbind de resterende Franse naamwoorden over Dagelijkse Voorwerpen met hun Nederlandse vertaling.",
           "links_items": ["valise", "lunettes", "parapluie", "ceinture", "chapeau", "gant", "écharpe", "portefeuille", "bouteille", "assiette", "fourchette", "cuillère", "couteau", "bol", "serviette", "oreiller"],
-          "rechts_items": ["koffer", "bril", "paraplu", "riem", "hoed", "handschoen", "sjaal", "portefeuille", "fles", "bord", "vork", "lepel", "mes", "kom", "servet/handdoek", "kussen"],
+          "rechts_items": ["lepel", "hoed", "kussen", "bril", "koffer", "kom", "servet/handdoek", "handschoen", "sjaal", "portefeuille", "mes", "bord", "paraplu", "riem", "vork", "fles"],
           "correcte_verbindingen": [{"links": "valise", "rechts": "koffer"}, {"links": "lunettes", "rechts": "bril"}, {"links": "parapluie", "rechts": "paraplu"}, {"links": "ceinture", "rechts": "riem"}, {"links": "chapeau", "rechts": "hoed"}, {"links": "gant", "rechts": "handschoen"}, {"links": "écharpe", "rechts": "sjaal"}, {"links": "portefeuille", "rechts": "portefeuille"}, {"links": "bouteille", "rechts": "fles"}, {"links": "assiette", "rechts": "bord"}, {"links": "fourchette", "rechts": "vork"}, {"links": "cuillère", "rechts": "lepel"}, {"links": "couteau", "rechts": "mes"}, {"links": "bol", "rechts": "kom"}, {"links": "serviette", "rechts": "servet/handdoek"}, {"links": "oreiller", "rechts": "kussen"}]
         }
       ],
@@ -188,7 +188,7 @@
           "type": "verbinding",
           "vraag": "Verbind de Franse naamwoorden over Natuur en Dieren met hun Nederlandse vertaling.",
           "links_items": ["arbre", "fleur", "herbe", "chat", "chien", "oiseau", "poisson", "cheval", "vache", "mouton", "cochon", "poule", "lapin", "insecte"],
-          "rechts_items": ["boom", "bloem", "gras", "kat", "hond", "vogel", "vis", "paard", "koe", "schaap", "varken", "kip", "konijn", "insect"],
+          "rechts_items": ["insect", "konijn", "koe", "gras", "vis", "bloem", "paard", "kip", "schaap", "kat", "boom", "vogel", "varken", "hond"],
           "correcte_verbindingen": [{"links": "arbre", "rechts": "boom"}, {"links": "fleur", "rechts": "bloem"}, {"links": "herbe", "rechts": "gras"}, {"links": "chat", "rechts": "kat"}, {"links": "chien", "rechts": "hond"}, {"links": "oiseau", "rechts": "vogel"}, {"links": "poisson", "rechts": "vis"}, {"links": "cheval", "rechts": "paard"}, {"links": "vache", "rechts": "koe"}, {"links": "mouton", "rechts": "schaap"}, {"links": "cochon", "rechts": "varken"}, {"links": "poule", "rechts": "kip"}, {"links": "lapin", "rechts": "konijn"}, {"links": "insecte", "rechts": "insect"}]
         },
         {
@@ -196,7 +196,7 @@
           "type": "verbinding",
           "vraag": "Verbind de resterende Franse naamwoorden over Natuur en Dieren met hun Nederlandse vertaling.",
           "links_items": ["forêt", "montagne", "rivière", "lac", "mer", "soleil", "lune", "nuage", "pluie", "vent", "neige"],
-          "rechts_items": ["bos", "berg", "rivier", "meer", "zee", "zon", "maan", "wolk", "regen", "wind", "sneeuw"],
+          "rechts_items": ["zon", "bos", "wolk", "rivier", "regen", "meer", "berg", "wind", "maan", "sneeuw", "zee"],
           "correcte_verbindingen": [{"links": "forêt", "rechts": "bos"}, {"links": "montagne", "rechts": "berg"}, {"links": "rivière", "rechts": "rivier"}, {"links": "lac", "rechts": "meer"}, {"links": "mer", "rechts": "zee"}, {"links": "soleil", "rechts": "zon"}, {"links": "lune", "rechts": "maan"}, {"links": "nuage", "rechts": "wolk"}, {"links": "pluie", "rechts": "regen"}, {"links": "vent", "rechts": "wind"}, {"links": "neige", "rechts": "sneeuw"}]
         },
         {
@@ -204,7 +204,7 @@
           "type": "verbinding",
           "vraag": "Verbind de Franse naamwoorden over Eten en Drinken met hun Nederlandse vertaling.",
           "links_items": ["pain", "fromage", "lait", "eau", "fruit", "pomme", "banane", "chocolat", "viande", "poisson", "poulet", "riz", "pâtes"],
-          "rechts_items": ["brood", "kaas", "melk", "water", "fruit", "appel", "banaan", "chocolade", "vlees", "vis", "kip", "rijst", "pasta"],
+          "rechts_items": ["banaan", "water", "appel", "chocolade", "vis", "kip", "fruit", "melk", "vlees", "brood", "rijst", "pasta", "kaas"],
           "correcte_verbindingen": [{"links": "pain", "rechts": "brood"}, {"links": "fromage", "rechts": "kaas"}, {"links": "lait", "rechts": "melk"}, {"links": "eau", "rechts": "water"}, {"links": "fruit", "rechts": "fruit"}, {"links": "pomme", "rechts": "appel"}, {"links": "banane", "rechts": "banaan"}, {"links": "chocolat", "rechts": "chocolade"}, {"links": "viande", "rechts": "vlees"}, {"links": "poisson", "rechts": "vis"}, {"links": "poulet", "rechts": "kip"}, {"links": "riz", "rechts": "rijst"}, {"links": "pâtes", "rechts": "pasta"}]
         },
         {
@@ -212,7 +212,7 @@
           "type": "verbinding",
           "vraag": "Verbind de resterende Franse naamwoorden over Eten en Drinken met hun Nederlandse vertaling.",
           "links_items": ["salade", "légume", "tomate", "carotte", "pomme de terre", "soupe", "jus", "café", "thé", "sucre", "sel", "huile"],
-          "rechts_items": ["salade", "groente", "tomaat", "wortel", "aardappel", "soep", "sap", "koffie", "thee", "suiker", "zout", "olie"],
+          "rechts_items": ["groente", "wortel", "soep", "zout", "salade", "aardappel", "thee", "suiker", "tomaat", "olie", "sap", "koffie"],
           "correcte_verbindingen": [{"links": "salade", "rechts": "salade"}, {"links": "légume", "rechts": "groente"}, {"links": "tomate", "rechts": "tomaat"}, {"links": "carotte", "rechts": "wortel"}, {"links": "pomme de terre", "rechts": "aardappel"}, {"links": "soupe", "rechts": "soep"}, {"links": "jus", "rechts": "sap"}, {"links": "café", "rechts": "koffie"}, {"links": "thé", "rechts": "thee"}, {"links": "sucre", "rechts": "suiker"}, {"links": "sel", "rechts": "zout"}, {"links": "huile", "rechts": "olie"}]
         },
         {
@@ -220,7 +220,7 @@
           "type": "verbinding",
           "vraag": "Verbind de Franse naamwoorden over Tijd en Dagen met hun Nederlandse vertaling.",
           "links_items": ["jour", "nuit", "matin", "après-midi", "soir", "semaine", "mois", "année", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche", "heure"],
-          "rechts_items": ["dag", "nacht", "ochtend", "namiddag", "avond", "week", "maand", "jaar", "maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag", "uur"],
+          "rechts_items": ["uur", "avond", "zaterdag", "zondag", "maandag", "jaar", "dinsdag", "vrijdag", "namiddag", "dag", "donderdag", "nacht", "maand", "woensdag", "ochtend", "week"],
           "correcte_verbindingen": [{"links": "jour", "rechts": "dag"}, {"links": "nuit", "rechts": "nacht"}, {"links": "matin", "rechts": "ochtend"}, {"links": "après-midi", "rechts": "namiddag"}, {"links": "soir", "rechts": "avond"}, {"links": "semaine", "rechts": "week"}, {"links": "mois", "rechts": "maand"}, {"links": "année", "rechts": "jaar"}, {"links": "lundi", "rechts": "maandag"}, {"links": "mardi", "rechts": "dinsdag"}, {"links": "mercredi", "rechts": "woensdag"}, {"links": "jeudi", "rechts": "donderdag"}, {"links": "vendredi", "rechts": "vrijdag"}, {"links": "samedi", "rechts": "zaterdag"}, {"links": "dimanche", "rechts": "zondag"}, {"links": "heure", "rechts": "uur"}]
         },
         {
@@ -228,7 +228,7 @@
           "type": "verbinding",
           "vraag": "Verbind de Franse naamwoorden over Gevoelens en Toestanden met hun Nederlandse vertaling.",
           "links_items": ["amour", "amitié", "colère", "joie", "tristesse", "peur", "surprise", "honte", "fatigue", "bonheur", "malheur", "confiance", "inquiétude", "ennui", "espoir"],
-          "rechts_items": ["liefde", "vriendschap", "woede", "vreugde", "droefheid", "angst", "verrassing", "schaamte", "vermoeidheid", "geluk", "ongeluk", "vertrouwen", "ongerustheid/zorg", "verveling", "hoop"],
+          "rechts_items": ["angst", "liefde", "droefheid", "vreugde", "ongerustheid/zorg", "geluk", "vertrouwen", "vriendschap", "verrassing", "verveling", "hoop", "vermoeidheid", "ongeluk", "schaamte", "woede"],
           "correcte_verbindingen": [{"links": "amour", "rechts": "liefde"}, {"links": "amitié", "rechts": "vriendschap"}, {"links": "colère", "rechts": "woede"}, {"links": "joie", "rechts": "vreugde"}, {"links": "tristesse", "rechts": "droefheid"}, {"links": "peur", "rechts": "angst"}, {"links": "surprise", "rechts": "verrassing"}, {"links": "honte", "rechts": "schaamte"}, {"links": "fatigue", "rechts": "vermoeidheid"}, {"links": "bonheur", "rechts": "geluk"}, {"links": "malheur", "rechts": "ongeluk"}, {"links": "confiance", "rechts": "vertrouwen"}, {"links": "inquiétude", "rechts": "ongerustheid/zorg"}, {"links": "ennui", "rechts": "verveling"}, {"links": "espoir", "rechts": "hoop"}]
         }
       ],
@@ -250,7 +250,7 @@
           "type": "verbinding",
           "vraag": "Verbind de Franse naamwoorden over Vervoer met hun Nederlandse vertaling.",
           "links_items": ["voiture", "vélo", "bus", "train", "avion", "bateau", "moto", "camion", "métro", "taxi", "tram", "vélo électrique", "scooter", "hélicoptère", "navette", "trottinette", "caravane", "bateau à voile", "camionnette", "ferry"],
-          "rechts_items": ["auto", "fiets", "bus", "trein", "vliegtuig", "boot", "motor", "vrachtwagen", "metro", "taxi", "tram", "elektrische fiets", "scooter", "helikopter", "shuttle", "step", "caravan", "zeilboot", "bestelwagen", "veerboot"],
+          "rechts_items": ["zeilboot", "shuttle", "motor", "step", "auto", "bestelwagen", "taxi", "scooter", "tram", "metro", "vrachtwagen", "veerboot", "caravan", "elektrische fiets", "bus", "boot", "helikopter", "trein", "vliegtuig", "fiets"],
           "correcte_verbindingen": [{"links": "voiture", "rechts": "auto"}, {"links": "vélo", "rechts": "fiets"}, {"links": "bus", "rechts": "bus"}, {"links": "train", "rechts": "trein"}, {"links": "avion", "rechts": "vliegtuig"}, {"links": "bateau", "rechts": "boot"}, {"links": "moto", "rechts": "motor"}, {"links": "camion", "rechts": "vrachtwagen"}, {"links": "métro", "rechts": "metro"}, {"links": "taxi", "rechts": "taxi"}, {"links": "tram", "rechts": "tram"}, {"links": "vélo électrique", "rechts": "elektrische fiets"}, {"links": "scooter", "rechts": "scooter"}, {"links": "hélicoptère", "rechts": "helikopter"}, {"links": "navette", "rechts": "shuttle"}, {"links": "trottinette", "rechts": "step"}, {"links": "caravane", "rechts": "caravan"}, {"links": "bateau à voile", "rechts": "zeilboot"}, {"links": "camionnette", "rechts": "bestelwagen"}, {"links": "ferry", "rechts": "veerboot"}]
         },
         {
@@ -258,7 +258,7 @@
           "type": "verbinding",
           "vraag": "Verbind de Franse naamwoorden over Plaatsen en Gebouwen met hun Nederlandse vertaling.",
           "links_items": ["ville", "village", "rue", "avenue", "parc", "école", "église", "magasin", "hôpital", "pharmacie", "gare", "bibliothèque", "musée", "cinéma", "théâtre", "hôtel", "restaurant", "café", "piscine", "stade"],
-          "rechts_items": ["stad", "dorp", "straat", "laan", "park", "school", "kerk", "winkel", "ziekenhuis", "apotheek", "station", "bibliotheek", "museum", "bioscoop", "theater", "hotel", "restaurant", "café", "zwembad", "stadion"],
+          "rechts_items": ["stadion", "museum", "café", "winkel", "dorp", "straat", "zwembad", "stad", "station", "kerk", "laan", "hotel", "restaurant", "ziekenhuis", "apotheek", "park", "bioscoop", "theater", "bibliotheek", "school"],
           "correcte_verbindingen": [{"links": "ville", "rechts": "stad"}, {"links": "village", "rechts": "dorp"}, {"links": "rue", "rechts": "straat"}, {"links": "avenue", "rechts": "laan"}, {"links": "parc", "rechts": "park"}, {"links": "école", "rechts": "school"}, {"links": "église", "rechts": "kerk"}, {"links": "magasin", "rechts": "winkel"}, {"links": "hôpital", "rechts": "ziekenhuis"}, {"links": "pharmacie", "rechts": "apotheek"}, {"links": "gare", "rechts": "station"}, {"links": "bibliothèque", "rechts": "bibliotheek"}, {"links": "musée", "rechts": "museum"}, {"links": "cinéma", "rechts": "bioscoop"}, {"links": "théâtre", "rechts": "theater"}, {"links": "hôtel", "rechts": "hotel"}, {"links": "restaurant", "rechts": "restaurant"}, {"links": "café", "rechts": "café"}, {"links": "piscine", "rechts": "zwembad"}, {"links": "stade", "rechts": "stadion"}]
         },
         {
@@ -266,7 +266,7 @@
           "type": "verbinding",
           "vraag": "Verbind de Franse naamwoorden over Activiteiten en Hobby’s met hun Nederlandse vertaling.",
           "links_items": ["sport", "football", "basket", "natation", "lecture", "dessin", "peinture", "musique", "danse", "chant", "théâtre", "jeu", "ordinateur", "vélo", "randonnée", "camping", "voyage", "pique-nique", "cinéma", "photo"],
-          "rechts_items": ["sport", "voetbal", "basketbal", "zwemmen", "lezen", "tekenen", "schilderen", "muziek", "dansen", "zingen", "theater", "spel", "computer", "fietsen", "wandelen/trektocht", "kamperen", "reizen", "picknick", "bioscoop", "foto"],
+          "rechts_items": ["schilderen", "tekenen", "reizen", "foto", "zwemmen", "sport", "kamperen", "theater", "fietsen", "lezen", "voetbal", "picknick", "zingen", "muziek", "wandelen/trektocht", "bioscoop", "dansen", "computer", "basketbal", "spel"],
           "correcte_verbindingen": [{"links": "sport", "rechts": "sport"}, {"links": "football", "rechts": "voetbal"}, {"links": "basket", "rechts": "basketbal"}, {"links": "natation", "rechts": "zwemmen"}, {"links": "lecture", "rechts": "lezen"}, {"links": "dessin", "rechts": "tekenen"}, {"links": "peinture", "rechts": "schilderen"}, {"links": "musique", "rechts": "muziek"}, {"links": "danse", "rechts": "dansen"}, {"links": "chant", "rechts": "zingen"}, {"links": "théâtre", "rechts": "theater"}, {"links": "jeu", "rechts": "spel"}, {"links": "ordinateur", "rechts": "computer"}, {"links": "vélo", "rechts": "fietsen"}, {"links": "randonnée", "rechts": "wandelen/trektocht"}, {"links": "camping", "rechts": "kamperen"}, {"links": "voyage", "rechts": "reizen"}, {"links": "pique-nique", "rechts": "picknick"}, {"links": "cinéma", "rechts": "bioscoop"}, {"links": "photo", "rechts": "foto"}]
         },
         {

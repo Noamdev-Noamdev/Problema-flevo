@@ -15,7 +15,6 @@ export const richtingenData: Record<number, Richting[]> = {
     { id: "huwe", name: "HuWe", fullName: "Humane Wetenschappen", year: 6 },
     { id: "ecwi", name: "EcWi", fullName: "Economie-Wiskunde", year: 6 },
     { id: "spwe", name: "SpWe", fullName: "Sportwetenschappen", year: 6 },
-    { id: "lawi", name: "LaWi", fullName: "Latijn-Wiskunde", year: 6 },
   ],
   5: [
     { id: "wewi", name: "WeWi", fullName: "Wetenschappen-Wiskunde", year: 5 },
