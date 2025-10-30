@@ -17,6 +17,7 @@ const Premium = () => {
   const handleUnlock = () => {
     if (password === DEMO_PASSWORD) {
       setIsUnlocked(true);
+      localStorage.setItem("premium_access", "true");
       toast({
         title: "Premium ontgrendeld! 🎉",
         description: "Je hebt nu toegang tot alle premium oefeningen.",

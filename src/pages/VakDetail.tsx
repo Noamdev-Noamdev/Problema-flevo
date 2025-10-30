@@ -117,7 +117,7 @@ const VakDetail = () => {
                   difficulty={oefening.moeilijkheidsgraad}
                   points={oefening.totaal_punten}
                   estimatedTime={oefening.geschatte_tijd}
-                  isPremium={oefening.type === "premium"}
+                  isPremium={oefening.type === "premium" && !localStorage.getItem("premium_access")}
                   year={yearNumber}
                   richtingId={richting || ""}
                   vakId={vak || ""}
