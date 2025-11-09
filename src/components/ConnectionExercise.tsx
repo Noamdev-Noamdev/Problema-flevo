@@ -199,6 +199,7 @@ const ConnectionExercise = ({
               return (
                 <div key={index} className="relative flex items-center gap-3">
                   <div
+                    onClick={() => handleLeftClick(item)}
                     className={`flex-1 p-4 rounded-lg border-2 transition-all ${
                       connection && showSolution
                         ? isCorrectConnection(connection)
@@ -209,7 +210,7 @@ const ConnectionExercise = ({
                         : connection
                         ? "bg-primary/10 border-primary"
                         : "bg-card border-border"
-                    }`}
+                    } ${showSolution ? "" : "cursor-pointer hover:border-primary/50"}`}
                   >
                     <MathRenderer content={item} />
                   </div>
@@ -261,6 +262,7 @@ const ConnectionExercise = ({
                   />
 
                   <div
+                    onClick={() => handleRightClick(item)}
                     className={`flex-1 p-4 rounded-lg border-2 transition-all ${
                       connection && showSolution
                         ? isCorrectConnection(connection)
@@ -269,6 +271,12 @@ const ConnectionExercise = ({
                         : connection
                         ? "bg-primary/10 border-primary"
                         : "bg-card border-border"
+                    } ${
+                      showSolution
+                        ? ""
+                        : selectedLeft && !connection
+                        ? "cursor-pointer hover:border-primary/50"
+                        : ""
                     }`}
                   >
                     <MathRenderer content={item} />
