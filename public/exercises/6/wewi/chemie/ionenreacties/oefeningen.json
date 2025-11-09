@@ -1,0 +1,722 @@
+{
+  "vak": "Chemie",
+  "onderdeel": "Ionenreacties",
+  "jaar": 6,
+  "richting": "wewi",
+  "laatst_bijgewerkt": "2025-11-09",
+  "oefeningen": [
+    {
+      "id": "chemie-ionen-001",
+      "titel": "Reacties met uitwisseling van ionen",
+      "beschrijving": "Dit hoofdstuk behandelt de kernconcepten van ionvorming (dissociatie/ionisatie) en drie soorten ionenuitwisselingsreacties: neerslag, neutralisatie en gasontwikkeling. ",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Ionenuitwisseling",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Definieer dissociatie en geef het algemene reactiepatroon voor de dissociatie van een hydroxide in water. ",
+          "uitleg": "Gebruik de algemene formule van een hydroxide.",
+          "antwoord": "Dissociatie is het proces waarbij een ionaire stof (zout of hydroxide) splijtst in ionen bij oplossen in water.  Algemeen patroon: $\\text{M}(\\text{OH})_n(\\text{s}) \\xrightarrow{\\text{H}_2\\text{0}} \\text{M}^{n+}(\\text{aq}) + n\\text{OH}^-(\\text{aq})$.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat is ionisatie, en welke soort stof ondergaat typisch ionisatie bij contact met water? ",
+          "uitleg": "Focus op het type deeltje dat een proton kan overdragen.",
+          "antwoord": "Ionisatie is het proces waarbij een polaire molecule reageert met water en een proton ($\\text{H}^+$) overdraagt, wat resulteert in ionen. ",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Wat is de algemene regel voor de oplosbaarheid van alle zouten van Groep Ia? ",
+          "uitleg": "Verwijs naar Li, Na en K.",
+          "antwoord": "Alle zouten van Groep Ia ($\\text{Li}^+, \\text{Na}^+, \\text{K}^+$) zijn goed oplosbaar. ",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Geef de algemene reactievergelijking voor een neutralisatiereactie tussen een zuur ($\\text{HZ}$) en een base ($\\text{MOH}$).",
+          "uitleg": "Zuur + base $\\rightarrow$ water + zout.",
+          "antwoord": "$\\text{HZ} + \\text{MOH} \\rightarrow \\text{H}_2\\text{O} + \\text{MZ}$ (zuur + base $\\rightarrow$ water + zout). ",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Welke twee typen onstabiele zuren worden expliciet genoemd die bij protonoverdracht leiden tot gasontwikkeling? ",
+          "uitleg": "Deze zuren ontleden na vorming.",
+          "antwoord": "Koolzuur ($\\text{H}_2\\text{CO}_3$) en zwaveligzuur ($\\text{H}_2\\text{SO}_3$). ",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Wanneer wordt bij een neutralisatiereactie (HZ + MOH) verwacht dat een neerslag ontstaat in plaats van een gewoon zout? ",
+          "uitleg": "Kijk naar de oplosbaarheid van het gevormde zout.",
+          "antwoord": "Dit gebeurt wanneer het gevormde zout ($\\text{MZ}$) een slecht oplosbare stof is, wat dan wordt aangeduid met een pijl omlaag ($\\downarrow$).",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Noteer de ionisatiereactie van $\\text{HCl}$ in water. ",
+          "uitleg": "Zoutzuur is een polaire molecule die een proton afstaat.",
+          "antwoord": "$\\text{HCl} + \\text{H}_2\\text{0} \\rightarrow \\text{H}_3\\text{0}^+ + \\text{C1}^-$. ",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "open",
+          "vraag": "Wat is de drempelwaarde (in g/100 ml) waaronder een ionaire stof als slecht oplosbaar wordt beschouwd? ",
+          "uitleg": "Geef de waarde en het percentage.",
+          "antwoord": "Minder dan $0.1 \\text{ g}/100 \\text{ ml}$ oplossen (< 0,1%). ",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Welk van de volgende ionen vormt met de meeste tegenionen een goed oplosbaar zout volgens de oplosbaarheidstabel? ",
+          "opties": [
+            "$\\text{S}^{2-}$",
+            "$\\text{CO}_3^{2-}$",
+            "$\\text{NO}_3^-$",
+            "$\\text{OH}^-$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "(C) Nitraten ($\\text{NO}_3^-$) zijn altijd goed oplosbaar. ",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Waaruit bestaat de gasontwikkeling bij de ontleding van $\\text{H}_2\\text{CO}_3$? ",
+          "opties": [
+            "$\\text{H}_2$ en $\\text{O}_2$",
+            "$\\text{H}_2\\text{0}$ en $\\text{CO}$",
+            "$\\text{H}_2\\text{0}$ en $\\text{CO}_2$",
+            "$\\text{H}_2$ en $\\text{CO}_2$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "(C) Het onstabiele zuur ontleedt in $\\text{H}_2\\text{0}$ en $\\text{CO}_2$. ",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Welke combinatie van ionen uit Groep IIa en een anion is slecht oplosbaar? ",
+          "opties": [
+            "$\\text{Mg}^{2+}$ en $\\text{NO}_3^-$",
+            "$\\text{Ca}^{2+}$ en $\\text{SO}_4^{2-}$",
+            "$\\text{Ba}^{2+}$ en $\\text{C1}^-$",
+            "$\\text{Mg}^{2+}$ en $\\text{I}^-$"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "(B) Calciumzouten met sulfaat zijn slecht oplosbaar (Ca-sulfaat). ",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Welke reactie is een voorbeeld van een ionenuitwisselingsreactie waarbij geen neerslag wordt gevormd? ",
+          "opties": [
+            "$\\text{CuCl}_2$ met $\\text{Na}_2\\text{S}$",
+            "$\\text{AgNO}_3$ met $\\text{KCl}$",
+            "$\\text{NaCl}$ met $\\text{KNO}_3$",
+            "$\\text{Ba}(\\text{OH})_2$ met $\\text{H}_2\\text{SO}_4$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "(C) Alle ionen zijn goed oplosbaar die bij uitwisseling geen neerslag vormen. ",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met de $\\text{pH}$ bij het toevoegen van een zuur aan een base tijdens een neutralisatiereactie? ",
+          "opties": [
+            "De $\\text{pH}$ stijgt.",
+            "De $\\text{pH}$ daalt.",
+            "De $\\text{pH}$ blijft constant.",
+            "De $\\text{pH}$ wordt $14$."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "(B) De $\\text{pH}$ daalt, aangezien je een zuur (lage pH) toevoegt aan een base (hoge pH). ",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Welk type deeltje kan bij ionisatie een proton overdragen? ",
+          "opties": [
+            "Een metaaloxide",
+            "Een polaire molecule",
+            "Een ionaire vaste stof",
+            "Een edelgas"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "(B) Ionisatie vindt plaats met een polaire molecule die een proton kan overdragen, zoals $\\text{HCl}$.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Welk metaalion uit Groep IIa vormt altijd een slecht oplosbaar hydroxide? ",
+          "opties": [
+            "$\\text{Li}^+$",
+            "$\\text{Na}^+$",
+            "$\\text{Mg}^{2+}$",
+            "$\\text{K}^+$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "(C) Magnesiumhydroxide ($\\text{Mg}^{2+}$ is Groep IIa) is slecht oplosbaar.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "meerkeuze",
+          "vraag": "Wat is de waarneming bij het mengen van kaliumcarbonaat ($\\text{K}_2\\text{CO}_3$) en koper(II)chloride ($\\text{CuCl}_2$)?",
+          "opties": [
+            "Gasontwikkeling",
+            "Kleurverandering naar bruin",
+            "Vorming van een neerslag",
+            "Geen reactie"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "(C) $\\text{CuCO}_3$ is slecht oplosbaar en zal neerslaan.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Koppel het anion aan zijn algemene oplosbaarheidsregel met kationen (uitgezonderd Groep Ia en $\\text{NH}_4^+$).",
+          "links_items": [
+            "$\\text{Cl}^-$",
+            "$\\text{S}^{2-}$ ",
+            "$\\text{SO}_4^{2-}$",
+            "$\\text{NO}_3^-$ "
+          ],
+          "rechts_items": [
+            "Oplosbaarheidsregel A: Goed oplosbaar.",
+            "Oplosbaarheidsregel B: Slecht oplosbaar met alle overige ionen.",
+            "Oplosbaarheidsregel C: Goed oplosbaar, behalve met $\\text{Ag}^+$, $\\text{Hg}^{2+}$, en $\\text{Pb}^{2+}$ (gedeeltelijk).",
+            "Oplosbaarheidsregel D: Goed oplosbaar, behalve met $\\text{Ca}^{2+}$, $\\text{Sr}^{2+}$, $\\text{Ba}^{2+}$, $\\text{Ra}^{2+}$, en $\\text{Pb}^{2+}$."
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$\\text{NO}_3^-$",
+              "rechts": "Oplosbaarheidsregel A: Goed oplosbaar."
+            },
+            {
+              "links": "$\\text{S}^{2-}$ ",
+              "rechts": "Oplosbaarheidsregel B: Slecht oplosbaar met alle overige ionen. "
+            },
+            {
+              "links": "$\\text{Cl}^-$ ",
+              "rechts": "Oplosbaarheidsregel C: Goed oplosbaar, behalve met $\\text{Ag}^+$, $\\text{Hg}^{2+}$, en $\\text{Pb}^{2+}$ (gedeeltelijk)."
+            },
+            {
+              "links": "$\\text{SO}_4^{2-}$ ",
+              "rechts": "Oplosbaarheidsregel D: Goed oplosbaar, behalve met $\\text{Ca}^{2+}$, $\\text{Sr}^{2+}$, $\\text{Ba}^{2+}$, $\\text{Ra}^{2+}$, en $\\text{Pb}^{2+}$. "
+            }
+          ],
+          "uitleg": "De oplosbaarheidsregels bepalen of het ion een neerslag vormt met kationen. ",
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Koppel de reactiesoort aan de uitwisseling.",
+          "links_items": [
+            "Redoxreactie ",
+            "Ionenuitwisselingsreactie ",
+            "Neutralisatie / Protonoverdracht "
+          ],
+          "rechts_items": [
+            "Uitwisseling A: Elektronen ",
+            "Uitwisseling B: Protonen ",
+            "Uitwisseling C: Ionen (kation/anion) "
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Redoxreactie ",
+              "rechts": "Uitwisseling A: Elektronen "
+            },
+            {
+              "links": "Ionenuitwisselingsreactie",
+              "rechts": "Uitwisseling C: Ionen (kation/anion)"
+            },
+            {
+              "links": "Neutralisatie / Protonoverdracht",
+              "rechts": "Uitwisseling B: Protonen "
+            }
+          ],
+          "uitleg": "Neutralisatie is een protonoverdracht; Redox is een elektronenoverdracht; Ionenuitwisseling betreft kationen en anionen. ",
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Koppel het ionenpaar aan de waargenomen reactie (volgens de oplosbaarheidstabel).",
+          "links_items": [
+            "$\\text{Zn}^{2+}/\\text{S}^{2-}$ ",
+            "$\\text{Ag}^+/\\text{Cl}^-$ ",
+            "$\\text{K}^+/\\text{SO}_4^{2-}$"
+          ],
+          "rechts_items": [
+            "Waarneming A: Geen neerslag (goed oplosbaar). ",
+            "Waarneming B: Wit neerslag (AgCl is slecht oplosbaar). ",
+            "Waarneming C: Neerslag (ZnS is slecht oplosbaar). "
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$\\text{Zn}^{2+}/\\text{S}^{2-}$ ",
+              "rechts": "Waarneming C: Neerslag (ZnS is slecht oplosbaar). "
+            },
+            {
+              "links": "$\\text{Ag}^+/\\text{Cl}^-$",
+              "rechts": "Waarneming B: Wit neerslag (AgCl is slecht oplosbaar)."
+            },
+            {
+              "links": "$\\text{K}^+/\\text{SO}_4^{2-}$ ",
+              "rechts": "Waarneming A: Geen neerslag (goed oplosbaar). "
+            }
+          ],
+          "uitleg": "De oplosbaarheid van het gevormde zout bepaalt de waarneming. ",
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Koppel het type reactie aan de waarneming.",
+          "links_items": [
+            "Neerslagreactie ",
+            "Protonoverdracht met gasontwikkeling ",
+            "Neutralisatie "
+          ],
+          "rechts_items": [
+            "Waarneming 1: $\\text{pH}$ daling bij toevoeging van zuur aan base. ",
+            "Waarneming 2: Vorming van een onstabiel zuur dat ontleedt in $\\text{H}_2\\text{0}$ en $\\text{CO}_2$. ",
+            "Waarneming 3: Vorming van een slecht oplosbaar zout. "
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Neerslagreactie ",
+              "rechts": "Waarneming 3: Vorming van een slecht oplosbaar zout."
+            },
+            {
+              "links": "Protonoverdracht met gasontwikkeling ",
+              "rechts": "Waarneming 2: Vorming van een onstabiel zuur dat ontleedt in $\\text{H}_2\\text{0}$ en $\\text{CO}_2$. "
+            },
+            {
+              "links": "Neutralisatie ",
+              "rechts": "Waarneming 1: $\\text{pH}$ daling bij toevoeging van zuur aan base."
+            }
+          ],
+          "uitleg": "De waarnemingen zijn directe gevolgen van het reactietype. ",
+          "punten": 6
+        }
+      ],
+      "totaal_punten": 88,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": [
+        "Kernconcepten van ionvorming (dissociatie/ionisatie) begrijpen. ",
+        "De drie soorten ionenuitwisselingsreacties herkennen (neerslag, neutralisatie en gasontwikkeling).",
+        "Oplosbaarheidsregels toepassen op neerslagreacties. ",
+        "Neutralisatiereacties en hun pH-effecten kunnen verklaren. ",
+        "Vorming en ontleding van onstabiele zuren benoemen. "
+      ],
+      "tips": [
+        "Bestudeer de oplosbaarheidstabel voor kationen en anionen goed.",
+        "Onthoud dat de discriminant bij kwadratische vergelijkingen in de wiskunde (niet in deze oefeningen) het aantal oplossingen bepaalt."
+      ]
+    },
+    {
+      "id": "chemie-ionen-002-premium",
+      "titel": "Reacties met uitwisseling van ionen - Inzicht en Begrip (Premium)",
+      "beschrijving": "Inzichtvragen en complexe toepassingen van ionvorming (dissociatie/ionisatie) en de drie soorten ionenuitwisselingsreacties: neerslag, neutralisatie en gasontwikkeling.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Ionenuitwisseling",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Schrijf de volledige vergelijking voor de protonoverdracht met gasontwikkeling die optreedt wanneer natriumsulfiet ($\\text{Na}_2\\text{SO}_3$) reageert met zoutzuur ($\\text{HCl}$). Welk gas ontstaat?",
+          "uitleg": "Deze reactie verloopt via het onstabiele zuur zwaveligzuur ($\\text{H}_2\\text{SO}_3$), dat ontleedt.",
+          "antwoord": "$2\\text{HCl}(\\text{aq}) + \\text{Na}_2\\text{SO}_3(\\text{aq}) \rightarrow 2\\text{NaCl}(\\text{aq}) + \\text{H}_2\\text{O}(\\text{l}) + \\text{SO}_2(\\text{g})$. Het gevormde gas is zwaveldioxide ($\\text{SO}_2$).",
+          "stappen": [
+            "Dissociatie: $2\\text{Na}^++ \\text{SO}_3^{2-}$ en $\\text{H}_3\\text{O}^++ \\text{Cl}^-$",
+            "Ionenuitwisseling: $\\text{NaCl}$ (goed oplosbaar) en $\\text{H}_2\\text{SO}_3$ (onstabiel zuur)",
+            "Ontleding van het onstabiele zuur: $\\text{H}_2\\text{SO}_3 \rightarrow \\text{H}_2\\text{O} + \\text{SO}_2(\\text{g})$"
+          ],
+          "punten": 8
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Stel dat je $1.0 \\text{ L}$ van een $0.1 \\text{ M}$ zinkchloride ($\\text{ZnCl}_2$) oplossing mengt met $1.0 \\text{L}$ van een $0.1 \\text{M}$ natriumhydroxide ($\\text{NaOH}$) oplossing. Schrijf de volledige reactievergelijking, inclusief de waarneming op basis van de oplosbaarheidstabel.",
+          "uitleg": "Controleer de oplosbaarheid van zinkhydroxide.",
+          "antwoord": "$\\text{ZnCl}_2(\\text{aq}) + 2\\text{NaOH}(\\text{aq}) \rightarrow 2\\text{NaCl}(\\text{aq}) + \\text{Zn}(\\text{OH})_2(\\downarrow)$. Er ontstaat een neerslag.",
+          "stappen": [
+            "Reagentia dissociëren: $\\text{Zn}^{2+} + 2\\text{Cl}^-$ en $\\text{Na}^+ + \\text{OH}^-$",
+            "Mogelijke producten: $\\text{NaCl}$ (goed oplosbaar) en $\\text{Zn}(\\text{OH})_2$",
+            "Zinkhydroxide is slecht oplosbaar, dus er treedt neerslagvorming op"
+          ],
+          "punten": 8
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Leg uit waarom de eerste ionisatiestap van zwavelzuur ($\\text{H}_2\\text{SO}_4$) (tot $\\text{HSO}_4^-$) een aflopende reactie is, terwijl de tweede stap (van $\\text{HSO}_4^-$ tot $\\text{SO}_4^{2-}$) een evenwichtsreactie is.",
+          "uitleg": "Verwijs naar het onderscheid tussen sterke en zwakke zuren.",
+          "antwoord": "Zwavelzuur ($\\text{H}_2\\text{SO}_4$) is een **sterk zuur**, wat betekent dat het in de eerste stap vrijwel volledig protolyseert met water (aflopende reactie). Het gevormde $\\text{HSO}_4^-$ ion is echter een **zwakker zuur** (amfolyt), wat betekent dat de tweede ionisatie een evenwichtsreactie is, die niet volledig naar rechts ligt.",
+          "punten": 8
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Waarom is het, bij het uitschrijven van een neerslagreactie, cruciaal om de wet van behoud van massa te respecteren, inclusief de coëfficiënten?",
+          "uitleg": "De wet van behoud van massa moet altijd gerespecteerd worden.",
+          "antwoord": "De wet van behoud van massa stelt dat er geen atomen verloren mogen gaan tijdens een reactie. De **coëfficiënten** zorgen ervoor dat er aan beide zijden van de reactievergelijking eenzelfde aantal atomen voorkomt, wat noodzakelijk is voor een correcte **stoichiometrie**.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Formuleer de ionenuitwisselingsreactie die optreedt wanneer het metaaloxide aluminiumoxide ($\\text{Al}_2\\text{O}_3$) reageert met salpeterzuur ($\\text{HNO}_3$), waarbij water en een zout worden gevormd.",
+          "uitleg": "Dit is een neutralisatiereactie tussen een metaaloxide en een zuur.",
+          "antwoord": "$\\text{Al}_2\\text{O}_3 + 6\\text{HNO}_3 \rightarrow 3\\text{H}_2\\text{O} + 2\\text{Al}(\\text{NO}_3)_3$.",
+          "punten": 8
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "meerkeuze",
+          "vraag": "Volgens de oplosbaarheidstabel, welk ion uit de Groep IVa (1) of (2) vormt een slecht oplosbaar chloride?",
+          "opties": [
+            "$\\text{Sn}^{2+}$ (IVA (1))",
+            "$\\text{Pb}^{2+}$ (IVA (2))",
+            "$\\text{Al}^{3+}$ (IIIA)",
+            "$\\text{Mg}^{2+}$ (IIa)"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Lood(II) ($\\text{Pb}^{2+}$) vormt een slecht oplosbaar chloride, samen met zilver ($\\text{Ag}^+$) en kwik($\\text{Hg}^{2+}$).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Welke ionenuitwisselingsreactie zal hoogstwaarschijnlijk **niet** plaatsvinden in waterige oplossing?",
+          "opties": [
+            "$\\text{BaCl}_2$ en $\\text{Na}_2\\text{SO}_4$",
+            "$\\text{KNO}_3$ en $\\text{LiCl}$",
+            "$\\text{FeCl}_2$ en $\\text{KOH}$",
+            "$\\text{Mg}(\\text{NO}_3)_2$ en $\\text{Na}_2\\text{S}$"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Alle ionen in $\\text{KNO}_3$ en $\\text{LiCl}$ ($\\text{K}^+, \\text{NO}_3^-, \\text{Li}^+, \\text{Cl}^-$) zijn goed oplosbaar. Er wordt geen neerslag, gas of water gevormd, dus er vindt geen netto reactie plaats.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Welke stof is een voorbeeld van een polyprotisch zuur dat in stappen ioniseert?",
+          "opties": [
+            "$\\text{HCl}$",
+            "$\\text{NH}_3$",
+            "$\\text{H}_2\\text{SO}_4$",
+            "$\\text{NaCl}$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Een polyprotisch zuur bevat meerdere waterstofatomen die in stappen kunnen ioniseren. $\\text{H}_2\\text{SO}_4$ heeft twee protonen.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Een ionaire stof heeft een oplosbaarheid van $0.5 \\text{ g}/100 \\text{ ml}$. Hoe wordt deze stof geclassificeerd?",
+          "opties": [
+            "Goed oplosbaar",
+            "Slecht oplosbaar",
+            "Zeer slecht oplosbaar",
+            "Neerslag"
+          ],
+          "correct_antwoord": 0,
+          "uitleg": "Slecht oplosbaar is minder dan $0.1 \\text{ g}/100 \\text{ ml}$. Aangezien $0.5 \\text{ g}/100 \\text{ ml}$ hoger is dan deze drempel, wordt de stof als goed oplosbaar beschouwd (hoewel niet 'zeer' goed oplosbaar).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat is de primaire drijvende kracht voor een neerslagreactie?",
+          "opties": [
+            "Het ontstaan van ionen die een sterke base vormen.",
+            "Het ontstaan van een onstabiel zuur.",
+            "De vorming van een zout met een sterke ionrooster en lage oplosbaarheid.",
+            "De vorming van een metaaloxide."
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Neerslagvorming treedt op wanneer de gevormde stof een sterk ionrooster heeft en daardoor nauwelijks dissocieert (lage oplosbaarheid).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Welke combinatie van reagentia zal leiden tot de vorming van een neerslag van een **hydroxide**?",
+          "opties": [
+            "$\\text{Al}(\\text{NO}_3)_3$ en $\\text{HCl}$",
+            "$\\text{Mg}(\\text{OH})_2$ en $\\text{H}_2\\text{SO}_4$",
+            "$\\text{FeCl}_3$ en $\\text{NaOH}$",
+            "$\\text{K}_2\\text{SO}_4$ en $\\text{Ba}(\\text{NO}_3)_2$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "IJzer(III)chloride ($\\text{FeCl}_3$) en natriumhydroxide ($\\text{NaOH}$) reageren tot $\\text{Fe}(\\text{OH})_3$ (neerslag) en $\\text{NaCl}$.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Wat is de rol van het polaire watermolecuul bij het oplossen van een ionaire stof?",
+          "opties": [
+            "Het ioniseert de ionaire stof.",
+            "Het verbreekt de covalente bindingen.",
+            "De polaire moleculen trekken de ionen aan en hydrateren ze, waardoor ze loskomen uit het ionrooster.",
+            "Het verhoogt de $\\text{pH}$ van de oplossing."
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De polaire watermoleculen interageren elektrostatisch met de ionen, trekken ze uit het ionrooster en omringen ze (hydratatie/solvatatie), wat leidt tot dissociatie.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Welk metaalion uit Groep IIa wordt expliciet genoemd als een ion dat **GEEN** slecht oplosbaar zout vormt met sulfaat ($\\text{SO}_4^{2-}$)?",
+          "opties": [
+            "$\\text{Mg}^{2+}$",
+            "$\\text{Ca}^{2+}$",
+            "$\\text{Ba}^{2+}$"
+          ],
+          "correct_antwoord": 0,
+          "uitleg": "Magnesiumsulfaat ($\\text{MgSO}_4$) is goed oplosbaar. Calciumsulfaat ($\\text{CaSO}_4$) en Bariumsulfaat ($\\text{BaSO}_4$) zijn slecht oplosbaar.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Wat is de algemene reactievergelijking voor een neutralisatiereactie tussen een zuur ($\\text{HZ}$) en een metaaloxide ($\\text{MO}$)?",
+          "opties": [
+            "$\\text{HZ} + \\text{MO} \rightarrow \\text{M}_2\\text{O} + \\text{H}_2\\text{Z}$",
+            "$\\text{HZ} + \\text{MO} \rightarrow \\text{MZ} + \\text{H}_2\\text{O}$",
+            "$\\text{HZ} + \\text{MO} \rightarrow \\text{MOH} + \\text{Z}$",
+            "$\\text{HZ} + \\text{MO} \rightarrow \\text{H}_2\\text{O} + \\text{MOZ}$"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De algemene vorm van een neutralisatie tussen zuur en oxide is: Zuur + Metaaloxide $\rightarrow$ Zout + Water.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Welk anion uit de tabel vormt altijd een slecht oplosbaar zout met overgangselementen (Groep 1) of Groep IIa ionen?",
+          "opties": ["Jodide", "Nitraat", "Sulfaat", "Fosfaat"],
+          "correct_antwoord": 3,
+          "uitleg": "Fosfaat ($\\text{PO}_4^{3-}$) is met vrijwel alle metaalionen, inclusief die van Groep IIa en overgangselementen, slecht oplosbaar.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Koppel de zoutcombinatie aan het gevormde zout en de oplosbaarheid (goed/slecht).",
+          "links_items": [
+            "$\\text{Cu}(\\text{NO}_3)_2+ \\text{Na}_2\\text{S}$",
+            "$\\text{FeCl}_2 + \\text{NaOH}$",
+            "$\\text{Pb}(\\text{NO}_3)_2 + \\text{KI}$",
+            "$\\text{AgNO}_3+\\text{Na}_2\\text{SO}_4$",
+            "$\\text{Li}_2\\text{CO}_3 + \\text{KCl}$"
+          ],
+          "rechts_items": [
+            "Gevormd product A: $\\text{PbI}_2$ (slecht oplosbaar)",
+            "Gevormd product B: $\\text{Fe}(\\text{OH})_2$ (slecht oplosbaar)",
+            "Gevormd product C: Geen nieuw slecht oplosbaar product",
+            "Gevormd product D: $\\text{Ag}_2\\text{SO}_4$ (slecht oplosbaar)",
+            "Gevormd product E: $\\text{CuS}$ (slecht oplosbaar)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$\\text{Cu}(\\text{NO}_3)_2+ \\text{Na}_2\\text{S}$",
+              "rechts": "Gevormd product E: $\\text{CuS}$ (slecht oplosbaar)"
+            },
+            {
+              "links": "$\\text{FeCl}_2 + \\text{NaOH}$",
+              "rechts": "Gevormd product B: $\\text{Fe}(\\text{OH})_2$ (slecht oplosbaar)"
+            },
+            {
+              "links": "$\\text{Pb}(\\text{NO}_3)_2 + \\text{KI}$",
+              "rechts": "Gevormd product A: $\\text{PbI}_2$ (slecht oplosbaar)"
+            },
+            {
+              "links": "$\\text{AgNO}_3+\\text{Na}_2\\text{SO}_4$",
+              "rechts": "Gevormd product D: $\\text{Ag}_2\\text{SO}_4$ (slecht oplosbaar)"
+            },
+            {
+              "links": "$\\text{Li}_2\\text{CO}_3 + \\text{KCl}$",
+              "rechts": "Gevormd product C: Geen nieuw slecht oplosbaar product"
+            }
+          ],
+          "uitleg": "Deze neerslagreacties volgen de algemene oplosbaarheidsregels.",
+          "punten": 10
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Koppel het zuur aan het type ionisatiereactie.",
+          "links_items": [
+            "$\\text{HCl}$",
+            "$\\text{H}_2\\text{SO}_4$",
+            "$\\text{H}_2\\text{SO}_3$"
+          ],
+          "rechts_items": [
+            "Type A: Stapsgewijze ionisatie (polyprotisch, twee stappen)",
+            "Type B: Volledige ionisatie (sterk zuur)",
+            "Type C: Vorming van onstabiel zuur met daaropvolgende ontleding (gasontwikkeling)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$\\text{HCl}$",
+              "rechts": "Type B: Volledige ionisatie (sterk zuur)"
+            },
+            {
+              "links": "$\\text{H}_2\\text{SO}_4$",
+              "rechts": "Type A: Stapsgewijze ionisatie (polyprotisch, twee stappen)"
+            },
+            {
+              "links": "$\\text{H}_2\\text{SO}_3$",
+              "rechts": "Type C: Vorming van onstabiel zuur met daaropvolgende ontleding (gasontwikkeling)"
+            }
+          ],
+          "uitleg": "De reactiesoort wordt bepaald door de sterkte en stabiliteit van het zuur.",
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Wat zijn de tegenionen die moeten worden toegevoegd om de ionvergelijking $8 \\text{ MnO}_4^- + 5 \\text{ S}_2\\text{O}_3^{2-} + 14 \\text{ H}^+ \rightarrow 8 \\text{ Mn}^{2+} + 10 \\text{ SO}_4^{2-} + 7\\text{H}_2\\text{O}$ om te zetten in de stoffenvergelijking?",
+          "links_items": [
+            "$\\text{MnO}_4^-$",
+            "$\\text{S}_2\\text{O}_3^{2-}$",
+            "$\\text{H}^+$ (als zuur)"
+          ],
+          "rechts_items": [
+            "Tegenionen A: $\\text{Na}^+$",
+            "Tegenionen B: $\\text{K}^+$",
+            "Tegenionen C: $\\text{SO}_4^{2-}$"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$\\text{MnO}_4^-$",
+              "rechts": "Tegenionen B: $\\text{K}^+$ (vaak $\\text{KMnO}_4$)"
+            },
+            {
+              "links": "$\\text{S}_2\\text{O}_3^{2-}$",
+              "rechts": "Tegenionen A: $\\text{Na}^+$ (vaak $\\text{Na}_2\\text{S}_2\\text{O}_3$)"
+            },
+            {
+              "links": "$\\text{H}^+$ (als zuur)",
+              "rechts": "Tegenionen C: $\\text{SO}_4^{2-}$ (vaak $\\text{H}_2\\text{SO}_4$)"
+            }
+          ],
+          "uitleg": "De tegenionen zijn nodig om de lading in de volledige molecuulvergelijking te neutraliseren.",
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Welke reactiesoort komt voor bij de volgende processen?",
+          "links_items": [
+            "Ontkalken van een waterkoker met een zuur",
+            "Een maagzuurremmer (bv. Maalox Plus) neutraliseert maagzuur",
+            "Toevoegen van $\\text{AgNO}_3$ aan water met $\\text{Cl}^-$-ionen"
+          ],
+          "rechts_items": [
+            "Reactiesoort 1: Neutralisatie (Zuur/Base of Zuur/Oxide)",
+            "Reactiesoort 2: Neerslagvorming",
+            "Reactiesoort 3: Protonoverdracht met gasontwikkeling (onstabiel zuur)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Ontkalken van een waterkoker met een zuur",
+              "rechts": "Reactiesoort 3: Protonoverdracht met gasontwikkeling (onstabiel zuur)"
+            },
+            {
+              "links": "Een maagzuurremmer (bv. Maalox Plus) neutraliseert maagzuur",
+              "rechts": "Reactiesoort 1: Neutralisatie (Zuur/Base of Zuur/Oxide)"
+            },
+            {
+              "links": "Toevoegen van $\\text{AgNO}_3$ aan water met $\\text{Cl}^-$-ionen",
+              "rechts": "Reactiesoort 2: Neerslagvorming"
+            }
+          ],
+          "uitleg": "Ontkalken ($\\text{CaCO}_3$ reageert met zuur tot $\\text{CO}_2$ gas). Maagzuurremmers neutraliseren. $\\text{AgNO}_3$ met $\\text{Cl}^-$ vormt $\\text{AgCl}$ neerslag.",
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Rangschik de volgende chemische structuren naar toenemende neiging tot het vormen van ionen met water ($1=$ minst, $3=$ meest).",
+          "links_items": [
+            "$\\text{CuCO}_3(\\text{s})$",
+            "$\\text{NaCl}(\\text{s})$",
+            "$\\text{HCl}(\\text{g})$"
+          ],
+          "rechts_items": [
+            "Neiging 1 (minst)",
+            "Neiging 2",
+            "Neiging 3 (meest)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$\\text{CuCO}_3(\\text{s})$",
+              "rechts": "Neiging 1 (minst)"
+            },
+            {
+              "links": "$\\text{NaCl}(\\text{s})$",
+              "rechts": "Neiging 2"
+            },
+            {
+              "links": "$\\text{HCl}(\\text{g})$",
+              "rechts": "Neiging 3 (meest)"
+            }
+          ],
+          "uitleg": "Koper(II)carbonaat is slecht oplosbaar (1). Natriumchloride dissocieert goed (2). Waterstofchloride ioniseert volledig (3).",
+          "punten": 6
+        }
+      ],
+      "totaal_punten": 114,
+      "geschatte_tijd": "60 minuten",
+      "leerdoelen": [
+        "Inzicht tonen in de stabiliteit en ionisatie van polyprotische en onstabiele zuren.",
+        "Neutralisatiereacties met metaaloxiden correct formuleren.",
+        "Kritisch oplosbaarheidsregels toepassen om onwaarschijnlijke reacties of neerslagvorming te voorspellen.",
+        "De drijvende krachten achter ionenuitwisselingsreacties uitleggen."
+      ],
+      "tips": [
+        "Gebruik de oplosbaarheidstabel in omgekeerde richting: als een zout gevormd wordt, controleer of het neerslaat.",
+        "Onthoud: onstabiele zuren geven gasontwikkeling.",
+        "Controleer de stoichiometrie altijd."
+      ]
+    }
+  ],
+  "extra_informatie": {
+    "voorkennis": [
+      "Notatie van chemische symbolen en reactievergelijkingen",
+      "Basiskennis van zuren, basen en zouten"
+    ],
+    "vervolgonderwerpen": ["Redoxreacties", "Stoichiometrie bij oplossingen"],
+    "bronnen": [
+      "Oefenmateriaal Hoofdstuk I: Reacties met uitwisseling van ionen"
+    ]
+  }
+}

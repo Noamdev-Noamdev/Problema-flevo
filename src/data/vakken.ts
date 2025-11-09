@@ -12,8 +12,8 @@ export const vakkenData: Record<string, Vak[]> = {
   // WeWi vakken
   wewi: [
     { id: "wiskunde", name: "Wiskunde", description: "Algebra, analyse en meetkunde", hasOnderdelen: true },
-    { id: "fysica", name: "Fysica", description: "Mechanica, elektriciteit en optica", hasOnderdelen: false },
-    { id: "chemie", name: "Chemie", description: "Anorganische en organische chemie", hasOnderdelen: false },
+    { id: "fysica", name: "Fysica", description: "Mechanica, elektriciteit en optica", hasOnderdelen: true },
+    { id: "chemie", name: "Chemie", description: "Anorganische en organische chemie", hasOnderdelen: true },
     { id: "biologie", name: "Biologie", description: "Cel- en evolutiebiologie", hasOnderdelen: false },
     { id: "nederlands", name: "Nederlands", description: "Taal en literatuur", hasOnderdelen: false },
     { id: "engels", name: "Engels", description: "Taal en literatuur", hasOnderdelen: false },

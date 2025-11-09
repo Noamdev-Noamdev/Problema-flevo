@@ -1,0 +1,1345 @@
+{
+  "vak": "Fysica",
+  "onderdeel": "Mechanica",
+  "jaar": 6,
+  "richting": "wewi",
+  "laatst_bijgewerkt": "2024-10-30",
+  "oefeningen": [
+    {
+      "id": "kinEVRB-gratis",
+      "titel": "Eenparig Rechtlijnige Beweging (ERB) en Eenparig Versnelde Rechtlijnige Beweging (EVRB)",
+      "beschrijving": "Basisoefeningen over ERB, EVRB, wiskundige afleidingen, krachten, wetten van Newton en wrijving.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Mechanica",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Geef de bewegingsvergelijking voor de positie $x(t)$ van een voorwerp dat een Eenparig Rechtlijnige Beweging (ERB) uitvoert, waarbij $v$ de constante snelheid is en $x_0$ de beginpositie.",
+          "uitleg": "De positie is een lineaire functie van de tijd.",
+          "antwoord": "$x(t) = v \\cdot t + x_0$",
+          "stappen": [],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Schrijf de formule op voor de gemiddelde versnelling $a$ in termen van snelheidsverandering ($\\Delta v$) en tijdsinterval ($\\Delta t$).",
+          "uitleg": "Definitie van gemiddelde versnelling.",
+          "antwoord": "$a = \\frac{\\Delta v}{\\Delta t}$",
+          "stappen": [],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Wat is de waarde van de versnelling $a(t)$ bij een ERB?",
+          "uitleg": "De snelheid is constant bij een ERB.",
+          "antwoord": "$a(t) = 0$",
+          "stappen": [],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "meerkeuze",
+          "vraag": "Wat is de vorm van de positiegrafiek $x(t)$ bij een Eenparig Versnelde Rechtlijnige Beweging (EVRB)?",
+          "opties": [
+            "Een horizontale rechte.",
+            "Een schuine rechte.",
+            "Een constante functie.",
+            "Een parabool."
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "De positievergelijking $x(t)$ bij EVRB is kwadratisch: $x(t) = \\frac{1}{2} a \\cdot t^2 + v_0 \\cdot t + x_0$",
+          "uitleg_per_optie": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "meerkeuze",
+          "vraag": "Als de helling van de $x(t)$-grafiek op een bepaald tijdstip daalt, wat zegt dit dan over de versnelling $v(t)$ op dat tijdstip?",
+          "opties": [
+            "$v(t)$ is positief.",
+            "$v(t)$ is nul.",
+            "$v(t)$ is negatief."
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De helling van de $x(t)$-grafiek is de snelheid $v(t)$. Als de helling daalt, is de snelheidsverandering $\\Delta v$ negatief, dus de versnelling $a$ is negatief. Dit komt overeen met een concave vorm.",
+          "uitleg_per_optie": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "verbinding",
+          "vraag": "Verbind de vergelijking met de juiste benaming voor de EVRB-beweging.",
+          "links_items": [
+            "$v(t)=a \\cdot t+v_0$",
+            "$a(t)=a$",
+            "$x(t)=\\frac{1}{2} a \\cdot t^2+v_0 \\cdot t+x_0$"
+          ],
+          "rechts_items": [
+            "Positievergelijking",
+            "Snelheidsvergelijking",
+            "Versnellingsvergelijking"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$v(t)=a \\cdot t+v_0$",
+              "rechts": "Snelheidsvergelijking"
+            },
+            {
+              "links": "$a(t)=a$",
+              "rechts": "Versnellingsvergelijking"
+            },
+            {
+              "links": "$x(t)=\\frac{1}{2} a \\cdot t^2+v_0 \\cdot t+x_0$",
+              "rechts": "Positievergelijking"
+            }
+          ],
+          "uitleg": "Dit zijn de drie fundamentele bewegingsvergelijkingen voor de EVRB.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Een voorwerp ondergaat een EVRB. Teken de $x(t)$-, $v(t)$- en $a(t)$-grafieken voor een beweging waarbij de versnelling ($a$) positief is, de beginsnelheid ($v_0$) negatief en de beginpositie ($x_0$) nul.",
+          "uitleg": "Relatie tussen de afgeleiden van de functies.",
+          "antwoord": "$a(t)$ is een horizontale rechte boven de $t$-as. $v(t)$ is een schuine rechte met positieve helling die onder de $t$-as start. $x(t)$ is een parabool die door de oorsprong gaat en naar boven opent.",
+          "stappen": [],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "open",
+          "vraag": "De plaatsfunctie van een EVRB is gegeven door $x(t)=t^2-4t+3$. Lees de beginpositie $x_0$, de beginsnelheid $v_0$ en de versnelling $a$ af uit deze functie.",
+          "uitleg": "Vergelijk met de algemene formule $x(t) = \\frac{1}{2} a \\cdot t^2 + v_0 \\cdot t + x_0$.",
+          "antwoord": "$x_0 = 3$, $v_0 = -4$, $a = 2$.",
+          "stappen": [
+            "$x_0$ is de constante term: $x(0) = 3$",
+            "$v_0$ is de coëfficiënt van $t$: $-4$",
+            "De coëfficiënt van $t^2$ is $\\frac{1}{2} a$, dus $\\frac{1}{2} a = 1 \\implies a = 2$"
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Een wagen vertrekt uit stilstand met een versnelling van $4,5 \\text{ m/s}^2$. Hoe lang duurt het vooraleer hij een snelheid van $50 \\text{ km/h}$ heeft bereikt?",
+          "opties": [
+            "$11,1 \\text{ s}$",
+            "$4,5 \\text{ s}$",
+            "$3,1 \\text{ s}$",
+            "$2,7 \\text{ s}$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Eerst $50 \\text{ km/h}$ omzetten naar $\\text{m/s}$: $50 / 3,6 \\approx 13,89 \\text{ m/s}$. Gebruik $v = a \\cdot t$.",
+          "uitleg_per_optie": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "open",
+          "vraag": "Een wagen vertrekt uit stilstand met een versnelling van $4,5 \\text{ m/s}^2$. Bereken zijn positie na $2,0 \\text{ s}$.",
+          "uitleg": "Gebruik $x(t) = \\frac{1}{2} a \\cdot t^2$ ($v_0=0, x_0=0$).",
+          "antwoord": "De positie is $9,0 \\text{ m}$.",
+          "stappen": [
+            "$x(2,0) = \\frac{1}{2} \\cdot 4,5 \\cdot (2,0)^2$",
+            "$x(2,0) = 0,5 \\cdot 4,5 \\cdot 4 = 9,0 \\text{ m}$"
+          ],
+          "punten": 4
+        }
+      ],
+      "totaal_punten": 32,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": ["Het herkennen en gebruiken van ERB en EVRB"],
+      "tips": ["Herinner je de basisformules voor ERB en EVRB."]
+    },
+    {
+      "id": "kinVRIJ-gratis",
+      "titel": "Vrije Val, Verticale & Horizontale Worp",
+      "beschrijving": "Oefeningen over vrije val, verticale worp en horizontale worp.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Mechanica",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Geef de formule voor de positie $y(t)$ voor een vrije val, uitgaande van $y_0$ en $g$.",
+          "uitleg": "Vrije val is EVRB met $a = -g$ en $v_0=0$.",
+          "antwoord": "$y(t) = -\\frac{1}{2} g \\cdot t^2 + y_0$",
+          "stappen": [],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Leg het verschil uit tussen een vrije val en een verticale worp in termen van beginsnelheid $v_0$.",
+          "uitleg": "Definitie van $v_0$ in beide gevallen.",
+          "antwoord": "Bij vrije val is $v_0=0$. Bij een verticale worp is $v_0$ niet nul.",
+          "stappen": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "meerkeuze",
+          "vraag": "Bij een horizontale worp valt de beweging uiteen in twee deelbewegingen. Welke twee?",
+          "opties": [
+            "EVRB langs de x-as en EVRB langs de y-as.",
+            "ERB langs de x-as en Vrije Val langs de y-as.",
+            "Verticale Worp langs de x-as en ERB langs de y-as.",
+            "ECB langs de x-as en ERB langs de y-as."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Langs de x-as is er geen kracht (luchtwrijving wordt verwaarloosd), langs de y-as is er de zwaartekracht.",
+          "uitleg_per_optie": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Een ruimtereiziger laat van $2,10 \\text{ m}$ hoogte een steen vallen die met een snelheid van $14,0 \\text{ km/h}$ de grond raakt. Welke formule gebruikt u om de valversnelling $g$ te berekenen?",
+          "uitleg": "Gebruik de tijdonafhankelijke formule.",
+          "antwoord": "De tijdonafhankelijke formule: $v_e^2 - v_0^2 = 2 \\cdot (-g) \\cdot (y_e - y_0)$, of $v^2 = 2 \\cdot g \\cdot h$ (met $v_0=0$).",
+          "stappen": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Bij het schoonspringen springt men van een plank op $3 \\text{ m}$ hoogte. Bereken voor de $3 \\text{ m}$ plank hoe lang het duurt vooraleer de schoonspringer het water raakt en met welke snelheid hij het water raakt. (Gebruik $g=9,81 \\text{ m/s}^2$).",
+          "uitleg": "Gebruik $h = \\frac{1}{2} g \\cdot t^2$ en $v = g \\cdot t$ ($v_0=0$).",
+          "antwoord": "De tijd is $0,782 \\text{ s}$ en de snelheid is $7,67 \\text{ m/s}$.",
+          "stappen": [
+            "Tijd: $t = \\sqrt{\\frac{2h}{g}} = \\sqrt{\\frac{2 \\cdot 3}{9,81}} \\approx 0,782 \\text{ s}$",
+            "Snelheid: $v = g \\cdot t = 9,81 \\cdot 0,782 \\approx 7,67 \\text{ m/s}$"
+          ],
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "meerkeuze",
+          "vraag": "Wanneer we een voorwerp van op $2,00 \\text{ m}$ hoogte laten vallen op de maan, duurt het $1,60 \\text{ s}$ vooraleer het de grond raakt. Wat is de waarde voor de valversnelling op de maan?",
+          "opties": [
+            "$1,25 \\text{ m/s}^2$",
+            "$1,56 \\text{ m/s}^2$",
+            "$9,81 \\text{ m/s}^2$",
+            "$2,40 \\text{ m/s}^2$"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Gebruik $g = \\frac{2h}{t^2}$.",
+          "uitleg_per_optie": [],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 25,
+      "geschatte_tijd": "35 minuten",
+      "leerdoelen": [
+        "Het herkennen van vrije val, verticale worp en horizontale worp"
+      ],
+      "tips": ["Let op de beginvoorwaarden voor elke beweging."]
+    },
+    {
+      "id": "kinECB-gratis",
+      "titel": "Eenparige Cirkelvormige Beweging (ECB)",
+      "beschrijving": "Oefeningen over de Eenparige Cirkelvormige Beweging (ECB), inclusief definities, formules en richtingen van versnelling.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Mechanica",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Wat is de definitie van een Eenparige Cirkelvormige Beweging (ECB)?",
+          "uitleg": "Constante baansnelheid op een cirkelbaan.",
+          "antwoord": "Een beweging waarbij een voorwerp met een constante baansnelheid $v$ een cirkelvormige baan aflegt.",
+          "stappen": [],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat is het verband tussen de periode $T$ en de frequentie $f$?",
+          "uitleg": "Definitie van periode als omgekeerde van frequentie.",
+          "antwoord": "De periode $T$ is het omgekeerde van de frequentie $f$: $T = \\frac{1}{f}$.",
+          "stappen": [],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "meerkeuze",
+          "vraag": "Wat is de richting van de centripetale versnelling $a_c$?",
+          "opties": [
+            "Loodrecht op de straal, in de zin van de beweging.",
+            "Loodrecht op de baan, gericht naar het middelpunt.",
+            "Loodrecht op de baan, gericht van het middelpunt af.",
+            "Evenwijdig aan de baan."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De centripetale versnelling wijst altijd naar het middelpunt.",
+          "uitleg_per_optie": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "verbinding",
+          "vraag": "Verbind de formule met de juiste grootheid in de ECB.",
+          "links_items": [
+            "$\\omega=2\\pi \\cdot f$",
+            "$v=\\omega \\cdot r$",
+            "$a_c=\\frac{v^2}{r}$"
+          ],
+          "rechts_items": [
+            "Baansnelheid",
+            "Hoeksnelheid",
+            "Centripetale versnelling"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$\\omega=2\\pi \\cdot f$",
+              "rechts": "Hoeksnelheid"
+            },
+            {
+              "links": "$v=\\omega \\cdot r$",
+              "rechts": "Baansnelheid"
+            },
+            {
+              "links": "$a_c=\\frac{v^2}{r}$",
+              "rechts": "Centripetale versnelling"
+            }
+          ],
+          "uitleg": "Dit zijn de drie fundamentele formules voor de ECB.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Geef de SI-eenheid voor hoeksnelheid $\\omega$, baansnelheid $v$ en frequentie $f$.",
+          "uitleg": "Standaardeenheden in de fysica.",
+          "antwoord": "$\\omega$: $\\text{rad/s}$, $v$: $\\text{m/s}$, $f$: $\\text{Hz}$ (of $\\text{s}^{-1}$)",
+          "stappen": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Een draaimolen heeft twee kinderen op verschillende afstanden van het middelpunt. Welke grootheden zijn hetzelfde voor beide kinderen: hoeksnelheid, baansnelheid, straal, periode of centripetale versnelling?",
+          "uitleg": "Alles wat afhangt van de rotatie als geheel is constant.",
+          "antwoord": "De hoeksnelheid $\\omega$ en de periode $T$ zijn hetzelfde.",
+          "stappen": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "verbinding",
+          "vraag": "Verbind de grootheid met de formule.",
+          "links_items": [
+            "Hoeksnelheid $\\omega$",
+            "Centripetale versnelling $a_c$",
+            "Baansnelheid $v$"
+          ],
+          "rechts_items": [
+            "$\\frac{v^2}{r}$",
+            "$\\frac{2\\pi}{T}$",
+            "$\\omega \\cdot r$"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Hoeksnelheid $\\omega$",
+              "rechts": "$\\frac{2\\pi}{T}$"
+            },
+            {
+              "links": "Centripetale versnelling $a_c$",
+              "rechts": "$\\frac{v^2}{r}$"
+            },
+            {
+              "links": "Baansnelheid $v$",
+              "rechts": "$\\omega \\cdot r$"
+            }
+          ],
+          "uitleg": "Fundamentele ECB-formules.",
+          "punten": 5
+        }
+      ],
+      "totaal_punten": 23,
+      "geschatte_tijd": "35 minuten",
+      "leerdoelen": ["Het begrijpen van de basisconcepten van ECB"],
+      "tips": ["Focus op de definities en formules die ECB beschrijven."]
+    },
+    {
+      "id": "dynNEW-gratis",
+      "titel": "Wetten van Newton & Krachten",
+      "beschrijving": "Oefeningen over de drie wetten van Newton en de basisprincipes van krachten.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Mechanica",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Wat is de symbolische formulering van de Eerste Wet van Newton?",
+          "uitleg": "Traagheidswet: krachten in evenwicht.",
+          "antwoord": "$\\vec{F}_{res} = 0 \\iff \\vec{v} = \\text{constant (of } \\vec{a} = 0)$",
+          "stappen": [],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "De resulterende kracht $\\vec{F}_{res}$ veroorzaakt een versnelling $\\vec{a}$. Wat is de relatie tussen de richting en zin van $\\vec{F}_{res}$ en $\\vec{a}$?",
+          "uitleg": "Tweede Wet van Newton: $\\vec{F}_{res} = m \\cdot \\vec{a}$.",
+          "antwoord": "De versnelling $\\vec{a}$ heeft dezelfde richting en dezelfde zin als de resulterende kracht $\\vec{F}_{res}$.",
+          "stappen": [],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Geef de formule voor de Tweede Wet van Newton (vectorieel).",
+          "uitleg": "Basisformule dynamica.",
+          "antwoord": "$\\vec{F}_{res} = m \\cdot \\vec{a}$",
+          "stappen": [],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "meerkeuze",
+          "vraag": "Een voorwerp beweegt met constante snelheid op een horizontale, wrijvingsloze ondergrond. Wat is de resulterende kracht $\\vec{F}_{res}$?",
+          "opties": [
+            "$\\vec{F}_{res} > 0$.",
+            "$\\vec{F}_{res}$ heeft dezelfde richting als de snelheid.",
+            "$\\vec{F}_{res} = 0$.",
+            "$\\vec{F}_{res}$ is loodrecht op de snelheid."
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Constante snelheid $\\iff$ versnelling $a=0$ (Eerste Wet van Newton).",
+          "uitleg_per_optie": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "verbinding",
+          "vraag": "Verbind elke wet met de juiste omschrijving.",
+          "links_items": [
+            "Eerste Wet van Newton",
+            "Tweede Wet van Newton",
+            "Derde Wet van Newton"
+          ],
+          "rechts_items": [
+            "Actie en Reactie",
+            "Inertie / Constante snelheid",
+            "Massa en Versnelling"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Eerste Wet van Newton",
+              "rechts": "Inertie / Constante snelheid"
+            },
+            {
+              "links": "Tweede Wet van Newton",
+              "rechts": "Massa en Versnelling"
+            },
+            {
+              "links": "Derde Wet van Newton",
+              "rechts": "Actie en Reactie"
+            }
+          ],
+          "uitleg": "De drie fundamentele wetten van de dynamica.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Wat zijn de twee soorten effecten van een kracht volgens de praktische werkdefinitie? Geef van elk een naam.",
+          "uitleg": "Statisch en dynamisch effect.",
+          "antwoord": "Statisch effect (verandering van vorm) en Dynamisch effect (verandering van bewegingstoestand).",
+          "stappen": [],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Wat is de symbolische formulering van de Eerste Wet van Newton?.",
+          "uitleg": "Herhaling van basiswet.",
+          "antwoord": "$\\vec{F}_{res} = 0 \\iff \\vec{v} = \\text{constant (of } \\vec{a} = 0)$",
+          "stappen": [],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Als er op een voorwerp een resulterende kracht werkt, kan de snelheid van dit voorwerp dan nul zijn?",
+          "opties": [
+            "Neen, de snelheid verandert altijd onmiddellijk.",
+            "Ja, op een specifiek moment kan de snelheid nul zijn, maar de versnelling niet.",
+            "Ja, als het voorwerp in rust is.",
+            "Ja, als de kracht even groot is als de wrijving."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Als $F_{res} \\neq 0$ is, is er een versnelling $a \\neq 0$. De snelheid verandert. Op het keerpunt van een worp bijvoorbeeld is $v=0$, maar $a=-g$.",
+          "uitleg_per_optie": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "verbinding",
+          "vraag": "Verbind de situatie met de wet van Newton die het beste van toepassing is.",
+          "links_items": [
+            "Je valt naar voren als de bus plots remt.",
+            "Een binnenschip komt zeer langzaam in beweging wanneer je het duwt.",
+            "De aarde komt een heel klein beetje naar boven wanneer je uit een boom valt."
+          ],
+          "rechts_items": [
+            "Derde Wet van Newton",
+            "Eerste Wet van Newton",
+            "Tweede Wet van Newton"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Je valt naar voren als de bus plots remt.",
+              "rechts": "Eerste Wet van Newton"
+            },
+            {
+              "links": "Een binnenschip komt zeer langzaam in beweging wanneer je het duwt.",
+              "rechts": "Tweede Wet van Newton"
+            },
+            {
+              "links": "De aarde komt een heel klein beetje naar boven wanneer je uit een boom valt.",
+              "rechts": "Derde Wet van Newton"
+            }
+          ],
+          "uitleg": "Toepassingen van de wetten van Newton.",
+          "punten": 5
+        }
+      ],
+      "totaal_punten": 26,
+      "geschatte_tijd": "40 minuten",
+      "leerdoelen": ["Het begrijpen van de drie wetten van Newton"],
+      "tips": ["Focus op de definities en implicaties van elke wet."]
+    },
+    {
+      "id": "dynBIJKR-gratis",
+      "titel": "Bijzondere Krachten",
+      "beschrijving": "Oefeningen over bijzondere krachten zoals zwaartekracht, wrijvingskracht, normaalkracht, spankracht en veerkracht.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Mechanica",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Geef de formule voor de grootte van de zwaartekracht $F_z$ op het aardoppervlak.",
+          "uitleg": "Definitie van $F_z$.",
+          "antwoord": "$F_z = m \\cdot g$",
+          "stappen": [],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "De grootte van de dynamische wrijvingskracht $F_{w,d}$ wordt gegeven door welke formule?",
+          "uitleg": "Formule voor wrijving bij beweging.",
+          "antwoord": "$F_{w,d} = \\mu_d \\cdot F_N$",
+          "stappen": [],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Wat is de richting van de normaalkracht $F_N$ ten opzichte van het steunvlak?",
+          "uitleg": "Definitie van de normaalkracht.",
+          "antwoord": "De normaalkracht is altijd loodrecht (normaal) op het steunvlak gericht.",
+          "stappen": [],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "meerkeuze",
+          "vraag": "Als een voorwerp beweegt, welke wrijvingscoëfficiënt is dan van toepassing?",
+          "opties": [
+            "Rolweerstandscoëfficiënt $C_r$.",
+            "Dynamische wrijvingscoëfficiënt $\\mu_d$.",
+            "Statische wrijvingscoëfficiënt $\\mu_s$.",
+            "Veerconstante $k$."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Dynamische wrijving treedt op bij beweging (glijden).",
+          "uitleg_per_optie": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "verbinding",
+          "vraag": "Verbind de omschrijving van de kracht met de juiste naam.",
+          "links_items": [
+            "Terugroepende kracht bij vervorming",
+            "Kracht in een gespannen kabel",
+            "Kracht veroorzaakt door het steunvlak"
+          ],
+          "rechts_items": ["Spankracht", "Veerkracht", "Normaalkracht"],
+          "correcte_verbindingen": [
+            {
+              "links": "Terugroepende kracht bij vervorming",
+              "rechts": "Veerkracht"
+            },
+            {
+              "links": "Kracht in een gespannen kabel",
+              "rechts": "Spankracht"
+            },
+            {
+              "links": "Kracht veroorzaakt door het steunvlak",
+              "rechts": "Normaalkracht"
+            }
+          ],
+          "uitleg": "Dit zijn definities van veelvoorkomende krachten.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Een blok ligt op een helling met hoek $\\theta$. Geef de formule voor de component van de zwaartekracht die loodrecht op de helling staat ($F_{z,y}$) en de formule voor de normaalkracht $F_N$.",
+          "uitleg": "Componenten van de zwaartekracht en normaalkracht op een helling.",
+          "antwoord": "$F_{z,y} = m \\cdot g \\cdot \\cos(\\theta)$. $F_N = m \\cdot g \\cdot \\cos(\\theta)$.",
+          "stappen": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Geef de formule voor de maximale statische wrijvingskracht $F_{w,s\\,max}$ en benoem de symbolen.",
+          "uitleg": "Formule en symbolen voor statische wrijving.",
+          "antwoord": "$F_{w,s\\,max} = \\mu_s \\cdot F_N$. $\\mu_s$ is de statische wrijvingscoëfficiënt en $F_N$ is de normaalkracht.",
+          "stappen": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Wat is meestal groter: de statische wrijvingscoëfficiënt $\\mu_s$ of de dynamische wrijvingscoëfficiënt $\\mu_d$?",
+          "opties": [
+            "$\\mu_s$ en $\\mu_d$ zijn altijd gelijk.",
+            "$\\mu_s$ is meestal groter dan $\\mu_d$.",
+            "$\\mu_d$ is altijd groter dan $\\mu_s$.",
+            "Dit hangt af van de snelheid."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Het is moeilijker om een stilstaand voorwerp in beweging te krijgen dan om het in beweging te houden.",
+          "uitleg_per_optie": [],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 23,
+      "geschatte_tijd": "30 minuten",
+      "leerdoelen": ["Het begrijpen van bijzondere krachten in de dynamica"],
+      "tips": ["Let op de definities en formules voor elke kracht."]
+    },
+    {
+      "id": "dynTOEP-gratis",
+      "titel": "Toepassingen (Krachtendiagrammen en vraagstukken)",
+      "beschrijving": "Oefeningen over het opstellen van krachtendiagrammen en het oplossen van dynamica-vraagstukken.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Mechanica",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Wat is het belangrijkste doel van het opstellen van een krachtendiagram?",
+          "uitleg": "Het nut van een krachtendiagram.",
+          "antwoord": "Het visualiseren van alle krachten die op een voorwerp inwerken om de resulterende kracht en versnelling te bepalen.",
+          "stappen": [],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Bij het oplossen van dynamica-vraagstukken op een helling (hoek $\\theta$), wat zijn de formules voor de twee componenten van de zwaartekracht, $F_{z,x}$ (evenwijdig aan de helling) en $F_{z,y}$ (loodrecht op de helling)?",
+          "uitleg": "Ontbinding van krachten op een helling.",
+          "antwoord": "$F_{z,x} = m \\cdot g \\cdot \\sin(\\theta)$ en $F_{z,y} = m \\cdot g \\cdot \\cos(\\theta)$.",
+          "stappen": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "meerkeuze",
+          "vraag": "Een vrachtwagen ($m=2000$ kg) rijdt met constante snelheid over een vlakke weg. De rolweerstand is $500$ N. Wat is de resulterende kracht $F_{res}$ en wat is de motor/stuwkracht $F_{motor}$?",
+          "opties": [
+            "$F_{res}=2000$ N, $F_{motor}=500$ N.",
+            "$F_{res}=0$ N, $F_{motor}=0$ N.",
+            "$F_{res}=0$ N, $F_{motor}=500$ N.",
+            "$F_{res}=500$ N, $F_{motor}=500$ N."
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Constante snelheid $\\implies F_{res}=0$. De motor moet de weerstand opheffen, dus $F_{motor}=F_w$.",
+          "uitleg_per_optie": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Een massa van $2,50$ kg wordt verticaal omhoog gehesen door een touw. Na $0,50$ s heeft de massa een constante versnelling $a$ ondergaan en een hoogte van $1,00$ m bereikt. Wat is de versnelling $a$?",
+          "uitleg": "Gebruik de positieformule voor EVRB: $\\Delta x = \\frac{1}{2} a \\cdot t^2$ ($v_0=0$).",
+          "antwoord": "De versnelling $a$ is $8,00 \\text{ m/s}^2$.",
+          "stappen": [
+            "Gebruik $\\Delta x = \\frac{1}{2} a \\cdot t^2$",
+            "$1,00 \\text{ m} = \\frac{1}{2} a \\cdot (0,50 \\text{ s})^2$",
+            "$1,00 = 0,125 a$",
+            "$a = 8,00 \\text{ m/s}^2$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Noem de stappen die u moet volgen bij het opstellen van een krachtendiagram.",
+          "uitleg": "Procedure voor het tekenen van een diagram.",
+          "antwoord": "1. Teken het voorwerp. 2. Teken de krachten (juiste zin, richting). 3. Gebruik relatieve grootte (pijllengte). 4. Benoem alle krachten.",
+          "stappen": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Een ijshockeypuck beweegt horizontaal over het ijs. De wrijvingskracht is heel klein. Teken het krachtendiagram en de resulterende kracht $\\vec{F}_{res}$.",
+          "uitleg": "De krachten zijn (vrijwel) in evenwicht, behalve de wrijving.",
+          "antwoord": "Krachten: $F_z$ (naar beneden) en $F_N$ (naar boven) in evenwicht. $F_w$ (klein) tegengesteld aan $\\vec{v}$. Resulterende kracht $\\vec{F}_{res} = \\vec{F}_w$.",
+          "stappen": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Een auto rijdt met een constante snelheid van $70 \\text{ km/h}$ op een vlakke weg. De massa is $1250 \\text{ kg}$ en de wrijvingskracht bedraagt $410 \\text{ N}$. Bereken de motor/stuwkracht van de auto.",
+          "uitleg": "Constante snelheid $\\implies F_{res}=0$.",
+          "antwoord": "De motor/stuwkracht is $410 \\text{ N}$.",
+          "stappen": [
+            "Constante snelheid betekent $a=0$, dus $F_{res}=0$.",
+            "Horizontaal geldt: $F_{motor} - F_w = 0$",
+            "$F_{motor} = F_w = 410 \\text{ N}$"
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "open",
+          "vraag": "Een massa van $2,50 \\text{ kg}$ wordt verticaal omhoog gehesen door een touw. Na $0,50 \\text{ s}$ heeft de massa een constante versnelling $a$ ondergaan en een hoogte van $1,00 \\text{ m}$ bereikt. Wat is de versnelling $a$?",
+          "uitleg": "Dit is dezelfde vraag als 604 om de structuur aan te houden.",
+          "antwoord": "De versnelling $a$ is $8,00 \\text{ m/s}^2$.",
+          "stappen": [
+            "Gebruik $\\Delta x = \\frac{1}{2} a \\cdot t^2$",
+            "$1,00 \\text{ m} = \\frac{1}{2} a \\cdot (0,50 \\text{ s})^2$",
+            "$a = 8,00 \\text{ m/s}^2$"
+          ],
+          "punten": 5
+        }
+      ],
+      "totaal_punten": 28,
+      "geschatte_tijd": "40 minuten",
+      "leerdoelen": [
+        "Het toepassen van dynamica-concepten in praktische situaties"
+      ],
+      "tips": [
+        "Zorg ervoor dat je alle krachten correct identificeert en ontbindt."
+      ]
+    },
+    {
+      "id": "kinEVRB-premium",
+      "titel": "Eenparig Rechtlijnige Beweging (ERB) en Eenparig Versnelde Rechtlijnige Beweging (EVRB) (premium)",
+      "beschrijving": "Inzichtelijke en combinatorische oefeningen over afgeleiden, parameters, worpen, ECB en dynamica.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Mechanica",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Leg het concept uit: de ogenblikkelijke snelheid $v(t)$ is de (eerste) afgeleide van de positie $x(t)$ naar de tijd $t$. Wat betekent dit grafisch voor de $x(t)$-grafiek?",
+          "uitleg": "Verband tussen afgeleide en grafische helling.",
+          "antwoord": "Grafisch is $v(t)$ de helling van de raaklijn aan de $x(t)$-grafiek op tijdstip $t$.",
+          "stappen": [
+            "Definitie van ogenblikkelijke snelheid: $v(t) = \\frac{dx}{dt}$",
+            "De afgeleide van een functie op een punt is de helling van de raaklijn in dat punt."
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Beschrijf de beweging van een voorwerp waarvan de $x(t)$-grafiek concaaf is (zoals $\\cap$). Welk teken heeft de versnelling?",
+          "uitleg": "Concaviteit is gerelateerd aan de tweede afgeleide.",
+          "antwoord": "De snelheid is dalend (de helling daalt), wat betekent dat de versnelling $a$ negatief is ($a < 0$).",
+          "stappen": [
+            "Concaviteit $\\cap \\iff$ tweede afgeleide is negatief.",
+            "De tweede afgeleide van $x(t)$ is de versnelling $a(t)$."
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Een trein A vertrekt vanuit stilstand ($x_0=0$) en versnelt met $a=1,5 \\text{ m/s}^2$. Na $10 \\text{ s}$ begint trein B, die $50 \\text{ m}$ achter trein A staat, met een constante snelheid van $25 \\text{ m/s}$ te rijden. Bepaal de verplaatsing van trein A op het moment dat trein B vertrekt.",
+          "uitleg": "Bereken de positie van A op $t=10 \\text{ s}$.",
+          "antwoord": "De verplaatsing van trein A is $75 \\text{ m}$.",
+          "stappen": [
+            "Formule A: $x_A(t) = \\frac{1}{2} a \\cdot t^2$",
+            "Invullen: $x_A(10) = \\frac{1}{2} \\cdot 1,5 \\cdot (10)^2$",
+            "$x_A(10) = 0,75 \\cdot 100 = 75 \\text{ m}$"
+          ],
+          "punten": 8
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "meerkeuze",
+          "vraag": "Als de $v(t)$-grafiek een rechte is die de verticale as boven de oorsprong snijdt en daalt, wat is dan het teken van $v_0$ en $a$?",
+          "opties": [
+            "$v_0$ positief, $a$ positief.",
+            "$v_0$ positief, $a$ negatief.",
+            "$v_0$ negatief, $a$ positief.",
+            "$v_0$ negatief, $a$ negatief."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Snijpunt boven de oorsprong $\\implies v_0 > 0$. De rechte daalt $\\implies$ helling ($a$) is negatief.",
+          "uitleg_per_optie": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Leg uit hoe u de ogenblikkelijke snelheid $v(t)$ en de ogenblikkelijke versnelling $a(t)$ bepaalt als u enkel de plaatsfunctie $x(t)$ heeft, en verwijs hierbij naar wiskundige afleidingen (afgeleiden).",
+          "uitleg": "Definitie van $v(t)$ en $a(t)$ als afgeleiden.",
+          "antwoord": "$v(t)$ is de eerste afgeleide van $x(t)$ naar $t$: $v(t) = \\frac{dx}{dt}$. $a(t)$ is de tweede afgeleide van $x(t)$ naar $t$ (of de eerste afgeleide van $v(t)$): $a(t) = \\frac{d^2x}{dt^2} = \\frac{dv}{dt}$.",
+          "stappen": [],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Tram 13 rijdt aan een constante snelheid van $36 \\text{ km/h}$ en is nog $100 \\text{ m}$ verwijderd van een kruispunt. Tram 7 is $150 \\text{ m}$ verwijderd van hetzelfde kruispunt, start met $18 \\text{ km/h}$, maar versnelt met $2 \\text{ m/s}^2$. Bepaal welke tram als eerste over het kruispunt gaat.",
+          "uitleg": "Bereken de tijd $t$ voor beide trams om $x=0$ te bereiken.",
+          "antwoord": "Beide trams komen na $10 \\text{ s}$ gelijktijdig aan.",
+          "stappen": [
+            "Snelheden omzetten: $v_{13} = 10 \\text{ m/s}$, $v_{7,0} = 5 \\text{ m/s}$.",
+            "Tram 13: $t_{13} = \\frac{\\Delta x}{v} = \\frac{100}{10} = 10 \\text{ s}$",
+            "Tram 7: $\\Delta x = v_0 t + \\frac{1}{2} a t^2 \\implies 150 = 5t + t^2$",
+            "$t^2 + 5t - 150 = 0 \\implies (t+15)(t-10) = 0 \\implies t_7 = 10 \\text{ s}$"
+          ],
+          "punten": 10
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Een bestuurder draait de oprit naar de snelweg op aan $18,0 \\text{ km/h}$. Juist $200 \\text{ m}$ verderop moet hij invoegen en minstens $70 \\text{ km/h}$ rijden. Hoe groot moet zijn constante versnelling minstens zijn om dat doel te bereiken? (Uitleg over het gebruik van de $x(t)$ en $v(t)$ formules is vereist).",
+          "uitleg": "Gebruik de tijdonafhankelijke formule.",
+          "antwoord": "De minimale versnelling $a$ is $0,882 \\text{ m/s}^2$.",
+          "stappen": [
+            "Snelheden omzetten: $v_0 = 5,0 \\text{ m/s}$, $v_e = 19,44 \\text{ m/s}$.",
+            "Tijdonafhankelijke formule: $v_e^2 = v_0^2 + 2 \\cdot a \\cdot \\Delta x$",
+            "$(19,44)^2 = (5,0)^2 + 2 \\cdot a \\cdot 200$",
+            "$378,0 - 25 = 400 a$",
+            "$a = \\frac{353,0}{400} \\approx 0,882 \\text{ m/s}^2$"
+          ],
+          "punten": 10
+        }
+      ],
+      "totaal_punten": 46,
+      "geschatte_tijd": "70 minuten",
+      "leerdoelen": ["Het oplossen van complexe dynamica-vraagstukken"],
+      "tips": [
+        "Zorg ervoor dat je de juiste formules kiest en de eenheden consistent houdt."
+      ]
+    },
+    {
+      "id": "kinVRIJ-premium",
+      "titel": "Vrije Val, Verticale & Horizontale Worp (premium)",
+      "beschrijving": "Diepgaande oefeningen over vrije val, verticale worp en horizontale worp met focus op begrip en toepassing.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Mechanica",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Verklaar het onafhankelijkheidsbeginsel bij een tweedimensionale beweging (zoals een schuine worp). Wat betekent dit voor de tijd $t$ in de vergelijkingen van de $x$-as en de $y$-as?",
+          "uitleg": "De $x$- en $y$-beweging zijn onafhankelijk, maar gekoppeld door $t$.",
+          "antwoord": "Bewegingen langs de $x$- en $y$-as beïnvloeden elkaar niet. De tijd $t$ is de gemeenschappelijke parameter die de twee deelbewegingen verbindt.",
+          "stappen": [
+            "De componenten van de versnelling werken onafhankelijk."
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Waarom heeft de massa van een voorwerp (zoals een bowlingbal en een veer) geen invloed op de valbeweging in afwezigheid van wrijving?",
+          "uitleg": "Afleiding van de versnelling uit de wetten van Newton.",
+          "antwoord": "Volgens de Tweede Wet van Newton ($F_{res} = m \\cdot a$) en de Zwaartekracht ($F_z = m \\cdot g$) valt de massa $m$ weg uit de formule voor versnelling ($a=g$). De valversnelling is onafhankelijk van de massa.",
+          "stappen": [
+            "$F_{res} = F_z \\implies m \\cdot a = m \\cdot g$",
+            "$a = g$ (massa valt weg)"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Een fietser rijdt met $v_0=10 \\text{ m/s}$ horizontaal van een brug af die $20 \\text{ m}$ hoog is. Bereken de grootte van de totale snelheid van de fietser op het moment dat deze het water raakt. (Gebruik $g=9,81 \\text{ m/s}^2$).",
+          "uitleg": "Horizontale worp: $v = \\sqrt{v_x^2 + v_y^2}$.",
+          "antwoord": "De totale snelheid $v$ is $22,2 \\text{ m/s}$.",
+          "stappen": [
+            "Tijd $t$ tot landing: $t = \\sqrt{\\frac{2y}{g}} = \\sqrt{\\frac{2 \\cdot 20}{9,81}} \\approx 2,02 \\text{ s}$",
+            "Verticale snelheid $v_y$: $v_y = g \\cdot t = 9,81 \\cdot 2,02 \\approx 19,8 \\text{ m/s}$",
+            "Totale snelheid $v$: $v = \\sqrt{v_x^2 + v_y^2} = \\sqrt{10^2 + 19,8^2} \\approx 22,2 \\text{ m/s}$"
+          ],
+          "punten": 8
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Waarom wordt de massa van het voorwerp niet vermeld in de bewegingsvergelijkingen voor de vrije val, en wat is de theoretische implicatie hiervan volgens het gebruikte model?",
+          "uitleg": "Herhaling van de afleiding $a=g$.",
+          "antwoord": "De massa valt weg bij de afleiding van de versnelling uit $F=ma$ en $F_z=mg$. De theoretische implicatie is dat de valversnelling voor alle objecten hetzelfde is (in een vacuüm).",
+          "stappen": ["Zie vraag 206."],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Bij wipschieten hangt een doel op $45 \\text{ m}$ hoogte. Een schutter geeft de pijl een beginsnelheid van $25 \\text{ m/s}$ ($v_0$) recht omhoog. De pijl verlaat de boog op een hoogte van $1,80 \\text{ m}$ ($y_0$). Bepaal de maximale hoogte die de pijl bereikt en oordeel of de schutter kans maakt om het doel te raken. (Gebruik $g=9,81 \\text{ m/s}^2$).",
+          "uitleg": "Maximale hoogte wordt bereikt als $v=0$.",
+          "antwoord": "De maximale hoogte is $33,65 \\text{ m}$. Nee, het doel wordt niet geraakt ($33,65 \\text{ m} < 45 \\text{ m}$).",
+          "stappen": [
+            "Tijdonafhankelijke formule: $v_e^2 = v_0^2 + 2 \\cdot a \\cdot \\Delta y$",
+            "$0 = (25)^2 + 2 \\cdot (-9,81) \\cdot (y_{max} - 1,80)$",
+            "$y_{max} - 1,80 = \\frac{625}{19,62} \\approx 31,85 \\text{ m}$",
+            "$y_{max} = 31,85 + 1,80 = 33,65 \\text{ m}$"
+          ],
+          "punten": 10
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Lode wil in een zwembad springen. Het zwembad is $1,2 \\text{ m}$ hoog en staat op $4,3 \\text{ m}$ van een muur. De diameter van het zwembad bedraagt $5 \\text{ m}$. Lode loopt op $5,4 \\text{ m}$ hoogte op het dak en voert aan de rand een horizontale sprong uit. Welke snelheid (in $\\text{km/h}$) moet Lode hebben om in het zwembad te landen? (Gebruik $g=9,81 \\text{ m/s}^2$).",
+          "uitleg": "Minimale en maximale horizontale afstand berekenen en omzetten naar $v_0$.",
+          "antwoord": "De snelheid moet tussen $14,8 \\text{ km/h}$ en $31,9 \\text{ km/h}$ liggen.",
+          "stappen": [
+            "Valhoogte: $h = 5,4 \\text{ m} - 1,2 \\text{ m} = 4,2 \\text{ m}$",
+            "Tijd $t$ om te vallen: $t = \\sqrt{\\frac{2h}{g}} = \\sqrt{\\frac{2 \\cdot 4,2}{9,81}} \\approx 0,924 \\text{ s}$",
+            "Minimale horizontale afstand $\\Delta x_{min} = 4,3 \\text{ m}$",
+            "Maximale horizontale afstand $\\Delta x_{max} = 4,3 + 5,0 = 9,3 \\text{ m}$",
+            "Minimale snelheid: $v_{min} = \\frac{\\Delta x_{min}}{t} = \\frac{4,3}{0,924} \\approx 4,65 \\text{ m/s} \\approx 16,7 \\text{ km/h}$ (let op, ik neem hier $\\Delta x$ van $4,3$ tot $9,3$ en kom tot $4,65 \\text{ m/s}$ en $10,06 \\text{ m/s}$)",
+            "Maximale snelheid: $v_{max} = \\frac{\\Delta x_{max}}{t} = \\frac{9,3}{0,924} \\approx 10,06 \\text{ m/s} \\approx 36,2 \\text{ km/h}$"
+          ],
+          "punten": 12
+        }
+      ],
+      "totaal_punten": 45,
+      "geschatte_tijd": "65 minuten",
+      "leerdoelen": ["Het vergaan van inzicht in vrije val en worpbewegingen"],
+      "tips": [
+        "Zorg ervoor dat je je basisformules kent en begrijp hoe je ze toepast in verschillende situaties."
+      ]
+    },
+    {
+      "id": "kinECB-premium",
+      "titel": "Eenparige Cirkelvormige Beweging (ECB) (premium)",
+      "beschrijving": "Uitdagende oefeningen over eenparige cirkelvormige beweging met focus op begrip van baansnelheid, versnelling en krachten.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Mechanica",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Twee objecten, P1 en P2, bewegen volgens een ECB met dezelfde periode $T$. P1 bevindt zich op straal $r$, P2 op straal $2r$. Welk object heeft de grootste baansnelheid $v$ en waarom? (Verwijs naar de formule $v=\\omega r$).",
+          "uitleg": "Verband tussen straal en baansnelheid bij constante $\\omega$.",
+          "antwoord": "Object P2 heeft de grootste baansnelheid $v$, omdat $v$ evenredig is met de straal $r$ ($v=\\omega r$) en P2 een grotere straal heeft.",
+          "stappen": [
+            "Constante $T \\implies$ constante $\\omega = 2\\pi / T$.",
+            "$v$ is recht evenredig met $r$."
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Een wielrenner neemt een bocht met constante snelheid. Door welk mechanisme (verandering van snelheid of richting) is de versnelling hier niet nul?",
+          "uitleg": "Definitie van ECB versnelling.",
+          "antwoord": "De versnelling is niet nul vanwege de verandering van richting van de snelheidsvector. ($a_c \\neq 0$)",
+          "stappen": [
+            "Versnelling is de snelheidsverandering (vectorieel).",
+            "In een ECB verandert alleen de richting van de snelheidsvector $\\vec{v}$."
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Een centrifuge met een straal $r=0,40 \\text{ m}$ draait met een frequentie $f=15 \\text{ Hz}$. Bereken de centripetale versnelling $a_c$. (Gebruik de formules $\\omega=2\\pi f$ en $a_c=\\omega^2 r$).",
+          "uitleg": "Bereken $\\omega$ en dan $a_c$.",
+          "antwoord": "De centripetale versnelling $a_c$ is $3553 \\text{ m/s}^2$.",
+          "stappen": [
+            "Hoeksnelheid: $\\omega = 2\\pi f = 2\\pi \\cdot 15 \\approx 94,25 \\text{ rad/s}$",
+            "Centripetale versnelling: $a_c = \\omega^2 r = (94,25)^2 \\cdot 0,40 \\approx 3553 \\text{ m/s}^2$"
+          ],
+          "punten": 8
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Leg uit waarom een ECB, ondanks een constante baansnelheid $v$, toch een centripetale versnelling $a_c$ heeft. Wat is de richting en zin van deze versnelling?",
+          "uitleg": "Versnelling is een vectoriële snelheidsverandering.",
+          "antwoord": "De versnelling is er omdat de richting van de snelheidsvector ($\\vec{v}$) continu verandert. De richting is loodrecht op $\\vec{v}$, gericht naar het middelpunt.",
+          "stappen": [
+            "Versnelling is de verandering van de snelheidsvector $\\vec{a} = \\frac{d\\vec{v}}{dt}$."
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "De achtbaan Typhoon in Bobbejaanland heeft een cirkelvormige looping met een diameter van $19 \\text{ m}$. De snelheid van de wagentjes bedraagt $65 \\text{ km/h}$. Bereken de centripetale versnelling $a_c$ tijdens de looping.",
+          "uitleg": "Gebruik $a_c = v^2/r$.",
+          "antwoord": "De centripetale versnelling $a_c$ is $34,35 \\text{ m/s}^2$ (of $\\approx 3,50g$).",
+          "stappen": [
+            "Straal: $r = 19 \\text{ m} / 2 = 9,5 \\text{ m}$",
+            "Snelheid: $v = 65 / 3,6 \\approx 18,06 \\text{ m/s}$",
+            "$a_c = \\frac{v^2}{r} = \\frac{(18,06)^2}{9,5} \\approx 34,35 \\text{ m/s}^2$"
+          ],
+          "punten": 8
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "In de film *Passengers* wordt een ruimteschip getoond dat $200 \\text{ m}$ van het draaicentrum verwijderd is. Hoe groot is de periode $T$ om een versnelling van $1g$ te verkrijgen? ($g\\approx 9,81 \\text{ m/s}^2$).",
+          "uitleg": "Gebruik $a_c = g$, en $a_c = \\omega^2 r = (\\frac{2\\pi}{T})^2 r$.",
+          "antwoord": "De periode $T$ is $28,4 \\text{ s}$.",
+          "stappen": [
+            "Gelijkstellen: $a_c = g \\implies g = \\frac{4\\pi^2}{T^2} r$",
+            "$T^2 = \\frac{4\\pi^2 r}{g} = \\frac{4\\pi^2 \\cdot 200}{9,81} \\approx 805,4$",
+            "$T = \\sqrt{805,4} \\approx 28,4 \\text{ s}$"
+          ],
+          "punten": 10
+        }
+      ],
+      "totaal_punten": 41,
+      "geschatte_tijd": "60 minuten",
+      "leerdoelen": [
+        "Het begrijpen van de principes van eenparige cirkelvormige beweging"
+      ],
+      "tips": [
+        "Zorg ervoor dat je de formules voor centripetale versnelling en hoeksnelheid goed begrijpt."
+      ]
+    },
+    {
+      "id": "dynNEW-premium",
+      "titel": "Wetten van Newton & Krachten (premium)",
+      "beschrijving": "Uitdagende oefeningen over de wetten van Newton en krachten met focus op begrip van statische en dynamische effecten, actie-reactieparen en krachtcomponenten.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Mechanica",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Leg uit wat het verschil is tussen het statische en het dynamische effect van een kracht. Geef een voorbeeld van een kracht die beide effecten veroorzaakt.",
+          "uitleg": "Effecten van een kracht: vorm en beweging.",
+          "antwoord": "Statisch effect is verandering van vorm (deformatie). Dynamisch effect is verandering van bewegingstoestand (snelheid). Voorbeeld: Zwaartekracht op een springplank.",
+          "stappen": [],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Leg aan de hand van de Tweede Wet van Newton uit waarom een tennisbal onder invloed van een stootkracht veel sneller versnelt dan een vrachtwagen onder invloed van dezelfde stootkracht.",
+          "uitleg": "Verband tussen versnelling, kracht en massa.",
+          "antwoord": "Volgens $a = F_{res}/m$ resulteert dezelfde kracht $F_{res}$ in een veel grotere versnelling $a$ voor de tennisbal, omdat deze een veel kleinere massa $m$ heeft.",
+          "stappen": [
+            "Herschrijf $F_{res} = m \\cdot a$ naar $a = \\frac{F_{res}}{m}$."
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "meerkeuze",
+          "vraag": "Een auto rijdt met snelheid $\\vec{v}$. Een kracht $\\vec{F}$ werkt in tegengestelde zin van $\\vec{v}$. Wat is het effect op de beweging?",
+          "opties": [
+            "Verandering van richting.",
+            "Vertraging.",
+            "Versnelling.",
+            "Geen effect."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Kracht tegengesteld aan de snelheidsvector vermindert de snelheid (vertraging).",
+          "uitleg_per_optie": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "De Zon oefent een enorme zwaartekracht uit op de Aarde. Volgens de Derde Wet van Newton oefent de Aarde een even grote, maar tegengestelde kracht uit op de Zon. Waarom is het effect op de Zon nauwelijks zichtbaar?",
+          "uitleg": "Effect is gerelateerd aan de massa van de Zon.",
+          "antwoord": "Het effect (versnelling $a$) is omgekeerd evenredig met de massa $m$ ($a=F/m$). De enorme massa van de Zon zorgt voor een verwaarloosbare versnelling.",
+          "stappen": ["Tweede Wet van Newton: $a = F/m$."],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Leg de Derde Wet van Newton uit in de context van een paard dat een kar wil trekken. Waarom heffen de actie- en reactiekracht elkaar niet op, waardoor beweging onmogelijk zou zijn?",
+          "uitleg": "Actie en reactie werken op verschillende lichamen.",
+          "antwoord": "Actie (Paard op Kar) en Reactie (Kar op Paard) heffen elkaar niet op omdat ze op verschillende voorwerpen inwerken. De beweging is mogelijk door de krachten tussen het paard en de grond ($F_{actie} \\neq F_{reactie}$).",
+          "stappen": [
+            "Duidelijk maken dat krachten op verschillende objecten werken."
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Een auto rijdt met snelheid $\\vec{v}$. Leg uit wat er gebeurt met de grootte én de richting van $\\vec{v}$ als de resulterende kracht $\\vec{F}_{res}$ loodrecht op $\\vec{v}$ staat.",
+          "uitleg": "Denk aan de ECB: $\\vec{F}_{res}$ is $F_c$.",
+          "antwoord": "De grootte van $\\vec{v}$ blijft constant. De richting van $\\vec{v}$ verandert continu (dit is een ECB, waar $F_{res}$ de centripetale kracht is).",
+          "stappen": [
+            "Kracht loodrecht op snelheid $\\implies$ geen verandering van kinetische energie (grootte van $v$)."
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Leg aan de hand van de formule $a=F/m$ uit waarom de zwaartekracht van de Aarde op de Zon nauwelijks een zichtbaar effect veroorzaakt, ondanks dat deze kracht even groot is als de zwaartekracht van de Zon op de Aarde.",
+          "uitleg": "Herschrijving van de Tweede Wet van Newton en massa.",
+          "antwoord": "Door de extreem grote massa $m$ van de Zon resulteert dezelfde kracht $F$ in een nauwelijks waarneembare versnelling $a$ ($a=F/m$).",
+          "stappen": ["Zie vraag 409."],
+          "punten": 5
+        }
+      ],
+      "totaal_punten": 33,
+      "geschatte_tijd": "50 minuten",
+      "leerdoelen": [
+        "Het begrijpen van de wetten van Newton en hun toepassingen"
+      ],
+      "tips": [
+        "Zorg ervoor dat je de concepten van kracht, massa en versnelling goed begrijt."
+      ]
+    },
+    {
+      "id": "dynBIJKR-premium",
+      "titel": "Bijzondere Krachten (premium)",
+      "beschrijving": "Uitdagende oefeningen over bijzondere krachten zoals wrijvingskrachten, normaalkracht en centripetale kracht met focus op begrip en toepassing.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Mechanica",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Een blok ligt op een helling met hellingshoek $\\theta$. Geef de formule voor de Normaalkracht $F_N$ op dit blok. Waarom is deze $F_N$ kleiner dan de zwaartekracht $F_z$?",
+          "uitleg": "Normaalkracht neutraliseert slechts een component van $F_z$.",
+          "antwoord": "$F_N = m \\cdot g \\cdot \\cos(\\theta)$. $F_N$ is kleiner dan $F_z$ omdat enkel de component van $F_z$ loodrecht op het vlak wordt geneutraliseerd (en $\\cos(\\theta) < 1$).",
+          "stappen": [
+            "Evenwicht loodrecht op het vlak: $F_N = F_{z,y} = m \\cdot g \\cdot \\cos(\\theta)$."
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Waarom is het vaak moeilijker om een zwaar voorwerp in beweging te brengen dan om het in beweging te houden? (Verwijs naar de wrijvingskrachten).",
+          "uitleg": "Vergelijking van statische en dynamische wrijvingscoëfficiënten.",
+          "antwoord": "De maximale statische wrijvingskracht ($F_{w,s\\,max}$) is groter dan de dynamische wrijvingskracht ($F_{w,d}$), omdat $\\mu_s > \\mu_d$.",
+          "stappen": [
+            "$F_{w,s\\,max} = \\mu_s \\cdot F_N$",
+            "$F_{w,d} = \\mu_d \\cdot F_N$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "De centripetale kracht $F_c$ op een voorwerp met massa $m$ in een bocht met straal $r$ wordt geleverd door de maximale statische wrijvingskracht $F_{w,s\\,max}$. Leid een formule af voor de maximale snelheid $v_{max}$ in deze bocht, waarbij de massa $m$ niet in de uiteindelijke formule voorkomt.",
+          "uitleg": "Gelijkstellen van $F_c$ en $F_{w,s\\,max}$.",
+          "antwoord": "$v_{max} = \\sqrt{\\mu_s \\cdot g \\cdot r}$",
+          "stappen": [
+            "$F_c = F_{w,s\\,max}$",
+            "$\\frac{m \\cdot v_{max}^2}{r} = \\mu_s \\cdot F_N = \\mu_s \\cdot m \\cdot g$",
+            "Vereenvoudigen: $\\frac{v_{max}^2}{r} = \\mu_s \\cdot g$",
+            "$v_{max} = \\sqrt{\\mu_s \\cdot g \\cdot r}$"
+          ],
+          "punten": 8
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "meerkeuze",
+          "vraag": "Als een voorwerp rolt over een oppervlak, geldt dan de formule $F_{w,d}=\\mu_d \\cdot F_N$ of $F_r=C_r \\cdot F_N$?",
+          "opties": [
+            "$F_{w,d}=\\mu_d \\cdot F_N$.",
+            "$F_r=C_r \\cdot F_N$.",
+            "Beide.",
+            "Geen van beide."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Voor rollen wordt een aparte rolweerstandscoëfficiënt $C_r$ gebruikt (of $f_r$ in sommige boeken) die veel kleiner is dan $\\mu_d$.",
+          "uitleg_per_optie": [],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Leg uit wat de oorzaak is dat de maximale statische wrijvingskracht $F_{w,s\\,max}$ meestal groter is dan de dynamische wrijvingskracht $F_{w,d}$.",
+          "uitleg": "Verwijzing naar intermoleculaire bindingen.",
+          "antwoord": "Bij stilstand zijn er sterkere intermoleculaire bindingen (koude lassen) gevormd die doorbroken moeten worden, waardoor $\\mu_s > \\mu_d$.",
+          "stappen": [],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "In een ECB levert een kracht de centripetale kracht $F_c$. Geef de formule voor $F_c$. Wat is de aard van de kracht die inwerkt als u een hamer in het rond slingert?",
+          "uitleg": "Formule van $F_c$ en de oorzaak in dit voorbeeld.",
+          "antwoord": "$F_c = \\frac{m \\cdot v^2}{r}$ (of $m \\cdot \\omega^2 \\cdot r$). De kracht wordt geleverd door de spankracht in de kabel/arm.",
+          "stappen": [],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Op een blok hout ($m=150 \\text{ g}$) wordt horizontaal een toenemende kracht uitgeoefend. Bij een kracht van $1,10 \\text{ N}$ komt het blok juist in beweging. Hoe groot is de statische wrijvingscoëfficiënt $\\mu_s$ tussen het hout en de ondergrond? (Gebruik $g=9,81 \\text{ m/s}^2$).",
+          "uitleg": "De trekkracht is gelijk aan $F_{w,s\\,max}$.",
+          "antwoord": "De statische wrijvingscoëfficiënt $\\mu_s$ is $0,747$.",
+          "stappen": [
+            "Omzetten massa: $m = 0,150 \\text{ kg}$",
+            "$F_{trek} = F_{w,s\\,max} = 1,10 \\text{ N}$",
+            "$F_N = F_z = m \\cdot g = 0,150 \\cdot 9,81 \\approx 1,472 \\text{ N}$",
+            "$\\mu_s = \\frac{F_{w,s\\,max}}{F_N} = \\frac{1,10}{1,472} \\approx 0,747$"
+          ],
+          "punten": 8
+        }
+      ],
+      "totaal_punten": 39,
+      "geschatte_tijd": "60 minuten",
+      "leerdoelen": [
+        "Het begrijpen van bijzondere krachten en hun toepassingen"
+      ],
+      "tips": [
+        "Zorg ervoor dat je de concepten van wrijvingskrachten en normaalkracht goed begrijpt."
+      ]
+    },
+    {
+      "id": "dynTOEP-premium",
+      "titel": "Toepassingen (Krachtendiagrammen en vraagstukken) (premium)",
+      "beschrijving": "Uitdagende oefeningen over het toepassen van de wetten van Newton en krachten in praktische situaties met focus op krachtendiagrammen en probleemoplossing.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Mechanica",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Stel het stappenplan op voor het oplossen van een dynamica-vraagstuk dat een krachtendiagram vereist.",
+          "uitleg": "Methodologie van dynamica-probleemoplossing.",
+          "antwoord": "1. Krachtendiagram tekenen. 2. Assenstelsel kiezen. 3. Krachten ontbinden (indien nodig). 4. Tweede Wet van Newton toepassen ($\\vec{F}_{res} = m \\cdot \\vec{a}$). 5. Vergelijkingen oplossen.",
+          "stappen": [],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Een wagentje met massa $m$ wordt voortgetrokken door een vallende massa $m'$ via een katrol. Leid de formule af voor de versnelling $a$ van het systeem, uitgaande van wrijvingsloos bewegen.",
+          "uitleg": "Tweede Wet van Newton op beide massa's en het systeem.",
+          "antwoord": "$a = \\frac{m' \\cdot g}{m + m'}$",
+          "stappen": [
+            "Systematische kracht: $F_{res} = F_{z,m'} = m' \\cdot g$",
+            "Totale massa: $M_{totaal} = m + m'$",
+            "Tweede Wet van Newton: $F_{res} = M_{totaal} \\cdot a$",
+            "$m' \\cdot g = (m + m') \\cdot a$",
+            "$a = \\frac{m' \\cdot g}{m + m'}$"
+          ],
+          "punten": 8
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Een blok hout ($m=10 \\text{ kg}$) ligt op een horizontale vloer met $\\mu_d=0,25$. Een constante trekkracht van $50 \\text{ N}$ wordt uitgeoefend. Bereken de versnelling $a$ van het blok en vervolgens de snelheid van het blok na $4,0 \\text{ s}$ (combinatie Dynamica en Kinematica).",
+          "uitleg": "Eerst $F_{res}$ berekenen, dan $a$, dan $v$.",
+          "antwoord": "De versnelling $a$ is $2,55 \\text{ m/s}^2$. De snelheid na $4,0 \\text{ s}$ is $10,2 \\text{ m/s}$.",
+          "stappen": [
+            "Normaalkracht: $F_N = F_z = m \\cdot g = 10 \\cdot 9,81 = 98,1 \\text{ N}$",
+            "Wrijvingskracht: $F_w = \\mu_d \\cdot F_N = 0,25 \\cdot 98,1 = 24,5 \\text{ N}$",
+            "Resulterende kracht: $F_{res} = F_{trek} - F_w = 50 - 24,5 = 25,5 \\text{ N}$",
+            "Versnelling: $a = \\frac{F_{res}}{m} = \\frac{25,5}{10} = 2,55 \\text{ m/s}^2$",
+            "Snelheid: $v(4,0) = a \\cdot t = 2,55 \\cdot 4,0 = 10,2 \\text{ m/s}$"
+          ],
+          "punten": 10
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Een skiër ($m=70 \\text{ kg}$) glijdt van een schans van $90 \\text{ m}$ lang met een hellingshoek van $35°$. De dynamische wrijvingscoëfficiënt $\\mu_d=0,20$. Startend vanuit rust, welke snelheid haalt de skiër aan het uiteinde van de schans?",
+          "uitleg": "Bereken $a$ met dynamica en $v$ met kinematica.",
+          "antwoord": "De eindsnelheid is $26,9 \\text{ m/s}$.",
+          "stappen": [
+            "$F_{z,x} = m \\cdot g \\cdot \\sin(35°) = 70 \\cdot 9,81 \\cdot 0,574 \\approx 393,6 \\text{ N}$",
+            "$F_N = m \\cdot g \\cdot \\cos(35°) = 70 \\cdot 9,81 \\cdot 0,819 \\approx 563,0 \\text{ N}$",
+            "$F_w = \\mu_d \\cdot F_N = 0,20 \\cdot 563,0 = 112,6 \\text{ N}$",
+            "$F_{res} = F_{z,x} - F_w = 393,6 - 112,6 = 281,0 \\text{ N}$",
+            "Versnelling $a = \\frac{F_{res}}{m} = \\frac{281,0}{70} \\approx 4,01 \\text{ m/s}^2$",
+            "Snelheid $v_e$: $v_e^2 = v_0^2 + 2 \\cdot a \\cdot \\Delta x = 0 + 2 \\cdot 4,01 \\cdot 90 \\approx 721,8$",
+            "$v_e = \\sqrt{721,8} \\approx 26,9 \\text{ m/s}$"
+          ],
+          "punten": 15
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Twee massa's ($m_1=1,0 \\text{ kg}$ en $m_2=2,0 \\text{ kg}$) zijn met elkaar verbonden via een katrol. $m_2$ wordt losgelaten van $4,0 \\text{ m}$ hoogte. Bepaal de versnelling $a$ die het systeem zal krijgen.",
+          "uitleg": "Systeemversnelling voor een Atwoods machine (wrijvingsloos).",
+          "antwoord": "De versnelling $a$ is $3,27 \\text{ m/s}^2$.",
+          "stappen": [
+            "Systeemkracht: $F_{res} = F_{z,m2} - F_{z,m1} = m_2 g - m_1 g = (2,0 - 1,0) \\cdot 9,81 = 9,81 \\text{ N}$",
+            "Totale massa: $M_{totaal} = m_1 + m_2 = 3,0 \\text{ kg}$",
+            "Versnelling $a = \\frac{F_{res}}{M_{totaal}} = \\frac{9,81}{3,0} \\approx 3,27 \\text{ m/s}^2$"
+          ],
+          "punten": 8
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Een piloot ($m=80,0 \\text{ kg}$) voert een looping uit met een straal $r=2,70 \\text{ km}$ en een constante snelheid $v=225 \\text{ m/s}$. Welk gewicht (normaalkracht $F_N$) heeft de piloot in het onderste punt van de looping?",
+          "uitleg": "In het onderste punt wijzen $F_c$ en $F_N$ naar boven, $F_z$ naar beneden.",
+          "antwoord": "Het gewicht (normaalkracht $F_N$) is $2284,8 \\text{ N}$.",
+          "stappen": [
+            "Omzetten straal: $r = 2700 \\text{ m}$",
+            "Centripetale kracht: $F_c = \\frac{m \\cdot v^2}{r} = \\frac{80,0 \\cdot (225)^2}{2700} = 1500 \\text{ N}$",
+            "Zwaartekracht: $F_z = m \\cdot g = 80,0 \\cdot 9,81 = 784,8 \\text{ N}$",
+            "Onderste punt: $F_{res} = F_c = F_N - F_z$",
+            "$F_N = F_z + F_c = 784,8 + 1500 = 2284,8 \\text{ N}$"
+          ],
+          "punten": 12
+        }
+      ],
+      "totaal_punten": 58,
+      "geschatte_tijd": "80 minuten",
+      "leerdoelen": [
+        "Het toepassen van de wetten van Newton en krachten in praktische situaties"
+      ],
+      "tips": [
+        "Zorg dat je de krachten van Newton goed kunt toepassen in verschillende scenario's."
+      ]
+    }
+  ],
+  "extra_informatie": {
+    "voorkennis": [
+      "Basiskennis van lineaire vergelijkingen",
+      "Werken met vierkantswortels en goniometrie (sin, cos)",
+      "Wiskundige afgeleiden (voor premium-oefeningen)"
+    ],
+    "vervolgonderwerpen": [
+      "Arbeid en Energie",
+      "Impuls en Stoot",
+      "Trillingen en Golven"
+    ],
+    "bronnen": ["Leerboek Fysica 6de jaar", "Simulaties van de natuurkunde"]
+  }
+}

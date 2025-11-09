@@ -107,6 +107,14 @@ export const onderdelenConfig: OnderdelenConfig = {
     { id: "vocabulaire", name: "Vocabulaire", description: "Basiswoordenschat", jaar: 6 },
     { id: "grammaire", name: "Grammaire", description: "Basisgrammatica", jaar: 6 },
     { id: "conjugaison", name: "Conjugaison", description: "Werkwoordvervoegingen", jaar: 6 },
+  ],
+  fysica: [
+    // Jaar 6
+    { id: "dynamica", name: "Mechanica", description: "Beweging en krachten", jaar: 6 },
+  ],
+  chemie: [
+    // Jaar 6
+    { id: "ionenreacties", name: "Ionenreacties", description: "Reacties waarbij ionen worden uitgewisseld", jaar: 6 },
   ]
 };
  
