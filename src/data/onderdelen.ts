@@ -115,6 +115,7 @@ export const onderdelenConfig: OnderdelenConfig = {
   chemie: [
     // Jaar 6
     { id: "ionenreacties", name: "Ionenreacties", description: "Reacties waarbij ionen worden uitgewisseld", jaar: 6 },
+    {id: "redoxreacties", name: "Redoxreacties", description: "Oxidatie- en reductiereacties", jaar: 6 },
   ]
 };
  

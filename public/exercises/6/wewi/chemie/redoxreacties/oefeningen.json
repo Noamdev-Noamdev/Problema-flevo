@@ -1,0 +1,340 @@
+{
+  "vak": "Chemie",
+  "onderdeel": "Redoxreacties en elektrochemie",
+  "jaar": 6,
+  "richting": "wewi",
+  "laatst_bijgewerkt": "2025-11-09",
+  "oefeningen": [
+    {
+      "id": "chemie-redox-001-gratis",
+      "titel": "Redoxreacties en Elektrochemie - Feiten en Studie (Gratis)",
+      "beschrijving": "Basiskennisvragen over oxidatiegetallen, de rol van oxidatoren en reductoren, en de opbouw van elektrochemische cellen.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Redoxreacties",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Definieer oxidator en reductor in termen van elektronenopname/afgifte en de verandering in het Oxidatiegetal (OG).",
+          "uitleg": "Verwijs naar de relatie tussen elektronenbeweging en de stijging/daling van het OG.",
+          "antwoord": "Een **oxidator** neemt elektronen op en wordt zelf gereduceerd (OG daalt). Een **reductor** staat elektronen af en wordt zelf geoxideerd (OG stijgt).",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat is het Oxidatiegetal (OG) van zuurstof (O) in een peroxide zoals $\\text{H}_2\\text{O}_2$?",
+          "uitleg": "Gebruik de vuistregels voor het OG van zuurstof.",
+          "antwoord": "Het Oxidatiegetal van O in peroxiden is $\\text{-I}$.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Wat is de functie van een zoutbrug in een galvanische cel, en wat is de essentiële voorwaarde voor het optreden van een spanningsverschil?",
+          "uitleg": "Denk aan de elektrische neutraliteit en de scheiding van de halfcellen.",
+          "antwoord": "De zoutbrug zorgt voor **ionentransport** tussen de halfcellen, waardoor de elektrische neutraliteit in de oplossingen behouden blijft. Een spanningsverschil treedt enkel op in aanwezigheid van deze zoutbrug/poreus membraan, ter **ruimtelijke scheiding** van de halfcellen.",
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Wat is de notatie die altijd wordt gebruikt voor het Oxidatiegetal van een gebonden atoom?",
+          "uitleg": "Verwijs naar het type cijfer dat gebruikt wordt.",
+          "antwoord": "Het Oxidatiegetal wordt steeds weergegeven met een **Romeins cijfer**.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Wat is de algemene regel voor het Oxidatiegetal van elementen in Groep IIа?",
+          "uitleg": "Gebruik de vuistregels voor metalen uit Groep IIa.",
+          "antwoord": "Het OG is meestal $\\text{+II}$.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Waarom is de standaardwaterstofelektrode ingevoerd, en welke waarde is per definitie aan de normpotentiaal ervan toegekend?",
+          "uitleg": "Potentiaalverschil vs. absolute waarde.",
+          "antwoord": "Het is ingevoerd omdat men enkel een **potentiaalverschil** tussen twee elektroden kan meten, en geen absolute waarde van één halfreactie. Per definitie is de normpotentiaal ($\text{E}^0$) gelijk aan **nul**.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Noteer de celnotatie voor een galvanische cel die bestaat uit een $\\text{Zn}/\\text{Zn}^{2+}$ halfcel en een $\\text{Cu}/\\text{Cu}^{2+}$ halfcel, waarbij $\\text{Zn}$ de anode is.",
+          "uitleg": "Anode links, kathode rechts, zoutbrug met dubbele schuine streep.",
+          "antwoord": "$\\text{Zn}/\\text{Zn}^{2+} // \\text{Cu}^{2+}/\\text{Cu}$",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "open",
+          "vraag": "In een redoxreactie in zuur milieu, welke deeltjes moeten worden toegevoegd om de ladingsbalans te corrigeren, en aan welke zijde?",
+          "uitleg": "Denk aan de beschikbaarheid van deeltjes in zuur milieu.",
+          "antwoord": "$\\text{H}^+$-ionen worden toegevoegd aan de zijde die het **minst positief / meest negatief** is.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Wat is de energietransformatie in een elektrolyse opstelling?",
+          "opties": [
+            "Chemische energie $\\rightarrow$ Elektrische energie",
+            "Elektrische energie $\\rightarrow$ Chemische reacties",
+            "Thermische energie $\\rightarrow$ Elektrische energie",
+            "Chemische reacties $\\rightarrow$ Warmte"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Bij elektrolyse wordt elektrische energie (extern geleverd) gebruikt om een chemische reactie (gedwongen redox) te laten plaatsvinden.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Waar staat de sterkste reductor in de verdringingsreeks van metalen?",
+          "opties": [
+            "Rechts, met het hoogste $\\text{E}^0$.",
+            "Links, met het laagste $\\text{E}^0$.",
+            "In het midden, rond $\\text{H}$.",
+            "Rechts, met het laagste $\\text{E}^0$."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De sterkste reductor staat links en heeft bijgevolg de laagste (meest negatieve) $\\text{E}^0$.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "De reactie $\\text{Fe}^{2+} \\rightarrow \\text{Fe}^{3+}+1\\text{e}^-$ is een:",
+          "opties": [
+            "Reductie, want het $\\text{OG}$ stijgt.",
+            "Oxidatie, want er worden elektronen opgenomen.",
+            "Reductie, want er worden elektronen afgegeven.",
+            "Oxidatie, want het $\\text{OG}$ stijgt."
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Dit is een oxidatie (afstaan van elektronen) en het OG van $\\text{Fe}$ gaat van $+\\text{II}$ naar $+\\text{III}$ (stijging).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Bij een alkaline batterij, welk materiaal treedt op als reductor (anode) in de cel?",
+          "opties": [
+            "$\\text{KOH}$",
+            "$\\text{MnO}_2$ (Mangaan)",
+            "$\\text{Zn}$ (Zink)",
+            "$\\text{M}_2\\text{O}_3$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Zink treedt op als reductor/anode.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Welk van de volgende is een kenmerk van een niet-doorgaande reactie (non-spontaan) op basis van het potentiaalverschil $\\Delta E^0$?",
+          "opties": [
+            "$\\Delta E^0 > 0.3 \\text{ V}$",
+            "$-0.3 \\text{ V} < \\Delta E^0 < 0.3 \\text{V}$",
+            "$\\Delta E^0 < -0.3 \\text{ V}$",
+            "$\\Delta E^0 = 0.00 \\text{ V}$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Een niet-doorgaande reactie (elektrolyse) heeft een negatief en vaak significant potentiaalverschil nodig om gedwongen te kunnen plaatsvinden.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "De redoxreactie in een galvanische cel zal hoofdzakelijk plaatsvinden ter vorming van:",
+          "opties": [
+            "De sterkste oxidator en de sterkste reductor.",
+            "De zwakste oxidator en de zwakste reductor.",
+            "De oxidator met het laagste $\\text{E}^0$ en de reductor met het hoogste $\\text{E}^0$.",
+            "Enkel de oxidator, de reductor blijft ongewijzigd."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Het chemische evenwicht zal steeds verschuiven naar de zijde met de zwakste oxidator en reductor.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "In een brandstofcel (zoals de waterstofcel), wat is het unieke kenmerk ten opzichte van een accu of batterij?",
+          "opties": [
+            "Het gebruikt altijd waterstof en zuurstof.",
+            "De reactie is niet-spontaan (elektrolyse).",
+            "Reagentia kunnen continu worden toegevoegd.",
+            "Er zijn geen zware metalen in verwerkt."
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Een brandstofcel is een open systeem, wat betekent dat de reagentia (brandstof en oxidator) continu kunnen worden toegevoegd.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "meerkeuze",
+          "vraag": "Welke chemische stof of ion wordt gevormd aan de kathode bij de elektrolyse van een opgeloste $\\text{KI}$ oplossing, aangezien water de sterkste oxidator is dan $\\text{K}^+$?",
+          "opties": [
+            "$\\text{K}(\\text{s})$",
+            "$\\text{I}_2(\\text{s})$",
+            "$\\text{O}_2(\\text{g})$",
+            "$\\text{H}_2(\\text{g})$ en $\\text{OH}^-$"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Aan de kathode (reductie) zal water reageren (i.p.v. $\\text{K}^+$), resulterend in $\\text{H}_2$ gas en $\\text{OH}^-$ ionen ($\text{2H}_2\text{O} + 2\text{e}^- \rightarrow \text{H}_2 + 2\text{OH}^-$).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Koppel de term aan het bijbehorende concept in de elektrochemie.",
+          "links_items": ["Anode", "Kathode", "Galvanische cel", "Elektrolyse"],
+          "rechts_items": [
+            "Concept A: Reductie",
+            "Concept B: Oxidatie",
+            "Concept C: Spontane reactie",
+            "Concept D: Gedwongen reactie"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Anode",
+              "rechts": "Concept B: Oxidatie"
+            },
+            {
+              "links": "Kathode",
+              "rechts": "Concept A: Reductie"
+            },
+            {
+              "links": "Galvanische cel",
+              "rechts": "Concept C: Spontane reactie"
+            },
+            {
+              "links": "Elektrolyse",
+              "rechts": "Concept D: Gedwongen reactie"
+            }
+          ],
+          "uitleg": "De anode is de plaats van oxidatie, de kathode de plaats van reductie. Galvanische cellen zijn spontaan (leveren energie), elektrolysecellen zijn gedwongen (verbruiken energie).",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Koppel het atoom/ion aan het Oxidatiegetal volgens de vuistregels.",
+          "links_items": [
+            "$\\text{Mg}$ (in $\\text{Mg}^{2+}$)",
+            "$\\text{Li}$ (in $\\text{LiH}$)",
+            "$\\text{He}$ (enkelvoudige stof)",
+            "$\\text{F}$ (in $\\text{OF}_2$)"
+          ],
+          "rechts_items": [
+            "OG: $+\\text{II}$",
+            "OG: $+\\text{I}$",
+            "OG: $0$",
+            "OG: $-\\text{I}$"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$\\text{Mg}$ (in $\\text{Mg}^{2+}$)",
+              "rechts": "OG: $+\\text{II}$"
+            },
+            {
+              "links": "$\\text{Li}$ (in $\\text{LiH}$)",
+              "rechts": "OG: $+\\text{I}$"
+            },
+            {
+              "links": "$\\text{He}$ (enkelvoudige stof)",
+              "rechts": "OG: $0$"
+            },
+            {
+              "links": "$\\text{F}$ (in $\\text{OF}_2$)",
+              "rechts": "OG: $-\\text{I}$"
+            }
+          ],
+          "uitleg": "Ionen van Groep IIa hebben OG $+II$. $\\text{Li}$ is Groep Ia, dus $+I$. $\\text{He}$ is 0. In $\\text{OF}_2$ is $\\text{O}$ uitzonderlijk $+II$, dus is $\\text{F}$ (het meest elektronegatieve element) $-\\text{I}$.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Koppel de reactiesoort aan de bijbehorende OG verandering in de reactie $2 \\text{ ZnS} + 3 \\text{ O}_2 \\rightarrow 2 \\text{ ZnO} + 2 \\text{ SO}_2$.",
+          "links_items": ["$\\text{Zn}$", "$\\text{S}$", "$\\text{O}$"],
+          "rechts_items": [
+            "OG verandering: Geen verandering",
+            "OG verandering: Stijging (oxidatie)",
+            "OG verandering: Daling (reductie)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$\\text{Zn}$",
+              "rechts": "OG verandering: Geen verandering"
+            },
+            {
+              "links": "$\\text{S}$",
+              "rechts": "OG verandering: Stijging (oxidatie)"
+            },
+            {
+              "links": "$\\text{O}$",
+              "rechts": "OG verandering: Daling (reductie)"
+            }
+          ],
+          "uitleg": "OG $\\text{Zn}: +II \\rightarrow +II$ (geen verandering). OG $\\text{S}: -II \\rightarrow +IV$ (stijging/oxidatie). OG $\\text{O}: 0 \\rightarrow -II$ (daling/reductie).",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Koppel het milieu aan de deeltjes die worden gebruikt om de ladingsbalans te corrigeren bij redoxreacties.",
+          "links_items": ["Zuur milieu", "Basisch of neutraal milieu"],
+          "rechts_items": [
+            "Deeltjes: $\\text{H}^+$ en $\\text{H}_2\\text{O}$",
+            "Deeltjes: $\\text{OH}^-$ en $\\text{H}_2\\text{O}$"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Zuur milieu",
+              "rechts": "Deeltjes: $\\text{H}^+$ en $\\text{H}_2\\text{O}$"
+            },
+            {
+              "links": "Basisch of neutraal milieu",
+              "rechts": "Deeltjes: $\\text{OH}^-$ en $\\text{H}_2\\text{O}$"
+            }
+          ],
+          "uitleg": "In zuur milieu gebruikt men $\\text{H}^+$ (lading) en $\\text{H}_2\text{O}$ (massa). In basisch milieu $\\text{OH}^-$ (lading) en $\\text{H}_2\text{O}$ (massa).",
+          "punten": 5
+        }
+      ],
+      "totaal_punten": 72,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": [
+        "Oxidatiegetallen correct toewijzen en berekenen.",
+        "De basisprincipes van oxidatie en reductie in termen van elektronen en OG kennen.",
+        "De rol van halfcellen en de zoutbrug in elektrochemische cellen begrijpen.",
+        "Redoxreacties in verschillende media balanceren met de juiste deeltjes."
+      ],
+      "tips": [
+        "Onthoud: OG stijgt = Oxidatie (afstaan elektronen). OG daalt = Reductie (opnemen elektronen).",
+        "Sterkste reductor heeft de laagste $\\text{E}^0$.",
+        "Balanceren in zuur milieu: $\\text{H}^+$ voor lading en $\\text{H}_2\text{O}$ voor massa."
+      ]
+    }
+  ],
+  "extra_informatie": {
+    "voorkennis": [
+      "Notatie van chemische symbolen en reactievergelijkingen",
+      "Basiskennis van zuren, basen en zouten",
+      "Oplosbaarheidsregels"
+    ],
+    "vervolgonderwerpen": [
+      "Elektrochemische berekeningen (wet van Faraday)",
+      "Nernstvergelijking"
+    ],
+    "bronnen": [
+      "Oefenmateriaal Hoofdstuk II: Redoxreacties en elektrochemie - Gratis"
+    ]
+  }
+}
