@@ -1,13 +1,13 @@
 {
   "vak": "Chemie",
-  "onderdeel": "Redoxreacties en elektrochemie",
+  "onderdeel": "Redoxreacties",
   "jaar": 6,
   "richting": "wewi",
   "laatst_bijgewerkt": "2025-11-09",
   "oefeningen": [
     {
       "id": "chemie-redox-001-gratis",
-      "titel": "Redoxreacties en Elektrochemie - Feiten en Studie (Gratis)",
+      "titel": "Redoxreacties - Feiten en Studie (Gratis)",
       "beschrijving": "Basiskennisvragen over oxidatiegetallen, de rol van oxidatoren en reductoren, en de opbouw van elektrochemische cellen.",
       "moeilijkheidsgraad": "gemiddeld",
       "categorie": "Redoxreacties",
@@ -96,13 +96,13 @@
           "type": "meerkeuze",
           "vraag": "Waar staat de sterkste reductor in de verdringingsreeks van metalen?",
           "opties": [
-            "Rechts, met het hoogste $\\text{E}^0$.",
-            "Links, met het laagste $\\text{E}^0$.",
+            "Rechts, met het hoogste $\\text{E}_0$.",
+            "Links, met het laagste $\\text{E}_0$.",
             "In het midden, rond $\\text{H}$.",
-            "Rechts, met het laagste $\\text{E}^0$."
+            "Rechts, met het laagste $\\text{E}_0$."
           ],
           "correct_antwoord": 1,
-          "uitleg": "De sterkste reductor staat links en heeft bijgevolg de laagste (meest negatieve) $\\text{E}^0$.",
+          "uitleg": "De sterkste reductor staat links en heeft bijgevolg de laagste (meest negatieve) $\\text{E}_0$.",
           "punten": 4
         },
         {
@@ -136,12 +136,12 @@
         {
           "vraag_nummer": 13,
           "type": "meerkeuze",
-          "vraag": "Welk van de volgende is een kenmerk van een niet-doorgaande reactie (non-spontaan) op basis van het potentiaalverschil $\\Delta E^0$?",
+          "vraag": "Welk van de volgende is een kenmerk van een niet-doorgaande reactie (non-spontaan) op basis van het potentiaalverschil $\\Delta E_0$?",
           "opties": [
-            "$\\Delta E^0 > 0.3 \\text{ V}$",
-            "$-0.3 \\text{ V} < \\Delta E^0 < 0.3 \\text{V}$",
-            "$\\Delta E^0 < -0.3 \\text{ V}$",
-            "$\\Delta E^0 = 0.00 \\text{ V}$"
+            "$\\Delta E_0 > 0.3 \\text{ V}$",
+            "$-0.3 \\text{ V} < \\Delta E_0 < 0.3 \\text{V}$",
+            "$\\Delta E_0 < -0.3 \\text{ V}$",
+            "$\\Delta E_0 = 0.00 \\text{ V}$"
           ],
           "correct_antwoord": 2,
           "uitleg": "Een niet-doorgaande reactie (elektrolyse) heeft een negatief en vaak significant potentiaalverschil nodig om gedwongen te kunnen plaatsvinden.",
@@ -154,7 +154,7 @@
           "opties": [
             "De sterkste oxidator en de sterkste reductor.",
             "De zwakste oxidator en de zwakste reductor.",
-            "De oxidator met het laagste $\\text{E}^0$ en de reductor met het hoogste $\\text{E}^0$.",
+            "De oxidator met het laagste $\\text{E}_0$ en de reductor met het hoogste $\\text{E}_0$.",
             "Enkel de oxidator, de reductor blijft ongewijzigd."
           ],
           "correct_antwoord": 1,
@@ -318,8 +318,384 @@
       ],
       "tips": [
         "Onthoud: OG stijgt = Oxidatie (afstaan elektronen). OG daalt = Reductie (opnemen elektronen).",
-        "Sterkste reductor heeft de laagste $\\text{E}^0$.",
-        "Balanceren in zuur milieu: $\\text{H}^+$ voor lading en $\\text{H}_2\text{O}$ voor massa."
+        "Sterkste reductor heeft de laagste $\\text{E}_0$.",
+        "Balanceren in zuur milieu: $\\text{H}^+$ voor lading en $\\text{H}_2\\text{O}$ voor massa."
+      ]
+    },
+    {
+      "id": "chemie-redox-002-premium",
+      "titel": "Redoxreacties en Elektrochemie - Inzicht en Begrip (Premium)",
+      "beschrijving": "Vragen die dieper ingaan op OG-berekeningen, halfreacties, elektrochemische cellen en spontaniteit op basis van normpotentialen.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Redoxreacties & Elektrochemie",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Bepaal het Oxidatiegetal (OG) van het onderstreepte element in $\\text{K}\\underline{\\text{M}}\\text{O}_4$ en $\\underline{\\text{Cr}}_2\\text{O}_7^{2-}$.",
+          "uitleg": "Gebruik de vuistregels en de som van OG's in de moleculen/ionen.",
+          "antwoord": "OG($\\text{Mn}$) in $\\text{KMnO}_4$ is $+\\text{VII}$. OG($\\text{Cr}$) in $\\text{Cr}_2\\text{O}_7^{2-}$ is $+\\text{VI}$.",
+          "stappen": [
+            "In $\\text{KMnO}_4$: $\\text{K}=+\\text{I}$, $\\text{O}=-\\text{II}$. $1 + \\text{OG}(\\text{Mn}) + 4(-2) = 0 \\Rightarrow \\text{OG}(\\text{Mn}) = +VII$",
+            "In $\\text{Cr}_2\\text{O}_7^{2-}$: $\\text{O}=-\\text{II}$. $2 \\cdot \\text{OG}(\\text{Cr}) + 7(-2) = -2 \\Rightarrow 2 \\cdot \\text{OG}(\\text{Cr}) = +12 \\Rightarrow \\text{OG}(\\text{Cr}) = +VI$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Bij de reactie tussen $\\text{KMnO}_4$ en $\\text{Na}_2\\text{S}_2\\text{O}_3$ in zuur milieu, is de oxidatie de omzetting van $\\text{S}_2\\text{O}_3^{2-}$ tot $\\text{SO}_4^{2-}$. Geef de halfreactie, en de totale elektronenbalans.",
+          "uitleg": "Balans in OG's en elektronen (e-) corrigeren.",
+          "antwoord": "Halfreactie: $\\text{S}_2\\text{O}_3^{2-} \\rightarrow 2\\text{SO}_4^{2-}+8\\text{e}^-$. Er worden $\\text{4e}^-$ per $\\text{S}$-atoom afgegeven, totaal $8\\text{e}^-$ in de halfreactie.",
+          "stappen": [
+            "OG $\\text{S}$ in $\\text{S}_2\\text{O}_3^{2-}$ is $+II$. OG $\\text{S}$ in $\\text{SO}_4^{2-}$ is $+VI$.",
+            "OG-verandering per $\\text{S}$: $+II \\rightarrow +VI$ (stijging van 4e-).",
+            "De halfreactie betreft twee $\\text{S}$ atomen: $2 \\times 4 = 8\\text{e}^-$ afgifte."
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Leg uit, aan de hand van de $\\text{E}_0$ waarden, waarom een $\\text{Cu}$ waterleiding beter is dan een $\\text{Pb}$ waterleiding (met betrekking tot corrosie).",
+          "uitleg": "Corrosie is oxidatie. Een lagere $\\text{E}_0$ betekent een sterkere reductor.",
+          "antwoord": "Lood ($\text{Pb}$) heeft een lagere $\\text{E}_0$ ($approx -0.13 \\text{V}$) dan koper ($\text{Cu}$) ($approx +0.34 \\text{V}$). $\\text{Pb}$ is hierdoor een sterkere reductor en zal gemakkelijker oxideren (corroderen) dan $\\text{Cu}$.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Gebruik de spanningsreeks van niet-metalen om te bepalen of de reactie tussen $\\text{KBr}$ en $\\text{Cl}_2$ spontaan zal verlopen. Geef de reactievergelijking.",
+          "uitleg": "De reactie verloopt van de sterkste deeltjes naar de zwakste deeltjes.",
+          "antwoord": "De reactie $2\\text{Br}^- + \\text{Cl}_2 \\rightarrow \\text{Br}_2 + 2\\text{Cl}^-$ zal **spontaan** verlopen. Chloor ($\text{Cl}_2$) is een sterkere oxidator dan $\\text{Br}_2$, en bromide ($\text{Br}^-$) is de sterkste reductor. De sterkste oxidator reageert met de sterkste reductor.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Beschrijf in termen van elektrochemie wat er gebeurt wanneer een uitgeputte autobatterij wordt opgeladen.",
+          "uitleg": "Relateer dit aan elektrolyse en het type reactie.",
+          "antwoord": "Het opladen is een proces van **elektrolyse** (een gedwongen, **niet-spontane** reactie) waarbij elektrische energie wordt omgezet in chemische energie. De spontane chemische reacties die de stroom leverden, worden nu in de omgekeerde richting gedwongen.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Waarom is het moeilijk om het Oxidatiegetal te bepalen in covalente verbindingen (Lewis-structuren), en hoe wordt dit opgelost?",
+          "uitleg": "Elektronenparen en elektronegativiteit.",
+          "antwoord": "In **covalente bindingen** worden elektronenparen gedeeld, wat OG-bepaling bemoeilijkt. Dit wordt opgelost door de **bindende elektronen** toe te wijzen aan het element met de **grootste elektronegativiteit** ($\\text{EN}$), wat dan een negatief OG krijgt.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Gebruik de normpotentialen ($\text{E}^0(\text{Fe}^{3+}/\text{Fe}^{2+}) = +0.77 \\text{V}$, $\\text{E}_0(\text{Cu}^{2+}/\text{Cu}) = +0.34 \\text{V}$) om te bewijzen dat $\\text{Fe}^{3+}$ een sterkere oxidator is dan $\\text{Cu}^{2+}$, en bepaal of de reactie $\\text{Cu} + 2\\text{Fe}^{3+} \\rightarrow \\text{Cu}^{2+}+2\\text{Fe}^{2+}$ aflopend is.",
+          "uitleg": "Hoogste $\\text{E}_0$ is de sterkste oxidator. $\\Delta E_0 > 0.3 \\text{V}$ is aflopend.",
+          "antwoord": "$\\text{Fe}^{3+}$ is de sterkste oxidator omdat het een hogere $\\text{E}_0$ heeft ($+0.77 \\text{V}$) dan $\\text{Cu}^{2+}$ ($+0.34 \\text{V}$). De reactie is **aflopend**, want $\\Delta E_0 = \\text{E}_0(\\text{Ox}) - \\text{E}_0(\\text{Red}) = 0.77 - 0.34 = +0.43 \\text{V}$, wat groter is dan $0.3 \\text{V}$.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "open",
+          "vraag": "Bij de elektrolyse van geconcentreerde $\\text{MgCl}_2$-oplossing, welke producten worden gevormd aan de kathode en de anode?",
+          "uitleg": "Vergelijk de $\\text{E}_0$ van aanwezige ionen en water.",
+          "antwoord": "Aan de **kathode** (reductie) wordt $\\text{H}_2(\\text{g})$ gevormd (water is de sterkste oxidator t.o.v. $\\text{Mg}^{2+}$). Aan de **anode** (oxidatie) wordt $\\text{Cl}_2(\\text{g})$ gevormd ($\text{Cl}^-$ concentratie is hoog, waardoor het makkelijker oxideert dan water).",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "open",
+          "vraag": "Waarom wordt zink ($\text{Zn}$) gebruikt om ijzer ($\text{Fe}$) te galvaniseren (kathodische bescherming)?",
+          "uitleg": "Vergelijk $\\text{E}_0$ en bepaal welke als anode optreedt.",
+          "antwoord": "Zink ($\text{E}^0 = -0.76 \\text{V}$) is een **sterkere reductor** (lagere $\\text{E}_0$) dan ijzer ($\text{E}^0 = -0.41 \\text{V}$). Zink zal bij voorkeur oxideren (anode), waardoor het ijzer (kathode) gedwongen wordt om **gereduceerd** te blijven en zo beschermd is tegen corrosie.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "open",
+          "vraag": "In de redoxreactie in zuur milieu: $\\text{a H}^+ + \\text{b CIO}_3^- + \\text{c I}^- \\rightarrow \\text{d Cl}^- + \\text{e I}_2 + \\text{f H}_2\\text{O}$, bepaal de coëfficiënt $c$ (voor $\\text{I}^-$).",
+          "uitleg": "Elektronenbalans: $\\text{Cl}$ reductie (6e-) en $\\text{I}$ oxidatie (2e- per $\\text{I}_2$).",
+          "antwoord": "De coëfficiënt $c$ is $\\text{6}$. (De reductie van $\\text{Cl}$ vereist $6 \\text{e}^-$, de oxidatie van $\\text{I}^-$ levert $2\\text{e}^-$ per $\\text{I}_2$, dus de oxidatiereactie moet $3$ keer plaatsvinden: $3 \\times 2 \\text{I}^- = 6 \\text{I}^-$).",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Welke halfcel in de Normpotentialentabel bevat $\\text{O}_2$ als reductor (dat wil zeggen, de reactie gelezen van rechts naar links)?",
+          "opties": [
+            "$\\text{O}_2 + 4 \\text{H}^++ 4 \\text{e}^- \\rightleftharpoons 2 \\text{H}_2\\text{O}$",
+            "$\\text{H}_2\\text{O}_2+2 \\text{H}^+ + 2 \\text{e}^- \\rightleftharpoons 2 \\text{H}_2\\text{O}$",
+            "$2 \\text{H}_2\\text{O} + \\text{O}_2+4 \\text{e}^-\\rightleftharpoons 4 \\text{OH}^-$",
+            "$2 \\text{H}_2\\text{O} \\rightleftharpoons \\text{O}_2+4 \\text{H}^++ 4 \\text{e}^-$"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Een reductor staat elektronen af (e- aan de productzijde). Dit is reactie D: $\\text{OG}(\\text{O})$ gaat van $-\\text{II}$ naar $0$ (stijging/oxidatie).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Wat is de anode in de galvanische cel die gevormd wordt door $\\text{Fe}^{3+}/\\text{Fe}^{2+}$ ($\text{E}^0 = +0.77 \\text{V}$) en $\\text{Co}^{2+}/\\text{Co}$ ($\text{E}^0 = -0.28 \\text{V}$)?",
+          "opties": [
+            "$\\text{Fe}^{3+}$",
+            "$\\text{Co}^{2+}$",
+            "$\\text{Fe}^{2+}$",
+            "$\\text{Co}$"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "De anode is de plaats van oxidatie (sterkste reductor). De reductoren zijn $\\text{Fe}^{2+}$ ($+0.77 \\text{V}$) en $\\text{Co}$ ($-0.28 \\text{V}$). $\\text{Co}$ heeft de laagste $\\text{E}_0$ en is dus de sterkste reductor, die als anode optreedt.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Welke deeltjes worden gevormd bij de smelt-elektrolyse van $\\text{MgCl}_2$?",
+          "opties": [
+            "$\\text{Mg}$ en $\\text{Cl}_2$",
+            "$\\text{Mg}$ en $\\text{H}_2$",
+            "$\\text{Mg}(\\text{OH})_2$ en $\\text{Cl}_2$",
+            "$\\text{H}_2$ en $\\text{O}_2$"
+          ],
+          "correct_antwoord": 0,
+          "uitleg": "Smeltelektrolyse van een binair zout levert het metaal ($\text{Mg}$) aan de kathode en het niet-metaal ($\text{Cl}_2$) aan de anode. Water speelt geen rol.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Gegeven: $\\text{E}_0(\\text{Co}^{3+}/\\text{Co}^{2+}) = 1.81 \\text{V}$ en $\\text{E}_0(\\text{Cu}^{2+}/\\text{Cu}^{+}) = 0.15 \\text{V}$. Welke reactie is spontaan?",
+          "opties": [
+            "$\\text{Cu}^++ \\text{Co}^{2+} \\rightarrow \\text{Cu}^{2+} + \\text{Co}^{3+}$",
+            "$\\text{Cu}^++ \\text{Co}^{3+} \\rightarrow \\text{Cu}^{2+} + \\text{Co}^{2+}$",
+            "$\\text{Cu}^{2+} + \\text{Co}^{2+} \\rightarrow \\text{Cu}^++ \\text{Co}^{3+}$",
+            "$\\text{Cu}^{2+} + \\text{Co}^{3+} \\rightarrow \\text{Cu}^++\\text{Co}^{2+}$"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Een spontane reactie verloopt van de sterkste oxidator ($\\text{Co}^{3+}$ met $\\text{E}_0=1.81 \\text{V}$) en de sterkste reductor ($\\text{Cu}^+$ met de laagste $\\text{E}_0$) naar de zwakkere deeltjes: $\\text{Cu}^++ \\text{Co}^{3+} \\rightarrow \\text{Cu}^{2+} + \\text{Co}^{2+}$.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Wat is de nominale spanning van een alkaline batterij?",
+          "opties": [
+            "$1.28 \\text{V}$",
+            "$1.43 \\text{V}$",
+            "$1.5 \\text{V}$",
+            "$9.0 \\text{V}$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Standaardwaarde voor alkaline batterijen.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "meerkeuze",
+          "vraag": "Wat is het $\\text{OG}$ van $\\text{N}$ in $\\text{N}_2$?",
+          "opties": ["$+\\text{I}$", "$+\\text{II}$", "$0$", "$-\\text{III}$"],
+          "correct_antwoord": 2,
+          "uitleg": "In enkelvoudige (diatomische) stoffen is het Oxidatiegetal altijd $0$.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "meerkeuze",
+          "vraag": "Bij de reactie $\\text{Al}_2\\text{O}_3+3 \\text{H}_2 \\rightarrow 2 \\text{ Al} + 3 \\text{H}_2\\text{O}$, wat is de $\\text{OG}$ verandering van waterstof?",
+          "opties": [
+            "Stijgt van $0$ naar $+\\text{I}$",
+            "Daalt van $+\\text{I}$ naar $0$",
+            "Blijft constant $0$",
+            "Blijft constant $+\\text{I}$"
+          ],
+          "correct_antwoord": 0,
+          "uitleg": "In $\\text{H}_2$ is $\\text{OG}=0$. In $\\text{H}_2\\text{O}$ is $\\text{OG}(\\text{H})=+\\text{I}$. Het OG stijgt van $0$ naar $+\\text{I}$ (oxidatie).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "meerkeuze",
+          "vraag": "Welke van de volgende ionen is de zwakste reductor? ($\\text{Fe}^{2+}$: -0.41V, $\\text{Zn}$: -0.76V, $\\text{Li}$: -3.05V, $\\text{Au}^{3+}/\text{Au}$: +1.50V)",
+          "opties": [
+            "$\\text{Fe}^{2+}$",
+            "$\\text{Zn}$",
+            "$\\text{Li}$",
+            "$\\text{Au}$"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "De zwakste reductor heeft de hoogste $\\text{E}_0$. Goud ($\text{Au}$) heeft de hoogste $\\text{E}_0$ ($approx +1.50 \\text{V}$) en is de zwakste reductor.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "meerkeuze",
+          "vraag": "Wat is het doel van de koolstofpoeder toevoeging in de mangaan(IV)oxide pasta (kathode) van een alkaline batterij?",
+          "opties": [
+            "Het stabiliseert de zinkpoeder gel.",
+            "Het dient als elektrolyt.",
+            "Het zorgt voor een betere geleidbaarheid.",
+            "Het neemt de rol van de zoutbrug over."
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Koolstofpoeder is een inerte, geleidende stof en verbetert de elektrische geleidbaarheid van de elektrode.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "meerkeuze",
+          "vraag": "Bij corrosie van ijzer, de oxidatie van $\\text{Fe}$ tot $\\text{Fe}^{2+}$ is de eerste stap. Waarheen worden de elektronen geleid?",
+          "opties": [
+            "Naar plaatsen met de sterkste reductor.",
+            "Naar plekken met de sterkste oxidator (meestal $\\text{O}_2$).",
+            "Ze blijven op het $\\text{Fe}$ atoom.",
+            "Ze gaan naar het $\\text{Fe}^{2+}$ ion."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De vrijgekomen elektronen worden via het metaal geleid naar plaatsen waar de sterkste oxidator ($\text{O}_2$ in water) aanwezig is om een reductie te ondergaan.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 21,
+          "type": "verbinding",
+          "vraag": "Koppel de term aan de correcte celpool bij **ELEKTROLYSE**.",
+          "links_items": ["Kathode", "Anode", "Reductie", "Oxidatie"],
+          "rechts_items": ["Pooltype: Positief (+)", "Pooltype: Negatief (-)"],
+          "correcte_verbindingen": [
+            {
+              "links": "Kathode",
+              "rechts": "Pooltype: Negatief (-)"
+            },
+            {
+              "links": "Anode",
+              "rechts": "Pooltype: Positief (+)"
+            },
+            {
+              "links": "Reductie",
+              "rechts": "Pooltype: Negatief (-)"
+            },
+            {
+              "links": "Oxidatie",
+              "rechts": "Pooltype: Positief (+)"
+            }
+          ],
+          "uitleg": "Bij elektrolyse is de kathode de negatieve pool (waar reductie plaatsvindt), en de anode de positieve pool (waar oxidatie plaatsvindt).",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 22,
+          "type": "verbinding",
+          "vraag": "Koppel het redoxkoppel aan het milieu waarin $\\text{H}^+$ is vereist.",
+          "links_items": [
+            "$\\text{Cr}_2\\text{O}_7^{2-}/\\text{Cr}^{3+}$",
+            "$\\text{MnO}_4^-/\\text{MnO}_2$",
+            "$\\text{I}_2/\\text{I}^-$"
+          ],
+          "rechts_items": ["Zuur milieu", "Basisch milieu", "Neutraal milieu"],
+          "correcte_verbindingen": [
+            {
+              "links": "$\\text{Cr}_2\\text{O}_7^{2-}/\\text{Cr}^{3+}$",
+              "rechts": "Zuur milieu"
+            },
+            {
+              "links": "$\\text{MnO}_4^-/\\text{MnO}_2$",
+              "rechts": "Basisch milieu"
+            },
+            {
+              "links": "$\\text{I}_2/\\text{I}^-$",
+              "rechts": "Neutraal milieu"
+            }
+          ],
+          "uitleg": "Dichromaat is een sterke oxidator, typisch in zuur milieu. Permanganaat tot $\\text{MnO}_2$ is typisch neutraal/basisch. Jood/jodide is neutraal.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 23,
+          "type": "verbinding",
+          "vraag": "Koppel het metaal aan het resultaat bij de reactie met de zoutoplossing van lood ($\text{Pb}^{2+}$), op basis van $\\text{E}_0$ waarden.",
+          "links_items": [
+            "$\\text{Zn}$ staaf in $\\text{Pb}^{2+}$ oplossing",
+            "$\\text{Ag}$ staaf in $\\text{Pb}^{2+}$ oplossing"
+          ],
+          "rechts_items": [
+            "Metaal ($\text{Pb}$) wordt afgezet (Reactie)",
+            "Geen reactie"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$\\text{Zn}$ staaf in $\\text{Pb}^{2+}$ oplossing",
+              "rechts": "Metaal ($\text{Pb}$) wordt afgezet (Reactie)"
+            },
+            {
+              "links": "$\\text{Ag}$ staaf in $\\text{Pb}^{2+}$ oplossing",
+              "rechts": "Geen reactie"
+            }
+          ],
+          "uitleg": "Zink is een sterkere reductor dan $\\text{Pb}$, dus $\\text{Zn}$ oxideert en $\\text{Pb}^{2+}$ reduceert. Zilver is een zwakkere reductor dan $\\text{Pb}$, dus geen reactie.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 24,
+          "type": "verbinding",
+          "vraag": "Koppel het concept aan het bijbehorende $\\Delta E_0$ bereik.",
+          "links_items": [
+            "Evenwichtsreactie",
+            "Aflopende reactie",
+            "Niet-doorgaande reactie"
+          ],
+          "rechts_items": [
+            "Bereik A: $\\Delta E_0 > 0.3 \\text{V}$",
+            "Bereik B: $-0.3 \\text{V} < \\Delta E_0 < 0.3 \\text{V}$",
+            "Bereik C: $\\Delta E_0 < -0.3 \\text{V}$"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Evenwichtsreactie",
+              "rechts": "Bereik B: $-0.3 \\text{V} < \\Delta E_0 < 0.3 \\text{V}$"
+            },
+            {
+              "links": "Aflopende reactie",
+              "rechts": "Bereik A: $\\Delta E_0 > 0.3 \\text{V}$"
+            },
+            {
+              "links": "Niet-doorgaande reactie",
+              "rechts": "Bereik C: $\\Delta E_0 < -0.3 \\text{V}$"
+            }
+          ],
+          "uitleg": "De $\\Delta E_0$-regels bepalen de spontaniteit en het evenwicht van de redoxreactie.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 25,
+          "type": "verbinding",
+          "vraag": "Gegeven de reactie: $\\text{Fe}_2\\text{O}_3 +3 \\text{CO} \\rightarrow 2 \\text{ Fe} +3 \\text{CO}_2$. Koppel de stof aan zijn rol.",
+          "links_items": ["$\\text{Fe}_2\\text{O}_3$", "$\\text{CO}$"],
+          "rechts_items": ["Oxidator", "Reductor"],
+          "correcte_verbindingen": [
+            {
+              "links": "$\\text{Fe}_2\\text{O}_3$",
+              "rechts": "Oxidator"
+            },
+            {
+              "links": "$\\text{CO}$",
+              "rechts": "Reductor"
+            }
+          ],
+          "uitleg": "In $\\text{Fe}_2\\text{O}_3$ daalt $\\text{OG}(\\text{Fe})$ van $+\\text{III}$ naar $0$ (reductie), dus is het de oxidator. In $\\text{CO}$ stijgt $\\text{OG}(\\text{C})$ van $+\\text{II}$ naar $+\\text{IV}$ (oxidatie), dus is het de reductor.",
+          "punten": 5
+        }
+      ],
+      "totaal_punten": 115,
+      "geschatte_tijd": "75 minuten",
+      "leerdoelen": [
+        "OG's berekenen in complexe moleculen en ionen.",
+        "Redoxpotentialen $\\text{E}_0$ gebruiken om de spontaniteit van reacties te voorspellen.",
+        "Toepassingen van elektrochemie, zoals batterijen, corrosie en galvanisatie, verklaren.",
+        "Halfreacties balanceren en de producten van elektrolyse bepalen."
+      ],
+      "tips": [
+        "Vergelijk altijd de $\\text{E}_0$ waarden: hoogste $\\text{E}_0$ is de sterkste oxidator.",
+        "KRAO (Kathode = Reductie, Anode = Oxidatie) geldt voor zowel galvanische als elektrolysecellen.",
+        "Let op het verschil tussen spontane ($\\Delta E_0 > 0$) en gedwongen ($\\Delta E_0 < 0$) reacties."
       ]
     }
   ],
