@@ -129,7 +129,9 @@ const Exercise = () => {
             <CardContent>
               <ul className="list-disc list-inside space-y-1">
                 {oefening.tips.map((tip, index) => (
-                  <li key={index} className="text-sm">{tip}</li>
+                  <li key={index} className="text-sm">
+                    <MathRenderer content={tip} className="inline" />
+                  </li>
                 ))}
               </ul>
             </CardContent>
