@@ -281,38 +281,6 @@
           ],
           "uitleg": "De $\\text{pH}$ bij het $\\text{EP}$ wordt bepaald door de hydrolyse van het gevormde zout.",
           "punten": 5
-        },
-        {
-          "vraag_nummer": 20,
-          "type": "verbinding",
-          "vraag": "Koppel het ion aan zijn functie als amfolyt of niet-amfolyt.",
-          "links_items": [
-            "$\\text{H}_2\\text{O}$",
-            "$\\text{Cl}^-$",
-            "$\\text{HSO}_4^-$",
-            "$\\text{PO}_4^{3-}$"
-          ],
-          "rechts_items": ["Functie: Amfolyt", "Functie: Geen Amfolyt"],
-          "correcte_verbindingen": [
-            {
-              "links": "$\\text{H}_2\\text{O}$",
-              "rechts": "Functie: Amfolyt"
-            },
-            {
-              "links": "$\\text{Cl}^-$",
-              "rechts": "Functie: Geen Amfolyt"
-            },
-            {
-              "links": "$\\text{HSO}_4^-$",
-              "rechts": "Functie: Amfolyt"
-            },
-            {
-              "links": "$\\text{PO}_4^{3-}$",
-              "rechts": "Functie: Geen Amfolyt"
-            }
-          ],
-          "uitleg": "Een amfolyt kan zowel als zuur (protondonor) als base (protonacceptor) fungeren. $\\text{Cl}^-$ en $\\text{PO}_4^{3-}$ zijn dat niet.",
-          "punten": 5
         }
       ],
       "totaal_punten": 72,
