@@ -103,11 +103,11 @@ const Exercise = () => {
             </span>
           </div>
           <h1 className="mb-2 text-4xl font-bold text-foreground">
-            {oefening.titel}
+            <MathRenderer content={oefening.titel} className="inline" />
           </h1>
-          <p className="text-lg text-muted-foreground mb-4">
-            {oefening.beschrijving}
-          </p>
+          <div className="text-lg text-muted-foreground mb-4">
+            <MathRenderer content={oefening.beschrijving} />
+          </div>
           
           <div className="flex gap-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
@@ -294,7 +294,9 @@ const Exercise = () => {
             <CardContent>
               <ul className="list-disc list-inside space-y-1">
                 {oefening.leerdoelen.map((doel, index) => (
-                  <li key={index}>{doel}</li>
+                  <li key={index}>
+                    <MathRenderer content={doel} className="inline" />
+                  </li>
                 ))}
               </ul>
             </CardContent>
