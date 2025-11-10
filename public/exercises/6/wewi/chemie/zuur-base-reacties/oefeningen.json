@@ -1,0 +1,344 @@
+{
+  "vak": "Chemie",
+  "onderdeel": "Zuren en basen",
+  "jaar": 6,
+  "richting": "wewi",
+  "laatst_bijgewerkt": "2025-11-09",
+  "oefeningen": [
+    {
+      "id": "chemie-zuurbase-001-gratis",
+      "titel": "Zuren en Basen - Feiten en Studie (Gratis)",
+      "beschrijving": "Basiskennisvragen over pH berekeningen, zuur/base theorieën (Brønsted), en de constanten.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Zuren en Basen",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Wat is de definitie van een zuur en een base volgens de theorie van Brønsted?",
+          "uitleg": "Verwijs naar de $\\text{H}^+$-overdracht (protonen).",
+          "antwoord": "Een zuur is een protondonor. Een base is een protonacceptor.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat is de numerieke waarde van de waterconstante ($\\text{K}_w$) bij $24^circ\\text{C}$?",
+          "uitleg": "Geef de standaardwaarde van de ionisatieconstante van water.",
+          "antwoord": "$\\text{K}_w = 10^{-14}$.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Wat is de relatie tussen $\\text{pH}$ en $\\text{pOH}$ in waterige oplossing bij $24^circ\\text{C}$?",
+          "uitleg": "Relateer $\\text{pH}$ en $\\text{pOH}$ via $\\text{pK}_w$.",
+          "antwoord": "$\\text{pH} + \\text{pOH} = 14$.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Geef de vergelijking voor de protolysereactie van een zuur ($\\text{HZ}$) met water en de bijbehorende formule van de zuurconstante ($\\text{K}_z$).",
+          "uitleg": "Toon de evenwichtsreactie met water en de definitie van $\\text{K}_z$.",
+          "antwoord": "Protolyse: $\\text{HZ} + \\text{H}_2\\text{O} \\rightleftharpoons \\text{H}_3\\text{O}^++\\text{Z}^-$. De formule is $\\text{K}_z = \\frac{[\\text{H}_3\\text{O}^+]_{\\text{e}} \\cdot [\\text{Z}^-]_{\\text{e}}}{[\\text{HZ}]_{\\text{e}}}$.",
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Wat is de betekenis van het omslaggebied van een zuur-base-indicator?",
+          "uitleg": "Verwijs naar de kleurverandering en het $\\text{pH}$-bereik.",
+          "antwoord": "Het omslaggebied is het $\\text{pH}$-gebied waarbinnen de kleur van de indicator verandert. Dit wordt typisch gegeven door $\\text{pK}_{\\text{Ind}} \\pm 1$.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Wanneer is een oplossing neutraal in termen van de concentraties van $\\text{H}_3\\text{O}^+$ en $\\text{OH}^-$?",
+          "uitleg": "Vergelijk de ionenconcentraties in water bij $24^circ\\text{C}$.",
+          "antwoord": "De oplossing is neutraal wanneer $[\\text{H}_3\\text{O}^+] = [\\text{OH}^-] = 10^{-7} \\text{ mol/l}$ (bij $24^circ\\text{C}$).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Wat is de formule voor de $\\text{pH}$ berekening van een oplossing van een sterk zuur met concentratie $\\text{C}_z$?",
+          "uitleg": "Sterke zuren dissociëren volledig.",
+          "antwoord": "$\\text{pH} = -\\log \\text{C}_z$.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "open",
+          "vraag": "Wat gebeurt er met de $\\text{pH}$ van een bufferoplossing bij toevoeging van een kleine hoeveelheid sterk zuur?",
+          "uitleg": "Verwijs naar de definitie van een buffer.",
+          "antwoord": "De $\\text{pH}$ zal nauwelijks wijzigen (het zal stabiel blijven).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Welke van de volgende formules is equivalent aan de $\\text{pH}$ definitie?",
+          "opties": [
+            "$\\text{pOH} = 14 - \\log [\\text{H}_3\\text{O}^+]$",
+            "$[\\text{H}_3\\text{O}^+] = 10^{-\\text{pH}}$",
+            "$[\\text{OH}^-] = 10^{-\\text{pH}}$",
+            "$\\text{p}K_w = \\text{pH} + \\text{p}K_b$"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De definitie van $\\text{pH}$ is $-\\log [\\text{H}_3\\text{O}^+]$. Als $\\text{pH} = -log [\\text{H}_3\\text{O}^+]$, dan geldt $[\\text{H}_3\\text{O}^+] = 10^{-\\text{pH}}$.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat is de relatie tussen de zuurconstante ($\\text{K}_z$) en de baseconstante ($\\text{K}_b$) voor een geconjugeerd zuur/base koppel?",
+          "opties": [
+            "$\\text{K}_z \\cdot \\text{K}_b = 10^{14}$",
+            "$\\text{K}_z + \\text{K}_b = \\text{K}_w$",
+            "$\\text{K}_z / \\text{K}_b = \\text{K}_w$",
+            "$\\text{K}_z \\cdot \\text{K}_b = \\text{K}_w$"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Dit is de relatie via de waterconstante $\\text{K}_w$.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Wanneer is een neutralisatiereactie aflopend ($\\text{K} > 10^3$)?",
+          "opties": [
+            "Tussen een zwak zuur en een zwakke base.",
+            "Als het evenwicht naar de kant van de sterkste zuur en base ligt.",
+            "Als het evenwicht naar de kant van de zwakste zuur en base ligt.",
+            "Als $\\text{K} < 10^{-3}$."
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Een aflopende reactie verloopt naar de kant van de zwakste zuur en base.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Welke ionen zijn aanwezig in een oplossing van het neutraal vormende zout $\\text{NaCl}$?",
+          "opties": [
+            "$\\text{Na}^+$ (zwakke base) en $\\text{Cl}^-$ (zwak zuur)",
+            "$\\text{Na}^+$ (zeer zwak zuur) en $\\text{Cl}^-$ (zeer zwakke base)",
+            "$\\text{Na}^+$ (sterk zuur) en $\\text{Cl}^-$ (sterke base)",
+            "Enkel watermoleculen"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "$\\text{Na}^+$ is het geconjugeerde zuur van de sterke base $\\text{NaOH}$ (dus zeer zwak) en $\\text{Cl}^-$ is de geconjugeerde base van het sterke zuur $\\text{HCl}$ (dus zeer zwak).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Hoe verschuift het chemisch evenwicht van de protolysereactie van een sterk zuur?",
+          "opties": [
+            "Naar links, $\\text{K}_z$ is klein.",
+            "Naar rechts, $\\text{K}_z$ is groot (praktisch alle moleculen geven $\\text{H}^+$ af).",
+            "Het blijft in het midden (evenwichtsreactie).",
+            "Naar rechts, $\\text{K}_z$ is klein."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Sterke zuren dissociëren vrijwel volledig, wat betekent dat het evenwicht ver naar rechts ligt en de $\\text{K}_z$ waarde zeer groot is.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Welke formule wordt gebruikt voor de $\\text{pH}$ berekening van een zwakke base?",
+          "opties": [
+            "$\\text{pH} = -\\log \\text{C}_{b}$",
+            "$\\text{pH} = \\frac{1}{2} \\text{p}K_z - \\frac{1}{2} \\log \\text{C}_z$",
+            "$\\text{pH} = 14 - \\frac{1}{2} \\text{p}K_b + \\frac{1}{2} \\log \\text{C}_b$",
+            "$\\text{pH} = \\text{p}K_z + \\log \\frac{\\text{C}_b}{\\text{C}_z}$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Dit is de afgeleide formule uit $\\text{pOH} = \\frac{1}{2}\\text{p}K_b - \\frac{1}{2}\\log \\text{C}_b$ en $\\text{pH} = 14 - \\text{pOH}$.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Een oplossing is basisch wanneer de concentratie van $\\text{H}_3\\text{O}^+$:",
+          "opties": [
+            "Gelijk is aan $10^{-7} \\text{ mol/l}$",
+            "Groter is dan $10^{-7} \\text{ mol/l}$",
+            "Kleiner is dan $10^{-7} \\text{ mol/l}$",
+            "De concentratie van $\\text{OH}^-$ kleiner is dan $10^{-7} \\text{ mol/l}$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Basisch is $\\text{pH} > 7$, wat betekent dat $[\\text{H}_3\\text{O}^+]$ kleiner moet zijn dan $10^{-7} \\text{ mol/l}$.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "meerkeuze",
+          "vraag": "Welke chemische eigenschap van carbonzuren verklaart hun hoge kookpunten?",
+          "opties": [
+            "Ze zijn volledig apolair.",
+            "Ze vormen dimeren via sterke waterstofbruggen.",
+            "Ze bezitten alleen Van der Waalskrachten.",
+            "Ze hebben een zeer lage molecuulmassa."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De vorming van dimeren via waterstofbruggen leidt tot zeer sterke intermoleculaire krachten en daardoor hoge kookpunten.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Koppel het zout aan het type oplossing dat wordt gevormd in water.",
+          "links_items": [
+            "$\\text{NH}_4\\text{Cl}$",
+            "$\\text{NaCH}_3\\text{COO}$",
+            "$\\text{KNO}_3$"
+          ],
+          "rechts_items": [
+            "Oplossingstype: Zuurvormend",
+            "Oplossingstype: Basisch vormend",
+            "Oplossingstype: Neutraal vormend"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$\\text{NH}_4\\text{Cl}$",
+              "rechts": "Oplossingstype: Zuurvormend"
+            },
+            {
+              "links": "$\\text{NaCH}_3\\text{COO}$",
+              "rechts": "Oplossingstype: Basisch vormend"
+            },
+            {
+              "links": "$\\text{KNO}_3$",
+              "rechts": "Oplossingstype: Neutraal vormend"
+            }
+          ],
+          "uitleg": "$\\text{NH}_4\\text{Cl}$ bevat een zwak zuur ($\\text{NH}_4^+$), $\\text{NaCH}_3\\text{COO}$ bevat een zwakke base ($\\text{CH}_3\\text{COO}^-$), en $\\text{KNO}_3$ bevat twee zeer zwakke ionen (neutraal).",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Koppel de $\\text{pH}$-berekening aan het type oplossing.",
+          "links_items": [
+            "$\\text{pH} = -\\log \\text{C}_z$",
+            "$\\text{pH} = 14 - \\frac{1}{2}\\text{p}K_b + \\frac{1}{2}\\log \\text{C}_b$",
+            "$\\text{pH} = \\frac{1}{2}\\text{p}K_z - \\frac{1}{2}\\log \\text{C}_z$"
+          ],
+          "rechts_items": [
+            "Oplossingstype: Sterk zuur",
+            "Oplossingstype: Zwakke base",
+            "Oplossingstype: Zwak zuur"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$\\text{pH} = -\\log \\text{C}_z$",
+              "rechts": "Oplossingstype: Sterk zuur"
+            },
+            {
+              "links": "$\\text{pH} = 14 - \\frac{1}{2}\\text{p}K_b + \\frac{1}{2}\\log \\text{C}_b$",
+              "rechts": "Oplossingstype: Zwakke base"
+            },
+            {
+              "links": "$\\text{pH} = \\frac{1}{2}\\text{p}K_z - \\frac{1}{2}\\log \\text{C}_z$",
+              "rechts": "Oplossingstype: Zwak zuur"
+            }
+          ],
+          "uitleg": "Dit zijn de respectievelijke vergelijkingen voor de berekening van $\\text{pH}$ in verschillende soorten oplossingen.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Koppel de titratiereactie aan de $\\text{pH}$ bij het Equivalentiepunt (EP).",
+          "links_items": [
+            "Titratie van sterk zuur met sterke base.",
+            "Titratie van zwak zuur met sterke base.",
+            "Titratie van sterk zuur met zwakke base."
+          ],
+          "rechts_items": [
+            "$\\text{pH EP}: \\text{pH} > 7$",
+            "$\\text{pH EP}: \\text{pH} < 7$",
+            "$\\text{pH EP}: \\text{pH} = 7$"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Titratie van sterk zuur met sterke base.",
+              "rechts": "$\\text{pH EP}: \\text{pH} = 7$"
+            },
+            {
+              "links": "Titratie van zwak zuur met sterke base.",
+              "rechts": "$\\text{pH EP}: \\text{pH} > 7$"
+            },
+            {
+              "links": "Titratie van sterk zuur met zwakke base.",
+              "rechts": "$\\text{pH EP}: \\text{pH} < 7$"
+            }
+          ],
+          "uitleg": "De $\\text{pH}$ bij het $\\text{EP}$ wordt bepaald door de hydrolyse van het gevormde zout.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Koppel het ion aan zijn functie als amfolyt of niet-amfolyt.",
+          "links_items": [
+            "$\\text{H}_2\\text{O}$",
+            "$\\text{Cl}^-$",
+            "$\\text{HSO}_4^-$",
+            "$\\text{PO}_4^{3-}$"
+          ],
+          "rechts_items": ["Functie: Amfolyt", "Functie: Geen Amfolyt"],
+          "correcte_verbindingen": [
+            {
+              "links": "$\\text{H}_2\\text{O}$",
+              "rechts": "Functie: Amfolyt"
+            },
+            {
+              "links": "$\\text{Cl}^-$",
+              "rechts": "Functie: Geen Amfolyt"
+            },
+            {
+              "links": "$\\text{HSO}_4^-$",
+              "rechts": "Functie: Amfolyt"
+            },
+            {
+              "links": "$\\text{PO}_4^{3-}$",
+              "rechts": "Functie: Geen Amfolyt"
+            }
+          ],
+          "uitleg": "Een amfolyt kan zowel als zuur (protondonor) als base (protonacceptor) fungeren. $\\text{Cl}^-$ en $\\text{PO}_4^{3-}$ zijn dat niet.",
+          "punten": 5
+        }
+      ],
+      "totaal_punten": 72,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": [
+        "Zuren en basen definiëren volgens Brønsted.",
+        "De relaties tussen $\\text{pH}, \\text{pOH}, \\text{K}_w, \\text{K}_z, \\text{K}_b$ kennen.",
+        "De $\\text{pH}$ van sterke en zwakke zuren/basen berekenen.",
+        "De werking van buffers en indicatoren begrijpen."
+      ],
+      "tips": [
+        "Sterk zuur $\\rightarrow \\text{pH} = -\\log \\text{C}_z$.",
+        "Evenwichtsreacties verschuiven naar de zijde van de zwakste zuur en base.",
+        "Amfolyten kunnen zowel $\\text{H}^+$ opnemen als afstaan."
+      ]
+    }
+  ],
+  "extra_informatie": {
+    "voorkennis": [
+      "Notatie van chemische symbolen en reactievergelijkingen",
+      "Basiskennis van logaritmen"
+    ],
+    "vervolgonderwerpen": [
+      "Bufferberekeningen (Henderson-Hasselbalch)",
+      "Titratiecurves"
+    ],
+    "bronnen": ["Oefenmateriaal Hoofdstuk III: Zuren en basen - Gratis"]
+  }
+}
