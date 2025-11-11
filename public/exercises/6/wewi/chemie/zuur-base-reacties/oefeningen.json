@@ -296,6 +296,361 @@
         "Evenwichtsreacties verschuiven naar de zijde van de zwakste zuur en base.",
         "Amfolyten kunnen zowel $\\text{H}^+$ opnemen als afstaan."
       ]
+    },
+    {
+      "id": "chemie-zuurbase-002-premium",
+      "titel": "Zuren en Basen - Inzicht en Begrip (Premium)",
+      "beschrijving": "Inzichtvragen en numerieke problemen over pH berekeningen (zwak zuur/base), buffers, hydrolyse en titraties.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Zuren en Basen",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "De $\\text{p}K_z$-waarde van mierezuur ($\\text{HCOOH}$) is $3.75$. Een oplossing van $\\text{HCOOH}$ heeft een concentratie van $0.010 \\text{ mol/l}$. Bereken de $\\text{pH}$ van deze oplossing.",
+          "antwoord": "$\\text{pH} = 2.875$",
+          "stappen": [
+            "Dit is een zwak zuur. Gebruik: $\\text{pH} = \\frac{1}{2}\\text{p}K_z - \\frac{1}{2}\\log C_z$.",
+            "$\\text{pH} = \\frac{1}{2}(3.75) - \\frac{1}{2}\\log(0.010)$",
+            "$\\text{pH} = 1.875 - \\frac{1}{2}(-2) = 1.875 + 1 = 2.875$"
+          ],
+          "punten": 8
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Je wilt een bufferoplossing maken van azijnzuur ($\\text{CH}_3\\text{COOH}$, $\\text{p}K_z = 4.75$) en natriumacetaat ($\\text{NaCH}_3\\text{COO}$) met een $\\text{pH}$ van $5.10$. Wat moet de verhouding zijn tussen de baseconcentratie ($C_b$) en de zuurconcentratie ($C_z$)?",
+          "antwoord": "De verhouding $C_b/C_z$ moet ongeveer $2.24$ zijn.",
+          "stappen": [
+            "Gebruik de bufferformule (Henderson-Hasselbalch): $\\text{pH} = \\text{p}K_z + \\log \\frac{C_b}{C_z}$.",
+            "$5.10 = 4.75 + \\log \\frac{C_b}{C_z}$.",
+            "$\\log \\frac{C_b}{C_z} = 5.10 - 4.75 = 0.35$.",
+            "$\\frac{C_b}{C_z} = 10^{0.35} \\approx 2.24$."
+          ],
+          "punten": 7
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "De $\\text{pH}$ van een oplossing van het zout $\\text{NH}_4\\text{Cl}$ wordt enkel bepaald door de hydrolyse van het zwakke zuur $\\text{NH}_4^+$. Leg uit waarom het chloride-ion ($\\text{Cl}^-$) niet bijdraagt aan de $\\text{pH}$ berekening.",
+          "antwoord": "Het $\\text{Cl}^-$-ion is de geconjugeerde base van het **sterke zuur** $\\text{HCl}$. Hierdoor is $\\text{Cl}^-$ een **zeer zwakke base**, veel zwakker dan water, en heeft het dus geen merkbare invloed op de $\\text{pH}$ van de oplossing. De $\\text{pH}$ wordt enkel bepaald door de hydrolyse van het zwakke zuur $\\text{NH}_4^+$.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Rangschik de volgende zuren naar toenemende zuursterkte op basis van hun $\\text{p}K_z$ waarden: Zuur A ($\\text{p}K_z = 1.52$), Zuur B ($\\text{p}K_z = 6.93$), Zuur C ($\\text{p}K_z = 3.86$).",
+          "antwoord": "De zuursterkte is omgekeerd evenredig met de $\\text{p}K_z$: hoe kleiner de $\\text{p}K_z$, hoe sterker het zuur. Rangschikking (toenemend sterk): **Zuur B** (6.93) < **Zuur C** (3.86) < **Zuur A** (1.52).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Beschrijf kort waarom de titratiecurve voor een titratie van een sterk zuur met een sterke base een zeer scherpe $\\text{pH}$ sprong vertoont rond het equivalentiepunt.",
+          "antwoord": "Rond het equivalentiepunt reageren alle $\\text{H}_3\\text{O}^+$ of $\\text{OH}^-$ ionen snel weg. Door de **exponentiële schaal** van de $\\text{pH}$ schaal (die afhankelijk is van de logaritme van de concentratie) resulteert een kleine verandering in volume rond het $\\text{EP}$ in een **zeer scherpe $\\text{pH}$ sprong**.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "meerkeuze",
+          "vraag": "Een oplossing van $0.100 \\text{ mol/l } \\text{HBr}$ heeft een $\\text{pH}$ van $1.00$. Welke conclusie is correct met betrekking tot de zuursterkte van $\\text{HBr}$?",
+          "opties": [
+            "$\\text{HBr}$ is een zwak zuur.",
+            "$\\text{HBr}$ is een zeer zwak zuur.",
+            "$\\text{HBr}$ is een sterk zuur met $\\text{p}K_z \\approx -9$.",
+            "$\\text{HBr}$ is een amfolyt."
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Als $\\text{pH} = -\\log C_z$ geldt (in dit geval $1.00 = -\\log(0.100)$), dan is het zuur volledig gedissocieerd en dus een **sterk zuur**.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "De reactie $\\text{NH}_4^+ + \\text{PO}_4^{3-} \\rightleftharpoons \\text{NH}_3+ \\text{HPO}_4^{2-}$ zal aflopen in welke richting? ($\\text{NH}_4^+$ $\\text{p}K_z = 9.25$, $\\text{HPO}_4^{2-}$ $\\text{p}K_z = 12.67$).",
+          "opties": [
+            "De reactie ligt extreem naar links.",
+            "De reactie ligt extreem naar rechts.",
+            "De reactie is een zuiver evenwicht.",
+            "De reactie vindt niet plaats."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De reactie gaat van de sterkste deeltjes naar de zwakste deeltjes. $\\text{NH}_4^+$ ($\\text{p}K_z=9.25$) is het sterkste zuur. $\\text{PO}_4^{3-}$ (geconjugeerde base van $\\text{HPO}_4^{2-}$, dus sterke base) is de sterkste base. De reactie zal aflopen van links naar rechts (naar de zwakste zuur/base).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Welke van de volgende oplossingen kan dienen als bufferoplossing?",
+          "opties": [
+            "$\\text{HCl} + \\text{NH}_4\\text{Cl}$",
+            "$\\text{Na}_2\\text{CO}_3 + \\text{NaHCO}_3$",
+            "$\\text{NaBr} + \\text{HBr}$",
+            "$\\text{NH}_3+\\text{NaOH}$"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Een buffer bestaat uit een **zwak zuur** en zijn **geconjugeerde base** (of een zwakke base en haar geconjugeerd zuur). $\\text{HCO}_3^-$ is het zwakke zuur en $\\text{CO}_3^{2-}$ de geconjugeerde base.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Als een zwak zuur in een oplossing geïoniseerd is, wat is dan de vereenvoudigde voorwaarde om $x$ (de geïoniseerde concentratie) te verwaarlozen ten opzichte van $C_z$ (de startconcentratie)?",
+          "opties": [
+            "$C_z < 10^{-6}$",
+            "$C_z/K_z < 100$",
+            "$C_z/K_z \\ge 1000$",
+            "$\\text{p}K_z > 14$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De vuistregel om de graad van ionisatie $x$ te verwaarlozen ten opzichte van de beginconcentratie $C_z$ is wanneer $C_z/K_z$ minstens $1000$ is.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat is de $\\text{pH}$ van een $0.001 \\text{ mol/l}$ $\\text{HCl}$ oplossing?",
+          "opties": ["$13$", "$3$", "$7$", "$11$"],
+          "correct_antwoord": 1,
+          "uitleg": "$\\text{HCl}$ is een sterk zuur, dus $\\text{pH} = -\\log C_z$. $C_z = 0.001 \\text{ mol/l} = 10^{-3} \\text{ mol/l}$. $\\text{pH} = -\\log(10^{-3}) = 3$.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Welke oplossing heeft de hoogste $\\text{pH}$ waarde? (Alle oplossingen $0.1 \\text{ mol/l}$)",
+          "opties": [
+            "$\\text{CH}_3\\text{COOH}$ (zwak zuur)",
+            "$\\text{HCl}$ (sterk zuur)",
+            "$\\text{KOH}$ (sterke base)",
+            "$\\text{NaCl}$ (neutraal zout)"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Een sterke base ($\\text{KOH}$) heeft de hoogste $\\text{pH}$. ($\\text{pH}(\\text{KOH}) = 14 - (-log(0.1)) = 13$).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Wat is de $\\text{pH}$ formule voor een amfotere zoutoplossing, zoals $\\text{NaHSO}_4$?",
+          "opties": [
+            "$\\text{pH} = \\frac{1}{2}\\text{p}K_z - \\frac{1}{2}\\log C_z$",
+            "$\\text{pH} = 14 - \\frac{1}{2}\\text{p}K_b + \\frac{1}{2}\\log C_b$",
+            "$\\text{pH} = 7 + \\frac{1}{2}(\\text{p}K_z - \\text{p}K_b)$",
+            "$\\text{pH} = \\frac{1}{2} (\\text{p}K_{z1} + \\text{p}K_{z2})$"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Voor een amfoteer ion (dat zowel zuur als base kan zijn) is de $\\text{pH}$ onafhankelijk van de concentratie en wordt deze benaderd door het gemiddelde van de twee relevante $\\text{p}K_z$-waarden: $\\text{pH} = \\frac{1}{2} (\\text{p}K_{z1} + \\text{p}K_{z2})$.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "De titratie van een zwak zuur (azijnzuur) met een sterke base ($\\text{NaOH}$) wordt uitgevoerd. Welke kenmerken heeft de titratiecurve?",
+          "opties": [
+            "Start $\\text{pH} \\approx 1$ en $\\text{EP}$ op $\\text{pH} = 7$.",
+            "Start $\\text{pH} > 7$ en $\\text{EP}$ op $\\text{pH} > 7$.",
+            "Start $\\text{pH} > 1$ en $\\text{EP}$ op $\\text{pH} > 7$.",
+            "Start $\\text{pH} \\approx 1$ en $\\text{EP}$ op $\\text{pH} < 7$."
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Het startpunt van een zwak zuur is $\\text{pH} > 1$. Het $\\text{EP}$ van een zwak zuur/sterke base titratie is basisch ($\\text{pH} > 7$).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Wat is de concentratie van $\\text{H}_3\\text{O}^+$ in zuiver water bij $60^circ\\text{C}$ als $\\text{K}_w = 10^{-13.0}$?",
+          "opties": [
+            "$10^{-7.0} \\text{ mol/l}$",
+            "$10^{-6.5} \\text{ mol/l}$",
+            "$10^{-13.0} \\text{ mol/l}$",
+            "$10^{-6.0} \\text{ mol/l}$"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "In zuiver water geldt: $[\\text{H}_3\\text{O}^+] = [\\text{OH}^-] = \\sqrt{\\text{K}_w}$. $[\\text{H}_3\\text{O}^+] = \\sqrt{10^{-13.0}} = 10^{-6.5} \\text{ mol/l}$.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Welke indicator omsluit $\\text{pH} 7$ het best voor de titratie van een sterk zuur met een sterke base?",
+          "opties": [
+            "Fenolftaleïne (omslaggebied $8.2 - 10.0$)",
+            "Methyloranje (omslaggebied $3.1-4.4$)",
+            "Broomthymolblauw (omslaggebied $6.0 - 7.6$)",
+            "Alle indicatoren zijn geschikt."
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De $\\text{pH}$ bij het $\\text{EP}$ ligt op $\\text{pH} 7$. $\\text{Broomthymolblauw}$ omsluit dit bereik het best, hoewel alle indicatoren binnen de scherpe sprong kunnen liggen.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Koppel het zuur/base aan de correcte geconjugeerde stof.",
+          "links_items": [
+            "$\\text{CH}_3\\text{COOH}$",
+            "$\\text{NH}_3$",
+            "$\\text{Cl}^-$"
+          ],
+          "rechts_items": [
+            "Geconjugeerde stof: $\\text{HCl}$",
+            "Geconjugeerde stof: $\\text{CH}_3\\text{COO}^-$",
+            "Geconjugeerde stof: $\\text{NH}_4^+$"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$\\text{CH}_3\\text{COOH}$",
+              "rechts": "Geconjugeerde stof: $\\text{CH}_3\\text{COO}^-$"
+            },
+            {
+              "links": "$\\text{NH}_3$",
+              "rechts": "Geconjugeerde stof: $\\text{NH}_4^+$"
+            },
+            {
+              "links": "$\\text{Cl}^-$",
+              "rechts": "Geconjugeerde stof: $\\text{HCl}$"
+            }
+          ],
+          "uitleg": "$\\text{CH}_3\\text{COOH}$ is een zuur, $\\text{CH}_3\\text{COO}^-$ de geconjugeerde base. $\\text{NH}_3$ is een base, $\\text{NH}_4^+$ het geconjugeerde zuur. $\\text{Cl}^-$ is een base, $\\text{HCl}$ het geconjugeerde zuur.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Koppel de $\\text{p}K_z$ aan de bijbehorende $K_z$.",
+          "links_items": [
+            "$\\text{p}K_z = 3.75$",
+            "$\\text{p}K_z = -9$",
+            "$\\text{p}K_z = 7$"
+          ],
+          "rechts_items": [
+            "$K_z$ waarde: $10^9$",
+            "$K_z$ waarde: $10^{-3.75}$",
+            "$K_z$ waarde: $10^{-7}$"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$\\text{p}K_z = 3.75$",
+              "rechts": "$K_z$ waarde: $10^{-3.75}$"
+            },
+            {
+              "links": "$\\text{p}K_z = -9$",
+              "rechts": "$K_z$ waarde: $10^9$"
+            },
+            {
+              "links": "$\\text{p}K_z = 7$",
+              "rechts": "$K_z$ waarde: $10^{-7}$"
+            }
+          ],
+          "uitleg": "De relatie is $K_z = 10^{-\\text{p}K_z}$.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Een beker bevat $10 \\text{ ml } \\text{NaOH}$ met $\\text{pH}=12$. Bepaal de gevraagde waarden bij de verdunning naar $\\text{pH}=10$ (Gebruik $V_1 C_1 = V_2 C_2$).",
+          "links_items": [
+            "$C_1$ (initiële conc.)",
+            "$C_2$ (finale conc.)",
+            "Benodigd totaal volume $\\text{V}_2$",
+            "Benodigd volume water toe te voegen"
+          ],
+          "rechts_items": [
+            "Waarde: $0.01 \\text{ mol/l}$",
+            "Waarde: $10^{-4} \\text{ mol/l}$",
+            "Waarde: $1000 \\text{ ml}$",
+            "Waarde: $990 \\text{ ml}$"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$C_1$ (initiële conc.)",
+              "rechts": "Waarde: $0.01 \\text{ mol/l}$"
+            },
+            {
+              "links": "$C_2$ (finale conc.)",
+              "rechts": "Waarde: $10^{-4} \\text{ mol/l}$"
+            },
+            {
+              "links": "Benodigd totaal volume $\\text{V}_2$",
+              "rechts": "Waarde: $1000 \\text{ ml}$"
+            },
+            {
+              "links": "Benodigd volume water toe te voegen",
+              "rechts": "Waarde: $990 \\text{ ml}$"
+            }
+          ],
+          "uitleg": "1. $\\text{pH}=12 \\rightarrow \\text{pOH}=2 \\rightarrow C_1 = 10^{-2} = 0.01 \\text{ mol/l}$. 2. $\\text{pH}=10 \\rightarrow \\text{pOH}=4 \\rightarrow C_2 = 10^{-4} \\text{ mol/l}$. 3. $V_2 = \\frac{V_1 C_1}{C_2} = \\frac{(10 \\text{ ml}) \\cdot 10^{-2}}{10^{-4}} = 1000 \\text{ ml}$. 4. Volume water = $V_2 - V_1 = 1000 - 10 = 990 \\text{ ml}$.",
+          "punten": 7
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Koppel het proces aan de beschrijving van de evenwichtsverschuiving in de $\\text{CH}_3\\text{COOH}/\\text{CH}_3\\text{COO}^-$ buffer.",
+          "links_items": [
+            "Toevoeging sterk zuur aan buffer",
+            "Toevoeging sterke base aan buffer"
+          ],
+          "rechts_items": [
+            "Evenwichtsverschuiving: Naar links (vorming $\\text{HAc}$)",
+            "Evenwichtsverschuiving: Naar rechts (vorming $\\text{Ac}^-$)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Toevoeging sterk zuur aan buffer",
+              "rechts": "Evenwichtsverschuiving: Naar links (vorming $\\text{HAc}$)"
+            },
+            {
+              "links": "Toevoeging sterke base aan buffer",
+              "rechts": "Evenwichtsverschuiving: Naar rechts (vorming $\\text{Ac}^-$)"
+            }
+          ],
+          "uitleg": "Sterk zuur ($\\text{H}^+$) reageert met $\\text{Ac}^-$, wat leidt tot vorming van $\\text{HAc}$ (links). Sterke base ($\\text{OH}^-$) reageert met $\\text{HAc}$, wat leidt tot vorming van $\\text{Ac}^-$ (rechts).",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Rangschik de volgende organische zuren naar toenemende zuursterkte ($1=$ zwakst, $3=$ sterkst).",
+          "links_items": [
+            "Propaanzuur ($\\text{C}_2\\text{H}_5\\text{COOH}$)",
+            "Ethaanzuur ($\\text{CH}_3\\text{COOH}$)",
+            "Methaanzuur ($\\text{HCOOH}$)"
+          ],
+          "rechts_items": ["Sterkte: 1", "Sterkte: 2", "Sterkte: 3"],
+          "correcte_verbindingen": [
+            {
+              "links": "Propaanzuur ($\\text{C}_2\\text{H}_5\\text{COOH}$)",
+              "rechts": "Sterkte: 1"
+            },
+            {
+              "links": "Ethaanzuur ($\\text{CH}_3\\text{COOH}$)",
+              "rechts": "Sterkte: 2"
+            },
+            {
+              "links": "Methaanzuur ($\\text{HCOOH}$)",
+              "rechts": "Sterkte: 3"
+            }
+          ],
+          "uitleg": "Hoe korter de koolstofketen, hoe zwakker het positieve inductieve effect op de carboxygroep, en hoe sterker het zuur. Methaanzuur is het sterkst, propaanzuur het zwakst.",
+          "punten": 4
+        }
+      ],
+      "totaal_punten": 89,
+      "geschatte_tijd": "70 minuten",
+      "leerdoelen": [
+        "pH van zwakke zuren/basen nauwkeurig berekenen.",
+        "Bufferverhoudingen bepalen en de werking van buffers begrijpen.",
+        "Hydrolyse van zouten en het effect op de $\\text{pH}$ uitleggen.",
+        "Titratiecurves en indicatorselectie interpreteren."
+      ],
+      "tips": [
+        "Sterke/zwakke deeltjes en hun $\\text{p}K$-waarden bepalen het chemische evenwicht.",
+        "Voor bufferberekeningen: onthoud de Henderson-Hasselbalch-vergelijking.",
+        "Bij verdunningen gebruik je altijd de vergelijking $V_1 C_1 = V_2 C_2$ (na conversie van $\\text{pH}$ naar concentratie)."
+      ]
     }
   ],
   "extra_informatie": {
