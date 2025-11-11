@@ -269,13 +269,15 @@ const Exercise = () => {
                       </div>
                     )}
 
-                    <div>
-                      <h4 className="font-semibold mb-2 text-sm">Uitleg:</h4>
-                      <MathRenderer 
-                        content={vraag.uitleg}
-                        className="text-muted-foreground"
-                      />
-                    </div>
+                    {vraag.uitleg && (
+                      <div>
+                        <h4 className="font-semibold mb-2 text-sm">Uitleg:</h4>
+                        <MathRenderer 
+                          content={vraag.uitleg}
+                          className="text-muted-foreground"
+                        />
+                      </div>
+                    )}
                   </div>
                 )}
               </CardContent>

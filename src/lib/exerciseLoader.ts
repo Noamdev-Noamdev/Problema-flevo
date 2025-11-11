@@ -1,7 +1,7 @@
 export interface VraagBase {
   vraag_nummer: number;
   vraag: string;
-  uitleg: string;
+  uitleg?: string;
   punten: number;
   type: "open" | "meerkeuze" | "verbinding";
 }
