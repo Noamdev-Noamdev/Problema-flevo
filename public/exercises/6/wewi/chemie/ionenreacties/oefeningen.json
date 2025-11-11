@@ -373,7 +373,7 @@
           "type": "open",
           "vraag": "Leg uit waarom de eerste ionisatiestap van zwavelzuur ($\\text{H}_2\\text{SO}_4$) (tot $\\text{HSO}_4^-$) een aflopende reactie is, terwijl de tweede stap (van $\\text{HSO}_4^-$ tot $\\text{SO}_4^{2-}$) een evenwichtsreactie is.",
           "uitleg": "Verwijs naar het onderscheid tussen sterke en zwakke zuren.",
-          "antwoord": "Zwavelzuur ($\\text{H}_2\\text{SO}_4$) is een **sterk zuur**, wat betekent dat het in de eerste stap vrijwel volledig protolyseert met water (aflopende reactie). Het gevormde $\\text{HSO}_4^-$ ion is echter een **zwakker zuur** (amfolyt), wat betekent dat de tweede ionisatie een evenwichtsreactie is, die niet volledig naar rechts ligt.",
+          "antwoord": "Zwavelzuur ($\\text{H}_2\\text{SO}_4$) is een sterk zuur, wat betekent dat het in de eerste stap vrijwel volledig protolyseert met water (aflopende reactie). Het gevormde $\\text{HSO}_4^-$ ion is echter een zwakker zuur (amfolyt), wat betekent dat de tweede ionisatie een evenwichtsreactie is, die niet volledig naar rechts ligt.",
           "punten": 8
         },
         {
@@ -381,7 +381,7 @@
           "type": "open",
           "vraag": "Waarom is het, bij het uitschrijven van een neerslagreactie, cruciaal om de wet van behoud van massa te respecteren, inclusief de coëfficiënten?",
           "uitleg": "De wet van behoud van massa moet altijd gerespecteerd worden.",
-          "antwoord": "De wet van behoud van massa stelt dat er geen atomen verloren mogen gaan tijdens een reactie. De **coëfficiënten** zorgen ervoor dat er aan beide zijden van de reactievergelijking eenzelfde aantal atomen voorkomt, wat noodzakelijk is voor een correcte **stoichiometrie**.",
+          "antwoord": "De wet van behoud van massa stelt dat er geen atomen verloren mogen gaan tijdens een reactie. De coëfficiënten zorgen ervoor dat er aan beide zijden van de reactievergelijking eenzelfde aantal atomen voorkomt, wat noodzakelijk is voor een correcte stoichiometrie.",
           "punten": 5
         },
         {
@@ -409,7 +409,7 @@
         {
           "vraag_nummer": 7,
           "type": "meerkeuze",
-          "vraag": "Welke ionenuitwisselingsreactie zal hoogstwaarschijnlijk **niet** plaatsvinden in waterige oplossing?",
+          "vraag": "Welke ionenuitwisselingsreactie zal hoogstwaarschijnlijk niet plaatsvinden in waterige oplossing?",
           "opties": [
             "$\\text{BaCl}_2$ en $\\text{Na}_2\\text{SO}_4$",
             "$\\text{KNO}_3$ en $\\text{LiCl}$",
@@ -465,7 +465,7 @@
         {
           "vraag_nummer": 11,
           "type": "meerkeuze",
-          "vraag": "Welke combinatie van reagentia zal leiden tot de vorming van een neerslag van een **hydroxide**?",
+          "vraag": "Welke combinatie van reagentia zal leiden tot de vorming van een neerslag van een hydroxide?",
           "opties": [
             "$\\text{Al}(\\text{NO}_3)_3$ en $\\text{HCl}$",
             "$\\text{Mg}(\\text{OH})_2$ en $\\text{H}_2\\text{SO}_4$",
@@ -493,7 +493,7 @@
         {
           "vraag_nummer": 13,
           "type": "meerkeuze",
-          "vraag": "Welk metaalion uit Groep IIa wordt expliciet genoemd als een ion dat **GEEN** slecht oplosbaar zout vormt met sulfaat ($\\text{SO}_4^{2-}$)?",
+          "vraag": "Welk metaalion uit Groep IIa wordt expliciet genoemd als een ion dat GEEN slecht oplosbaar zout vormt met sulfaat ($\\text{SO}_4^{2-}$)?",
           "opties": [
             "$\\text{Mg}^{2+}$",
             "$\\text{Ca}^{2+}$",

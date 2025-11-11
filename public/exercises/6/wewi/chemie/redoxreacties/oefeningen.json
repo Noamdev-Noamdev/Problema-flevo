@@ -18,7 +18,7 @@
           "type": "open",
           "vraag": "Definieer oxidator en reductor in termen van elektronenopname/afgifte en de verandering in het Oxidatiegetal (OG).",
           "uitleg": "Verwijs naar de relatie tussen elektronenbeweging en de stijging/daling van het OG.",
-          "antwoord": "Een **oxidator** neemt elektronen op en wordt zelf gereduceerd (OG daalt). Een **reductor** staat elektronen af en wordt zelf geoxideerd (OG stijgt).",
+          "antwoord": "Een oxidator neemt elektronen op en wordt zelf gereduceerd (OG daalt). Een reductor staat elektronen af en wordt zelf geoxideerd (OG stijgt).",
           "punten": 5
         },
         {
@@ -34,7 +34,7 @@
           "type": "open",
           "vraag": "Wat is de functie van een zoutbrug in een galvanische cel, en wat is de essentiële voorwaarde voor het optreden van een spanningsverschil?",
           "uitleg": "Denk aan de elektrische neutraliteit en de scheiding van de halfcellen.",
-          "antwoord": "De zoutbrug zorgt voor **ionentransport** tussen de halfcellen, waardoor de elektrische neutraliteit in de oplossingen behouden blijft. Een spanningsverschil treedt enkel op in aanwezigheid van deze zoutbrug/poreus membraan, ter **ruimtelijke scheiding** van de halfcellen.",
+          "antwoord": "De zoutbrug zorgt voor ionentransport tussen de halfcellen, waardoor de elektrische neutraliteit in de oplossingen behouden blijft. Een spanningsverschil treedt enkel op in aanwezigheid van deze zoutbrug/poreus membraan, ter ruimtelijke scheiding van de halfcellen.",
           "punten": 6
         },
         {
@@ -42,7 +42,7 @@
           "type": "open",
           "vraag": "Wat is de notatie die altijd wordt gebruikt voor het Oxidatiegetal van een gebonden atoom?",
           "uitleg": "Verwijs naar het type cijfer dat gebruikt wordt.",
-          "antwoord": "Het Oxidatiegetal wordt steeds weergegeven met een **Romeins cijfer**.",
+          "antwoord": "Het Oxidatiegetal wordt steeds weergegeven met een Romeins cijfer.",
           "punten": 3
         },
         {
@@ -58,7 +58,7 @@
           "type": "open",
           "vraag": "Waarom is de standaardwaterstofelektrode ingevoerd, en welke waarde is per definitie aan de normpotentiaal ervan toegekend?",
           "uitleg": "Potentiaalverschil vs. absolute waarde.",
-          "antwoord": "Het is ingevoerd omdat men enkel een **potentiaalverschil** tussen twee elektroden kan meten, en geen absolute waarde van één halfreactie. Per definitie is de normpotentiaal ($\text{E}^0$) gelijk aan **nul**.",
+          "antwoord": "Het is ingevoerd omdat men enkel een potentiaalverschil tussen twee elektroden kan meten, en geen absolute waarde van één halfreactie. Per definitie is de normpotentiaal ($\text{E}^0$) gelijk aan nul.",
           "punten": 5
         },
         {
@@ -74,7 +74,7 @@
           "type": "open",
           "vraag": "In een redoxreactie in zuur milieu, welke deeltjes moeten worden toegevoegd om de ladingsbalans te corrigeren, en aan welke zijde?",
           "uitleg": "Denk aan de beschikbaarheid van deeltjes in zuur milieu.",
-          "antwoord": "$\\text{H}^+$-ionen worden toegevoegd aan de zijde die het **minst positief / meest negatief** is.",
+          "antwoord": "$\\text{H}^+$-ionen worden toegevoegd aan de zijde die het minst positief / meest negatief is.",
           "punten": 5
         },
         {
@@ -368,7 +368,7 @@
           "type": "open",
           "vraag": "Gebruik de spanningsreeks van niet-metalen om te bepalen of de reactie tussen $\\text{KBr}$ en $\\text{Cl}_2$ spontaan zal verlopen. Geef de reactievergelijking.",
           "uitleg": "De reactie verloopt van de sterkste deeltjes naar de zwakste deeltjes.",
-          "antwoord": "De reactie $2\\text{Br}^- + \\text{Cl}_2 \\rightarrow \\text{Br}_2 + 2\\text{Cl}^-$ zal **spontaan** verlopen. Chloor ($\text{Cl}_2$) is een sterkere oxidator dan $\\text{Br}_2$, en bromide ($\text{Br}^-$) is de sterkste reductor. De sterkste oxidator reageert met de sterkste reductor.",
+          "antwoord": "De reactie $2\\text{Br}^- + \\text{Cl}_2 \\rightarrow \\text{Br}_2 + 2\\text{Cl}^-$ zal spontaan verlopen. Chloor ($\text{Cl}_2$) is een sterkere oxidator dan $\\text{Br}_2$, en bromide ($\text{Br}^-$) is de sterkste reductor. De sterkste oxidator reageert met de sterkste reductor.",
           "punten": 5
         },
         {
@@ -376,7 +376,7 @@
           "type": "open",
           "vraag": "Beschrijf in termen van elektrochemie wat er gebeurt wanneer een uitgeputte autobatterij wordt opgeladen.",
           "uitleg": "Relateer dit aan elektrolyse en het type reactie.",
-          "antwoord": "Het opladen is een proces van **elektrolyse** (een gedwongen, **niet-spontane** reactie) waarbij elektrische energie wordt omgezet in chemische energie. De spontane chemische reacties die de stroom leverden, worden nu in de omgekeerde richting gedwongen.",
+          "antwoord": "Het opladen is een proces van elektrolyse (een gedwongen, niet-spontane reactie) waarbij elektrische energie wordt omgezet in chemische energie. De spontane chemische reacties die de stroom leverden, worden nu in de omgekeerde richting gedwongen.",
           "punten": 5
         },
         {
@@ -384,7 +384,7 @@
           "type": "open",
           "vraag": "Waarom is het moeilijk om het Oxidatiegetal te bepalen in covalente verbindingen (Lewis-structuren), en hoe wordt dit opgelost?",
           "uitleg": "Elektronenparen en elektronegativiteit.",
-          "antwoord": "In **covalente bindingen** worden elektronenparen gedeeld, wat OG-bepaling bemoeilijkt. Dit wordt opgelost door de **bindende elektronen** toe te wijzen aan het element met de **grootste elektronegativiteit** ($\\text{EN}$), wat dan een negatief OG krijgt.",
+          "antwoord": "In covalente bindingen worden elektronenparen gedeeld, wat OG-bepaling bemoeilijkt. Dit wordt opgelost door de bindende elektronen toe te wijzen aan het element met de grootste elektronegativiteit ($\\text{EN}$), wat dan een negatief OG krijgt.",
           "punten": 5
         },
         {
@@ -392,7 +392,7 @@
           "type": "open",
           "vraag": "Gebruik de normpotentialen ($\text{E}^0(\text{Fe}^{3+}/\text{Fe}^{2+}) = +0.77 \\text{V}$, $\\text{E}_0(\text{Cu}^{2+}/\text{Cu}) = +0.34 \\text{V}$) om te bewijzen dat $\\text{Fe}^{3+}$ een sterkere oxidator is dan $\\text{Cu}^{2+}$, en bepaal of de reactie $\\text{Cu} + 2\\text{Fe}^{3+} \\rightarrow \\text{Cu}^{2+}+2\\text{Fe}^{2+}$ aflopend is.",
           "uitleg": "Hoogste $\\text{E}_0$ is de sterkste oxidator. $\\Delta E_0 > 0.3 \\text{V}$ is aflopend.",
-          "antwoord": "$\\text{Fe}^{3+}$ is de sterkste oxidator omdat het een hogere $\\text{E}_0$ heeft ($+0.77 \\text{V}$) dan $\\text{Cu}^{2+}$ ($+0.34 \\text{V}$). De reactie is **aflopend**, want $\\Delta E_0 = \\text{E}_0(\\text{Ox}) - \\text{E}_0(\\text{Red}) = 0.77 - 0.34 = +0.43 \\text{V}$, wat groter is dan $0.3 \\text{V}$.",
+          "antwoord": "$\\text{Fe}^{3+}$ is de sterkste oxidator omdat het een hogere $\\text{E}_0$ heeft ($+0.77 \\text{V}$) dan $\\text{Cu}^{2+}$ ($+0.34 \\text{V}$). De reactie is aflopend, want $\\Delta E_0 = \\text{E}_0(\\text{Ox}) - \\text{E}_0(\\text{Red}) = 0.77 - 0.34 = +0.43 \\text{V}$, wat groter is dan $0.3 \\text{V}$.",
           "punten": 5
         },
         {
@@ -400,7 +400,7 @@
           "type": "open",
           "vraag": "Bij de elektrolyse van geconcentreerde $\\text{MgCl}_2$-oplossing, welke producten worden gevormd aan de kathode en de anode?",
           "uitleg": "Vergelijk de $\\text{E}_0$ van aanwezige ionen en water.",
-          "antwoord": "Aan de **kathode** (reductie) wordt $\\text{H}_2(\\text{g})$ gevormd (water is de sterkste oxidator t.o.v. $\\text{Mg}^{2+}$). Aan de **anode** (oxidatie) wordt $\\text{Cl}_2(\\text{g})$ gevormd ($\text{Cl}^-$ concentratie is hoog, waardoor het makkelijker oxideert dan water).",
+          "antwoord": "Aan de kathode (reductie) wordt $\\text{H}_2(\\text{g})$ gevormd (water is de sterkste oxidator t.o.v. $\\text{Mg}^{2+}$). Aan de anode (oxidatie) wordt $\\text{Cl}_2(\\text{g})$ gevormd ($\text{Cl}^-$ concentratie is hoog, waardoor het makkelijker oxideert dan water).",
           "punten": 5
         },
         {
@@ -408,7 +408,7 @@
           "type": "open",
           "vraag": "Waarom wordt zink ($\text{Zn}$) gebruikt om ijzer ($\text{Fe}$) te galvaniseren (kathodische bescherming)?",
           "uitleg": "Vergelijk $\\text{E}_0$ en bepaal welke als anode optreedt.",
-          "antwoord": "Zink ($\text{E}^0 = -0.76 \\text{V}$) is een **sterkere reductor** (lagere $\\text{E}_0$) dan ijzer ($\text{E}^0 = -0.41 \\text{V}$). Zink zal bij voorkeur oxideren (anode), waardoor het ijzer (kathode) gedwongen wordt om **gereduceerd** te blijven en zo beschermd is tegen corrosie.",
+          "antwoord": "Zink ($\text{E}^0 = -0.76 \\text{V}$) is een sterkere reductor (lagere $\\text{E}_0$) dan ijzer ($\text{E}^0 = -0.41 \\text{V}$). Zink zal bij voorkeur oxideren (anode), waardoor het ijzer (kathode) gedwongen wordt om gereduceerd te blijven en zo beschermd is tegen corrosie.",
           "punten": 5
         },
         {
@@ -557,7 +557,7 @@
         {
           "vraag_nummer": 21,
           "type": "verbinding",
-          "vraag": "Koppel de term aan de correcte celpool bij **ELEKTROLYSE**.",
+          "vraag": "Koppel de term aan de correcte celpool bij ELEKTROLYSE.",
           "links_items": ["Kathode", "Anode", "Reductie", "Oxidatie"],
           "rechts_items": ["Pooltype: Positief (+)", "Pooltype: Negatief (-)"],
           "correcte_verbindingen": [

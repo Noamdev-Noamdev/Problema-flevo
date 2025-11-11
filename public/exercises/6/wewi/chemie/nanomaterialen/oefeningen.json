@@ -1,0 +1,581 @@
+{
+  "vak": "Chemie",
+  "onderdeel": "Nanomaterialen",
+  "jaar": 6,
+  "richting": "wewi",
+  "laatst_bijgewerkt": "2025-11-11",
+  "oefeningen": [
+    {
+      "id": "chemie-nano-001-gratis",
+      "titel": "Nanomaterialen - Feiten en Studie (Gratis)",
+      "beschrijving": "Vragen over de nanoschaal, unieke eigenschappen, classificatie en algemene toepassingen van nanomaterialen.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Nanowetenschap",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Wat is het groottebereik in nanometer ($\\text{nm}$) waarbinnen men werkt in de nanowetenschap en nanochemie?",
+          "antwoord": "$\\text{1 nm}$ tot $\\text{100 nm}$",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Noem twee unieke fysische eigenschappen van nanodeeltjes die verschillen van macroscopische materialen.",
+          "antwoord": "Onder andere: ander smelt- en kookpunt en unieke elektrische en magnetische eigenschappen.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Welk 2D nanomateriaal met een dikte in de nanoschaal wordt in de cursus vermeld?",
+          "antwoord": "Grafeen of Nanofilm.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Wat is de primaire functie van de liposoom (lipide nanobolletje) in medische toepassingen?",
+          "antwoord": "Het verpakken van medicijnen of het voorkomen dat de medicijnen worden afgebroken door het immuunsysteem.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Wat is de functie van de $\\text{ZnO}$ en $\\text{TiO}_2$ nanodeeltjes in zonnebrandcrème?",
+          "antwoord": "Ze worden toegevoegd om UV-straling te blokkeren door absorptie/verstrooiing.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Wat is Nanofiltratie en waarvoor wordt het gebruikt in waterzuivering?",
+          "antwoord": "Filtratie op nanoschaal, gebruikt voor het verwijderen van organische stoffen (pesticiden, kleurstoffen), $\\text{Ca}^{2+}$ en $\\text{Mg}^{2+}$ ionen (water ontharden), virussen en bacteriën.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Wat is het verschil tussen een nanodeeltje ($\\text{0D}$) en een nanodraad ($\\text{1D}$) in termen van dimensies op nanoschaal?",
+          "antwoord": "Een nanodeeltje ($\\text{0D}$) heeft $\\text{3}$ dimensies (lengte, breedte en dikte) in het nanobereik. Een nanodraad ($\\text{1D}$) heeft $\\text{2}$ dimensies in het nanobereik (breedte en dikte).",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "open",
+          "vraag": "Wat is het kenmerkende materiaal en de vorm van een Koolstofnanobuisje?",
+          "antwoord": "Het is een $\\text{1D}$-structuur, opgebouwd uit koolstof (zoals grafeen) in een cilindrische structuur.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Waarom wordt grafeen (nanofilm) beschouwd als een $\\text{2D}$ nanomateriaal?",
+          "opties": [
+            "Omdat de lengte en breedte op nanoschaal liggen.",
+            "Omdat de dikte op nanoschaal ligt.",
+            "Omdat het een buisvormige structuur heeft.",
+            "Omdat het een kwantumdot is."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Nanofilm ($\\text{2D}$) heeft $\\text{1}$ dimensie (dikte) binnen het nanobereik.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat is de primaire reden waarom nanodeeltjes een ander smeltpunt vertonen dan bulkmaterialen (macroscopische schaal)?",
+          "opties": [
+            "De elektrische geleidbaarheid is beter.",
+            "Ze hebben een veel groter specifiek oppervlak per volume.",
+            "De optische eigenschappen veranderen.",
+            "De dichtheid van het materiaal is lager."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De unieke eigenschappen hangen samen met het heel grote specifieke oppervlak per volume.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Wat is het doel van polyethyleenglycol ($\\text{PEG}$) rond liposomen?",
+          "opties": [
+            "Het activeert de medicatie.",
+            "Het beschermt de liposomen tegen aanvallen van het immuunsysteem.",
+            "Het zorgt voor een rode kleur.",
+            "Het verhoogt de geleidbaarheid in de cel."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "PEG beschermt de liposomen zodat deze niet worden afgebroken door macrofagen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Welke term beschrijft materialen waarvan de drie dimensies (lengte, breedte en dikte) afwijken van het nanobereik?",
+          "opties": [
+            "Nanodraad",
+            "Fullereen (bucky ball)",
+            "Bulk materialen",
+            "Kwantumdots"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Dit zijn de materialen buiten de nanoschaal.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Wat is een kwantumdot ($\\text{QD}$)?",
+          "opties": [
+            "Een $\\text{1D}$ nanobuisje.",
+            "Een $\\text{3D}$ nanodeeltje.",
+            "Een $\\text{2D}$ grafeenlaag.",
+            "Een nanofilm."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Kwantumdots (PbS) zijn een voorbeeld van een $\\text{3D}$ nanodeeltje.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "De Lycurgus Cup, die van kleur verandert, toont aan dat nanodeeltjes een unieke eigenschap hebben. Welke?",
+          "opties": [
+            "Elektrische eigenschappen",
+            "Magnetische eigenschappen",
+            "Optische eigenschappen",
+            "Chemische stabiliteit"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Zilver- en goudpartikels vertonen een andere kleur op nanoschaal, wat wijst op unieke optische eigenschappen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "De selectiviteit van nanofiltratiemembranen hangt af van:",
+          "opties": [
+            "Uitsluitend de grootte van de poriën.",
+            "De grootte, lading en chemische interacties.",
+            "Uitsluitend de temperatuur van het water.",
+            "De aanwezigheid van zware metalen."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De selectiviteit kan aangepast worden op basis van de grootte, lading en chemische interacties om de scheiding te bepalen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "meerkeuze",
+          "vraag": "In welke dimensie bevindt een Carbon Nanotube ($\\text{CNT}$) zich in het nanobereik?",
+          "opties": [
+            "$\\text{0}$ dimensies (alle dimensies buiten het nanobereik)",
+            "$\\text{1}$ dimensie (dikte)",
+            "$\\text{2}$ dimensies (breedte en dikte)",
+            "$\\text{3}$ dimensies (lengte, breedte en dikte)"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "CNT's of nanodraden ($\\text{1D}$) hebben $\\text{2}$ dimensies (breedte en dikte) in het nanobereik.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Koppel de toepassing aan het mechanisme/type nanomateriaal.",
+          "links_items": ["QLED TV's", "Zonnebrandcrème", "Biosensoren"],
+          "rechts_items": [
+            "Type/Mechanisme: Koolstofnanobuisjes",
+            "Type/Mechanisme: Kwantumdots",
+            "Type/Mechanisme: $\\text{TiO}_2/\\text{ZnO}$"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "QLED TV's",
+              "rechts": "Type/Mechanisme: Kwantumdots"
+            },
+            {
+              "links": "Zonnebrandcrème",
+              "rechts": "Type/Mechanisme: $\\text{TiO}_2/\\text{ZnO}$"
+            },
+            {
+              "links": "Biosensoren",
+              "rechts": "Type/Mechanisme: Koolstofnanobuisjes"
+            }
+          ],
+          "uitleg": "De koppeling is gebaseerd op de unieke eigenschappen van het nanomateriaal voor de specifieke toepassing.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Koppel de grootte aan het object.",
+          "links_items": [
+            "$\\text{10 nm}$",
+            "$\\text{100 nm}$",
+            "$\\text{1 nm}$"
+          ],
+          "rechts_items": [
+            "Object: Hemoglobine ($approx 5 \\text{ nm}$)",
+            "Object: Virus ($approx 100 \\text{ nm}$)",
+            "Object: DNA ($approx 10 \\text{ nm}$)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$\\text{10 nm}$",
+              "rechts": "Object: DNA ($approx 10 \\text{ nm}$)"
+            },
+            {
+              "links": "$\\text{100 nm}$",
+              "rechts": "Object: Virus ($approx 100 \\text{ nm}$)"
+            },
+            {
+              "links": "$\\text{1 nm}$",
+              "rechts": "Object: Hemoglobine ($approx 5 \\text{ nm}$)"
+            }
+          ],
+          "uitleg": "De koppeling is de dichtstbijzijnde benadering van de objectgrootte op nanoschaal.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Koppel de term aan de classificatie op basis van dimensies in de nanoschaal.",
+          "links_items": ["Nanodeeltjes", "Grafeen", "Nanobuisje"],
+          "rechts_items": [
+            "Dimensies in nanobereik: $\\text{1}$",
+            "Dimensies in nanobereik: $\\text{2}$",
+            "Dimensies in nanobereik: $\\text{3}$"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Nanodeeltjes",
+              "rechts": "Dimensies in nanobereik: $\\text{3}$"
+            },
+            {
+              "links": "Grafeen",
+              "rechts": "Dimensies in nanobereik: $\\text{1}$"
+            },
+            {
+              "links": "Nanobuisje",
+              "rechts": "Dimensies in nanobereik: $\\text{2}$"
+            }
+          ],
+          "uitleg": "Nanodeeltjes ($\\text{0D}$) hebben $\\text{3}$ dimensies op nanoschaal. Grafeen ($\\text{2D}$) heeft $\\text{1}$ dimensie op nanoschaal (dikte). Nanobuisje ($\\text{1D}$) heeft $\\text{2}$ dimensies op nanoschaal (breedte en dikte).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Koppel het doel van de medische toepassing aan het mechanisme.",
+          "links_items": [
+            "Afbeelding van weefsels",
+            "Gerichte therapie voor kankercellen"
+          ],
+          "rechts_items": [
+            "Mechanisme: Gouden nanodeeltjes met nabij-infrarood licht",
+            "Mechanisme: $\\text{Au}$-nanodeeltjes in $\\text{CT}/\\text{X}$-ray scans"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Afbeelding van weefsels",
+              "rechts": "Mechanisme: $\\text{Au}$-nanodeeltjes in $\\text{CT}/\\text{X}$-ray scans"
+            },
+            {
+              "links": "Gerichte therapie voor kankercellen",
+              "rechts": "Mechanisme: Gouden nanodeeltjes met nabij-infrarood licht"
+            }
+          ],
+          "uitleg": "Goudnanodeeltjes worden gebruikt als contrastmiddel in scans en voor het lokaal verhitten van kankercellen met IR-licht (fotothermische therapie).",
+          "punten": 4
+        }
+      ],
+      "totaal_punten": 80,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": [
+        "De nanoschaal en dimensies definiëren en herkennen.",
+        "Unieke eigenschappen van nanodeeltjes begrijpen.",
+        "De voornaamste toepassingen van nanomaterialen in geneeskunde en filtratie kennen."
+      ],
+      "tips": [
+        "Bestudeer de relatie tussen dimensies en de namen van de nanostructuren ($\\text{0D}$, $\\text{1D}$, $\\text{2D}$).",
+        "Onthoud de vuistregel: de nanodeeltjes moeten minstens $\\text{1}$ dimensie in het nanobereik hebben."
+      ]
+    },
+    {
+      "id": "chemie-nano-002-premium",
+      "titel": "Nanomaterialen - Inzicht en Begrip (Premium)",
+      "beschrijving": "Vragen die inzicht en diepgaand begrip testen over de werking, toepassing en classificatie van complexe nanostructuren (Kwantumdots, Liposomen, STM).",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Nanowetenschap",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Leg het principe van Kwantumdots uit: hoe wordt de kleur van het uitgestraalde licht bepaald en hoe verhoudt dit zich tot de deeltjesgrootte?",
+          "uitleg": "Gebruik het principe van absorptie en emissie in relatie tot de grootte van de dot.",
+          "antwoord": "Kwantumdots absorberen licht en zenden dit vrijwel onmiddellijk weer uit. De kleur van het uitgestraalde licht is afhankelijk van de **deeltjesgrootte**. Hoe **groter** de dot, hoe **roder** de kleur; hoe **kleiner** de dot, hoe **intenser de blauwe** kleur.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Het totale oppervlak van een bolvormig deeltje staal van $\\text{1 cm}$ is $\\text{12.57 cm}^2$. Wanneer dit deeltje wordt verkleind tot $\\text{10}^{\\text{18}}$ nanodeeltjes van $\\text{10 nm}$, wat is dan het totale oppervlak? (Gebruik de gegeven gegevens om de vergroting aan te tonen).",
+          "uitleg": "Bereken de toename in oppervlak en druk deze uit in een factor.",
+          "antwoord": "Het totale oppervlak is $\\text{12.57} \\cdot \\text{10}^{\\text{6}} \\text{ cm}^2$, wat $\\text{1}$ miljoen keer groter is dan het oorspronkelijke deeltje. Dit toont het heel grote specifieke oppervlak per volume aan.",
+          "stappen": [
+            "Totaal oppervlak van $\\text{10}^{\\text{18}}$ deeltjes van $\\text{10 nm}$ is $\\text{12.57} \\cdot \\text{10}^{\\text{6}} \\text{ cm}^2$.",
+            "De toename in oppervlak is: $\\text{12.57} \\cdot \\text{10}^{\\text{6}} \\text{ cm}^2 / \\text{12.57} \\text{ cm}^2 = \\text{1.000.000}$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Leg uit hoe liposomen zo ontworpen kunnen worden dat ze specifiek op kankercellen gericht zijn, en hoe dit het bijkomende probleem van chemotherapie kan oplossen.",
+          "uitleg": "Bespreek de modificatie van de buitenzijde en het therapeutische voordeel.",
+          "antwoord": "De buitenzijde van het liposoom kan worden gemodificeerd met eiwitten of antilichamen die specifieke **kankercellen herkennen**. Hierdoor komen de medicijnen enkel vrij op de plaats van de kankercellen, waardoor **gezonde weefsels niet worden aangetast**. Dit lost het nadeel van huidige chemotherapie op.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Waarom is het, ondanks de hoge rendementen van $\\text{TiO}_2$-nanopartikels in dye-sensitized solar cells (DSSC's), moeilijk voor deze zonnecellen om te concurreren met de huidige, goedkopere zonnecellen?",
+          "uitleg": "Vergelijk het rendement van $\\text{DSSC}$ met de huidige goedkopere zonneceltechnologie.",
+          "antwoord": "Het **rendement** van de nanodeeltjes zonnecellen kan nog **onvoldoende concurreren** met de huidige, goedkopere zonneceltechnologie op basis van $\\text{Si}$ (silicium).",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Wat is het historische belang van de Scanning Tunneling Microscope (STM) in de ontwikkeling van nanotechnologie?",
+          "uitleg": "Beschrijf de capaciteit van de $\\text{STM}$ en de impact op de conceptualisering van nanotechnologie.",
+          "antwoord": "De $\\text{STM}$ (ontdekt in 1981) maakte het mogelijk om voor het eerst **individuele atomen op oppervlakken te zien en te manipuleren**. Dit leidde tot de **eerste realisaties op nanometerschaal** en de technologische ontwikkeling die volgde op de theoretische ideeën (zoals Feynman en Taniguchi).",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "meerkeuze",
+          "vraag": "Wat is een Dendrimeer?",
+          "opties": [
+            "Een buisvormig koolstofmateriaal.",
+            "Een zeer vertakte, boomachtige nanostructuur.",
+            "Een $\\text{2D}$ nanofilm.",
+            "Een nanobolletje gevuld met lipiden."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De Dendrimeer is een sterk **vertakte, bolvormige structuur**, wat resulteert in een boomachtige nanostructuur.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Welke methode van waterzuivering gebruikt membranen met poriegroottes variërend van $\\text{1}$ tot $\\text{10}$ nanometer?",
+          "opties": [
+            "Omgekeerde osmose",
+            "Micronfiltratie",
+            "Nanofiltratie",
+            "Ultrafiltratie"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Nanofiltratiemembranen zijn gedefinieerd door hun poriegroottes in het nanobereik, van $\\text{1}$ tot $\\text{10}$ nanometer.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Wat is de primaire reden dat $\\text{ZnO}$ en $\\text{TiO}_2$ in zonnebrandcrème, op nanoschaal, kleurloos zijn, in tegenstelling tot hun witte bulkmateriaal?",
+          "opties": [
+            "De elektrische eigenschappen worden sterker.",
+            "Hun smeltpunt verandert.",
+            "Door de kleine deeltjesgrootte laten ze geen witte waas achter bij het uitsmeren.",
+            "De verstrooiing van zichtbaar licht neemt toe."
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Het belangrijkste voordeel van nanodeeltjes ($\\text{ZnO}$ en $\\text{TiO}_2$) in zonnebrandcrème is dat ze **geen witte waas** achterlaten, in tegenstelling tot de grotere deeltjes (micron-size) in bulkmateriaal.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Welk type nanodeeltje wordt voorgesteld als een drager voor medische beeldvorming (röntgen- en $\\text{CT}$-scans)?",
+          "opties": [
+            "$\\text{ZnO}$ nanodeeltjes",
+            "Kwantumdots",
+            "Gouden nanodeeltjes ($\\text{Au}$)",
+            "Fullerenen"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Goudnanodeeltjes ($\text{Au}$) worden gebruikt als contrastmiddel in röntgen- en $\\text{CT}$-scans om betere concentraties in de doelgebieden op te leveren.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat is het effect op de kleur wanneer de deeltjesgrootte van kwantumdots wordt verkleind tot onder $\\text{2 nm}$?",
+          "opties": [
+            "De kleur verschuift naar rood.",
+            "De kleur wordt intens blauw.",
+            "De kleur wordt geel.",
+            "Er wordt geen licht meer uitgestraald."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Hoe kleiner de kwantumdot, hoe intenser de **blauwe kleur**. De kleur verschuift naar **rood** naarmate de grootte toeneemt (boven $\\text{10 nm}$).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "verbinding",
+          "vraag": "Koppel het nanobolletje aan zijn eigenschap.",
+          "links_items": ["Liposoom", "Gouden Nanodeeltje"],
+          "rechts_items": [
+            "Eigenschap A: Geschikt voor fotothermie door absorptie van specifieke golflengten (nabij-infrarood).",
+            "Eigenschap B: Vetbolletje omgeven door polyethyleenglycol (PEG) voor bescherming."
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Liposoom",
+              "rechts": "Eigenschap B: Vetbolletje omgeven door polyethyleenglycol (PEG) voor bescherming."
+            },
+            {
+              "links": "Gouden Nanodeeltje",
+              "rechts": "Eigenschap A: Geschikt voor fotothermie door absorptie van specifieke golflengten (nabij-infrarood)."
+            }
+          ],
+          "uitleg": "Liposomen (vetbolletjes) gebruiken $\\text{PEG}$ om het immuunsysteem te omzeilen. Gouden nanodeeltjes worden gebruikt in fotothermie door hun unieke absorptie van licht.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "verbinding",
+          "vraag": "Koppel het nanodeeltje aan de overeenkomstige dimensie op nanoschaal.",
+          "links_items": ["Kwantumdot", "Grafeen", "Nanodraad"],
+          "rechts_items": [
+            "Dimensie: $\\text{1}$ (dikte)",
+            "Dimensie: $\\text{2}$ (breedte/dikte)",
+            "Dimensie: $\\text{3}$ (lengte/breedte/dikte)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Kwantumdot",
+              "rechts": "Dimensie: $\\text{3}$ (lengte/breedte/dikte)"
+            },
+            {
+              "links": "Grafeen",
+              "rechts": "Dimensie: $\\text{1}$ (dikte)"
+            },
+            {
+              "links": "Nanodraad",
+              "rechts": "Dimensie: $\\text{2}$ (breedte/dikte)"
+            }
+          ],
+          "uitleg": "Kwantumdots zijn $\\text{0D}$ met $\\text{3}$ dimensies op nanoschaal. Grafeen is $\\text{2D}$ met $\\text{1}$ dimensie op nanoschaal. Nanodraad is $\\text{1D}$ met $\\text{2}$ dimensies op nanoschaal.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "verbinding",
+          "vraag": "Koppel het nanodeeltje aan de primaire toepassing.",
+          "links_items": [
+            "Nanofiltratiemembraan",
+            "Koolstofnanobuisjes (CNT)",
+            "Zinkoxide"
+          ],
+          "rechts_items": [
+            "Toepassing: Detectie van vluchtige organische stoffen (VOS)",
+            "Toepassing: UV-absorptie",
+            "Toepassing: Ontharding van water"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Nanofiltratiemembraan",
+              "rechts": "Toepassing: Ontharding van water"
+            },
+            {
+              "links": "Koolstofnanobuisjes (CNT)",
+              "rechts": "Toepassing: Detectie van vluchtige organische stoffen (VOS)"
+            },
+            {
+              "links": "Zinkoxide",
+              "rechts": "Toepassing: UV-absorptie"
+            }
+          ],
+          "uitleg": "Nanofiltratie wordt ingezet voor waterontharding en verwijdering van kleine organische vervuilingen. $\\text{CNT}$'s worden vaak gebruikt in sensoren. $\\text{ZnO}$ is een $\\text{UV}$-blokker in zonnebrandcrème.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "verbinding",
+          "vraag": "Rangschik de volgende processen naar toenemende complexiteit in de Nanowetenschap ($1=$ simpel, $3=$ complex).",
+          "links_items": [
+            "Kijken naar een Lycurgus Cup (zonder analyse).",
+            "Werken met individuele atomen en moleculen (de 'miljardste').",
+            "Gebruik van Scanning Tunneling Microscope (STM) om individuele atomen te manipuleren."
+          ],
+          "rechts_items": [
+            "Complexiteit: $\\text{1 (simpel)}$",
+            "Complexiteit: $\\text{2 (conceptueel)}$",
+            "Complexiteit: $\\text{3 (technologisch complex)}$"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Kijken naar een Lycurgus Cup (zonder analyse).",
+              "rechts": "Complexiteit: $\\text{1 (simpel)}$"
+            },
+            {
+              "links": "Werken met individuele atomen en moleculen (de 'miljardste').",
+              "rechts": "Complexiteit: $\\text{2 (conceptueel)}$"
+            },
+            {
+              "links": "Gebruik van Scanning Tunneling Microscope (STM) om individuele atomen te manipuleren.",
+              "rechts": "Complexiteit: $\\text{3 (technologisch complex)}$"
+            }
+          ],
+          "uitleg": "De Lycurgus Cup is een historische, passieve observatie ($\text{1}$). Het conceptueel werken met atomen is de basis ($\text{2}$). De $\\text{STM}$ manipulatie is de hoogste vorm van technologische controle ($\text{3}$).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "verbinding",
+          "vraag": "Koppel het nanodeeltje aan de eigenschap die de kleur bepaalt.",
+          "links_items": ["Gouden nanodeeltje", "Kwantumdot"],
+          "rechts_items": [
+            "Eigenschap: Interactie van licht (absorptie/verstrooiing)",
+            "Eigenschap: Deeltjesgrootte (hoe groter, hoe roder)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Gouden nanodeeltje",
+              "rechts": "Eigenschap: Interactie van licht (absorptie/verstrooiing)"
+            },
+            {
+              "links": "Kwantumdot",
+              "rechts": "Eigenschap: Deeltjesgrootte (hoe groter, hoe roder)"
+            }
+          ],
+          "uitleg": "De kleur van gouden nanodeeltjes (Lycurgus Cup) wordt bepaald door de verstrooiing van licht. De kleur van kwantumdots (QLED) wordt bepaald door de grootte van de deeltjes (kwantumeffecten).",
+          "punten": 4
+        }
+      ],
+      "totaal_punten": 60,
+      "geschatte_tijd": "30 minuten",
+      "leerdoelen": [
+        "Inzichten verwerven over de kwantumeffecten (Kwantumdots).",
+        "Diepgaand begrip van de functionele toepassing van nanodeeltjes (medicatie, zonnebrand).",
+        "De technologische ontwikkeling en complexiteit van de nanowetenschap kennen."
+      ],
+      "tips": [
+        "Focus op de $\\text{0D}$, $\\text{1D}$, $\\text{2D}$ classificatie en onthoud voorbeelden voor elk.",
+        "Bestudeer de specifieke rol van nanodeeltjes (Au, $\\text{TiO}_2$, Liposoom) in de medische en milieu-toepassingen."
+      ]
+    }
+  ],
+  "extra_informatie": {
+    "voorkennis": ["Basiskennis van chemische symbolen en structuren"],
+    "vervolgonderwerpen": ["Ethiek en veiligheid van nanotechnologie"],
+    "bronnen": ["Oefenmateriaal Hoofdstuk IV: Nanomaterialen - Gratis sectie"]
+  }
+}

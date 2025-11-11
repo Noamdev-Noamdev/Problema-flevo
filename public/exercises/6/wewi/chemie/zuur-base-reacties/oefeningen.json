@@ -334,21 +334,21 @@
           "vraag_nummer": 3,
           "type": "open",
           "vraag": "De $\\text{pH}$ van een oplossing van het zout $\\text{NH}_4\\text{Cl}$ wordt enkel bepaald door de hydrolyse van het zwakke zuur $\\text{NH}_4^+$. Leg uit waarom het chloride-ion ($\\text{Cl}^-$) niet bijdraagt aan de $\\text{pH}$ berekening.",
-          "antwoord": "Het $\\text{Cl}^-$-ion is de geconjugeerde base van het **sterke zuur** $\\text{HCl}$. Hierdoor is $\\text{Cl}^-$ een **zeer zwakke base**, veel zwakker dan water, en heeft het dus geen merkbare invloed op de $\\text{pH}$ van de oplossing. De $\\text{pH}$ wordt enkel bepaald door de hydrolyse van het zwakke zuur $\\text{NH}_4^+$.",
+          "antwoord": "Het $\\text{Cl}^-$-ion is de geconjugeerde base van het sterke zuur $\\text{HCl}$. Hierdoor is $\\text{Cl}^-$ een zeer zwakke base, veel zwakker dan water, en heeft het dus geen merkbare invloed op de $\\text{pH}$ van de oplossing. De $\\text{pH}$ wordt enkel bepaald door de hydrolyse van het zwakke zuur $\\text{NH}_4^+$.",
           "punten": 4
         },
         {
           "vraag_nummer": 4,
           "type": "open",
           "vraag": "Rangschik de volgende zuren naar toenemende zuursterkte op basis van hun $\\text{p}K_z$ waarden: Zuur A ($\\text{p}K_z = 1.52$), Zuur B ($\\text{p}K_z = 6.93$), Zuur C ($\\text{p}K_z = 3.86$).",
-          "antwoord": "De zuursterkte is omgekeerd evenredig met de $\\text{p}K_z$: hoe kleiner de $\\text{p}K_z$, hoe sterker het zuur. Rangschikking (toenemend sterk): **Zuur B** (6.93) < **Zuur C** (3.86) < **Zuur A** (1.52).",
+          "antwoord": "De zuursterkte is omgekeerd evenredig met de $\\text{p}K_z$: hoe kleiner de $\\text{p}K_z$, hoe sterker het zuur. Rangschikking (toenemend sterk): Zuur B (6.93) < Zuur C (3.86) < Zuur A (1.52).",
           "punten": 4
         },
         {
           "vraag_nummer": 5,
           "type": "open",
           "vraag": "Beschrijf kort waarom de titratiecurve voor een titratie van een sterk zuur met een sterke base een zeer scherpe $\\text{pH}$ sprong vertoont rond het equivalentiepunt.",
-          "antwoord": "Rond het equivalentiepunt reageren alle $\\text{H}_3\\text{O}^+$ of $\\text{OH}^-$ ionen snel weg. Door de **exponentiële schaal** van de $\\text{pH}$ schaal (die afhankelijk is van de logaritme van de concentratie) resulteert een kleine verandering in volume rond het $\\text{EP}$ in een **zeer scherpe $\\text{pH}$ sprong**.",
+          "antwoord": "Rond het equivalentiepunt reageren alle $\\text{H}_3\\text{O}^+$ of $\\text{OH}^-$ ionen snel weg. Door de exponentiële schaal van de $\\text{pH}$ schaal (die afhankelijk is van de logaritme van de concentratie) resulteert een kleine verandering in volume rond het $\\text{EP}$ in een zeer scherpe $\\text{pH}$ sprong.",
           "punten": 4
         },
         {
@@ -362,7 +362,7 @@
             "$\\text{HBr}$ is een amfolyt."
           ],
           "correct_antwoord": 2,
-          "uitleg": "Als $\\text{pH} = -\\log C_z$ geldt (in dit geval $1.00 = -\\log(0.100)$), dan is het zuur volledig gedissocieerd en dus een **sterk zuur**.",
+          "uitleg": "Als $\\text{pH} = -\\log C_z$ geldt (in dit geval $1.00 = -\\log(0.100)$), dan is het zuur volledig gedissocieerd en dus een sterk zuur.",
           "punten": 4
         },
         {
@@ -390,7 +390,7 @@
             "$\\text{NH}_3+\\text{NaOH}$"
           ],
           "correct_antwoord": 1,
-          "uitleg": "Een buffer bestaat uit een **zwak zuur** en zijn **geconjugeerde base** (of een zwakke base en haar geconjugeerd zuur). $\\text{HCO}_3^-$ is het zwakke zuur en $\\text{CO}_3^{2-}$ de geconjugeerde base.",
+          "uitleg": "Een buffer bestaat uit een zwak zuur en zijn geconjugeerde base (of een zwakke base en haar geconjugeerd zuur). $\\text{HCO}_3^-$ is het zwakke zuur en $\\text{CO}_3^{2-}$ de geconjugeerde base.",
           "punten": 4
         },
         {
