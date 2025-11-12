@@ -118,6 +118,7 @@ export const onderdelenConfig: OnderdelenConfig = {
     { id: "redoxreacties", name: "Redoxreacties", description: "Oxidatie- en reductiereacties", jaar: 6 },
     { id: "zuur-base-reacties", name: "Zuur-base-reacties", description: "Reacties tussen zuren en basen", jaar: 6 },
     { id: "nanomaterialen", name: "Nanomaterialen", description: "Materialen op nanoschaal en hun toepassingen", jaar: 6 },
+    { id: "organische-chemie", name: "Organische Chemie", description: "Het onderzoeken van organische stoffen", jaar: 6 },
   ]
 };
  

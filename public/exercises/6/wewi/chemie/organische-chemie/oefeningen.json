@@ -1,0 +1,752 @@
+{
+  "vak": "Chemie",
+  "jaar": 6,
+  "richting": "wewi",
+  "laatst_bijgewerkt": "2025-11-12",
+  "oefeningen": [
+    {
+      "id": "chemie-organisch-001-gratis",
+      "titel": "Hoofdstuk V: Organische stoffen en hun eigenschappen - Feiten en Studie",
+      "beschrijving": "Dit hoofdstuk behandelt organische chemie, van nomenclatuur en fysische eigenschappen (kookpunt, oplosbaarheid) tot reactietypes (additie, substitutie, eliminatie, condensatie) en duurzaamheid (R-ladder, polymeren).",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Organische Chemie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Wat is de definitie van isomeren?",
+          "uitleg": "Vergelijk molecuulformule en ruimtelijke structuur.",
+          "antwoord": "Isomeren zijn stoffen met dezelfde molecuulformule (brutoformule), maar met een verschillende ruimtelijke structuur, wat resulteert in verschillende fysische en chemische eigenschappen.",
+          "stappen": [],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Welke drie typen chemische reacties kunnen optreden bij onverzadigde moleculen (met dubbele of drievoudige bindingen)?",
+          "uitleg": "Benoem de reactiesoorten die bij C=C en C≡C voorkomen.",
+          "antwoord": "Additiereactie, Substitutiereactie (ook voor verzadigde), en Eliminatiereactie.",
+          "stappen": [],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Welke twee typen isomerie worden in de cursus onderscheiden?",
+          "uitleg": "Benoem de twee hoofdgroepen van isomerie.",
+          "antwoord": "Structuurisomerie en Stereo-isomerie.",
+          "stappen": [],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Noem de vier belangrijkste reactietypes die in dit hoofdstuk worden behandeld.",
+          "uitleg": "Geef de namen van de vier grote reactieklassen in de Organische Chemie.",
+          "antwoord": "Additiereactie, Substitutiereactie, Eliminatiereactie, en Condensatiereactie.",
+          "stappen": [],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Wat is het type reactie dat een halogeenalkaan vormt uit een alkeen door toevoeging van een halogeenwaterstofzuur ($\\text{HX}$)?",
+          "uitleg": "Verwijs naar de deeltjes die reageren en het type reactie.",
+          "antwoord": "Elektrofiele additiereactie. (Dit is een voorbeeld van Markovnikov-additie).",
+          "stappen": [],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Welke intermoleculaire kracht is de zwakste en komt voor bij alle moleculen, inclusief apolaire moleculen?",
+          "uitleg": "Benoem de kracht die veroorzaakt wordt door tijdelijke dipolen.",
+          "antwoord": "London dispersiekrachten (of Van der Waalskrachten/onderlinge krachten).",
+          "stappen": [],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Wat is de monomeer die nodig is voor de bereiding van Polyvinylchloride (PVC)?",
+          "uitleg": "Verwijs naar de monomeer waarvan de polymeernaam is afgeleid.",
+          "antwoord": "Vinylchloride ($\\text{chlooretheen}$).",
+          "stappen": [],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "open",
+          "vraag": "Welke functionele groep bepaalt dat een organische stof een zuur karakter bezit, en kan het $\\text{H}$-atoom afstaan als proton?",
+          "uitleg": "Geef de naam en formule van de functionele groep die een zuur maakt.",
+          "antwoord": "De carbonzuurgroep ($\\text{-COOH}$).",
+          "stappen": [],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met het kookpunt van alkanen naarmate de ketenlengte toeneemt?",
+          "opties": [
+            "Het kookpunt daalt.",
+            "Het kookpunt stijgt.",
+            "Het kookpunt blijft gelijk.",
+            "Het kookpunt wordt bepaald door sterke waterstofbruggen."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Naarmate de ketenlengte toeneemt, neemt de molecuulmassa toe, waardoor het kookpunt stijgt.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat is het product van de nucleofiele additie van hydride ($\\text{H}^-$) aan een keton?",
+          "opties": [
+            "Een primair alcohol",
+            "Een secundair alcohol",
+            "Een tertiair alcohol",
+            "Een ether"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Nucleofiele additie aan een keton (met twee $\\text{R}$-groepen) vormt een secundair alcohol.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Wat is de primaire reden dat een carbonzuur (bijvoorbeeld ethaanzuur) een kookpunt heeft dat veel hoger ligt dan een alcohol met vergelijkbare molecuulmassa?",
+          "opties": [
+            "De afwezigheid van waterstofbruggen.",
+            "De vorming van dipoolkrachten met water.",
+            "De vorming van sterke dimeren door waterstofbruggen.",
+            "De lagere molecuulmassa."
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Carbonzuren vormen dimeren, waardoor hun kookpunten het hoogst zijn van alle stofklassen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Welke R-strategie in de circulaire economie behoort tot de fase 'Tijdens gebruik (Slow the loop)'?",
+          "opties": ["Refuse", "Repair", "Recycle", "Recover"],
+          "correct_antwoord": 1,
+          "uitleg": "Reuse, Repair en Remanufacture behoren tot 'Slow the loop'.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Wat is een chemische eigenschap van een verzadigde molecule (zoals een alkaan)?",
+          "opties": [
+            "Ze ondergaan additiereacties.",
+            "Ze ondergaan condensatiereacties.",
+            "Ze kunnen een substitutiereactie ondergaan.",
+            "Ze ondergaan polymerisatie."
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Verzadigde moleculen kunnen atomen of atoomgroepen vervangen door een substitutiereactie.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Wat is de molecuulformule (brutoformule) van een verzadigde, onvertakte halogeenalkaan met 2 koolstofatomen?",
+          "opties": [
+            "$\\text{C}_2\\text{H}_6$",
+            "$\\text{C}_2\\text{H}_5\\text{Cl}$",
+            "$\\text{C}_2\\text{H}_4\\text{Cl}_2$",
+            "$\\text{C}_2\\text{H}_4$"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De algemene formule voor een verzadigde koolwaterstof is $\\text{C}_n\\text{H}_{2n+2}$. Bij substitutie van $1 \\text{H}$ door een halogeen ($\\text{Cl}$): $\\text{C}_2\\text{H}_5\\text{Cl}$.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Wat is een van de hoofdbestanddelen van het natuurrubber (latex)?",
+          "opties": [
+            "Chitosan",
+            "Zuurstofgas",
+            "$\\text{C}_5$ polyisopreen",
+            "$\\text{Nylon } 6,6$"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Rubber bestaat uit polyisopreen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "meerkeuze",
+          "vraag": "Welke term beschrijft het concept dat carbonzuren, alcoholen en aminen zowel als zuur als base kunnen reageren?",
+          "opties": ["Polariteit", "Hydratatie", "Amfolyt", "Enantiomeer"],
+          "correct_antwoord": 2,
+          "uitleg": "Carbonzuren, alcoholen en aminen zijn amfolyten.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Koppel het reactietype aan de transformatie.",
+          "links_items": [
+            "Eliminatiereactie",
+            "Nucleofiele Additiereactie",
+            "Condensatiereactie"
+          ],
+          "rechts_items": [
+            "Vorming van een ether met waterafsplitsing",
+            "Vorming van een dubbele binding met afsplitsing van een kleine molecule",
+            "Vorming van een alcohol uit een carbonylverbinding"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Eliminatiereactie",
+              "rechts": "Vorming van een dubbele binding met afsplitsing van een kleine molecule"
+            },
+            {
+              "links": "Nucleofiele Additiereactie",
+              "rechts": "Vorming van een alcohol uit een carbonylverbinding"
+            },
+            {
+              "links": "Condensatiereactie",
+              "rechts": "Vorming van een ether met waterafsplitsing"
+            }
+          ],
+          "uitleg": "Eliminatiereactie (Vorming van een dubbele binding met afsplitsing); Nucleofiele Additiereactie (Vorming van een alcohol uit een carbonylverbinding); Condensatiereactie (Vorming van een ester/polymeer met afsplitsing van een kleine molecule, zoals water).",
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Koppel de functionele groep aan de systematische naamgeving.",
+          "links_items": ["R-COOH", "R-O-R'", "R-CO-R'"],
+          "rechts_items": ["alkanon", "alkaan(R+1)zuur", "alkoxyalkaan"],
+          "correcte_verbindingen": [
+            {
+              "links": "R-COOH",
+              "rechts": "alkaan(R+1)zuur"
+            },
+            {
+              "links": "R-O-R'",
+              "rechts": "alkoxyalkaan"
+            },
+            {
+              "links": "R-CO-R'",
+              "rechts": "alkanon"
+            }
+          ],
+          "uitleg": "R-COOH (Carbonzuur, Alkaan(R+1)zuur); R-O-R' (Ether, Alkoxyalkaan); R-CO-R' (Keton, Alkanon).",
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Koppel de factor aan de invloed op het kookpunt.",
+          "links_items": [
+            "Verhoogde vertakkingsgraad van alkanen",
+            "Aanwezigheid van een $\\text{-OH}$ groep (alcohol)",
+            "Molecuulmassa"
+          ],
+          "rechts_items": [
+            "Kookpunt stijgt",
+            "Kookpunt daalt",
+            "Kookpunt stijgt significant door waterstofbruggen"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Verhoogde vertakkingsgraad van alkanen",
+              "rechts": "Kookpunt daalt"
+            },
+            {
+              "links": "Aanwezigheid van een $\\text{-OH}$ groep (alcohol)",
+              "rechts": "Kookpunt stijgt significant door waterstofbruggen"
+            },
+            {
+              "links": "Molecuulmassa",
+              "rechts": "Kookpunt stijgt"
+            }
+          ],
+          "uitleg": "Verhoogde vertakkingsgraad (Kookpunt daalt); Aanwezigheid van $\\text{-OH}$ (Kookpunt stijgt significant); Molecuulmassa (Kookpunt stijgt).",
+          "punten": 6
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Koppel de R-strategie aan de juiste categorie in de R-ladder.",
+          "links_items": ["Reduce", "Reuse", "Recycle"],
+          "rechts_items": [
+            "Narrow the loop (voor gebruik)",
+            "Slow the loop (tijdens gebruik)",
+            "Close the loop (na gebruik)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Reduce",
+              "rechts": "Narrow the loop (voor gebruik)"
+            },
+            {
+              "links": "Reuse",
+              "rechts": "Slow the loop (tijdens gebruik)"
+            },
+            {
+              "links": "Recycle",
+              "rechts": "Close the loop (na gebruik)"
+            }
+          ],
+          "uitleg": "Reduce (Narrow the loop); Reuse (Slow the loop); Recycle (Close the loop).",
+          "punten": 6
+        }
+      ],
+      "totaal_punten": 88,
+      "geschatte_tijd": "60 minuten",
+      "leerdoelen": [
+        "Nomenclatuur van organische verbindingen toepassen",
+        "Fysische eigenschappen (kookpunt, oplosbaarheid) verklaren met intermoleculaire krachten",
+        "De vier hoofdreactietypes herkennen en toepassen (additie, substitutie, eliminatie, condensatie)",
+        "De R-ladder van circulariteit begrijpen"
+      ],
+      "tips": [
+        "Let bij nomenclatuur goed op de plaats van de functionele groep.",
+        "Onthoud de hiërarchie van intermoleculaire krachten: waterstofbruggen > dipoolkrachten > London-krachten.",
+        "Verzadigde verbindingen: substitutie; Onverzadigde verbindingen: additie en eliminatie."
+      ]
+    },
+    {
+      "id": "chemie-inzicht-001",
+      "titel": "Hoofdstuk V: Organische stoffen en hun eigenschappen - Inzicht",
+      "beschrijving": "Oefeningen over functionele groepen, intermoleculaire krachten, reactietypes (substitutie, additie, eliminatie) en isomerie.",
+      "moeilijkheidsgraad": "gevorderd",
+      "categorie": "Organische Chemie",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Ethaanzuur ($\\text{CH}_3\\text{COOH}$) en methylmethanoaat ($\\text{HCOOCH}_3$) hebben dezelfde molecuulmassa ($60 \\text{ u}$). Toch is het kookpunt van ethaanzuur $118^\\circ\\text{C}$ en dat van methylmethanoaat $32^\\circ\\text{C}$. Verklaar dit verschil op basis van de functionele groep en intermoleculaire krachten.",
+          "uitleg": "Vergelijking van intermoleculaire krachten tussen een carbonzuur en een ester.",
+          "antwoord": "Ethaanzuur (carbonzuur) kan sterke waterstofbruggen en dimeren vormen, terwijl methylmethanoaat (ester) geen waterstofbruggen met zichzelf kan vormen (alleen zwakkere dipoolkrachten), wat resulteert in een veel lager kookpunt.",
+          "stappen": [
+            "Ethaanzuur is een carbonzuur en bevat de $-\\text{COOH}$ groep, die zeer sterke waterstofbruggen kan vormen.",
+            "Carbonzuren vormen bovendien dimeren, wat het kookpunt extreem verhoogt.",
+            "Methylmethanoaat is een ester en bevat geen $-\\text{OH}$ groep.",
+            "Het kan dus geen waterstofbruggen met zichzelf vormen (wel dipoolkrachten), wat resulteert in een veel lager kookpunt dan het overeenkomstige carbonzuur."
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Beschrijf de nucleofiele substitutiereactie (Williamson-synthese) die een ether vormt uit de reactie van natriumethanolat ($\\text{C}_2\\text{H}_5\\text{O}^-$) en broomethaan ($\\text{C}_2\\text{H}_5\\text{Br}$). Geef ook de reactievergelijking en het product.",
+          "uitleg": "De Williamson-synthese is een type nucleofiele substitutie.",
+          "antwoord": "De $\\text{C}_2\\text{H}_5\\text{O}^-$ ion is het nucleofiel en vervangt het $\\text{Br}^-$ ion (leaving group). Reactie: $\\text{C}_2\\text{H}_5\\text{O}^- +\\text{C}_2\\text{H}_5\\text{Br} \rightarrow \\text{C}_2\\text{H}_5-\\text{O}-\\text{C}_2\\text{H}_5+\\text{Br}^-$. Product: diethyl ether (ethoxyethaan).",
+          "stappen": [
+            "Het ethanolat-ion ($\\text{RO}^-$) fungeert als nucleofiel.",
+            "Het nucleofiel valt het koolstofatoom van het halogeenalkaan aan en vervangt het bromide-ion ($\\text{Br}^-$) (leaving group).",
+            "Reactievergelijking: $\\text{C}_2\\text{H}_5\\text{O}^- +\\text{C}_2\\text{H}_5\\text{Br} \rightarrow \\text{C}_2\\text{H}_5-\\text{O}-\\text{C}_2\\text{H}_5+\\text{Br}^-$.",
+            "Het product is diethyl ether (ethoxyethaan)."
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Etheen ($\\text{C}_2\\text{H}_4$) wordt gepolymeriseerd tot polyetheen (PE). Welk type reactie is dit, en beschrijf het mechanisme kort.",
+          "uitleg": "Polymerisatiereacties en hun mechanismen.",
+          "antwoord": "Dit is een polyadditiereactie. De dubbele binding van etheen wordt een enkelvoudige binding, en de monomeren hechten zich aan elkaar tot een lange keten (polymeer) zonder afsplitsing van een kleine molecule.",
+          "stappen": [
+            "Type reactie: Dit is een polyadditiereactie.",
+            "Mechanisme: De monomeer etheen, met een onverzadigde dubbele binding, reageert onder hoge temperatuur en met een katalysator.",
+            "De dubbele binding gaat over in een enkelvoudige binding, en de monomeren hechten zich aan elkaar, waarbij een lange keten (polymeer) wordt gevormd zonder afsplitsing van een kleine molecule."
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Geef de reactievergelijking voor de additiereactie van water ($\\text{H}_2\\text{O}$) met but-1-een ($\\text{C}_4\\text{H}_8$), in aanwezigheid van een zuur. Noem het gevormde product en pas de Regel van Markovnikov toe.",
+          "uitleg": "Elektrofiele additie van water aan een asymmetrisch alkeen.",
+          "antwoord": "Reactie: $\\text{H}_2\\text{C}=\\text{CH}-\\text{CH}_2-\\text{CH}_3+\\text{H}_2\\text{O} \\xrightarrow{\\text{zuur}} \\text{H}_3\\text{C}-\\text{CH}(\\text{OH})-\\text{CH}_2-\\text{CH}_3$. Product: butaan-2-ol.",
+          "stappen": [
+            "Additie van water aan een alkeen leidt tot een alcohol.",
+            "But-1-een is asymmetrisch.",
+            "Volgens Markovnikov bindt het $\\text{H}$-atoom (positief deeltje uit water) aan het $\\text{C}$-atoom met het grootste aantal $\\text{H}$-atomen ($\\text{C}1$).",
+            "De $-\\text{OH}$ (negatieve kant) bindt aan $\\text{C}2$.",
+            "Reactievergelijking: $\\text{H}_2\\text{C}=\\text{CH}-\\text{CH}_2-\\text{CH}_3+\\text{H}_2\\text{O} \\xrightarrow{\\text{zuur}} \\text{H}_3\\text{C}-\\text{CH}(\\text{OH})-\\text{CH}_2-\\text{CH}_3$.",
+            "Het product is butaan-2-ol (een secundair alcohol)."
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Leg uit waarom glycol (ethaan-1,2-diol) en glycerol (propaan-1,2,3-triol) goed oplossen in water.",
+          "uitleg": "Oplosbaarheid en het belang van de $-\\text{OH}$ groep.",
+          "antwoord": "Glycol en glycerol bevatten respectievelijk twee en drie sterke polaire $-\\text{OH}$ groepen. Deze groepen zijn in staat om sterke waterstofbruggen te vormen met water, waardoor ze zeer goed oplosbaar zijn in het polaire water.",
+          "stappen": [
+            "De oplosbaarheid in water hangt af van de polariteit en het vermogen tot het vormen van waterstofbruggen.",
+            "Glycol en glycerol bevatten respectievelijk twee en drie $-\\text{OH}$ groepen.",
+            "Deze sterke polaire groepen zijn in staat om sterke waterstofbruggen te vormen met water, waardoor ze zeer goed oplosbaar zijn in het polaire water."
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "meerkeuze",
+          "vraag": "Wat is een gevolg van de toename van de vertakkingsgraad bij isomeren, in termen van intermoleculaire krachten?",
+          "opties": [
+            "Het contactoppervlak wordt groter, wat leidt tot hogere kookpunten.",
+            "De dipoolkrachten worden sterker.",
+            "Het contactoppervlak wordt kleiner, wat leidt tot lagere London dispersiekrachten en lagere kookpunten.",
+            "De waterstofbrugvorming wordt belemmerd."
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Als de vertakkingsgraad stijgt, wordt de molecule compacter, daalt het contactoppervlak en daalt het kookpunt door zwakkere intermoleculaire krachten.",
+          "uitleg_per_optie": [
+            "Incorrect. Het contactoppervlak wordt kleiner.",
+            "Incorrect. London dispersiekrachten (die het meest bepalend zijn voor alkanen) nemen af.",
+            "Correct! Het contactoppervlak wordt kleiner en de intermoleculaire krachten (London dispersie) zwakker, wat leidt tot een lager kookpunt.",
+            "Incorrect. Dit is niet de primaire reden voor de verlaging van het kookpunt bij alkanen."
+          ],
+          "punten": 1
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Welke van de volgende moleculen is een voorbeeld van een stereo-isomeer?",
+          "opties": [
+            "Propaan-1-ol en propaan-2-ol",
+            "Propanal en propanon",
+            "cis-1,2-dimethylcyclopentaan en trans-1,2-dimethylcyclopentaan",
+            "2-methylbutaan en pentaan"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Stereoisomeren hebben dezelfde structuurformule maar verschillen in hun ruimtelijke schikking (zoals cis/trans geometrische configuraties).",
+          "uitleg_per_optie": [
+            "Dit zijn plaatsisomeren.",
+            "Dit zijn functionele isomeren.",
+            "Correct! Dit zijn geometrische isomeren (een type stereo-isomeer).",
+            "Dit zijn ketenisomeren."
+          ],
+          "punten": 1
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Bij welke reactie wordt $\\text{SO}_2$ gevormd als onstabiel zuur?",
+          "opties": [
+            "$\\text{HCl} + \\text{Na}_2\\text{CO}_3$",
+            "$\\text{H}_2\\text{SO}_4 + \\text{Na}_2\\text{S}$",
+            "$\\text{H}_2\\text{SO}_3$",
+            "$\\text{H}_2\\text{S} + \\text{H}_2\\text{O}$"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Zwaveldioxide ($\\text{SO}_2$) ontstaat bij de ontleding van zwaveligzuur ($\\text{H}_2\\text{SO}_3$).",
+          "uitleg_per_optie": [
+            "Vormt $\\text{CO}_2$.",
+            "Vormt $\\text{H}_2\\text{S}$.",
+            "Correct! Zwaveldioxide ($\\text{SO}_2$) ontstaat bij de ontleding van zwaveligzuur ($\\text{H}_2\\text{SO}_3$).",
+            "Dit is een onmogelijke reactie."
+          ],
+          "punten": 1
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Welke van de volgende factoren heeft het minst invloed op het kookpunt van een organische molecule?",
+          "opties": [
+            "De aard van de intermoleculaire krachten (bijvoorbeeld waterstofbruggen).",
+            "De molecuulmassa.",
+            "De geografische locatie van de meting.",
+            "De omvang van de molecule (vertakkingsgraad)."
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "De geografische locatie is geen intrinsieke chemische factor, terwijl de andere drie dat wel zijn.",
+          "uitleg_per_optie": [
+            "Heeft grote invloed (bv. waterstofbruggen verhogen het KP sterk).",
+            "Heeft invloed (hogere massa = hogere Londonkrachten).",
+            "Correct! De geografische locatie is geen intrinsieke chemische factor.",
+            "Heeft invloed (meer vertakking = lager KP)."
+          ],
+          "punten": 1
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat is het monomeer dat gebruikt wordt om Polyetheentereftalaat (PET) te maken?",
+          "opties": [
+            "Ethyleen en Vinylchloride",
+            "Ethaan-1,2-diol (glycol) en benzeen-1,4-dicarbonzuur (tereftaalzuur)",
+            "Etheen en propeen",
+            "Aminozuur"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "PET wordt bereid uit ethaan-1,2-diol en tereftaalzuur.",
+          "uitleg_per_optie": [
+            "Dit is niet correct.",
+            "Correct! PET wordt bereid uit ethaan-1,2-diol en tereftaalzuur.",
+            "Dit zijn monomeren voor polyetheen en polypropeen.",
+            "Dit is de monomeer van eiwitten."
+          ],
+          "punten": 1
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Welk organisch deeltje gedraagt zich als een elektrofiel?",
+          "opties": [
+            "Een deeltje met een vrij elektronenpaar.",
+            "Een deeltje dat op zoek is naar een positieve lading.",
+            "Een deeltje met een tekort aan elektronen (positief geladen).",
+            "Een deeltje met een kern."
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Een elektrofiel ('elektronenminnend') is een deeltje met een tekort aan elektronen (positief geladen).",
+          "uitleg_per_optie": [
+            "Dit is een nucleofiel.",
+            "Dit is onjuist.",
+            "Correct! Een elektrofiel is elektronenminnend, dus heeft een tekort aan elektronen (positief geladen).",
+            "Alle deeltjes hebben een kern."
+          ],
+          "punten": 1
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Wat is de primaire reden dat ethers een kookpunt hebben dat vergelijkbaar is met alkanen van vergelijkbare molecuulmassa?",
+          "opties": [
+            "De $\\text{C}-\\text{O}-\\text{C}$ binding is sterk apolair.",
+            "Ze vormen geen waterstofbruggen met zichzelf en de dipoolinteracties zijn zwak.",
+            "Ze hebben een zeer korte koolstofketen.",
+            "Ze vormen sterke dimeren."
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Ethers kunnen geen waterstofbruggen vormen met zichzelf, en de dipoolinteracties zijn zwak. Daardoor zijn ze ongeveer even vluchtig als alkanen met een vergelijkbare massa.",
+          "uitleg_per_optie": [
+            "De $\\text{C}-\\text{O}-\\text{C}$ binding is polair.",
+            "Correct! Geen waterstofbruggen met zichzelf en zwakke dipoolinteracties.",
+            "Dit is niet de primaire oorzaak.",
+            "Incorrect. Alleen carbonzuren vormen sterke dimeren."
+          ],
+          "punten": 1
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Welke regel bepaalt bij een eliminatiereactie (met uitzondering van alcoholen) welk waterstofatoom bij voorkeur wordt onttrokken aan het koolstofatoom om een dubbele binding te vormen?",
+          "opties": [
+            "De Regel van Markovnikov.",
+            "Het Inductief effect.",
+            "De Regel van Saytzeff (Zaitsev).",
+            "De Homolytische splitsing."
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Bij een eliminatiereactie wordt door de Regel van Saytzeff het waterstofatoom onttrokken aan het koolstofatoom dat de minste waterstoffen heeft (meest gesubstitueerde product).",
+          "uitleg_per_optie": [
+            "Dit geldt voor additie.",
+            "Dit is een effect, geen regel voor het product.",
+            "Correct! De Regel van Saytzeff bepaalt dat het meest gesubstitueerde alkeen wordt gevormd bij eliminatie.",
+            "Dit is een type binding splitsing."
+          ],
+          "punten": 1
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Wat is het type binding dat ontstaat tussen twee aminozuren om een eiwit (polymeer) te vormen?",
+          "opties": [
+            "Etherbinding",
+            "Glycosidebinding",
+            "Amidebinding (peptidebinding)",
+            "Esterbinding"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "De binding tussen aminozuren is een amidebinding, in de biologie bekend als een peptidebinding.",
+          "uitleg_per_optie": [
+            "Vind je in ethers.",
+            "Vind je in polysachariden.",
+            "Correct! In de biologie is dit een peptidebinding.",
+            "Vind je in esters en vetten."
+          ],
+          "punten": 1
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Wat is de primaire reden dat koolstofmonoxide ($\\text{CO}$) in het hoogovenproces optreedt als reductor?",
+          "opties": [
+            "Het bevat zuurstof, dus het is een oxidator.",
+            "Koolstof stijgt in OG van $+\\text{II}$ naar $+\\text{IV}$, wat oxidatie is.",
+            "Koolstof daalt in OG van $+\\text{II}$ naar $0$.",
+            "Het koolstofatoom heeft een tekort aan elektronen."
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Een reductor wordt zelf geoxideerd. De $\\text{OG}$ van koolstof stijgt van $+\\text{II}$ (in $\\text{CO}$) naar $+\\text{IV}$ (in $\\text{CO}_2$), wat definitief wijst op oxidatie, dus $\\text{CO}$ is de reductor.",
+          "uitleg_per_optie": [
+            "Incorrect. De aanwezigheid van O maakt het geen oxidator; de $\\text{OG}$-verandering is doorslaggevend.",
+            "Correct! De OG stijgt van $+\\text{II}$ naar $+\\text{IV}$ ($\\text{CO}$ wordt geoxideerd tot $\\text{CO}_2$), dus is $\\text{CO}$ de reductor.",
+            "Incorrect. De $\\text{OG}$ daalt niet.",
+            "Onjuist, dit is een verklaring voor een elektrofiel."
+          ],
+          "punten": 1
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Koppel het polymeertype aan de belangrijkste eigenschap.",
+          "links_items": ["Thermoplasten", "Thermoharders", "Elastomeren"],
+          "rechts_items": [
+            "Drie dimensionaal zwak verknoopt",
+            "Drie dimensionaal sterk verbonden",
+            "Verweken bij warmte en verharden bij afkoelen"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Thermoplasten",
+              "rechts": "Verweken bij warmte en verharden bij afkoelen"
+            },
+            {
+              "links": "Thermoharders",
+              "rechts": "Drie dimensionaal sterk verbonden"
+            },
+            {
+              "links": "Elastomeren",
+              "rechts": "Drie dimensionaal zwak verknoopt"
+            }
+          ],
+          "uitleg": "Thermoplasten verweken bij warmte. Thermoharders zijn driedimensionaal sterk verbonden. Elastomeren zijn driedimensionaal zwak verknoopt.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Koppel de reactie aan het type splitsing van de binding.",
+          "links_items": [
+            "Vorming van een radicaal uit $\\text{Cl}_2$ onder invloed van licht.",
+            "Vorming van $\\text{H}^+$ en $\\text{Cl}^-$ uit $\\text{HCl}$."
+          ],
+          "rechts_items": [
+            "Homolytische splitsing",
+            "Heterolytische splitsing"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Vorming van een radicaal uit $\\text{Cl}_2$ onder invloed van licht.",
+              "rechts": "Homolytische splitsing"
+            },
+            {
+              "links": "Vorming van $\\text{H}^+$ en $\\text{Cl}^-$ uit $\\text{HCl}$.",
+              "rechts": "Heterolytische splitsing"
+            }
+          ],
+          "uitleg": "Radicaalvorming is Homolytische splitsing (elektronen eerlijk verdeeld). Ionvorming is Heterolytische splitsing ($\\text{Cl}$ krijgt beide elektronen).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Koppel het organisch product aan de reactiesoort voor de synthese.",
+          "links_items": ["Ether", "Alcohol (uit alkeen)", "Ester"],
+          "rechts_items": [
+            "Condensatie (Verestering)",
+            "Nucleofiele Substitutie (Williamson)",
+            "Elektrofiele Additie"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Ether",
+              "rechts": "Nucleofiele Substitutie (Williamson)"
+            },
+            {
+              "links": "Alcohol (uit alkeen)",
+              "rechts": "Elektrofiele Additie"
+            },
+            {
+              "links": "Ester",
+              "rechts": "Condensatie (Verestering)"
+            }
+          ],
+          "uitleg": "Ether via Nucleofiele Substitutie (Williamson). Alcohol uit alkeen via Elektrofiele Additie (met water + zuur). Ester via Condensatie (Verestering).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Koppel de molecule aan het type structuurisomerie t.o.v. $\\text{n}$-butaan ($\\text{C}4\\text{H}{10}$).",
+          "links_items": [
+            "2-methylpropaan t.o.v. n-butaan",
+            "Butaan-1-ol t.o.v. butaan-2-ol"
+          ],
+          "rechts_items": ["Ketenisomerie", "Plaatsisomerie"],
+          "correcte_verbindingen": [
+            {
+              "links": "2-methylpropaan t.o.v. n-butaan",
+              "rechts": "Ketenisomerie"
+            },
+            {
+              "links": "Butaan-1-ol t.o.v. butaan-2-ol",
+              "rechts": "Plaatsisomerie"
+            }
+          ],
+          "uitleg": "2-methylpropaan is een ketenisomeer van n-butaan (verschillende koolstofskelet). Butaan-1-ol en butaan-2-ol zijn plaatsisomeren (verschillende positie functionele groep).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Rangschik de volgende organische stoffen naar toenemende oplosbaarheid in water ($1=$ slechtst oplosbaar, $3=$ best oplosbaar).",
+          "links_items": [
+            "Methanol ($\\text{CH}_3\\text{OH}$)",
+            "Pentaan-1-ol ($\\text{C}5\\text{H}{11}\\text{OH}$)",
+            "Decanol ($\\text{C}{10}\\text{H}{21}\\text{OH}$)"
+          ],
+          "rechts_items": ["1", "2", "3"],
+          "correcte_verbindingen": [
+            {
+              "links": "Decanol ($\\text{C}{10}\\text{H}{21}\\text{OH}$)",
+              "rechts": "1"
+            },
+            {
+              "links": "Pentaan-1-ol ($\\text{C}5\\text{H}{11}\\text{OH}$)",
+              "rechts": "2"
+            },
+            {
+              "links": "Methanol ($\\text{CH}_3\\text{OH}$)",
+              "rechts": "3"
+            }
+          ],
+          "uitleg": "De oplosbaarheid daalt naarmate de ketenlengte toeneemt (het apolaire deel domineert). Decanol is het langst (1), gevolgd door Pentaan-1-ol (2) en Methanol (3) is het kortst en best oplosbaar.",
+          "punten": 2
+        }
+      ],
+      "totaal_punten": 30,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": [
+        "Het verband tussen functionele groepen en intermoleculaire krachten (kookpunten/oplosbaarheid) analyseren.",
+        "Nucleofiele substitutie, elektrofiele additie en polyadditie correct beschrijven.",
+        "De regels van Markovnikov en Saytzeff toepassen.",
+        "Structuur- en stereo-isomerie herkennen en benoemen.",
+        "Het concept van oxidatiegetallen en redoxreacties in $\\text{CO}$ toepassen."
+      ],
+      "tips": [
+        "Let bij intermoleculaire krachten altijd op de mogelijkheid tot waterstofbrugvorming.",
+        "Gebruik het type binding splitsing (homolytisch/heterolytisch) om het type reactie (radicaal/ionair) te bepalen.",
+        "Herhaal de regels voor de naamgeving van organische stoffen."
+      ]
+    }
+  ],
+  "extra_informatie": {
+    "voorkennis": [
+      "Basiskennis van de functionele groepen in de organische chemie",
+      "Werken met oxidatiegetallen"
+    ],
+    "vervolgonderwerpen": ["Reactiemechanismen in detail", "Spectroscopie"],
+    "bronnen": [
+      "Premium Vragen (40 Vragen - Inzicht en Begrip)",
+      "Open Vragen (15 Vragen)",
+      "Meerkeuzevragen (15 Vragen)",
+      "Verbindingsvragen (10 Vragen)"
+    ]
+  }
+}
