@@ -1,32 +1,61 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Crown, Check, Lock } from "lucide-react";
+import { Crown, Check, Lock, Mail } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import { validatePremiumCode } from "@/lib/premiumCodes";
 
 const Premium = () => {
-  const [password, setPassword] = useState("");
+  const [code, setCode] = useState("");
   const [isUnlocked, setIsUnlocked] = useState(false);
   const { toast } = useToast();
 
-  // Simple password check (temporary - will be replaced with real auth)
-  const DEMO_PASSWORD = "premium2024";
+  const YOUR_EMAIL = "jouwemail@example.com"; // Verander dit naar jouw email
+
+  // Check bij laden of premium al actief is
+  useEffect(() => {
+    const premiumAccess = localStorage.getItem("premium_access");
+    const premiumCode = localStorage.getItem("premium_code");
+    
+    if (premiumAccess === "true" && premiumCode) {
+      // Valideer de opgeslagen code nog een keer
+      if (validatePremiumCode(premiumCode)) {
+        setIsUnlocked(true);
+      } else {
+        // Code is niet meer geldig, verwijder premium
+        localStorage.removeItem("premium_access");
+        localStorage.removeItem("premium_code");
+      }
+    }
+  }, []);
 
   const handleUnlock = () => {
-    if (password === DEMO_PASSWORD) {
+    const trimmedCode = code.trim();
+    
+    if (!trimmedCode) {
+      toast({
+        variant: "destructive",
+        title: "Voer een code in",
+        description: "Vul je toegangscode in om premium te activeren.",
+      });
+      return;
+    }
+
+    if (validatePremiumCode(trimmedCode)) {
       setIsUnlocked(true);
       localStorage.setItem("premium_access", "true");
+      localStorage.setItem("premium_code", trimmedCode.toUpperCase());
       toast({
-        title: "Premium ontgrendeld! 🎉",
+        title: "Premium geactiveerd! 🎉",
         description: "Je hebt nu toegang tot alle premium oefeningen.",
       });
     } else {
       toast({
         variant: "destructive",
-        title: "Onjuist wachtwoord",
-        description: "Probeer het opnieuw of neem contact op voor toegang.",
+        title: "Ongeldige code",
+        description: "Deze code is niet geldig of verlopen. Neem contact op voor een nieuwe code.",
       });
     }
   };
@@ -45,17 +74,40 @@ const Premium = () => {
                 </div>
                 <CardTitle className="text-3xl">Premium Toegang</CardTitle>
                 <CardDescription className="text-base">
-                  Voer je wachtwoord in om toegang te krijgen tot premium oefeningen
+                  Voer je toegangscode in om premium oefeningen te ontgrendelen
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
+                {/* Email instructie */}
+                <div className="rounded-lg border border-muted bg-muted/50 p-4">
+                  <div className="flex items-start gap-3">
+                    <Mail className="h-5 w-5 text-primary mt-0.5" />
+                    <div className="space-y-1">
+                      <p className="text-sm font-medium">Nog geen premium?</p>
+                      <p className="text-sm text-muted-foreground">
+                        Stuur een email naar{" "}
+                        <a 
+                          href={`mailto:${YOUR_EMAIL}`}
+                          className="font-medium text-primary underline-offset-4 hover:underline"
+                        >
+                          {YOUR_EMAIL}
+                        </a>
+                        {" "}voor betaling en ontvang je persoonlijke toegangscode.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Code invoer */}
                 <div className="space-y-2">
+                  <label className="text-sm font-medium">Toegangscode</label>
                   <Input
-                    type="password"
-                    placeholder="Voer wachtwoord in"
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
+                    type="text"
+                    placeholder="Bijv: PROBLEMA-2024-ABC123"
+                    value={code}
+                    onChange={(e) => setCode(e.target.value.toUpperCase())}
                     onKeyDown={(e) => e.key === "Enter" && handleUnlock()}
+                    className="font-mono"
                   />
                 </div>
                 <Button 
@@ -63,11 +115,8 @@ const Premium = () => {
                   className="w-full gap-2"
                 >
                   <Lock className="h-4 w-4" />
-                  Ontgrendel Premium
+                  Activeer Premium
                 </Button>
-                <p className="text-center text-sm text-muted-foreground">
-                  Demo wachtwoord: <code className="rounded bg-muted px-2 py-1">premium2024</code>
-                </p>
               </CardContent>
             </Card>
 
