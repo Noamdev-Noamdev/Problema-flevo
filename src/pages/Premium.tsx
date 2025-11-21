@@ -12,7 +12,7 @@ const Premium = () => {
   const [isUnlocked, setIsUnlocked] = useState(false);
   const { toast } = useToast();
 
-  const YOUR_EMAIL = "jouwemail@example.com"; // Verander dit naar jouw email
+  const YOUR_EMAIL = "problemaBE@proton.me"; // Verander dit naar jouw email
 
   // Check bij laden of premium al actief is
   useEffect(() => {
