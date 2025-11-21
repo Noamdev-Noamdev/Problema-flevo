@@ -110,7 +110,7 @@ export const onderdelenConfig: OnderdelenConfig = {
   ],
   fysica: [
     // Jaar 6
-    { id: "dynamica", name: "Mechanica", description: "Beweging en krachten", jaar: 6 },
+    { id: "mechanica", name: "Mechanica", description: "Beweging en krachten", jaar: 6 },
   ],
   chemie: [
     // Jaar 6
