@@ -1111,7 +1111,7 @@
           "vraag": "Leg aan de hand van de formule $a=F/m$ uit waarom de zwaartekracht van de Aarde op de Zon nauwelijks een zichtbaar effect veroorzaakt, ondanks dat deze kracht even groot is als de zwaartekracht van de Zon op de Aarde.",
           "uitleg": "Herschrijving van de Tweede Wet van Newton en massa.",
           "antwoord": "Door de extreem grote massa $m$ van de Zon resulteert dezelfde kracht $F$ in een nauwelijks waarneembare versnelling $a$ ($a=F/m$).",
-          "stappen": ["Zie vraag 409."],
+          "stappen": ["Zie vraag 4."],
           "punten": 5
         }
       ],
