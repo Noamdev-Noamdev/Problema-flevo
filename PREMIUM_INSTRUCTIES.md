@@ -63,6 +63,8 @@ export const VALID_PREMIUM_CODES: PremiumCode[] = [
 - **LocalStorage**: Premium toegang blijft actief in de browser van de klant totdat ze hun browserdata wissen
 - **Geen account nodig**: Het systeem werkt zonder login of registratie
 - **Privacy**: Codes worden alleen lokaal opgeslagen in de browser van de klant
+- **Automatische validatie**: Elke keer dat een gebruiker de Premium pagina bezoekt, wordt hun code opnieuw gevalideerd. Als je een code uit de lijst verwijdert, verliezen ALLE gebruikers die die code hebben gebruikt automatisch hun premium toegang
+- **Oefeningen sortering**: Gratis oefeningen worden altijd eerst getoond, premium oefeningen daarna
 
 ## Later upgraden naar accounts
 

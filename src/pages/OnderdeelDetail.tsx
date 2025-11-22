@@ -43,7 +43,13 @@ const OnderdeelDetail = () => {
       if (year && richting && vak && onderdeel) {
         const data = await loadOefeningen(yearNumber, richting, vak, onderdeel);
         if (data) {
-          setOefeningen(data.oefeningen);
+          // Sorteer: gratis oefeningen eerst, dan premium
+          const sortedOefeningen = [...data.oefeningen].sort((a, b) => {
+            if (a.type === "gratis" && b.type === "premium") return -1;
+            if (a.type === "premium" && b.type === "gratis") return 1;
+            return 0;
+          });
+          setOefeningen(sortedOefeningen);
         }
       }
       setLoading(false);
