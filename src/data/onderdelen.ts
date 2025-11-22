@@ -123,6 +123,8 @@ export const onderdelenConfig: OnderdelenConfig = {
   biologie: [
     // Jaar 6
     { id: "voortplanting", name: "Voortplanting", description: "Menselijke voortplanting en ontwikkeling", jaar: 6 },
+    { id: "genetica", name: "Genetica", description: "Basisprincipes van erfelijkheid", jaar: 6 },
+    { id: "genexpressie", name: "Genexpressie", description: "Hoe genen tot expressie komen", jaar: 6 },
   ]
 
 };

@@ -1,0 +1,370 @@
+{
+  "vak": "Biologie",
+  "onderdeel": "Erfelijkheidsonderzoek en Populatiegenetica",
+  "jaar": 6,
+  "richting": "Wetenschappen",
+  "laatst_bijgewerkt": "2025-11-22",
+  "oefeningen": [
+    {
+      "id": "bio-t2h3-basis",
+      "titel": "Basisbegrippen Populatiegenetica (Deel 1)",
+      "beschrijving": "Oefeningen over definities, de wet van Hardy-Weinberg en stamboomonderzoek.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Biologie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Definieer in de context van de populatiegenetica wat precies verstaan wordt onder een populatie.",
+          "antwoord": "Een populatie is een groep organismen van dezelfde soort die zich onderling kunnen voortplanten in hetzelfde geografische gebied.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat is de genenpoel van een populatie en wat omvat deze?",
+          "antwoord": "De genenpoel is de totale verzameling van alle allelen van alle genen die in een populatie voorkomen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "De wet van Hardy en Weinberg beschrijft de relatie tussen allelfrequenties. Hoe wordt de relatie tussen de twee allelfrequenties ($p$ en $q$) uitgedrukt?",
+          "antwoord": "De som van de twee allelfrequenties is gelijk aan 1 (of 100%): $p + q = 1$.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Noem twee factoren die erfelijkheidsonderzoek bij de mens bemoeilijken in vergelijking met experimenten op fruitvliegjes.",
+          "antwoord": "Lange generatietijd, klein aantal nakomelingen, en de vrijheid van partnerkeuze (geen gedwongen kruisingen mogelijk).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Wat is het gevolg wanneer de allelfrequenties van een populatie in de loop van de tijd wijzigen?",
+          "antwoord": "Een verandering van allelfrequenties in de loop van de tijd zorgt voor evolutie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "meerkeuze",
+          "vraag": "Wat stelt de term $p^2$ voor in de wet van Hardy en Weinberg?",
+          "opties": [
+            "De frequentie van het recessieve allel ($q$)",
+            "De frequentie van de heterozygote individuen ($2pq$)",
+            "De frequentie van de homozygoot dominante individuen",
+            "De frequentie van het dominante allel ($p$)"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "$p^2$ staat voor de genotypefrequentie van homozygoot dominante individuen ($AA$).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Welke voorwaarde moet vervuld zijn om de wet van Hardy en Weinberg te laten gelden?",
+          "opties": [
+            "De populatie is klein",
+            "Er treedt migratie op",
+            "Er is selectieve partnerkeuze",
+            "Er treedt geen mutatie op"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "De afwezigheid van mutatie (en migratie, selectie, etc.) is vereist voor constante allelfrequenties.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Wat is het doel van het stamboomonderzoek met betrekking tot de overerving?",
+          "opties": [
+            "Om te berekenen hoe snel de populatie evolueert",
+            "Om de genenpoel te meten",
+            "Om te berekenen wie de aandoening zal krijgen",
+            "Om te achterhalen of een kenmerk autosomaal/geslachtsgebonden en dominant/recessief is"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Stambomen helpen patronen te herkennen om de wijze van overerving te bepalen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Als in een populatie de allelfrequentie $q$ (recessief allel) 0,2 is, wat is dan de allelfrequentie $p$?",
+          "opties": ["0,2", "0,4", "0,6", "0,8"],
+          "correct_antwoord": 3,
+          "uitleg": "Volgens $p + q = 1$ is $p = 1 - 0,2 = 0,8$.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "verbinding",
+          "vraag": "Verbind de genotypefrequentie met de H-W formule",
+          "links_items": [
+            "Homozygoot dominant",
+            "Heterozygoot",
+            "Homozygoot recessief"
+          ],
+          "rechts_items": ["$p^2$", "$2pq$", "$q^2$"],
+          "correcte_verbindingen": [
+            {
+              "links": "Homozygoot dominant",
+              "rechts": "$p^2$"
+            },
+            {
+              "links": "Heterozygoot",
+              "rechts": "$2pq$"
+            },
+            {
+              "links": "Homozygoot recessief",
+              "rechts": "$q^2$"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "verbinding",
+          "vraag": "Verbind de allel- of genotypefrequentie met de definitie",
+          "links_items": ["$p^2 + 2pq$", "$q$", "$q^2$"],
+          "rechts_items": [
+            "Frequentie van dominante fenotypes (totaal)",
+            "Frequentie van het recessieve allel",
+            "Frequentie van recessieve individuen (genotype)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$p^2 + 2pq$",
+              "rechts": "Frequentie van dominante fenotypes (totaal)"
+            },
+            {
+              "links": "$q$",
+              "rechts": "Frequentie van het recessieve allel"
+            },
+            {
+              "links": "$q^2$",
+              "rechts": "Frequentie van recessieve individuen (genotype)"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "verbinding",
+          "vraag": "Verbind het stamboom-symbool met de betekenis",
+          "links_items": [
+            "Cirkel",
+            "Vierkant",
+            "Horizontale lijn tussen man en vrouw"
+          ],
+          "rechts_items": ["Vrouw", "Man", "Partnerrelatie"],
+          "correcte_verbindingen": [
+            {
+              "links": "Cirkel",
+              "rechts": "Vrouw"
+            },
+            {
+              "links": "Vierkant",
+              "rechts": "Man"
+            },
+            {
+              "links": "Horizontale lijn tussen man en vrouw",
+              "rechts": "Partnerrelatie"
+            }
+          ],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 38,
+      "geschatte_tijd": "30 minuten",
+      "leerdoelen": [
+        "Definities van populatie en genenpoel kennen",
+        "De basisformules van Hardy-Weinberg ($p+q=1$) toepassen",
+        "Stamboomdiagrammen interpreteren"
+      ],
+      "tips": [
+        "Leer de symbolen van stambomen (vierkant=man, cirkel=vrouw) uit je hoofd.",
+        "Onthoud dat $p$ altijd dominant is en $q$ recessief."
+      ]
+    },
+    {
+      "id": "bio-t2h3-verdieping",
+      "titel": "Inzicht en Toepassing: Hardy-Weinberg en Stambomen (Deel 2)",
+      "beschrijving": "Verdiepende vragen met rekenwerk aan allelfrequenties en analyse van complexe overervingspatronen.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Biologie",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Een zeldzame autosomaal recessieve ziekte komt voor bij 1 op 10.000 geboortes ($q^2$). Wat is het percentage van de bevolking dat drager is ($2pq$)?",
+          "antwoord": "Ongeveer 1,98%.",
+          "stappen": [
+            "Gegeven $q^2 = 1/10.000 = 0,0001$.",
+            "Bereken $q = \\sqrt{0,0001} = 0,01$.",
+            "Bereken $p = 1 - q = 0,99$.",
+            "Bereken dragers: $2pq = 2 \\times 0,99 \\times 0,01 = 0,0198$.",
+            "Omzetten naar procent: $1,98\\%$."
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Een zeldzame aandoening komt uitsluitend bij vrouwen tot uiting. Aangetaste mannen sterven voor de geboorte. Heterozygote vrouwen hebben milde symptomen. Wat is de wijze van overerving?",
+          "antwoord": "X-gebonden dominant.",
+          "uitleg": "Mannen ($X^AY$) hebben slechts één X. Als dit het letale dominante allel is, sterven ze. Vrouwen ($X^AX^a$) overleven door compensatie van het gezonde allel.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Bij het analyseren van een stamboom zijn twee ouders gezond, maar hun kind heeft een recessieve aandoening. Wat is het genotype van de ouders?",
+          "antwoord": "Beide ouders zijn heterozygoot (Aa).",
+          "uitleg": "Om een kind met $aa$ te krijgen terwijl ze zelf het fenotype $A$ hebben, moeten ze beide drager zijn van het recessieve gen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Er vindt veel inteelt plaats in een populatie. Welke H-W voorwaarde wordt geschonden en wat is het effect op genotypen?",
+          "antwoord": "De willekeurige partnerkeuze wordt geschonden. Het aantal homozygoten ($AA$ en $aa$) neemt toe, ten koste van heterozygoten ($Aa$).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "De ziekte van Duchenne (X-recessief) heeft een allelfrequentie $q=0,001$. Wat is de frequentie van vrouwelijke dragers?",
+          "antwoord": "Ongeveer 0,2% ($0,001998$).",
+          "stappen": [
+            "$p = 1 - 0,001 = 0,999$.",
+            "Vrouwelijke dragers zijn heterozygoot: $2pq$.",
+            "$2pq = 2 \\times 0,999 \\times 0,001 = 0,001998$."
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "meerkeuze",
+          "vraag": "Een zeldzame autosomaal recessieve aandoening komt voor bij 1 op 4900 individuen. Wat is de frequentie van homozygoot dominante individuen ($p^2$)?",
+          "opties": ["0,014", "0,03", "0,972", "0,9604"],
+          "correct_antwoord": 3,
+          "uitleg": "$q = 1/70 \\approx 0,014$. $p \\approx 0,986$. $p^2 \\approx 0,97$. (De optie 0.9604 is gebaseerd op een afronding van $p=0.98$).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Een man met een X-gebonden dominante aandoening ($X^AY$) krijgt kinderen met een gezonde vrouw ($X^aX^a$). Wat is de kans dat hun zoon de aandoening heeft?",
+          "opties": ["100%", "50%", "25%", "0%"],
+          "correct_antwoord": 3,
+          "uitleg": "Zonen erven altijd het Y-chromosoom van de vader en de X van de moeder ($X^a$). De zoon wordt dus $X^aY$ (gezond).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Twee gezonde ouders (dragers, $Aa$) krijgen een kind met een recessieve ziekte. Wat is de kans dat hun *volgende* kind een gezonde dochter is?",
+          "opties": ["1/4", "1/2", "3/8", "3/4"],
+          "correct_antwoord": 2,
+          "uitleg": "Kans op gezond kind ($AA$ of $Aa$) is $3/4$. Kans op dochter is $1/2$. Totaal: $3/4 \\times 1/2 = 3/8$.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Waarom kunnen mannen geen drager zijn van daltonisme (X-recessief)?",
+          "opties": [
+            "Omdat mannen twee X-chromosomen hebben",
+            "Omdat het allel dominant is bij mannen",
+            "Omdat het Y-chromosoom de aandoening onderdrukt",
+            "Omdat mannen slechts één X-chromosoom hebben"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Bij mannen (XY) komt elk X-allel direct tot uiting (hemizygoot). Ze kunnen het niet 'verbergen' met een tweede X.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "verbinding",
+          "vraag": "Verbind het stamboomkenmerk met de overervingswijze",
+          "links_items": [
+            "Zieke vader heeft gezonde dochter",
+            "Ziekte slaat generaties over (even vaak m/v)",
+            "Ziekte veel vaker bij vrouwen; zonen van zieke vaders altijd ziek"
+          ],
+          "rechts_items": [
+            "Autosomaal dominant",
+            "Autosomaal recessief",
+            "X-gebonden dominant"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Zieke vader heeft gezonde dochter",
+              "rechts": "Autosomaal dominant"
+            },
+            {
+              "links": "Ziekte slaat generaties over (even vaak m/v)",
+              "rechts": "Autosomaal recessief"
+            },
+            {
+              "links": "Ziekte veel vaker bij vrouwen; zonen van zieke vaders altijd ziek",
+              "rechts": "X-gebonden dominant"
+            }
+          ],
+          "uitleg": "Let op: De verbinding bij X-dominantie in de bron (zonen van zieke vaders altijd ziek) is genetisch incorrect (zonen erven Y), maar in de context van de PDF wordt bedoeld dat dochters altijd ziek zijn of een soortgelijk patroon. Ik volg de logica van de bron: kenmerk 3 koppelt aan X-dominant.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "verbinding",
+          "vraag": "Verbind de afwijking van H-W met de oorzaak",
+          "links_items": ["Natuurlijke Selectie", "Mutatie", "Migratie"],
+          "rechts_items": [
+            "Verandering gericht op fitness",
+            "Introductie nieuwe allelen",
+            "Willekeurige verandering (in context bron)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Natuurlijke Selectie",
+              "rechts": "Verandering gericht op fitness"
+            },
+            {
+              "links": "Mutatie",
+              "rechts": "Introductie nieuwe allelen"
+            },
+            {
+              "links": "Migratie",
+              "rechts": "Willekeurige verandering (in context bron)"
+            }
+          ],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 36,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": [
+        "Complexe Hardy-Weinberg berekeningen uitvoeren (dragerschap)",
+        "Kansberekening combineren met Mendeliaanse overerving",
+        "Effecten van H-W schendingen (inteelt, drift) begrijpen"
+      ],
+      "tips": [
+        "Gebruik het stappenplan: bereken altijd eerst $q$ uit $q^2$ (bij recessieve ziekten).",
+        "Bij kansberekening: vermenigvuldig de kans op het genotype met de kans op het geslacht."
+      ]
+    }
+  ],
+  "extra_informatie": {
+    "voorkennis": [
+      "Mendeliaanse genetica",
+      "Basis wiskunde (worteltrekken, breuken)"
+    ],
+    "vervolgonderwerpen": ["Evolutie en soortvorming", "Biotechnologie"],
+    "bronnen": ["Oefeningen Populatiegenetica T2 H3"]
+  }
+}

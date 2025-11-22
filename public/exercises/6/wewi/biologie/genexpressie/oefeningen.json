@@ -1,0 +1,641 @@
+{
+  "vak": "Biologie",
+  "onderdeel": "Genexpressie en DNA als Informatiedrager",
+  "jaar": 6,
+  "richting": "Wetenschappen",
+  "laatst_bijgewerkt": "2025-11-22",
+  "oefeningen": [
+    {
+      "id": "bio-t3h1-basis",
+      "titel": "Basiskennis Genexpressie (Deel 1)",
+      "beschrijving": "Oefeningen over definities van transcriptie, translatie, de genetische code en de experimenten van Griffith.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Biologie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Wat is de definitie van genexpressie, zoals beschreven in de context van albinisme?",
+          "antwoord": "Genexpressie is het proces waarbij de DNA-code wordt gebruikt voor de synthese van eiwitten, wat resulteert in het tot uiting komen van een kenmerk.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat is de functie van een promotor en tot welke categorie DNA behoort deze?",
+          "antwoord": "De promotor is een DNA-sequentie die dient als startplaats voor de transcriptie. Het is een voorbeeld van niet-coderend DNA.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Uit welke twee essentiële stappen bestaat de eiwitsynthese bij prokaryoten?",
+          "antwoord": "De eiwitsynthese bestaat uit de transcriptie (DNA naar mRNA) en de translatie (mRNA naar eiwit).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Wat is een codon en hoeveel nucleotiden omvat het?",
+          "antwoord": "Een codon is een opeenvolging van drie DNA- of RNA-nucleotiden op de coderende streng die overeenstemt met een bepaald aminozuur.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Wat is het genoom van een cel en wat omvat het naast het DNA in de celkern?",
+          "antwoord": "Het genoom bevat alle genetische informatie (alle DNA-sequenties) in een cel. Het omvat ook het DNA in de mitochondriën en chloroplasten.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Welke twee basen komen respectievelijk voor in DNA en RNA die complementair zijn aan elkaar?",
+          "antwoord": "In DNA komt de base Thymine (T) voor, terwijl in RNA op die plaats de base Uracil (U) voorkomt.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Wat was de fundamentele conclusie die Griffith trok uit zijn transformatie-experimenten met pneumokokken?",
+          "antwoord": "Griffith concludeerde dat een bepaalde stof van de door hitte gedode S-pneumokokken een transformatie veroorzaakte in de levende R-pneumokokken, waardoor de R-stam veranderde in een S-stam.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Waar vindt de translatie van mRNA naar eiwit plaats in een eukaryote cel?",
+          "opties": [
+            "In de celkern, gebonden aan het euchromatine",
+            "Exclusief in de mitochondriën",
+            "Buiten de celkern, door ribosomen in het cytoplasma of aan het RER",
+            "Tijdens de initiatie in het spliceosoom"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Translatie gebeurt buiten de celkern, door vrije ribosomen of ribosomen gebonden aan het Ruw Endoplasmatisch Reticulum (RER).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Hoeveel van de 64 verschillende codons coderen daadwerkelijk voor een aminozuur?",
+          "opties": ["3", "20", "61", "64"],
+          "correct_antwoord": 2,
+          "uitleg": "Er zijn 61 aminozuurcodons; de overige 3 zijn stopcodons.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met de introns tijdens het proces van splicing bij eukaryoten?",
+          "opties": [
+            "Ze worden aan elkaar gehecht om het functionele eiwit te vormen",
+            "Ze worden vertaald naar een polypeptide in het cytoplasma",
+            "Ze worden gebruikt om de 5'-cap en de poly-A-staart te vormen",
+            "Ze worden weggeknipt en verwijderd door het spliceosoom"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Introns (niet-coderende delen) worden uit het pre-mRNA geknipt.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "De formule $p^2$ in de wet van Hardy en Weinberg staat voor de frequentie van welk genotype?",
+          "opties": [
+            "Heterozygoot",
+            "Recessief allel ($q$)",
+            "Homozygoot dominante individuen",
+            "Dominant allel ($p$)"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "$p^2$ staat voor de frequentie van homozygoot dominante individuen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Welke streng van het DNA wordt tijdens de transcriptie gebruikt om de RNA-kopie te maken?",
+          "opties": [
+            "De coderende streng (5' naar 3'-streng)",
+            "De replicerende streng",
+            "De template streng (3' naar 5'-streng)",
+            "De anti-parallelle streng (5' naar 3'-streng)"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Transcriptie vindt enkel plaats vanaf de template streng (3' naar 5'-streng).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Welk van de volgende is geen stopcodon?",
+          "opties": ["UAA", "UGA", "UAG", "AUG"],
+          "correct_antwoord": 3,
+          "uitleg": "AUG is het startcodon (dat codeert voor Methionine). UAA, UAG en UGA zijn stopcodons.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Wat is het belangrijkste verschil in de opbouw van een gen en een eiwit?",
+          "opties": [
+            "Genen zijn opgebouwd uit aminozuren, eiwitten uit nucleotiden",
+            "Beide zijn opgebouwd uit dezelfde 20 bouwstenen",
+            "Eiwitten zijn opgebouwd uit 64 verschillende bouwstenen",
+            "Genen (DNA) zijn opgebouwd uit vier soorten nucleotiden, eiwitten uit twintig verschillende aminozuren"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "DNA/Genen hebben 4 nucleotiden (letters: A, T, C, G); Eiwitten hebben 20 aminozuren.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Wat is de genetische diversiteit van een populatie?",
+          "opties": [
+            "De verhouding tussen mannetjes en vrouwtjes",
+            "De totale som van alle genotypefrequenties",
+            "De verscheidenheid aan verschillende allelen die in de genenpoel voorkomen",
+            "De frequentie van het dominante allel"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Hoe meer verschillende allelen in de genenpoel, hoe groter de genetische diversiteit.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Verbind de gebeurtenis met de fase van de eiwitsynthese",
+          "links_items": [
+            "Vorming van polypeptideketen",
+            "Vorming van het startcomplex",
+            "Binding van release factor"
+          ],
+          "rechts_items": ["Initiatie", "Elongatie", "Terminatie"],
+          "correcte_verbindingen": [
+            {
+              "links": "Vorming van polypeptideketen",
+              "rechts": "Elongatie"
+            },
+            {
+              "links": "Vorming van het startcomplex",
+              "rechts": "Initiatie"
+            },
+            {
+              "links": "Binding van release factor",
+              "rechts": "Terminatie"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Verbind de celcomponent met de functie in de translatie",
+          "links_items": ["Ribosoom", "tRNA", "Release factor"],
+          "rechts_items": [
+            "Vertaalt mRNA naar eiwit en houdt mRNA vast",
+            "Brengt het juiste aminozuur naar het ribosoom",
+            "Zorgt voor het loskomen van de polypeptide"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Ribosoom",
+              "rechts": "Vertaalt mRNA naar eiwit en houdt mRNA vast"
+            },
+            {
+              "links": "tRNA",
+              "rechts": "Brengt het juiste aminozuur naar het ribosoom"
+            },
+            {
+              "links": "Release factor",
+              "rechts": "Zorgt voor het loskomen van de polypeptide"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Verbind het type RNA met de rol",
+          "links_items": ["mRNA", "tRNA", "rRNA"],
+          "rechts_items": [
+            "Bevat code voor de synthese van een eiwit",
+            "Brengt aminozuren naar het ribosoom",
+            "Bouwsteen van het ribosoom"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "mRNA",
+              "rechts": "Bevat code voor de synthese van een eiwit"
+            },
+            {
+              "links": "tRNA",
+              "rechts": "Brengt aminozuren naar het ribosoom"
+            },
+            {
+              "links": "rRNA",
+              "rechts": "Bouwsteen van het ribosoom"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Verbind het experiment met de conclusie",
+          "links_items": [
+            "Griffith (1928)",
+            "Avery, MacLeod en McCarty (1944)",
+            "Genregulatie bij prokaryoten"
+          ],
+          "rechts_items": [
+            "Er is een transformerende stof die eigenschappen kan overdragen",
+            "DNA is de transformerende stof (drager van genetische informatie)",
+            "Genen voor functioneel verwante eiwitten liggen samen in een operon"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Griffith (1928)",
+              "rechts": "Er is een transformerende stof die eigenschappen kan overdragen"
+            },
+            {
+              "links": "Avery, MacLeod en McCarty (1944)",
+              "rechts": "DNA is de transformerende stof (drager van genetische informatie)"
+            },
+            {
+              "links": "Genregulatie bij prokaryoten",
+              "rechts": "Genen voor functioneel verwante eiwitten liggen samen in een operon"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Verbind de genoomcomponent met de beschrijving",
+          "links_items": ["Coderend DNA", "Promotor", "Niet-coderend DNA"],
+          "rechts_items": [
+            "Sequentie van DNA dat codeert voor eiwitten",
+            "DNA-sequentie die dient als startplaats voor transcriptie",
+            "Bevat o.a. de genen voor andere types RNA dan mRNA"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Coderend DNA",
+              "rechts": "Sequentie van DNA dat codeert voor eiwitten"
+            },
+            {
+              "links": "Promotor",
+              "rechts": "DNA-sequentie die dient als startplaats voor transcriptie"
+            },
+            {
+              "links": "Niet-coderend DNA",
+              "rechts": "Bevat o.a. de genen voor andere types RNA dan mRNA"
+            }
+          ],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 49,
+      "geschatte_tijd": "30 minuten",
+      "leerdoelen": [
+        "De centrale dogma van de biologie (DNA -> RNA -> Eiwit) begrijpen",
+        "Onderdelen van het genoom en RNA-types onderscheiden",
+        "Basisprincipes van splicing en genexpressie kennen"
+      ],
+      "tips": [
+        "Let op het verschil tussen de template streng en de coderende streng.",
+        "Leer de start- en stopcodons herkennen."
+      ]
+    },
+    {
+      "id": "bio-t3h1-verdieping",
+      "titel": "Inzicht en Toepassing: Genexpressie (Deel 2)",
+      "beschrijving": "Verdiepende vragen over moleculaire mechanismen, operons, alternatieve splicing en Hardy-Weinberg berekeningen.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Biologie",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Een zeldzame autosomale ziekte heeft een frequentie van 1 op 2500. Wat is de kans dat een gezond individu drager is?",
+          "antwoord": "De kans is ongeveer 3,92%.",
+          "stappen": [
+            "Aangetaste individuen ($q^2$) = $1/2500 = 0,0004$",
+            "Allelfrequentie $q = \\sqrt{0,0004} = 0,02$",
+            "Allelfrequentie $p = 1 - 0,02 = 0,98$",
+            "Dragers ($2pq$) = $2 \\times 0,98 \\times 0,02 = 0,0392$ (3,92%)",
+            "Gezonde individuen ($p^2 + 2pq$) = $1 - 0,0004 = 0,9996$",
+            "Kans dat gezond individu drager is: $0,0392 / 0,9996 \\approx 3,92\\%$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat is het functionele voordeel van het feit dat de genetische code gedegenereerd is?",
+          "antwoord": "Omdat meerdere codons coderen voor hetzelfde aminozuur, zal een mutatie (puntmutatie) niet altijd leiden tot een verandering van het aminozuur. Dit beschermt tegen negatieve gevolgen (stille mutaties).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "DNA-template: 3'-TACCCGGATCACT-5'. Geef de mRNA sequentie en de coderende DNA-sequentie.",
+          "antwoord": "mRNA: 5'-AUGGGCCUAGUGA-3'. Coderende DNA: 5'-ATGGGCCTAGTGA-3'.",
+          "uitleg": "mRNA is complementair aan de template. De coderende streng is identiek aan mRNA (maar T i.p.v. U).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Hoe noemt men het mechanisme waarbij uit één pre-mRNA verschillende mRNA's gevormd worden en wat is het voordeel?",
+          "antwoord": "Alternatieve splicing. Voordeel: Uit één gen kunnen verschillende eiwitten gevormd worden, wat de genetische efficiëntie verhoogt.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Beschrijf de twee functies van de 5'-cap en de functie van de poly-A-staart.",
+          "antwoord": "5'-cap: Beschermt tegen afbraak en helpt bij transport uit de kern/herkenning door ribosoom. Poly-A-staart: Beschermt pre-mRNA tegen afbraak.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Beschrijf de primaire functie van een operon in prokaryoten.",
+          "antwoord": "Een organisatie van genen voor verwante eiwitten onder één promotor. Dit laat de bacterie toe om genen als groep aan of uit te zetten, wat energie bespaart.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Waarom is posttranslationele modificatie (zoals bij insuline) essentieel?",
+          "antwoord": "De polypeptide uit translatie is vaak niet direct functioneel. Modificaties zorgen voor de juiste opvouwing en activatie van het eiwit.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Welke aminozuurvolgorde ontstaat uit 5'-AUGUUUCGAUUAG-3'? (AUG=Met, UUU=Phe, CGA=Arg, UAG=Stop)",
+          "opties": [
+            "Met - Phe - Arg - Val",
+            "Met - Leu - Arg - Stop",
+            "Met - Phe - Arg",
+            "Met - Phe - Arg - Leu - Stop"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Het ribosoom leest AUG, UUU, CGA. Het vierde codon UAG is een stopcodon en wordt niet vertaald.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Waar bevindt zich de groeiende polypeptideketen vlak voor de vorming van een nieuwe peptidebinding?",
+          "opties": [
+            "Vastgehecht aan het tRNA op de A-plaats",
+            "Vrij in het cytoplasma",
+            "Vastgehecht aan het tRNA op de P-plaats",
+            "Op het anticodon"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De keten zit op de P-plaats (Peptidyl), het nieuwe aminozuur komt op de A-plaats.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat is het belangrijkste kenmerk van het Transcriptoom?",
+          "opties": [
+            "Het is in elke cel identiek",
+            "Het omvat alle DNA",
+            "Het omvat alle eiwitten",
+            "De inhoud is verschillend bij verschillende celtypes en momenten"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Transcriptoom (RNA) en Proteoom (eiwitten) zijn afhankelijk van genexpressie en dus variabel.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Het startcodon AUG heeft een dubbele functie. Welke zijn dit?",
+          "opties": [
+            "Codeert voor Proline en dient als stopcodon",
+            "Codeert voor Glycine en dient als promotor",
+            "Codeert voor Methionine en dient als startcodon",
+            "Codeert voor Alanine en dient als genregulator"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "AUG start de translatie en codeert voor Methionine.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Welke DNA-streng wordt conventioneel gebruikt om de sequentie van een gen weer te geven?",
+          "opties": [
+            "De 3'-5' template streng",
+            "De template streng met uracil",
+            "De 5'-3' coderende streng",
+            "De promotorsequentie"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De sequentie van een gen is per definitie die van de coderende streng (5' naar 3').",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Als Avery enzymen had gebruikt die DNA én RNA afbreken, wat was het resultaat van het experiment?",
+          "opties": [
+            "Transformatie zou doorgaan",
+            "Alleen R-stam overleeft",
+            "Transformatie zou mislukken",
+            "Alleen S-stam overleeft"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Transformatie vereist DNA. Zonder DNA (bron van info) transformeren de bacteriën niet.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Wat is de rol van het anticodon op een tRNA?",
+          "opties": [
+            "Codeert voor het aminozuur",
+            "Vormt een zwavelbrug",
+            "Bindt aan de 5'-cap",
+            "Bindt complementair en anti-parallel aan het codon op het mRNA"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Het anticodon zorgt voor de specifieke binding met het mRNA-codon.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Wat is het effect als RNA-polymerase de sequentie AAUAAA herkent (eukaryoten)?",
+          "opties": [
+            "Ribosoom laat los",
+            "Intronen worden geknipt",
+            "Translatie start",
+            "Het pre-mRNA wordt losgemaakt en poly-A-staart aangehecht"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Dit is het terminatiesignaal voor transcriptie bij eukaryoten.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Verbind de component met de rol in transcriptie-initiatie",
+          "links_items": ["Transcriptiefactoren", "Promotor", "RNA-polymerase"],
+          "rechts_items": [
+            "Opent de DNA-helix en maakt RNA-kopie",
+            "Vormt samen met polymerase het startcomplex",
+            "Bindtplaats voor het gen"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "RNA-polymerase",
+              "rechts": "Opent de DNA-helix en maakt RNA-kopie"
+            },
+            {
+              "links": "Transcriptiefactoren",
+              "rechts": "Vormt samen met polymerase het startcomplex"
+            },
+            {
+              "links": "Promotor",
+              "rechts": "Bindtplaats voor het gen"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Verbind het 'Oom'-niveau met de inhoud",
+          "links_items": ["Proteoom", "Genoom", "Transcriptoom"],
+          "rechts_items": [
+            "Alle RNA in een cel",
+            "Alle DNA-sequenties in een cel",
+            "Alle eiwitten in een cel"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Transcriptoom",
+              "rechts": "Alle RNA in een cel"
+            },
+            {
+              "links": "Genoom",
+              "rechts": "Alle DNA-sequenties in een cel"
+            },
+            {
+              "links": "Proteoom",
+              "rechts": "Alle eiwitten in een cel"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Verbind de splicing component met de rol",
+          "links_items": ["Spliceosoom", "Intron", "Exon"],
+          "rechts_items": [
+            "De niet-coderende stukken die worden weggeknipt",
+            "De coderende stukken van het gen",
+            "Het complex dat introns wegknipt en exons aan elkaar hecht"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Intron",
+              "rechts": "De niet-coderende stukken die worden weggeknipt"
+            },
+            {
+              "links": "Exon",
+              "rechts": "De coderende stukken van het gen"
+            },
+            {
+              "links": "Spliceosoom",
+              "rechts": "Het complex dat introns wegknipt en exons aan elkaar hecht"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Verbind de eigenschap met de genetische code",
+          "links_items": ["Codon AUG", "Universeel", "Gedegenereerd"],
+          "rechts_items": [
+            "Bijna alle organismen gebruiken dezelfde code",
+            "Meerdere codons coderen voor hetzelfde aminozuur",
+            "Wordt vaak als eerste aminozuur verwijderd na translatie"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Universeel",
+              "rechts": "Bijna alle organismen gebruiken dezelfde code"
+            },
+            {
+              "links": "Gedegenereerd",
+              "rechts": "Meerdere codons coderen voor hetzelfde aminozuur"
+            },
+            {
+              "links": "Codon AUG",
+              "rechts": "Wordt vaak als eerste aminozuur verwijderd na translatie"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Verbind het proces met de locatie bij eukaryoten",
+          "links_items": ["Translatie", "Transcriptie", "Splicing"],
+          "rechts_items": [
+            "In de celkern",
+            "In de celkern, tijdens of net na de transcriptie",
+            "In het cytoplasma door vrije ribosomen of RER"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Transcriptie",
+              "rechts": "In de celkern"
+            },
+            {
+              "links": "Splicing",
+              "rechts": "In de celkern, tijdens of net na de transcriptie"
+            },
+            {
+              "links": "Translatie",
+              "rechts": "In het cytoplasma door vrije ribosomen of RER"
+            }
+          ],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 53,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": [
+        "Complexe genregulatie (operons) begrijpen",
+        "Impact van mutaties op eiwitsynthese analyseren",
+        "Kansberekening toepassen op populatiegenetica (dragerschap)"
+      ],
+      "tips": [
+        "Bij Hardy-Weinberg: bereken eerst q, dan p, dan 2pq.",
+        "Onthoud: RNA-polymerase leest 3'-5' maar bouwt 5'-3'."
+      ]
+    }
+  ],
+  "extra_informatie": {
+    "voorkennis": ["Structuur van DNA/RNA", "Celorganellen (kern, ribosoom)"],
+    "vervolgonderwerpen": ["Biotechnologie", "Genmutaties en ziekten"],
+    "bronnen": ["Oefeningen Genexpressie T3 H1"]
+  }
+}
