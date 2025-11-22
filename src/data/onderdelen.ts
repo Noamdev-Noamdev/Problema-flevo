@@ -110,7 +110,7 @@ export const onderdelenConfig: OnderdelenConfig = {
   ],
   fysica: [
     // Jaar 6
-    { id: "mechanica", name: "Mechanica", description: "Beweging en krachten", jaar: 6 },
+    { id: "dynamica", name: "Mechanica", description: "Beweging en krachten", jaar: 6 },
   ],
   chemie: [
     // Jaar 6
@@ -119,7 +119,12 @@ export const onderdelenConfig: OnderdelenConfig = {
     { id: "zuur-base-reacties", name: "Zuur-base-reacties", description: "Reacties tussen zuren en basen", jaar: 6 },
     { id: "nanomaterialen", name: "Nanomaterialen", description: "Materialen op nanoschaal en hun toepassingen", jaar: 6 },
     { id: "organische-chemie", name: "Organische Chemie", description: "Het onderzoeken van organische stoffen", jaar: 6 },
+  ],
+  biologie: [
+    // Jaar 6
+    { id: "voortplanting", name: "Voortplanting", description: "Menselijke voortplanting en ontwikkeling", jaar: 6 },
   ]
+
 };
  
 

@@ -14,7 +14,7 @@ export const vakkenData: Record<string, Vak[]> = {
     { id: "wiskunde", name: "Wiskunde", description: "Algebra, analyse en meetkunde", hasOnderdelen: true },
     { id: "fysica", name: "Fysica", description: "Mechanica, elektriciteit en optica", hasOnderdelen: true },
     { id: "chemie", name: "Chemie", description: "Anorganische en organische chemie", hasOnderdelen: true },
-    { id: "biologie", name: "Biologie", description: "Cel- en evolutiebiologie", hasOnderdelen: false },
+    { id: "biologie", name: "Biologie", description: "Cel- en evolutiebiologie", hasOnderdelen: true },
     { id: "nederlands", name: "Nederlands", description: "Taal en literatuur", hasOnderdelen: false },
     { id: "engels", name: "Engels", description: "Taal en literatuur", hasOnderdelen: false },
     { id: "frans", name: "Frans", description: "Taal en literatuur", hasOnderdelen: true },
@@ -35,8 +35,9 @@ export const vakkenData: Record<string, Vak[]> = {
     { id: "frans", name: "Frans", description: "Taal en literatuur", hasOnderdelen: false },
     { id: "duits", name: "Duits", description: "Taal en literatuur", hasOnderdelen: false },
     { id: "wiskunde", name: "Wiskunde", description: "Algebra en analyse", hasOnderdelen: true },
-    { id: "fysica", name: "Fysica", description: "Natuurkunde", hasOnderdelen: false },
-    { id: "chemie", name: "Chemie", description: "Scheikunde", hasOnderdelen: false },
+    { id: "fysica", name: "Fysica", description: "Mechanica, elektriciteit en optica", hasOnderdelen: true },
+    { id: "chemie", name: "Chemie", description: "Anorganische en organische chemie", hasOnderdelen: true },
+    { id: "biologie", name: "Biologie", description: "Cel- en evolutiebiologie", hasOnderdelen: true },
   ],
   // HuWe vakken
   huwe: [

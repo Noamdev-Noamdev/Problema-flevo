@@ -1,0 +1,550 @@
+{
+  "vak": "Biologie",
+  "onderdeel": "Voortplanting en Ontwikkeling",
+  "jaar": 6,
+  "richting": "Wetenschappen",
+  "laatst_bijgewerkt": "2025-11-22",
+  "oefeningen": [
+    {
+      "id": "bio-t1h1-basis",
+      "titel": "Basiskennis Voortplanting (Deel A)",
+      "beschrijving": "Toets je basiskennis over meiose, bevruchting, anatomie en de menstruele cyclus.",
+      "moeilijkheidsgraad": "gemakkelijk",
+      "categorie": "Biologie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Beschrijf het verschil in chromosomenaantal (ploïdie) tussen een spermatogonium en een spermatide.",
+          "uitleg": "Meiose zorgt voor halvering van het erfelijk materiaal.",
+          "antwoord": "Een spermatogonium is diploïd ($2n$). Een spermatide is haploïd ($n$).",
+          "stappen": [
+            "Identificeer de ploïdie van de moedercel (spermatogonium): $2n$.",
+            "Identificeer het proces: meiotische delingen.",
+            "Identificeer de ploïdie van de dochtercel (spermatide): $n$."
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat is de belangrijkste functie van het acrosoom van een spermatozoïde?",
+          "uitleg": "Het acrosoom zit in de kop van de zaadcel.",
+          "antwoord": "Het bevat enzymen die de zona pellucida rond de oöcyt afbreken, zodat de kern kan binnendringen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Waar vindt de bevruchting bij de mens gewoonlijk plaats?",
+          "antwoord": "In de ampulle van het oviduct (eileider).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Benoem de drie fasen waarin de menstruele cyclus chronologisch kan worden ingedeeld.",
+          "antwoord": "1. De folliculaire fase (groeifase), 2. De luteale fase (secretiefase), 3. De menstruatiefase.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Uit welk kiemblad (ectoderm, mesoderm of endoderm) ontwikkelt het spierweefsel zich voornamelijk?",
+          "antwoord": "Uit het mesoderm.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Welke twee hormonen zijn essentieel voor de melkproductie en de melkejectie, respectievelijk?",
+          "antwoord": "Prolactine (productie) en Oxytocine (ejectie).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Wat is de functie van de Cowperse klieren bij het mannelijke voortplantingsstelsel?",
+          "antwoord": "Ze scheiden voorvocht af dat urine-resten neutraliseert en de urethra alkalisch maakt voor de zaadcellen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Welk proces zorgt ervoor dat de hoeveelheid erfelijk materiaal van generatie op generatie niet verdubbelt?",
+          "opties": [
+            "Mitotische delingen",
+            "Meiose",
+            "Differentiatie",
+            "Klievingsdelingen"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De halvering van het erfelijk materiaal gebeurt door meiotische delingen tijdens de vorming van gameten.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Welke structuur zorgt ervoor dat de testes 2-3 graden lager dan de lichaamstemperatuur blijven?",
+          "opties": [
+            "De zaadbuisjes",
+            "Het epididymis",
+            "Het scrotum",
+            "De prostaatklier"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Het scrotum (balzak) regelt de temperatuur door de testes dichterbij of verder van het lichaam te brengen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat is de chronologische volgorde van de vroege embryonale ontwikkeling?",
+          "opties": [
+            "Zygote $\\to$ Blastula $\\to$ Morula",
+            "Zygote $\\to$ Morula $\\to$ Blastula",
+            "Blastula $\\to$ Morula $\\to$ Zygote",
+            "Morula $\\to$ Blastula $\\to$ Zygote"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De zygote ondergaat klievingsdelingen tot morula, die vervolgens een holte vormt (blastula).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Welke hormonen worden in de ovaria geproduceerd en beïnvloeden direct het baarmoederslijmvlies?",
+          "opties": [
+            "GnRH en LH",
+            "FSH en Inhibine",
+            "Oestrogeen en Progesteron",
+            "hCG en Oxytocine"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Oestrogeen zorgt voor verdikking (groeifase), Progesteron voor ontwikkeling slijmkliertjes (secretiefase).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Welk argument voor evolutie is het best te bestuderen aan de hand van fossielen?",
+          "opties": [
+            "Argumenten uit de anatomie",
+            "Argumenten uit de paleontologie",
+            "Argumenten uit de moleculaire biologie",
+            "Argumenten uit kunstmatige selectie"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Paleontologie bestudeert fossielen en overblijfselen uit vroegere tijdperken.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Eeneiige (monozygote) tweelingen hebben:",
+          "opties": [
+            "Verschillende genetische samenstelling en meestal aparte placenta's",
+            "Identieke genetische samenstelling en altijd een gezamenlijke placenta",
+            "Identieke genetische samenstelling en ontstaan uit één zygote",
+            "Verschillende genetische samenstelling en ontstaan uit twee zygoten"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Ze ontstaan door splitsing van één zygote en zijn genetisch identiek.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "De ontsluitingsfase eindigt wanneer de baarmoederhals een diameter heeft van:",
+          "opties": ["5 cm", "8 cm", "10 cm", "12 cm"],
+          "correct_antwoord": 2,
+          "uitleg": "Volledige ontsluiting is 10 cm.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "verbinding",
+          "vraag": "Koppel de hormonen aan hun primaire bron",
+          "links_items": [
+            "Testosteron",
+            "GnRH",
+            "Progesteron",
+            "hCG",
+            "Inhibine"
+          ],
+          "rechts_items": [
+            "Cellen van Leydig",
+            "Hypothalamus",
+            "Geel Lichaam",
+            "Trofoblast/Embryo",
+            "Cellen van Sertoli"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Testosteron",
+              "rechts": "Cellen van Leydig"
+            },
+            {
+              "links": "GnRH",
+              "rechts": "Hypothalamus"
+            },
+            {
+              "links": "Progesteron",
+              "rechts": "Geel Lichaam"
+            },
+            {
+              "links": "hCG",
+              "rechts": "Trofoblast/Embryo"
+            },
+            {
+              "links": "Inhibine",
+              "rechts": "Cellen van Sertoli"
+            }
+          ],
+          "uitleg": "Elk hormoon heeft een specifieke productieplaats in het regelsysteem.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Koppel de structuur aan zijn functie",
+          "links_items": [
+            "Amnionholte",
+            "Baarmoeder",
+            "Oviduct",
+            "Blastulaholte"
+          ],
+          "rechts_items": [
+            "Bevat het vruchtwater",
+            "Gespierd orgaan dat de baby draagt",
+            "Transport van oöcyt/embryo",
+            "Holle sfeer in het vroege embryo"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Amnionholte",
+              "rechts": "Bevat het vruchtwater"
+            },
+            {
+              "links": "Baarmoeder",
+              "rechts": "Gespierd orgaan dat de baby draagt"
+            },
+            {
+              "links": "Oviduct",
+              "rechts": "Transport van oöcyt/embryo"
+            },
+            {
+              "links": "Blastulaholte",
+              "rechts": "Holle sfeer in het vroege embryo"
+            }
+          ],
+          "punten": 4
+        }
+      ],
+      "totaal_punten": 42,
+      "geschatte_tijd": "30 minuten",
+      "leerdoelen": [
+        "De fasen van meiose en bevruchting benoemen",
+        "Anatomie van voortplantingsstelsels kennen",
+        "Hormonale regulatie op basisniveau begrijpen"
+      ],
+      "tips": [
+        "Leer de definities van ploïdie ($n$ vs $2n$) goed",
+        "Maak een tijdlijn van de embryonale ontwikkeling"
+      ]
+    },
+    {
+      "id": "bio-t1h1-verdieping",
+      "titel": "Inzicht en Synthese: Voortplanting (Deel B)",
+      "beschrijving": "Diepgaande vragen over hormonale feedback, embryologie en evolutie.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Biologie",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Leg uit waarom het falen van de corticale reactie direct na de bevruchting een levensvatbare zwangerschap onmogelijk maakt.",
+          "uitleg": "Denk aan polyspermie.",
+          "antwoord": "Het falen leidt tot polyspermie (bevruchting door meerdere zaadcellen), wat resulteert in een niet-levensvatbaar embryo.",
+          "stappen": [
+            "Functie corticale granulen: inhoud uitstorten.",
+            "Resultaat: vorming bevruchtingsmembraan.",
+            "Consequentie: voorkomt polyspermie.",
+            "Conclusie: Zonder reactie $\\to$ polyspermie $\\to$ niet levensvatbaar."
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Hoe beïnvloedt een hoge concentratie exogeen testosteron (doping) de spermatogenese en vruchtbaarheid?",
+          "antwoord": "Het remt de natuurlijke aanmaak van GnRH, FSH en LH (negatieve feedback), waardoor de intratesticulaire testosteronspiegel daalt en spermatogenese stopt.",
+          "stappen": [
+            "Hoge testosteron in bloed remt GnRH (hypothalamus) en LH (hypofyse).",
+            "Spermatogenese vereist testosteronopname in Sertolicellen gestimuleerd door FSH/LH.",
+            "Resultaat: tekort aan lokale stimulatie in de testis $\\to$ verminderde vruchtbaarheid."
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Beschrijf het lot van het gele lichaam en het baarmoederslijmvlies als bevruchting uitblijft.",
+          "antwoord": "Het gele lichaam breekt af door gebrek aan LH. Progesteron daalt, en het baarmoederslijmvlies wordt afgestoten (menstruatie).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Waarom is de placentabarrière niet volledig veilig voor de foetus?",
+          "antwoord": "De barrière is dun voor snelle uitwisseling, waardoor kleine schadelijke moleculen (alcohol, nicotine, drugs) er ook doorheen kunnen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Welke structuur zorgt voor snelle groei en energievoorziening van de foetus en hoe is deze opgebouwd?",
+          "antwoord": "De chorionvlokken (gevormd door trofoblast/mesoderm). Ze zijn rijk aan haarvaten en staan in contact met moederlijk bloed.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Bespreek de positieve feedbackloop tussen prostaglandines en oxytocine tijdens de bevalling.",
+          "antwoord": "Oestrogeen stimuleert prostaglandines $\\to$ weke baarmoedermond + contracties $\\to$ druk van babyhoofdje $\\to$ signaal naar hersenen $\\to$ oxytocine vrijgave $\\to$ meer contracties + meer prostaglandines.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Noem drie weefsels die uit het ectoderm ontstaan en hun gezamenlijke functie.",
+          "antwoord": "Opperhuid, Zenuwstelsel, Zintuigepitheel. Functie: Interactie en waarneming van de omgeving.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Welke gebeurtenis is de directe aanleiding voor de verhoogde afscheiding van GnRH, FSH en LH aan het begin van de cyclus?",
+          "opties": [
+            "De piek in oestrogeen",
+            "De afbraak van het gele lichaam",
+            "Bevruchting",
+            "Stijging lichaamstemperatuur"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Door afbraak van het gele lichaam daalt de remmende invloed (negatieve feedback) van oestrogeen/progesteron.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Wat wordt er niet opgenomen in de oöcyt bij bevruchting, en wat is het gevolg?",
+          "opties": [
+            "Het acrosoom",
+            "De mitochondriën van het middenstuk",
+            "De kern",
+            "De flagel (zonder gevolg)"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De mitochondriën blijven buiten, waardoor mitochondrieel DNA enkel via de moeder wordt doorgegeven.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Waarom is hCG in urine de betrouwbaarste indicator voor zwangerschap?",
+          "opties": [
+            "hCG komt uit de hypofyse",
+            "hCG wekt menstruatie op",
+            "hCG voorkomt afbraak van het gele lichaam",
+            "hCG stimuleert direct FSH"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Het wordt geproduceerd door de trofoblast na innesteling en houdt de progesteronproductie in stand.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Welke evolutionaire mijlpaal is het meest direct verbonden met anatomische bewijzen (skelet)?",
+          "opties": [
+            "Toename hersenvolume",
+            "Zachtere huid",
+            "Rechtop lopen (bipedalisme)",
+            "Taalontwikkeling"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Rechtop lopen vereist specifieke aanpassingen aan bekken en wervelkolom.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Wanneer moet een zygote splitsen om een gemeenschappelijke chorionholte maar eigen amnionholte te krijgen?",
+          "opties": [
+            "Vóór vorming blastula",
+            "Als de kiemschijf in de blastula nog niet gevormd is",
+            "Nadat de kiemschijf gevormd is",
+            "Na innesteling"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Splitsing van de kiemknop (inner cell mass) in de blastula leidt tot gedeeld chorion, apart amnion.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Cyclus van 30 dagen, temp stijging op dag 15. Wat is de conclusie?",
+          "opties": [
+            "De folliculaire fase duurde langer",
+            "Ovulatie was op dag 12",
+            "Menstruatie start vervroegd",
+            "Dit duidt op zwangerschap"
+          ],
+          "correct_antwoord": 0,
+          "uitleg": "Luteale fase is vast (14 dagen). Bij 30 dagen is ovulatie dag 16. Temp stijging dag 15 wijst op progesteron (post-ovulatie/rond ovulatie).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Waarom is de placenta-uitwisseling zo efficiënt?",
+          "opties": [
+            "Directe verbinding bloedvaten",
+            "Foetale haarvaten liggen in baden van moederlijk bloed",
+            "Slechts één cellaag dik",
+            "Tegengestelde stroomrichting"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Chorionvlokken baden vrij in de intervilleuze ruimtes gevuld met moederlijk bloed.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "verbinding",
+          "vraag": "Rangschik de processen in chronologische volgorde (1=eerst)",
+          "links_items": [
+            "Vorming primordiale follikels",
+            "Vorming haploïde spermatiden",
+            "Ovulatie",
+            "Acrosoomreactie",
+            "Zygote vorming"
+          ],
+          "rechts_items": ["1", "2", "3", "4", "5"],
+          "correcte_verbindingen": [
+            {
+              "links": "Vorming primordiale follikels",
+              "rechts": "1"
+            },
+            {
+              "links": "Vorming haploïde spermatiden",
+              "rechts": "2"
+            },
+            {
+              "links": "Ovulatie",
+              "rechts": "3"
+            },
+            {
+              "links": "Acrosoomreactie",
+              "rechts": "4"
+            },
+            {
+              "links": "Zygote vorming",
+              "rechts": "5"
+            }
+          ],
+          "uitleg": "Follikels (prenataal) -> Spermatogenese (puberteit) -> Ovulatie -> Bevruchting.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Koppel tweelingvorming aan genetisch resultaat",
+          "links_items": [
+            "Twee oöcyten + twee zaadcellen",
+            "Splitsing kiemknop in blastula",
+            "Twee zygoten",
+            "Splitsing na innesteling"
+          ],
+          "rechts_items": [
+            "Dizygoot (verschillend)",
+            "Monozygoot (identiek)",
+            "Dizygoot (verschillend)",
+            "Monozygoot (identiek)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Twee oöcyten + twee zaadcellen",
+              "rechts": "Dizygoot (verschillend)"
+            },
+            {
+              "links": "Splitsing kiemknop in blastula",
+              "rechts": "Monozygoot (identiek)"
+            },
+            {
+              "links": "Twee zygoten",
+              "rechts": "Dizygoot (verschillend)"
+            },
+            {
+              "links": "Splitsing na innesteling",
+              "rechts": "Monozygoot (identiek)"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Koppel kiemblad/structuur aan volwassen weefsel",
+          "links_items": ["Mesoderm", "Endoderm", "Trofoblast", "Amnionholte"],
+          "rechts_items": [
+            "Kraakbeen en bindweefsel",
+            "Epitheel spijsvertering",
+            "Placenta",
+            "Vruchtwater"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Mesoderm",
+              "rechts": "Kraakbeen en bindweefsel"
+            },
+            {
+              "links": "Endoderm",
+              "rechts": "Epitheel spijsvertering"
+            },
+            {
+              "links": "Trofoblast",
+              "rechts": "Placenta"
+            },
+            {
+              "links": "Amnionholte",
+              "rechts": "Vruchtwater"
+            }
+          ],
+          "punten": 4
+        }
+      ],
+      "totaal_punten": 60,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": [
+        "Complexe hormonale feedbackloops uitleggen",
+        "Details van embryonale ontwikkeling en tweelingen begrijpen",
+        "Kritisch nadenken over pathologie (doping, infertiliteit)"
+      ],
+      "tips": [
+        "Teken de feedbackloops (Hypothalamus-Hypofyse-Gonaden) uit",
+        "Gebruik de financiële analogie voor hCG en Progesteron"
+      ]
+    }
+  ],
+  "extra_informatie": {
+    "voorkennis": ["Cellen en organellen", "Mitose en basis genetica"],
+    "vervolgonderwerpen": [
+      "Genetica en overerving",
+      "Evolutietheorie in detail"
+    ],
+    "bronnen": ["Cursusmateriaal Biologie T1 H1"]
+  }
+}
