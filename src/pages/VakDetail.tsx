@@ -9,6 +9,7 @@ import { getRichting } from "@/data/richtingen";
 import { getVak } from "@/data/vakken";
 import { getOnderdelenForVak } from "@/data/onderdelen";
 import { loadOefeningen, Oefening } from "@/lib/exerciseLoader";
+import { checkPremiumAccess } from "@/lib/premiumAccess";
 
 const VakDetail = () => {
   const { year, richting, vak } = useParams<{ year: string; richting: string; vak: string }>();
@@ -123,7 +124,7 @@ const VakDetail = () => {
                   difficulty={oefening.moeilijkheidsgraad}
                   points={oefening.totaal_punten}
                   estimatedTime={oefening.geschatte_tijd}
-                  isPremium={oefening.type === "premium" && !localStorage.getItem("premium_access")}
+                  isPremium={oefening.type === "premium" && !checkPremiumAccess()}
                   year={yearNumber}
                   richtingId={richting || ""}
                   vakId={vak || ""}
