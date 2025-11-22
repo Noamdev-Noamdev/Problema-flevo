@@ -174,11 +174,11 @@
             "Inhibine"
           ],
           "rechts_items": [
-            "Cellen van Leydig",
-            "Hypothalamus",
+            "Cellen van Sertoli",
             "Geel Lichaam",
+            "Cellen van Leydig",
             "Trofoblast/Embryo",
-            "Cellen van Sertoli"
+            "Hypothalamus"
           ],
           "correcte_verbindingen": [
             {
@@ -216,10 +216,10 @@
             "Blastulaholte"
           ],
           "rechts_items": [
-            "Bevat het vruchtwater",
-            "Gespierd orgaan dat de baby draagt",
             "Transport van oöcyt/embryo",
-            "Holle sfeer in het vroege embryo"
+            "Bevat het vruchtwater",
+            "Holle sfeer in het vroege embryo",
+            "Gespierd orgaan dat de baby draagt"
           ],
           "correcte_verbindingen": [
             {
@@ -426,11 +426,11 @@
           "type": "verbinding",
           "vraag": "Rangschik de processen in chronologische volgorde (1=eerst)",
           "links_items": [
+            "Acrosoomreactie",
+            "Zygote vorming",
             "Vorming primordiale follikels",
             "Vorming haploïde spermatiden",
-            "Ovulatie",
-            "Acrosoomreactie",
-            "Zygote vorming"
+            "Ovulatie"
           ],
           "rechts_items": ["1", "2", "3", "4", "5"],
           "correcte_verbindingen": [
@@ -469,8 +469,8 @@
             "Splitsing na innesteling"
           ],
           "rechts_items": [
-            "Dizygoot (verschillend)",
             "Monozygoot (identiek)",
+            "Dizygoot (verschillend)",
             "Dizygoot (verschillend)",
             "Monozygoot (identiek)"
           ],
@@ -500,8 +500,8 @@
           "vraag": "Koppel kiemblad/structuur aan volwassen weefsel",
           "links_items": ["Mesoderm", "Endoderm", "Trofoblast", "Amnionholte"],
           "rechts_items": [
-            "Kraakbeen en bindweefsel",
             "Epitheel spijsvertering",
+            "Kraakbeen en bindweefsel",
             "Placenta",
             "Vruchtwater"
           ],
@@ -537,14 +537,1295 @@
         "Teken de feedbackloops (Hypothalamus-Hypofyse-Gonaden) uit",
         "Gebruik de financiële analogie voor hCG en Progesteron"
       ]
+    },
+    {
+      "id": "bio-t1h2-basis",
+      "titel": "Basisbegrippen Vruchtbaarheidsbeheersing (Deel 1)",
+      "beschrijving": "Toets je feitenkennis over anticonceptie, de bevalling en basis vruchtbaarheidsbehandelingen.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Biologie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Welke drie fasen kent het proces van de bevalling?",
+          "antwoord": "1. Ontsluiting, 2. Uitdrijving, 3. Nageboorte.",
+          "uitleg": "Ontsluiting (baarmoederhals wordt breder), Uitdrijving (baby gaat naar buiten), Nageboorte (placenta wordt uitgedreven).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Noem drie typen fysieke barrière anticonceptiva.",
+          "antwoord": "Pessarium (vaginale ring), mannencondoom en vrouwencondoom.",
+          "uitleg": "Deze middelen vormen een fysieke barrière tussen spermatozoïden en de oöcyt.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Welke twee hormonen spelen een rol bij de controle van de melkproductie?",
+          "antwoord": "PIF (Prolactine Inhiberende Factor) en Prolactine.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Wat is de functie van een zaaddodend middel (spermicide)?",
+          "antwoord": "Ze immobiliseren de spermatozoïden en verlagen de zuurtegraad van de vagina.",
+          "uitleg": "Ze 'doden' niet direct, maar verminderen de beweeglijkheid.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Geef twee voorbeelden van een permanente anticonceptiemethode (sterilisatie) bij de vrouw.",
+          "antwoord": "De oviducten verwijderen, afklemmen of dichtbranden.",
+          "uitleg": "Hierdoor kunnen oöcyten de baarmoeder niet meer bereiken.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Wanneer spreekt men van eiceldonatie binnen vruchtbaarheidsbehandeling?",
+          "antwoord": "Als oöcyten van een donorvrouw worden gebruikt, bevrucht worden, en de embryo's bij de acceptor worden geplaatst.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Welk risico wordt vermeden wanneer men bij vruchtbaarheidsbehandelingen vóór de implantatie één of twee cellen uit het embryo haalt (PGD)?",
+          "antwoord": "Het risico op embryo's met gekende genetische aandoeningen (zoals mucoviscidose).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Welk type tweeling heeft altijd een identieke genetische samenstelling?",
+          "opties": [
+            "Dizygote tweelingen",
+            "Twee-eiige tweelingen",
+            "Monozygote tweelingen"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Monozygote tweelingen ontstaan uit één bevruchte zygote.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Wat is het primaire effect van een hormonale anticonceptiepil met hoge concentratie hormonen (combinatiepil)?",
+          "opties": [
+            "Het versnellen van de ovulatie",
+            "Het verhinderen van de rijping van oöcyten (geen ovulatie)",
+            "Het stimuleren van FSH en LH"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Hoge hormoonconcentraties remmen de afgifte van FSH en LH via negatieve feedback.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat is het minst betrouwbare kenmerk bij het gebruik van natuurlijke anticonceptiemethoden?",
+          "opties": [
+            "Beoordeling van vaginaal slijm",
+            "De kalendermethode",
+            "Coïtus interruptus",
+            "Alle bovenstaande opties"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "De bron noemt ze alle drie als minst betrouwbare methoden door subjectiviteit en reële zwangerschapskans.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Welke techniek wordt gebruikt bij te weinig beweeglijke spermatozoïden of problemen met de baarmoederhals?",
+          "opties": ["IVF", "ICSI", "Kunstmatige Inseminatie (KI)"],
+          "correct_antwoord": 2,
+          "uitleg": "KI brengt geselecteerde spermatozoïden direct in de baarmoeder.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Bij welke methode wordt de bevruchting buiten het lichaam van de vrouw uitgevoerd?",
+          "opties": [
+            "Kunstmatige Inseminatie (KI)",
+            "In-vitrofertilisatie (IVF)",
+            "Hormoonspiraaltje"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "IVF betekent letterlijk 'in glas'; oöcyten worden in een lab bevrucht.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Welk hormoon zorgt ervoor dat de melkklieren samentrekken en melk afscheiden?",
+          "opties": ["Prolactine", "Oestrogeen", "Oxytocine"],
+          "correct_antwoord": 2,
+          "uitleg": "Prikkeling bij het zogen leidt tot oxytocinevrijgave, wat contractie veroorzaakt.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Wat is een belangrijk voordeel van het (mannen)condoom ten opzichte van het pessarium en koperspiraaltje?",
+          "opties": [
+            "Hogere betrouwbaarheid",
+            "Is meerdere jaren werkzaam",
+            "Beschermt ook tegen soa's"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Het condoom beschermt tegen soa's; spiraaltjes en pessariums niet.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Welke term wordt gebruikt wanneer men een spermatozoïde met een fijne naald rechtstreeks in een rijpe oöcyt injecteert?",
+          "opties": ["KI", "IVF", "ICSI"],
+          "correct_antwoord": 2,
+          "uitleg": "ICSI staat voor Intracytoplasmatische Sperma-Injectie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Verbind de fasen van de bevalling met hun beschrijving",
+          "links_items": ["Ontsluiting", "Uitdrijving", "Nageboorte"],
+          "rechts_items": [
+            "Placenta wordt uitgedreven",
+            "Baarmoederhals wordt breder",
+            "Baby gaat naar buiten"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Ontsluiting",
+              "rechts": "Baarmoederhals wordt breder"
+            },
+            {
+              "links": "Uitdrijving",
+              "rechts": "Baby gaat naar buiten"
+            },
+            {
+              "links": "Nageboorte",
+              "rechts": "Placenta wordt uitgedreven"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Verbind de anticonceptiemethode met het werkingsmechanisme",
+          "links_items": ["Koperspiraaltje", "Hormoonspiraaltje", "Pessarium"],
+          "rechts_items": [
+            "Voorkomt rijping oöcyten/verdikt slijm",
+            "Geeft giftige koperionen af",
+            "Vormt fysieke barrière"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Koperspiraaltje",
+              "rechts": "Geeft giftige koperionen af"
+            },
+            {
+              "links": "Hormoonspiraaltje",
+              "rechts": "Voorkomt rijping oöcyten/verdikt slijm"
+            },
+            {
+              "links": "Pessarium",
+              "rechts": "Vormt fysieke barrière"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Verbind de natuurlijke methode met het principe",
+          "links_items": [
+            "Periodieke onthouding",
+            "Kalendermethode",
+            "Coïtus interruptus"
+          ],
+          "rechts_items": [
+            "Terugtrekken voor zaadlozing",
+            "Vermijden van seks rond ovulatie",
+            "Voorspellen ovulatie o.b.v. eerdere cycli"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Periodieke onthouding",
+              "rechts": "Vermijden van seks rond ovulatie"
+            },
+            {
+              "links": "Kalendermethode",
+              "rechts": "Voorspellen ovulatie o.b.v. eerdere cycli"
+            },
+            {
+              "links": "Coïtus interruptus",
+              "rechts": "Terugtrekken voor zaadlozing"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Verbind de behandeling met de primaire toepassing",
+          "links_items": ["KI", "Eiceldonatie", "ICSI"],
+          "rechts_items": [
+            "Mannelijke onvruchtbaarheid (weinig/slecht sperma)",
+            "Vrouw met afwijkingen/hoge leeftijd",
+            "Ernstige mannelijke onvruchtbaarheid (structureel)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "KI",
+              "rechts": "Mannelijke onvruchtbaarheid (weinig/slecht sperma)"
+            },
+            {
+              "links": "Eiceldonatie",
+              "rechts": "Vrouw met afwijkingen/hoge leeftijd"
+            },
+            {
+              "links": "ICSI",
+              "rechts": "Ernstige mannelijke onvruchtbaarheid (structureel)"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Verbind het celtype met de isolatielocatie",
+          "links_items": ["Oöcyten", "Spermatozoïden"],
+          "rechts_items": ["Bijbal of teelbal", "Ovarium"],
+          "correcte_verbindingen": [
+            {
+              "links": "Oöcyten",
+              "rechts": "Ovarium"
+            },
+            {
+              "links": "Spermatozoïden",
+              "rechts": "Bijbal of teelbal"
+            }
+          ],
+          "punten": 2
+        }
+      ],
+      "totaal_punten": 43,
+      "geschatte_tijd": "25 minuten",
+      "leerdoelen": [
+        "Anticonceptiemethoden en hun werking benoemen",
+        "Verschil tussen KI, IVF en ICSI kennen",
+        "Fasen van de bevalling begrijpen"
+      ],
+      "tips": [
+        "Maak een onderscheid tussen mechanische en hormonale anticonceptie",
+        "Let goed op de afkortingen (KI, IVF, ICSI)"
+      ]
+    },
+    {
+      "id": "bio-t1h2-verdieping",
+      "titel": "Inzicht en Synthese: Vruchtbaarheid (Deel 2)",
+      "beschrijving": "Verdiepende vragen over feedbackmechanismen, embryologie en medische ethiek.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Biologie",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Waarom hebben monozygote tweelingen, afhankelijk van het tijdstip van de splitsing, niet altijd een gemeenschappelijke placenta?",
+          "antwoord": "Als de splitsing zeer vroeg plaatsvindt (vóór de blastula), ontwikkelt elk embryo eigen omhulsels (placenta, amnion, chorion).",
+          "uitleg": "Het begrip 'eeneiig' betekent genetisch identiek, maar de anatomische deling van vliezen hangt af van het moment van splitsen.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Leg uit hoe de mechanische prikkeling van de tepel tijdens het zogen de melkproductie én afscheiding regelt.",
+          "antwoord": "Prikkeling onderdrukt PIF (zodat Prolactine stijgt voor productie) en stimuleert oxytocine (voor spiercontractie/afscheiding).",
+          "stappen": [
+            "Stimulus: Zuigen aan tepel.",
+            "Effect 1: Remming PIF $\\to$ Prolactine $\\to$ Melkproductie.",
+            "Effect 2: Stimulatie Oxytocine $\\to$ Contractie melkklieren $\\to$ Melkafscheiding."
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Waarom wordt een koperspiraaltje als betrouwbaarder beschouwd dan de pil, ondanks dat de pil hormonen bevat?",
+          "antwoord": "Het spiraaltje werkt meerdere jaren continu en elimineert de factor 'menselijke fout' (zoals het vergeten van de pil).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Welke drie effecten van hormonale anticonceptie (progestageen/oestrogeen) werken samen om zwangerschap te voorkomen?",
+          "antwoord": "1. Remming eicelrijping/ovulatie. 2. Onderdrukking opbouw baarmoederslijmvlies (anti-innesteling). 3. Verdikking baarmoederhalsslijm (barrière sperma).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Waarom is de kalendermethode onbetrouwbaar, zelfs bij een regelmatige cyclus?",
+          "antwoord": "Externe factoren (stress, ziekte) kunnen de ovulatie verschuiven, en sperma kan meerdere dagen overleven.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Waarom kan een man na vasectomie nog steeds ejaculeren?",
+          "antwoord": "Zaadcellen vormen <5% van het volume. De prostaat en zaadblaasjes (die vocht produceren) blijven intact.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Beschrijf een scenario waarin IVF de aangewezen methode is, terwijl KI faalde.",
+          "antwoord": "Bijvoorbeeld bij verstopte eileiders (oviducten). KI brengt sperma in de baarmoeder, maar bevruchting kan niet plaatsvinden als de eileider dicht zit. IVF omzeilt dit.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Wat is het primaire verschil in structuur tussen dizygote en monozygote tweelingen (meest voorkomend)?",
+          "opties": [
+            "Dizygote delen vaak een placenta",
+            "Monozygote hebben altijd eigen amnion",
+            "Dizygote hebben meestal eigen placenta, amnion en chorion"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Dizygote tweelingen komen uit twee eicellen en ontwikkelen volledig apart.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Waarom is de temperatuurmethode gebaseerd op onthouding tot 3 dagen ná de temperatuursprong?",
+          "opties": [
+            "Sperma is dan dood",
+            "Temp daalt weer",
+            "De eicel is slechts 24 uur vruchtbaar na ovulatie"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De sprong duidt ovulatie aan; 3 dagen later is de eicel zeker niet meer levensvatbaar.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat is het doorslaggevende argument om ICSI te verkiezen boven standaard IVF?",
+          "opties": [
+            "Minder infectiekans",
+            "Zeer weinig of structureel afwijkende spermatozoïden",
+            "Hogere succesgarantie"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Bij ICSI wordt de zaadcel direct geïnjecteerd, wat nodig is als ze zelf de eicel niet kunnen binnendringen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Welke beschrijving past bij de 'prikpil'?",
+          "opties": [
+            "Dagelijkse pil",
+            "Injectie van progestageen elke 12 weken",
+            "Implantaat in de arm"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Het is een depot-injectie die langdurig werkt.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Bij welke behandeling zijn beide geslachtscellen NIET van de acceptorouders?",
+          "opties": ["Eiceldonatie", "KI met donor", "Embryodonatie"],
+          "correct_antwoord": 2,
+          "uitleg": "Hierbij wordt een rest-embryo van een ander koppel gebruikt.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Waarom combineert men een pessarium met spermiciden?",
+          "opties": [
+            "Tegen soa's",
+            "Spermiciden immobiliseren zaadcellen die langs de rand komen",
+            "Verhoogt het comfort"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Een mechanische barrière is niet 100% dicht; spermiciden vangen 'lekkage' op.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Wat is het grootste nadeel/risico van sterilisatie?",
+          "opties": [
+            "Onomkeerbaarheid (spijtoptanten)",
+            "Hormonale disbalans",
+            "Beschermt niet tegen soa's"
+          ],
+          "correct_antwoord": 0,
+          "uitleg": "Hersteloperaties zijn lastig en niet altijd succesvol.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Welke stelling over hormonale anticonceptie is correct?",
+          "opties": [
+            "Elimineren risico op hart- en vaatziekten",
+            "Hormoonspiraal en staafje zijn zeer betrouwbaar door gebrek aan gebruiksfouten",
+            "Minipil bevat oestrogeen en progestageen"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Ze sluiten de factor 'vergeten' uit.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Verbind de behandeling met de vereiste",
+          "links_items": ["KI", "IVF", "Eiceldonatie"],
+          "rechts_items": [
+            "Problemen met oviducten of falen KI",
+            "Hormonale/erfelijke afwijkingen vrouw",
+            "Te weinig beweeglijke sperma/cervix problemen"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "KI",
+              "rechts": "Te weinig beweeglijke sperma/cervix problemen"
+            },
+            {
+              "links": "IVF",
+              "rechts": "Problemen met oviducten of falen KI"
+            },
+            {
+              "links": "Eiceldonatie",
+              "rechts": "Hormonale/erfelijke afwijkingen vrouw"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Verbind hormonale methode met toediening",
+          "links_items": ["Hormonaal spiraaltje", "Prikpil", "Pleister/Ring"],
+          "rechts_items": [
+            "Injectie",
+            "Via huid/slijmvliezen",
+            "In baarmoeder geplaatst door arts"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Hormonaal spiraaltje",
+              "rechts": "In baarmoeder geplaatst door arts"
+            },
+            {
+              "links": "Prikpil",
+              "rechts": "Injectie"
+            },
+            {
+              "links": "Pleister/Ring",
+              "rechts": "Via huid/slijmvliezen"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Verbind het zogen met het hormoon/proces",
+          "links_items": [
+            "Oorzaak melkafscheiding",
+            "Onderhoud melkproductie",
+            "Onderdrukking bij zogen"
+          ],
+          "rechts_items": ["PIF", "Oxytocine", "Prolactine"],
+          "correcte_verbindingen": [
+            {
+              "links": "Oorzaak melkafscheiding",
+              "rechts": "Oxytocine"
+            },
+            {
+              "links": "Onderhoud melkproductie",
+              "rechts": "Prolactine"
+            },
+            {
+              "links": "Onderdrukking bij zogen",
+              "rechts": "PIF"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Verbind de meetmethode met de waarneming",
+          "links_items": [
+            "Temperatuurmethode",
+            "Kalendermethode",
+            "Vaginale slijmbeoordeling"
+          ],
+          "rechts_items": [
+            "Duur van eerdere cycli",
+            "Stijging 0,2-0,5 °C",
+            "Kleur/rekbaarheid"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Temperatuurmethode",
+              "rechts": "Stijging 0,2-0,5 °C"
+            },
+            {
+              "links": "Kalendermethode",
+              "rechts": "Duur van eerdere cycli"
+            },
+            {
+              "links": "Vaginale slijmbeoordeling",
+              "rechts": "Kleur/rekbaarheid"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Verbind behandeling met bron van cellen",
+          "links_items": ["Spermatozoïden isoleren", "Embryodonatie", "IVF"],
+          "rechts_items": [
+            "Bijbal/Teelbal",
+            "Rest-embryo's van anderen",
+            "Oöcyten vrouw + sperma partner"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Spermatozoïden isoleren",
+              "rechts": "Bijbal/Teelbal"
+            },
+            {
+              "links": "Embryodonatie",
+              "rechts": "Rest-embryo's van anderen"
+            },
+            {
+              "links": "IVF",
+              "rechts": "Oöcyten vrouw + sperma partner"
+            }
+          ],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 52,
+      "geschatte_tijd": "40 minuten",
+      "leerdoelen": [
+        "Complexe feedbackloops (lactatie) uitleggen",
+        "Nuances in vruchtbaarheidsbehandelingen (IVF vs ICSI) begrijpen",
+        "Kritisch denken over betrouwbaarheid van anticonceptie"
+      ],
+      "tips": [
+        "Focus op het 'waarom' achter de methodes, niet alleen de definitie",
+        "Vergeet niet dat eeneiige tweelingen anatomisch kunnen verschillen (placenta)"
+      ]
+    },
+    {
+      "id": "bio-t1h3-basis",
+      "titel": "Basiskennis Teratogene Factoren (Deel 1)",
+      "beschrijving": "Oefeningen over basisbegrippen, teratogene stoffen en vruchtbaarheidsbehandelingen.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Biologie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Wat is de definitie van een teratogene factor?",
+          "antwoord": "Een molecule of ziekte die bij de foetus afwijkingen kan veroorzaken als de moeder tijdens de zwangerschap in aanraking komt.",
+          "uitleg": "De term teratogeen verwijst naar elke stof of ziekte die de ontwikkeling van de foetus negatief beïnvloedt.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Welke specifieke vitamine wordt aanbevolen om extra in te nemen bij een zwangerschapswens of in de eerste tien weken van de zwangerschap, en met welk doel?",
+          "antwoord": "Foliumzuur (vitamine B11). Dit verkleint de kans op een open ruggetje of een open gehemelte/hazenlip.",
+          "uitleg": "Foliumzuur is cruciaal voor de vorming van de neurale buis in het begin van de zwangerschap.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Noem drie typische uiterlijke gelaatsafwijkingen die kunnen wijzen op het Foetaal Alcohol Syndroom (FAS).",
+          "antwoord": "Smalle oogspleten, een afgeplat neusgootje en een dunne bovenlip.",
+          "uitleg": "Deze afwijkingen zijn structurele kenmerken van FAS, dat wordt veroorzaakt door alcoholgebruik tijdens de zwangerschap.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Welke drie stappen omvat een In-vitrofertilisatie (IVF) behandeling na de hormonale stimulatie?",
+          "antwoord": "Oöcyten uit het ovarium halen, bevruchting van oöcyten en spermatozoïden in een schaaltje, en embryotransfer in de baarmoeder.",
+          "uitleg": "IVF is een meerstapsbehandeling die bevruchting buiten het lichaam vereist.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Welke twee ziekteverwekkers kunnen via de placenta schade aan de gehoorzenuw van het kind veroorzaken?",
+          "antwoord": "Het Cytomegalovirus (CMV) en Rubella (rodehond).",
+          "uitleg": "Zowel CMV als Rubella kunnen onder andere gehoorafwijkingen veroorzaken.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Wat is het doel van het toedienen van hormonen bij vruchtbaarheidsbehandelingen?",
+          "antwoord": "Het doel is hormonale stimulatie om meerdere oöcyten te laten rijpen.",
+          "uitleg": "Hormonale stimulatie zorgt ervoor dat er meerdere eicellen beschikbaar zijn voor oogsten en bevruchting, wat een stap is in het IVF-proces.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Welke stof uit tabaksrook vermindert de bloedtoevoer naar de placenta?",
+          "opties": ["Cortisol", "Foliumzuur", "Nicotine"],
+          "correct_antwoord": 2,
+          "uitleg": "Nicotine vernauwt de bloedvaten en remt de aanmaak van geslachtshormonen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Waarom wordt het hoofd van een baby met FAS vaak abnormaal klein (microcefalie)?",
+          "opties": [
+            "Door een tekort aan Vitamine D",
+            "Omdat de hersenen kleiner zijn en minder groeven hebben",
+            "Door loslating van de placenta"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De verminderde grootte en groeven van de hersenen resulteren in microcefalie, een kenmerk van FAS.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Welke infectieziekte kan worden overgedragen door de uitwerpselen van katachtigen?",
+          "opties": ["Listeria", "Rubella", "Toxoplasmose"],
+          "correct_antwoord": 2,
+          "uitleg": "De parasiet Toxoplasma gondii wordt overgedragen door onder andere uitwerpselen van katachtigen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wanneer wordt het gebruik van bevruchte oöcyten van een donorkoppel (embryodonatie) aangeraden?",
+          "opties": [
+            "Bij een te weinig beweeglijke spermacel",
+            "Wanneer alle andere behandelingen onsuccesvol zijn",
+            "Bij hormonale afwijkingen bij de vrouw"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Embryodonatie wordt toegepast bij problemen met de geslachtscellen van man én vrouw, of wanneer andere behandelingen mislukten.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Wat is een direct effect van langdurige stress (cortisol) tijdens de zwangerschap op de baby via de placenta?",
+          "opties": [
+            "Aangeboren hartafwijkingen",
+            "Ontwikkeling van ADHD en prikkelbaarheid",
+            "Groeiachterstand"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Cortisol beïnvloedt de mentale ontwikkeling van de baby, met risico op prikkelbaarheid en aandachtsproblemen (ADHD) op latere leeftijd.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Welke giftige stof wordt in de placenta aangetroffen, waarbij de schade op korte of lange termijn nog niet volledig duidelijk is?",
+          "opties": ["Zware metalen", "Pesticiden", "Microplastics"],
+          "correct_antwoord": 2,
+          "uitleg": "Microplastics zijn minuscuul kleine deeltjes die al in de placenta zijn aangetroffen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Welk type anticonceptiemiddel remt de aanmaak van geslachtshormonen?",
+          "opties": [
+            "Koperspiraal",
+            "Anticonceptiemiddelen met hormonen",
+            "Zaaddodende middelen"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Anticonceptiemiddelen met hormonen veranderen de natuurlijke hormoonspiegels.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "verbinding",
+          "vraag": "Verbind de onvruchtbaarheidsbehandeling met de primaire toepassing (WANNEER)",
+          "links_items": ["KI", "IVF", "ICSI"],
+          "rechts_items": [
+            "Structurele problemen met spermatozoïden",
+            "Problemen met de oviducten",
+            "Problemen met de baarmoederhals"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "KI",
+              "rechts": "Problemen met de baarmoederhals"
+            },
+            {
+              "links": "IVF",
+              "rechts": "Problemen met de oviducten"
+            },
+            {
+              "links": "ICSI",
+              "rechts": "Structurele problemen met spermatozoïden"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "verbinding",
+          "vraag": "Verbind de infectieziekte met de bijbehorende teratogene afwijking",
+          "links_items": ["Rubella", "Toxoplasmose", "Listeria"],
+          "rechts_items": [
+            "Neurologische en oogafwijkingen (laat in zwangerschap)",
+            "Hart-, oog- en gehoorafwijkingen",
+            "Miskraam of vroeggeboorte"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Rubella",
+              "rechts": "Hart-, oog- en gehoorafwijkingen"
+            },
+            {
+              "links": "Toxoplasmose",
+              "rechts": "Neurologische en oogafwijkingen (laat in zwangerschap)"
+            },
+            {
+              "links": "Listeria",
+              "rechts": "Miskraam of vroeggeboorte"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Verbind de giftige stof met de mogelijke bron of categorie",
+          "links_items": [
+            "Kwik, Lood, Zink",
+            "Stoffen in plastic flessen",
+            "Stoffen gebruikt in landbouw"
+          ],
+          "rechts_items": [
+            "Hormoonverstorende stoffen",
+            "Zware metalen",
+            "Pesticiden"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Kwik, Lood, Zink",
+              "rechts": "Zware metalen"
+            },
+            {
+              "links": "Stoffen in plastic flessen",
+              "rechts": "Hormoonverstorende stoffen"
+            },
+            {
+              "links": "Stoffen gebruikt in landbouw",
+              "rechts": "Pesticiden"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Verbind het medicijn met de historische (teratogene) afwijking",
+          "links_items": ["Thalidomide (Softenon)", "Alcohol"],
+          "rechts_items": [
+            "Abnormaal klein hoofd (Microcefalie)",
+            "Ontbrekende of onderontwikkelde ledematen"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Thalidomide (Softenon)",
+              "rechts": "Ontbrekende of onderontwikkelde ledematen"
+            },
+            {
+              "links": "Alcohol",
+              "rechts": "Abnormaal klein hoofd (Microcefalie)"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Verbind de anticonceptiemethode zonder hormonen met het werkingsmechanisme",
+          "links_items": ["Koperspiraal", "Spermiciden", "Condoom"],
+          "rechts_items": [
+            "Immobiliseert spermatozoïden",
+            "Fysieke barrière",
+            "Veroorzaakt ontstekingsreactie, voorkomt innesteling"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Koperspiraal",
+              "rechts": "Veroorzaakt ontstekingsreactie, voorkomt innesteling"
+            },
+            {
+              "links": "Spermiciden",
+              "rechts": "Immobiliseert spermatozoïden"
+            },
+            {
+              "links": "Condoom",
+              "rechts": "Fysieke barrière"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Verbind de methode voor het isoleren van geslachtscellen met de plaats van oogsten",
+          "links_items": [
+            "Oöcyten",
+            "Spermatozoïden (indien afwezig in sperma)"
+          ],
+          "rechts_items": ["Bijbal of teelbal", "Ovarium (eierstok)"],
+          "correcte_verbindingen": [
+            {
+              "links": "Oöcyten",
+              "rechts": "Ovarium (eierstok)"
+            },
+            {
+              "links": "Spermatozoïden (indien afwezig in sperma)",
+              "rechts": "Bijbal of teelbal"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Verbind de oorzaak van de vruchtbaarheidsvermindering met het effect",
+          "links_items": [
+            "Roken (vrouw)",
+            "Hoge cortisolspiegel",
+            "Roken (man)"
+          ],
+          "rechts_items": [
+            "Vermindert bloedtoevoer naar placenta",
+            "Kan ovulatie of innesteling tegenhouden",
+            "Slechte kwaliteit en afwijkende vorm spermatozoïden"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Roken (vrouw)",
+              "rechts": "Vermindert bloedtoevoer naar placenta"
+            },
+            {
+              "links": "Hoge cortisolspiegel",
+              "rechts": "Kan ovulatie of innesteling tegenhouden"
+            },
+            {
+              "links": "Roken (man)",
+              "rechts": "Slechte kwaliteit en afwijkende vorm spermatozoïden"
+            }
+          ],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 40,
+      "geschatte_tijd": "30 minuten",
+      "leerdoelen": [
+        "Definitie en voorbeelden van teratogene factoren kennen",
+        "De procedures van KI, IVF en ICSI begrijpen",
+        "Risicofactoren tijdens zwangerschap identificeren"
+      ],
+      "tips": [
+        "Maak onderscheid tussen preventieve middelen (foliumzuur) en schadelijke middelen (teratogenen).",
+        "Leer de specifieke doelgroep voor elke vruchtbaarheidsbehandeling."
+      ]
+    },
+    {
+      "id": "bio-t1h3-verdieping",
+      "titel": "Inzicht en Toepassing: Teratogene Factoren (Deel 2)",
+      "beschrijving": "Verdiepende vragen over mechanismen, preventie en ethiek rondom fertiliteit.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Biologie",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Waarom stellen de bronnen dat de omstandigheden vlak voor en tijdens de eerste drie maanden van de zwangerschap van groot belang zijn bij de vorming van afwijkingen?",
+          "antwoord": "De organen van de baby worden al in het prille begin van de zwangerschap gevormd (organogenese). Als de ontwikkeling in deze vroege, kritieke fase niet normaal verloopt door teratogene factoren, kan dit leiden tot gezondheidsproblemen.",
+          "uitleg": "Dit benadrukt de kritieke periode van orgaanvorming, vaak voordat de vrouw weet dat ze zwanger is.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Leg uit waarom een hoog geboortegewicht van een baby een risico kan zijn bij een zwangerschap, en welke leefgewoonte dit kan veroorzaken.",
+          "antwoord": "Een eenzijdig vet- en suikerrijk voedingspatroon van de moeder kan leiden tot een hoog geboortegewicht. Dit kan de bevalling compliceren en is gerelateerd aan overgewicht/obesitas bij de moeder, wat de kans op een miskraam verhoogt.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Beschrijf het mechanisme waardoor ICSI wordt verkozen boven IVF bij specifieke gevallen van mannelijke onvruchtbaarheid.",
+          "antwoord": "ICSI is specifiek gericht op gevallen met structurele problemen of wanneer IVF (waarbij de zaadcel zelf de eicel moet binnendringen) niet lukt. Bij ICSI wordt de zaadcel mechanisch rechtstreeks in de oöcyt geïnjecteerd.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Waarom is het raadzaam voor toekomstige ouders, die rokers zijn, om al vóór de zwangerschap te stoppen met roken? Geef twee redenen.",
+          "antwoord": "1. Toxische stoffen beschadigen het erfelijk materiaal van oöcyten en spermatozoïden. 2. Nicotine remt de aanmaak van geslachtshormonen, wat de vruchtbaarheid verlaagt.",
+          "uitleg": "De schade begint al vóór de conceptie op cellulair en hormonaal niveau.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Leg uit hoe Toxoplasmose en Listeria verschillende preventieve maatregelen vereisen.",
+          "antwoord": "Toxoplasmose preventie richt zich op het vermijden van contact met uitwerpselen van katten. Listeria wordt veroorzaakt door een bacterie in rauwe/lang gekoelde voeding, dus preventie richt zich op dieetrestricties en hygiëne.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Op welke manier kan langdurige stress, door de verhoging van cortisol, de vruchtbaarheid verminderen?",
+          "antwoord": "Een hoog gehalte aan cortisol kan ervoor zorgen dat een ovulatie uitblijft of dat een innesteling wordt tegengehouden.",
+          "uitleg": "Stress heeft een dubbele negatieve invloed: het remt conceptie én beïnvloedt de foetale mentale ontwikkeling.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Wat is het primaire verschil tussen Eiceldonatie en Embryodonatie?",
+          "opties": [
+            "Bij Eiceldonatie wordt het sperma van de donor gebruikt",
+            "Bij Embryodonatie zijn de bevruchte oöcyten of embryo's afkomstig van een donorkoppel",
+            "Eiceldonatie wordt alleen gebruikt bij een te hoge leeftijd van de vrouw"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Bij eiceldonatie wordt de eicel gedoneerd en bevrucht met het sperma van de partner. Bij embryodonatie komen de cellen van beide geslachten van derden.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Welk van de volgende effecten wordt niet specifiek geassocieerd met blootstelling aan pesticiden, maar wel met zware metalen?",
+          "opties": [
+            "Laag geboortegewicht",
+            "Vroeggeboorte",
+            "Schade aan nieren en zenuwen"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Schade aan nieren en zenuwen wordt specifiek toegeschreven aan zware metalen. Pesticiden verhogen de kans op vroeggeboorte en laag geboortegewicht.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Waarom kan passief roken eveneens zeer nefaste gevolgen hebben voor de zwangerschap, naast actief roken?",
+          "opties": [
+            "Het verhoogt het cortisolgehalte van de vrouw",
+            "De schadelijke stoffen in de tabaksrook komen in het bloed van de vrouw terecht en worden via de placenta uitgewisseld met het kind",
+            "Passief roken leidt tot ernstige hormoonverstoringen"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Passief roken zorgt dat toxische stoffen in de bloedsomloop komen en de placenta passeren.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Een vrouw gebruikt een anticonceptiestaafje. Welke stelling overheze methode is correct?",
+          "opties": [
+            "Het staafje valt onder de kunstmatige methoden zonder hormonen",
+            "Het staafje wordt na twaalf weken vervangen",
+            "Het staafje is een methode met hormonen die de natuurlijke hormoonspiegels verandert"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Het anticonceptiestaafje is specifiek genoemd onder de 'Kunstmatige methoden met hormonen'.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Waarom is het innemen van vitaminesupplementen met multivitamines tijdens de zwangerschap niet altijd aan te raden?",
+          "opties": [
+            "De meeste multivitamines bevatten te weinig foliumzuur",
+            "Multivitamines kunnen hogere dosissen bevatten dan aanbevolen, en een teveel aan vitaminen kan schadelijk zijn",
+            "Multivitamines beïnvloeden de cortisolspiegel"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De bron raadt af om zomaar multivitamines in te nemen, omdat een teveel aan vitaminen (hypervitaminose) schadelijk kan zijn.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Welke schadelijke stoffen in de leefomgeving verminderen niet alleen de vruchtbaarheid, maar kunnen ook bloedarmoede en groei-inhibitie bij het kind veroorzaken?",
+          "opties": [
+            "Hormoonverstorende stoffen",
+            "Zware metalen",
+            "Pesticiden"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Zware metalen (kwik, lood, cadmium) veroorzaken bloedarmoede en groei-inhibitie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Welke factor maakt ICSI (in tegenstelling tot KI) in sommige gevallen noodzakelijk, zelfs als er voldoende spermatozoïden zijn?",
+          "opties": [
+            "Problemen met de baarmoederhals",
+            "Structurele problemen van de spermatozoïden",
+            "Hormonale afwijkingen bij de vrouw"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "ICSI wordt toegepast bij structurele problemen van spermatozoïden die verhinderen dat ze zelf de oöcyt binnendringen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "verbinding",
+          "vraag": "Verbind de levensstijlfactor met het specifieke negatieve effect op de foetus/baby",
+          "links_items": [
+            "Roken (actief)",
+            "Alcoholgebruik",
+            "Ongezond/eenzijdig dieet"
+          ],
+          "rechts_items": [
+            "Abnormaal klein hoofd (Microcefalie)",
+            "Overgewicht en hoog geboortegewicht",
+            "Verhoogde kans op wiegendood na de geboorte"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Roken (actief)",
+              "rechts": "Verhoogde kans op wiegendood na de geboorte"
+            },
+            {
+              "links": "Alcoholgebruik",
+              "rechts": "Abnormaal klein hoofd (Microcefalie)"
+            },
+            {
+              "links": "Ongezond/eenzijdig dieet",
+              "rechts": "Overgewicht en hoog geboortegewicht"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "verbinding",
+          "vraag": "Verbind de infectieziekte met de bijbehorende preventieve maatregel/waarschuwing",
+          "links_items": ["Rubella", "CMV", "Listeria"],
+          "rechts_items": [
+            "Vermijd rauwe voedingswaren die langdurig gekoeld zijn bewaard",
+            "Vermijd contact met speeksel en urine van besmette personen",
+            "Er is een vaccinatie beschikbaar"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Rubella",
+              "rechts": "Er is een vaccinatie beschikbaar"
+            },
+            {
+              "links": "CMV",
+              "rechts": "Vermijd contact met speeksel en urine van besmette personen"
+            },
+            {
+              "links": "Listeria",
+              "rechts": "Vermijd rauwe voedingswaren die langdurig gekoeld zijn bewaard"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Verbind de vruchtbaarheidsbehandeling met het specifieke doel van de procedure",
+          "links_items": ["Eiceldonatie", "Embryodonatie", "IVF"],
+          "rechts_items": [
+            "Meerdere oöcyten oogsten na hormonale stimulatie",
+            "Donoreicellen bevruchten met sperma van de partner",
+            "Bevruchte oöcyten van een donorkoppel in de baarmoeder brengen"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "IVF",
+              "rechts": "Meerdere oöcyten oogsten na hormonale stimulatie"
+            },
+            {
+              "links": "Eiceldonatie",
+              "rechts": "Donoreicellen bevruchten met sperma van de partner"
+            },
+            {
+              "links": "Embryodonatie",
+              "rechts": "Bevruchte oöcyten van een donorkoppel in de baarmoeder brengen"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Verbind de giftige stof met de meest waarschijnlijke overdrachtsweg naar het kind",
+          "links_items": ["Pesticiden", "Zware metalen"],
+          "rechts_items": [
+            "Via de placenta en/of borstvoeding",
+            "Via geconsumeerde groenten en fruit"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Zware metalen",
+              "rechts": "Via de placenta en/of borstvoeding"
+            },
+            {
+              "links": "Pesticiden",
+              "rechts": "Via geconsumeerde groenten en fruit"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Verbind de teratogene factor met de beschreven risico's op latere leeftijd voor het kind",
+          "links_items": [
+            "Hoge cortisolspiegel (stress)",
+            "Roken (passief/actief)"
+          ],
+          "rechts_items": [
+            "Astma, overgewicht, verminderde vruchtbaarheid",
+            "Prikkelbaarheid, aandachtsproblemen (ADHD)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Roken (passief/actief)",
+              "rechts": "Astma, overgewicht, verminderde vruchtbaarheid"
+            },
+            {
+              "links": "Hoge cortisolspiegel (stress)",
+              "rechts": "Prikkelbaarheid, aandachtsproblemen (ADHD)"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Verbind de vruchtbaarheidsbehandeling met de reden waarom spermacellen niet van de partner worden gebruikt",
+          "links_items": [
+            "Embryodonatie",
+            "ICSI met sperma isolatie",
+            "KI met donorsperma"
+          ],
+          "rechts_items": [
+            "Man heeft structurele of ernstige problemen met zijn geslachtscellen",
+            "Spermatozoïden ontbreken in het sperma",
+            "Problemen met geslachtscellen van man én vrouw"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "KI met donorsperma",
+              "rechts": "Man heeft structurele of ernstige problemen met zijn geslachtscellen"
+            },
+            {
+              "links": "ICSI met sperma isolatie",
+              "rechts": "Spermatozoïden ontbreken in het sperma"
+            },
+            {
+              "links": "Embryodonatie",
+              "rechts": "Problemen met geslachtscellen van man én vrouw"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Verbind de anticonceptiemethode met de mate van bescherming tegen SOA's",
+          "links_items": ["Pessarium", "Hormoonspiraaltje", "Condoom"],
+          "rechts_items": [
+            "Biedt bescherming (indien correct gebruikt)",
+            "Biedt geen bescherming",
+            "Biedt geen bescherming"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Condoom",
+              "rechts": "Biedt bescherming (indien correct gebruikt)"
+            },
+            {
+              "links": "Pessarium",
+              "rechts": "Biedt geen bescherming"
+            },
+            {
+              "links": "Hormoonspiraaltje",
+              "rechts": "Biedt geen bescherming"
+            }
+          ],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 41,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": [
+        "Inzicht in complexe relaties tussen levensstijl en embryonale ontwikkeling",
+        "Vergelijken van verschillende vormen van donatie (eicel vs embryo)",
+        "Begrijpen van preventiestrategieën voor verschillende teratogenen"
+      ],
+      "tips": [
+        "Let goed op de subtiele verschillen tussen behandelingen (wiens gameten worden gebruikt?).",
+        "Focus op de 'waarom'-vraag bij de open vragen."
+      ]
     }
   ],
   "extra_informatie": {
-    "voorkennis": ["Cellen en organellen", "Mitose en basis genetica"],
+    "voorkennis": [
+      "Cellen en organellen",
+      "Mitose en basis genetica",
+      "Anatomie voortplantingsstelsels",
+      "Basis hormonale cyclus",
+      "Basis embryologie",
+      "Voortplantingsstelsel man/vrouw"
+    ],
     "vervolgonderwerpen": [
       "Genetica en overerving",
-      "Evolutietheorie in detail"
+      "Evolutietheorie in detail",
+      "Soa's en pathologie",
+      "Ethiek in de voortplantingsgeneeskunde",
+      "Genetica en erfelijkheid"
     ],
-    "bronnen": ["Cursusmateriaal Biologie T1 H1"]
+    "bronnen": ["Cursusmateriaal Biologie"]
   }
 }

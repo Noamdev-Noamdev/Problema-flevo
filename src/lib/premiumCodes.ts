@@ -10,10 +10,10 @@ interface PremiumCode {
 // Lijst van geldige premium codes
 // Voeg nieuwe codes toe wanneer een klant betaalt
 export const VALID_PREMIUM_CODES: PremiumCode[] = [
-  //{
-  //  code: "DEMO-2024-ABC123",
-  // customerNote: "Demo code voor testing"
-  //},
+  {
+    code: "DEMO-2024-ABC123",
+   customerNote: "Demo code voor testing"
+  },
   // Voeg hier nieuwe codes toe in dit formaat:
   // {
   //   code: "JOUW-CODE-HIER",
