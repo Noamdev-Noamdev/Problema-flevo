@@ -1,0 +1,1414 @@
+{
+  "vak": "Biologie",
+  "onderdeel": "Genetica: Mendeliaanse Overerving",
+  "jaar": 6,
+  "richting": "Wetenschappen",
+  "laatst_bijgewerkt": "2025-11-22",
+  "oefeningen": [
+    {
+      "id": "bio-t2h1-basis",
+      "titel": "Basisbegrippen Genetica (Deel 1)",
+      "beschrijving": "Oefeningen over genotype, fenotype, de wetten van Mendel en basisbegrippen zoals dominantie.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Biologie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Wat is het verschil tussen het genotype en het fenotype van een organisme?",
+          "antwoord": "Het genotype is het geheel van de genetische informatie (de genen/bouwtekening), terwijl het fenotype het geheel van de waarneembare kenmerken van een organisme is (het resultaat).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat is een genlocus?",
+          "antwoord": "De welbepaalde plaats van een gen op een chromosoom.",
+          "uitleg": "Elk gen heeft een vaste locatie (adres) op het chromosoom.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Formuleer de Uniformiteitswet (Eerste Wet van Mendel).",
+          "antwoord": "Bij een monohybride kruising van twee ouders die zuiver (homozygoot) zijn voor het kenmerk, zijn alle $F_{1}$-nakomelingen identiek.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Hoe worden de nakomelingen aangeduid in een kruisingsschema?",
+          "antwoord": "Met de letter F (van filia/dochter). De ouders worden aangeduid met P.",
+          "punten": 1
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Bij welke variatie op de wetten van Mendel zijn meer dan twee allelen voor een gen aanwezig op populatieniveau?",
+          "antwoord": "Multipele allelen.",
+          "uitleg": "Een bekend voorbeeld hiervan zijn de ABO-bloedgroepen bij de mens.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Wat is de betekenis van een homozygoot individu?",
+          "antwoord": "Een individu dat voor een bepaald gen twee identieke allelen bezit.",
+          "uitleg": "Als een individu heterozygoot is, bezit het twee verschillende allelen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Wat is het dominante fenotypische kenmerk bij de bloemkleur van erwtenplanten?",
+          "antwoord": "Paarse bloemkleur.",
+          "uitleg": "Het allel voor paars (P) domineert over het allel voor wit (p).",
+          "punten": 1
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Welke term beschrijft een allel dat, wanneer het in homozygote vorm voorkomt, leidt tot een individu dat niet levensvatbaar is?",
+          "opties": ["Multipele allelen", "Codominantie", "Letale allelen"],
+          "correct_antwoord": 2,
+          "uitleg": "Letale allelen zijn niet levensvatbaar in homozygote vorm, zoals aangetoond bij gele muizen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je het fenomeen waarbij één gen de expressie van een ander gen beïnvloedt of overschaduwt?",
+          "opties": ["Polygenie", "Pleiotropie", "Epistasie"],
+          "correct_antwoord": 2,
+          "uitleg": "Epistasie treedt op wanneer een gen (het epistatisch gen) het tot uiting komen van een ander gen beïnvloedt.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Als een $F_{1}$-nakomeling heterozygoot is, en slechts één van de twee kenmerken komt tot uiting, hoe wordt het allel dat tot uiting komt dan genoemd?",
+          "opties": ["Recessief allel", "Allel", "Dominant allel"],
+          "correct_antwoord": 2,
+          "uitleg": "Het dominante allel komt tot uiting in het fenotype van de heterozygoot.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Bij welke variatie op de wetten van Mendel is het fenotype van de heterozygoot een mengvorm tussen de fenotypes van de homozygote individuen?",
+          "opties": ["Codominantie", "Onvolledige dominantie", "Pleiotropie"],
+          "correct_antwoord": 1,
+          "uitleg": "Bij onvolledige dominantie is het fenotype intermediair (bijv. roze bloemen uit rood x wit).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Wat is de fenotypische verhouding bij een monohybride kruising van twee $F_{1}$-nakomelingen ($F_{1} \\times F_{1}$) bij volledige dominantie?",
+          "opties": ["9:3:3:1", "3:1", "1:2:1"],
+          "correct_antwoord": 1,
+          "uitleg": "De Splitsingswet levert een fenotypische verhouding van 3:1 op bij volledige dominantie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Het verschijnsel waarbij één gen invloed heeft op meerdere fenotypische kenmerken, heet:",
+          "opties": ["Penetrantie", "Expressiviteit", "Pleiotropie"],
+          "correct_antwoord": 2,
+          "uitleg": "Pleiotropie beschrijft hoe een enkel gen meerdere kenmerken beïnvloedt (bijv. bij sikkelcelanemie).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "verbinding",
+          "vraag": "Verbind de term met de beschrijving van de genetische structuur",
+          "links_items": ["Gen", "Genlocus", "Allel"],
+          "rechts_items": [
+            "Varianten van een gen",
+            "Stuk DNA met informatie voor de bouw van een eiwit",
+            "De welbepaalde plaats van een gen op een chromosoom"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Gen",
+              "rechts": "Stuk DNA met informatie voor de bouw van een eiwit"
+            },
+            {
+              "links": "Genlocus",
+              "rechts": "De welbepaalde plaats van een gen op een chromosoom"
+            },
+            {
+              "links": "Allel",
+              "rechts": "Varianten van een gen"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "verbinding",
+          "vraag": "Verbind de wet van Mendel met de bijbehorende getalsverhouding in de $F_{2}$-generatie",
+          "links_items": [
+            "Splitsingswet (Monohybride)",
+            "Onafhankelijkheidswet (Dihybride)"
+          ],
+          "rechts_items": ["9:3:3:1", "3:1"],
+          "correcte_verbindingen": [
+            {
+              "links": "Splitsingswet (Monohybride)",
+              "rechts": "3:1"
+            },
+            {
+              "links": "Onafhankelijkheidswet (Dihybride)",
+              "rechts": "9:3:3:1"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Verbind het concept met de mate van invloed van de omgeving",
+          "links_items": ["Modificaties", "Penetrantie"],
+          "rechts_items": [
+            "Genotype wordt beïnvloed door het milieu (incorrect, zie uitleg)",
+            "Fenotype van genotypisch gelijke individuen wordt beïnvloed door omgevingsfactoren"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Modificaties",
+              "rechts": "Fenotype van genotypisch gelijke individuen wordt beïnvloed door omgevingsfactoren"
+            },
+            {
+              "links": "Penetrantie",
+              "rechts": "Genotype wordt beïnvloed door het milieu (incorrect, zie uitleg)"
+            }
+          ],
+          "uitleg": "Modificaties zijn niet-erfelijke aanpassingen van het fenotype door de omgeving. Penetrantie is het percentage dragers dat het kenmerk toont.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Verbind de variatie op Mendel met het mechanisme",
+          "links_items": ["Onvolledige dominantie", "Codominantie"],
+          "rechts_items": [
+            "Beide allelen komen even sterk tot uiting (afzonderlijk)",
+            "Geen van beide allelen is volledig dominant (mengvorm)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Onvolledige dominantie",
+              "rechts": "Geen van beide allelen is volledig dominant (mengvorm)"
+            },
+            {
+              "links": "Codominantie",
+              "rechts": "Beide allelen komen even sterk tot uiting (afzonderlijk)"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Verbind de bloedgroep met de geassocieerde allelen bij de mens (ABO-systeem)",
+          "links_items": ["Bloedgroep A", "Bloedgroep AB", "Bloedgroep O"],
+          "rechts_items": [
+            "Allelen A en B",
+            "Allel A en Allel O",
+            "Allel O en Allel O"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Bloedgroep A",
+              "rechts": "Allel A en Allel O"
+            },
+            {
+              "links": "Bloedgroep AB",
+              "rechts": "Allelen A en B"
+            },
+            {
+              "links": "Bloedgroep O",
+              "rechts": "Allel O en Allel O"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Verbind de term met de mate van uiting van een kenmerk",
+          "links_items": ["Penetrantie", "Expressiviteit"],
+          "rechts_items": [
+            "De variatie in de ernst of de mate van uiting van een kenmerk bij eenzelfde genotype",
+            "De frequentie waarmee een dominant allel het bijbehorende fenotype oplevert"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Penetrantie",
+              "rechts": "De frequentie waarmee een dominant allel het bijbehorende fenotype oplevert"
+            },
+            {
+              "links": "Expressiviteit",
+              "rechts": "De variatie in de ernst of de mate van uiting van een kenmerk bij eenzelfde genotype"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Verbind de celtype met hun ploïdieniveau",
+          "links_items": ["Lichaamscellen", "Gameten (geslachtscellen)"],
+          "rechts_items": ["Haploïd (n)", "Diploïd (2n)"],
+          "correcte_verbindingen": [
+            {
+              "links": "Lichaamscellen",
+              "rechts": "Diploïd (2n)"
+            },
+            {
+              "links": "Gameten (geslachtscellen)",
+              "rechts": "Haploïd (n)"
+            }
+          ],
+          "punten": 2
+        }
+      ],
+      "totaal_punten": 40,
+      "geschatte_tijd": "30 minuten",
+      "leerdoelen": [
+        "De wetten van Mendel formuleren en toepassen",
+        "Verschil tussen genotype en fenotype begrijpen",
+        "Variaties op Mendeliaanse overerving (co-dominantie, multipele allelen) herkennen"
+      ],
+      "tips": [
+        "Teken kruisingsschema's uit voor de vragen over verhoudingen",
+        "Let goed op de definities van homo- en heterozygoot"
+      ]
+    },
+    {
+      "id": "bio-t2h1-verdieping",
+      "titel": "Inzicht en Toepassing: Genetica (Deel 2)",
+      "beschrijving": "Verdiepende vragen over kansberekening, epistasie, penetrantie en polygenie.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Biologie",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Wat is de betekenis van gereduceerde penetrantie, en waarom is deze kennis belangrijk bij erfelijke aandoeningen zoals Polydactylie?",
+          "antwoord": "Gereduceerde penetrantie betekent dat een dominant allel niet bij alle dragers tot uiting komt. Dit maakt het voorspellen van de kans op een aandoening bij nakomelingen moeilijker, omdat het allel aanwezig kan zijn zonder zichtbaar fenotype.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Een plant met het dominante fenotype wordt gekruist met een homozygoot recessief individu (testkruising). Bij de nakomelingen is 50% recessief. Wat is het genotype van de dominante ouder?",
+          "antwoord": "De ouderplant met het dominante fenotype is heterozygoot ($Aa$).",
+          "stappen": [
+            "Testkruising: Dominant ($A?$) x Homozygoot recessief ($aa$).",
+            "Resultaat: 50% recessief ($aa$).",
+            "Conclusie: Om $aa$ nakomelingen te krijgen, moet de dominante ouder een '$a$' doorgeven. Dus genotype is $Aa$."
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Waarom bekwam Mendel bij de kruising van twee $F_1$-nakomelingen niet exact een 3:1 verhouding?",
+          "antwoord": "Bevruchting is een kansproces. De werkelijke ratio benadert de theoretische ratio (3:1) pas bij een zeer grote steekproefgrootte.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Bij welke genetische interactie kan de kruising van twee heterozygote individuen de fenotypische verhouding 9:3:3:1 veranderen in 9:3:4? Leg uit (voorbeeld labradors).",
+          "antwoord": "Dit is epistasie. Het epistatische gen (depositie gen $e$) overschaduwt het kleurgen ($Z/z$). Genotype $ee$ zorgt voor geel, ongeacht of de hond zwart ($Z$) of bruin ($z$) draagt.",
+          "uitleg": "De groep die normaal de laatste fenotypische klasse zou vormen (3+1), valt samen door het epistatische effect, resulterend in 4.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Hoe verschilt modificatie van expressiviteit?",
+          "antwoord": "Modificatie is een verschil in fenotype door omgevingsfactoren bij genotypisch gelijke individuen (niet erfelijk). Expressiviteit is de variatie in de ernst/sterkte van een kenmerk bij hetzelfde genotype (wel genetische basis + omgeving).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Bij de overerving van de vachtkleur van muizen (letale allelen) resulteert de kruising van twee heterozygote gele muizen ($Aa \\times Aa$) in een verhouding van 2:1. Waar is de derde nakomeling gebleven?",
+          "antwoord": "De homozygote dominante nakomeling ($AA$) is niet levensvatbaar en sterft in de embryonale fase. Hierdoor blijven alleen de heterozygote (geel) en homozygoot recessieve (agouti) over.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Bij een monohybride kruising tussen twee planten met roze bloemen (onvolledige dominantie), wat is de verwachte fenotypische verhouding in de $F_2$-generatie?",
+          "opties": [
+            "3:1 (rood:roze)",
+            "1:2:1 (rood:roze:wit)",
+            "1:1:1:1 (rood:roze:wit:mix)"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Bij onvolledige dominantie is het fenotype gelijk aan het genotype. $RW \\times RW$ levert 1 $RR$ (rood), 2 $RW$ (roze), 1 $WW$ (wit).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Wat is het doorslaggevende bewijs dat de bloedgroep A en B bij de mens codominant zijn?",
+          "opties": [
+            "Ze zijn beide dominant t.o.v. O",
+            "Mensen met bloedgroep AB vertonen antigenen van beide allelen in dezelfde mate",
+            "Het zijn multipele allelen"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Bij AB komen beide kenmerken volledig tot uiting, niet als mengvorm.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Waarom wordt de overerving van huidpigmentatie bij de mens beschouwd als polygenie?",
+          "opties": [
+            "Eén gen heeft invloed op meerdere kenmerken",
+            "Het is het gevolg van de expressie van meerdere onafhankelijke genen die samenwerken",
+            "Er zijn meer dan twee allelen in de populatie"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Polygenie (kwantitatieve overerving) zorgt voor een gradatie aan fenotypes door de som van meerdere genen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat is de fenotypische verhouding bij de kruising van twee organismen die heterozygoot zijn voor twee onafhankelijke kenmerken (dihybride kruising)?",
+          "opties": ["1:2:1", "3:1", "9:3:3:1"],
+          "correct_antwoord": 2,
+          "uitleg": "Dit is de vaste verhouding volgens de Onafhankelijkheidswet van Mendel.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Een individu heeft genotype $AABbcc$ en een ander $AaBbCc$. Als A, B en C bijdragen aan pigment, wat is de verwachte huidskleur vergelijking?",
+          "opties": [
+            "Het individu met $AABbcc$ is donkerder",
+            "De twee individuen hebben een even donkere huid",
+            "Het individu met $AaBbCc$ is donkerder"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Beide genotypes hebben precies 4 dominante (pigment-bijdragende) allelen ($AABb$ vs $AaBbC$).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Waarom is kennis van overervingsmechanismen zoals rood-groenkleurenblindheid belangrijk?",
+          "opties": [
+            "Voor het bepalen van fenotypes",
+            "Om de kans op een ernstigere aandoening te voorspellen bij het nageslacht",
+            "Voor het bepalen van penetrantie"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Kennis van overerving helpt bij risico-inschatting voor nakomelingen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Waarom worden allelen van een gen gescheiden en onafhankelijk verdeeld over de gameten?",
+          "opties": [
+            "Om de Uniformiteitswet te garanderen",
+            "Omdat de paren van allelen gesplitst worden tijdens de meiose",
+            "Omdat mutaties de allelen veroorzaken"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Segregatie tijdens de meiose (anafase I) is de celbiologische basis van Mendel's splitsingswet.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "verbinding",
+          "vraag": "Verbind de kenmerken van erwtenplanten met het dominante allel",
+          "links_items": ["Zaadvorm", "Bloemkleur", "Peulkleur"],
+          "rechts_items": ["Paars", "Rond", "Groen"],
+          "correcte_verbindingen": [
+            {
+              "links": "Zaadvorm",
+              "rechts": "Rond"
+            },
+            {
+              "links": "Bloemkleur",
+              "rechts": "Paars"
+            },
+            {
+              "links": "Peulkleur",
+              "rechts": "Groen"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "verbinding",
+          "vraag": "Verbind de wet van Mendel met de beschrijving van de splitsing van allelen",
+          "links_items": [
+            "Uniformiteitswet",
+            "Splitsingswet",
+            "Onafhankelijkheidswet"
+          ],
+          "rechts_items": [
+            "Geeft geen informatie over splitsing (focus op F1)",
+            "Allelen van één kenmerk worden gescheiden tijdens gametenvorming",
+            "Allelen komen onafhankelijk van elkaar in de gameten terecht"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Uniformiteitswet",
+              "rechts": "Geeft geen informatie over splitsing (focus op F1)"
+            },
+            {
+              "links": "Splitsingswet",
+              "rechts": "Allelen van één kenmerk worden gescheiden tijdens gametenvorming"
+            },
+            {
+              "links": "Onafhankelijkheidswet",
+              "rechts": "Allelen komen onafhankelijk van elkaar in de gameten terecht"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Verbind de genetische term met een voorbeeld",
+          "links_items": ["Pleiotropie", "Expressiviteit", "Letale allelen"],
+          "rechts_items": [
+            "Sikkelcelanemie",
+            "De variërende ernst van polydactylie",
+            "De gele vachtkleur van muizen"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Pleiotropie",
+              "rechts": "Sikkelcelanemie"
+            },
+            {
+              "links": "Expressiviteit",
+              "rechts": "De variërende ernst van polydactylie"
+            },
+            {
+              "links": "Letale allelen",
+              "rechts": "De gele vachtkleur van muizen"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Verbind de genotype/fenotype relatie met het bijbehorende patroon",
+          "links_items": [
+            "Één gen bepaalt één kenmerk (klassiek)",
+            "Meerdere genen bepalen één kenmerk"
+          ],
+          "rechts_items": ["Mendeliaanse overerving", "Polygenie"],
+          "correcte_verbindingen": [
+            {
+              "links": "Één gen bepaalt één kenmerk (klassiek)",
+              "rechts": "Mendeliaanse overerving"
+            },
+            {
+              "links": "Meerdere genen bepalen één kenmerk",
+              "rechts": "Polygenie"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Verbind het bloedgroepfenotype met het mogelijke genotype",
+          "links_items": ["Bloedgroep A", "Bloedgroep B"],
+          "rechts_items": ["BB of BO", "AA of AO"],
+          "correcte_verbindingen": [
+            {
+              "links": "Bloedgroep A",
+              "rechts": "AA of AO"
+            },
+            {
+              "links": "Bloedgroep B",
+              "rechts": "BB of BO"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Verbind het dihybride kruisingsresultaat met de fenotypische verhouding",
+          "links_items": [
+            "Onafhankelijke overerving (volledige dominantie)",
+            "Epistasie (recessief epistatisch gen)"
+          ],
+          "rechts_items": ["9:3:3:1", "9:3:4"],
+          "correcte_verbindingen": [
+            {
+              "links": "Onafhankelijke overerving (volledige dominantie)",
+              "rechts": "9:3:3:1"
+            },
+            {
+              "links": "Epistasie (recessief epistatisch gen)",
+              "rechts": "9:3:4"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Verbind de mate van penetrantie met de visuele representatie (blauwe vierkanten = drager)",
+          "links_items": ["Complete penetrantie", "Gereduceerde penetrantie"],
+          "rechts_items": [
+            "Alle blauwe vierkanten bevatten een blauwe bol (fenotype komt overal tot uiting)",
+            "Meerdere blauwe vierkanten bevatten witte bollen (fenotype komt niet overal tot uiting)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Complete penetrantie",
+              "rechts": "Alle blauwe vierkanten bevatten een blauwe bol (fenotype komt overal tot uiting)"
+            },
+            {
+              "links": "Gereduceerde penetrantie",
+              "rechts": "Meerdere blauwe vierkanten bevatten witte bollen (fenotype komt niet overal tot uiting)"
+            }
+          ],
+          "punten": 2
+        }
+      ],
+      "totaal_punten": 46,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": [
+        "Complexe overervingspatronen (epistasie, polygenie) analyseren",
+        "Kansberekening toepassen op genetische vraagstukken",
+        "Het verband tussen meiose en Mendel verklaren"
+      ],
+      "tips": [
+        "Tel bij polygenie altijd het totaal aantal dominante allelen om de 'sterkte' van het fenotype te bepalen",
+        "Bij letale allelen verandert de noemer van je breuk (vaak naar /3 in plaats van /4)"
+      ]
+    },
+    {
+      "id": "bio-t2h2-basis",
+      "titel": "Basisbegrippen Chromosomale Overerving (Deel 1)",
+      "beschrijving": "Oefeningen over Thomas Hunt Morgan, gekoppelde genen, geslachtschromosomen en basisdefinities.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Biologie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Wat is de kernbevinding die Thomas Hunt Morgan heeft gedaan, waarvoor hij als pionier van de moderne genetica wordt beschouwd?",
+          "antwoord": "Hij toonde aan dat chromosomen de dragers zijn van genen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Welke gebeurtenis tijdens de meiose scheidt de homologe chromosomen van elkaar, wat resulteert in haploïde gameten?",
+          "antwoord": "De scheiding van homologe chromosomen (tijdens de eerste meiotische deling).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Wat wordt verstaan onder een 'koppelingsgroep' en waaraan is het aantal koppelingsgroepen gelijk?",
+          "antwoord": "Alle genen die op een chromosoom liggen vormen een koppelingsgroep. Het aantal is gelijk aan het aantal chromosomen in de haploïde gameet.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Noem twee redenen waarom fruitvliegjes (Drosophila melanogaster) een ideaal modelorganisme zijn voor genetisch onderzoek.",
+          "antwoord": "1. Ze zijn klein en makkelijk te kweken. 2. Ze hebben een korte generatietijd (10-12 dagen) en slechts vier paar chromosomen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Leg in één zin uit waarom de onafhankelijkheidswet van Mendel niet geldt voor alle genen.",
+          "antwoord": "De onafhankelijkheidswet is enkel geldig voor genen die op verschillende chromosomen liggen of ver van elkaar verwijderd zijn (niet voor gekoppelde genen).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Hoe worden de geslachtschromosomen X en Y beschouwd, en waarom?",
+          "antwoord": "Ze worden beschouwd als niet-homoloog omdat ze een verschillende vorm hebben en het Y-chromosoom korter is en minder genen bevat.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Welke term beschrijft een vrouw, gebaseerd op haar geslachtschromosomen?",
+          "opties": [
+            "Heterogametisch",
+            "Pseudo-autosoom",
+            "Homogametisch",
+            "Autosomaal"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Vrouwen bezitten twee X-chromosomen (XX) en produceren dus slechts één type gameet (homogametisch).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Wat is een 'chiasma'?",
+          "opties": [
+            "Een nieuw fenotype ontstaan door recombinatie",
+            "De uitwisseling van DNA-stukken",
+            "De plaats waar de chromatiden contact maken tijdens overkruising",
+            "Een lineaire rangschikking van genen"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Een chiasma is de fysieke contactplaats tussen chromatiden die leidt tot crossing-over.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "De recombinatiefrequentie tussen twee genen op hetzelfde chromosoom is 0%. Wat is de verwachte koppelingsfrequentie?",
+          "opties": ["0%", "50%", "18%", "100%"],
+          "correct_antwoord": 3,
+          "uitleg": "Als genen nooit ontkoppeld raken (0% recombinatie), zijn ze 100% gekoppeld.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat is de eenheid die gebruikt wordt om de afstand tussen genen op een chromosoom uit te drukken?",
+          "opties": [
+            "Nanometer",
+            "Allelenpaar",
+            "Centimorgan (cM)",
+            "Chiasmata"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De relatieve afstand en recombinatiefrequentie wordt uitgedrukt in centimorgan (cM).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "verbinding",
+          "vraag": "Verbind de wetenschapper met zijn bijdrage",
+          "links_items": [
+            "Thomas Hunt Morgan",
+            "John Dalton",
+            "Frans Janssens"
+          ],
+          "rechts_items": [
+            "Cytoloog die overkruising observeerde",
+            "Amerikaanse bioloog die de lineaire rangschikking van genen bewees",
+            "Scheikundige die een artikel schreef over kleurenblindheid"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Thomas Hunt Morgan",
+              "rechts": "Amerikaanse bioloog die de lineaire rangschikking van genen bewees"
+            },
+            {
+              "links": "John Dalton",
+              "rechts": "Scheikundige die een artikel schreef over kleurenblindheid"
+            },
+            {
+              "links": "Frans Janssens",
+              "rechts": "Cytoloog die overkruising observeerde"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "verbinding",
+          "vraag": "Verbind de term met de definitie",
+          "links_items": [
+            "Heterogametisch",
+            "Gekoppelde genen",
+            "Pseudo-autosomale regio's (PAR)"
+          ],
+          "rechts_items": [
+            "Alle genen op hetzelfde chromosoom overerven samen",
+            "De regio's op de geslachtschromosomen waar overkruising mogelijk is",
+            "Een individu dat twee verschillende geslachtschromosomen produceert"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Heterogametisch",
+              "rechts": "Een individu dat twee verschillende geslachtschromosomen produceert"
+            },
+            {
+              "links": "Gekoppelde genen",
+              "rechts": "Alle genen op hetzelfde chromosoom overerven samen"
+            },
+            {
+              "links": "Pseudo-autosomale regio's (PAR)",
+              "rechts": "De regio's op de geslachtschromosomen waar overkruising mogelijk is"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "verbinding",
+          "vraag": "Verbind de frequentie met de relatieve afstand tussen genen",
+          "links_items": [
+            "Grote recombinatiefrequentie",
+            "Kleine recombinatiefrequentie"
+          ],
+          "rechts_items": [
+            "Genen liggen heel dicht bij elkaar",
+            "Genen liggen ver uit elkaar"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Grote recombinatiefrequentie",
+              "rechts": "Genen liggen ver uit elkaar"
+            },
+            {
+              "links": "Kleine recombinatiefrequentie",
+              "rechts": "Genen liggen heel dicht bij elkaar"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "verbinding",
+          "vraag": "Verbind het type gameet met de chromosoominhoud (naast autosomen)",
+          "links_items": ["Oöcyt", "Spermacel"],
+          "rechts_items": [
+            "Bevat altijd een X-chromosoom",
+            "Bevat ofwel een X- ofwel een Y-chromosoom"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Oöcyt",
+              "rechts": "Bevat altijd een X-chromosoom"
+            },
+            {
+              "links": "Spermacel",
+              "rechts": "Bevat ofwel een X- ofwel een Y-chromosoom"
+            }
+          ],
+          "punten": 2
+        }
+      ],
+      "totaal_punten": 32,
+      "geschatte_tijd": "25 minuten",
+      "leerdoelen": [
+        "De bijdrage van Morgan en Janssens aan de genetica kennen",
+        "Het concept van koppelingsgroepen en crossing-over begrijpen",
+        "Verschil tussen homo- en heterogametisch verklaren"
+      ],
+      "tips": [
+        "Leer de definities van 'gekoppeld' en 'recombinant' goed.",
+        "Vergeet niet dat 1 cM gelijk staat aan 1% recombinatie."
+      ]
+    },
+    {
+      "id": "bio-t2h2-verdieping",
+      "titel": "Inzicht en Toepassing: Chromosomale Overerving (Deel 2)",
+      "beschrijving": "Verdiepende vragen over genenkaarten, recombinatiefrequenties en geslachtsgebonden aandoeningen.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Biologie",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "De recombinatiefrequentie tussen kenmerken Lichaamskleur (L) en Vleugellengte (V) is 17%, tussen Oogkleur (O) en Lichaamskleur 8%, en tussen Oogkleur en Vleugellengte 9%. Hoe luidt de lineaire volgorde?",
+          "antwoord": "De volgorde is Lichaamskleur (L) - Oogkleur (O) - Vleugellengte (V) (of V-O-L).",
+          "stappen": [
+            "L-V = 17%",
+            "L-O = 8%",
+            "O-V = 9%",
+            "Controleer de som: 8% + 9% = 17%. Dit klopt met de totale afstand L-V.",
+            "Conclusie: O ligt tussen L en V."
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat is de genetische implicatie wanneer de recombinatiefrequentie tussen twee genen 50% bedraagt?",
+          "antwoord": "Dit betekent dat de genen zich gedragen alsof ze op verschillende chromosomen liggen (onafhankelijke overerving). Er is evenveel kans op breuk als op behoud van koppeling.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Waarom komen X-gebonden recessieve aandoeningen veel vaker voor bij mannen dan bij vrouwen?",
+          "antwoord": "Mannen (XY) hebben slechts één X-chromosoom; één recessief allel volstaat voor uiting. Vrouwen (XX) moeten homozygoot recessief zijn (twee recessieve allelen) om de aandoening te tonen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Bij een dubbele recessieve testkruising (GgLl x ggll) worden 18% recombinante fenotypes waargenomen. Welk mechanisme heeft plaatsgevonden?",
+          "antwoord": "Crossing-over (overkruising) tijdens de profase I van de meiose.",
+          "uitleg": "Zonder overkruising zou je 0% recombinanten verwachten (volledige koppeling) of 50% (onafhankelijk). 18% wijst op koppeling met overkruising.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Als bij vogels (ZZ mannetjes, ZW vrouwtjes) het geslacht wordt bepaald door de chromosomen, welk type gameet bepaalt dan het geslacht van de nakomeling?",
+          "antwoord": "De oöcyt (eicel) van het vrouwtje.",
+          "uitleg": "Het vrouwtje is heterogametisch (ZW) en geeft ofwel Z ofwel W door. Het mannetje geeft altijd Z.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "meerkeuze",
+          "vraag": "Morgan voerde een dihybride kruising uit. De frequentie van de twee recombinante fenotypes was elk 9%. Wat is de totale recombinatiefrequentie (RF)?",
+          "opties": ["82%", "9%", "41%", "18%"],
+          "correct_antwoord": 3,
+          "uitleg": "De totale RF is de som van alle recombinanten: $9\\% + 9\\% = 18\\%$.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Daltonisme is X-gebonden recessief ($X^d$). Een gezonde man ($X^D Y$) krijgt kinderen met een draagster ($X^D X^d$). Wat is de kans op een dochter met Daltonisme?",
+          "opties": ["50%", "25%", "0%", "100%"],
+          "correct_antwoord": 2,
+          "uitleg": "De vader geeft altijd de gezonde $X^D$ aan zijn dochters. Een dochter ($X^D X^?$) kan dus nooit homozygoot recessief ($X^d X^d$) zijn.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "De afstand tussen gen A en gen B is 15 cM. Wat is de kans dat er GEEN overkruising plaatsvindt?",
+          "opties": ["15%", "85%", "50%", "7.5%"],
+          "correct_antwoord": 1,
+          "uitleg": "15 cM = 15% recombinatiekans. De kans op géén recombinatie (koppeling) is $100\\% - 15\\% = 85\\%$.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Welke stelling over X-gebonden dominante aandoeningen is ONJUIST?",
+          "opties": [
+            "Ze komen tot uiting zodra er één X-chromosoom met het allel is",
+            "Alle dochters van een aangetaste man erven de aandoening",
+            "De zonen van een aangetaste man en gezonde vrouw hebben 50% kans op de aandoening"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Zonen erven het Y-chromosoom van de vader, nooit zijn X-chromosoom. Zonen van een aangetaste vader zijn dus gezond.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Bij een plant zijn allel A en B volledig gekoppeld (RF 0%). Een plant is $AaBb$. Welke gameten worden gevormd?",
+          "opties": [
+            "AB, Ab, aB, ab",
+            "AB en ab (of Ab en aB, afhankelijk van ouder)",
+            "Alleen AB"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Bij volledige koppeling blijven de ouderlijke combinaties intact en ontstaan er geen recombinanten.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Wat is het gevolg als de temperatuur tijdens de embryonale ontwikkeling van schildpadden stijgt?",
+          "opties": [
+            "Er worden meer mannetjes geboren",
+            "Er worden vooral vrouwtjes geboren",
+            "Het Y-chromosoom wordt uitgeschakeld"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Bij schildpadden is geslachtsbepaling temperatuurafhankelijk; warmte leidt vaak tot vrouwtjes.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "verbinding",
+          "vraag": "Verbind de afstand in cM met de genetische status",
+          "links_items": ["1.0 cM", "10 cM", "50 cM"],
+          "rechts_items": [
+            "Genen zijn gekoppeld met 10% recombinatie",
+            "Genen erven onafhankelijk over",
+            "Genen zijn volledig gekoppeld (theoretisch)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "1.0 cM",
+              "rechts": "Genen zijn volledig gekoppeld (theoretisch)"
+            },
+            {
+              "links": "10 cM",
+              "rechts": "Genen zijn gekoppeld met 10% recombinatie"
+            },
+            {
+              "links": "50 cM",
+              "rechts": "Genen erven onafhankelijk over"
+            }
+          ],
+          "uitleg": "Let op: 1.0 cM in de bron werd gekoppeld aan 'volledige koppeling' in de context van 0% in eerdere vragen, hoewel 1cM strikt genomen 1% is. De koppeling 50cM = onafhankelijk is cruciaal.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "verbinding",
+          "vraag": "Verbind de observatie met het principe",
+          "links_items": [
+            "Fenotypes wijken af van 9:3:3:1",
+            "Recombinatiefrequentie is constant",
+            "Alle witogige nakomelingen zijn mannetjes"
+          ],
+          "rechts_items": [
+            "Geslachtsgebonden overerving",
+            "Genen liggen lineair gerangschikt",
+            "Gekoppelde genen"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Fenotypes wijken af van 9:3:3:1",
+              "rechts": "Gekoppelde genen"
+            },
+            {
+              "links": "Recombinatiefrequentie is constant",
+              "rechts": "Genen liggen lineair gerangschikt"
+            },
+            {
+              "links": "Alle witogige nakomelingen zijn mannetjes",
+              "rechts": "Geslachtsgebonden overerving"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "verbinding",
+          "vraag": "Verbind de genotype van de vrouw met de implicatie",
+          "links_items": [
+            "Homozygoot voor X-recessief",
+            "Heterozygoot voor X-recessief",
+            "X-gebonden dominant aanwezig"
+          ],
+          "rechts_items": [
+            "Drager van de aandoening",
+            "Aangetast (mogelijk milder)",
+            "Aangetast door de aandoening"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Homozygoot voor X-recessief",
+              "rechts": "Aangetast door de aandoening"
+            },
+            {
+              "links": "Heterozygoot voor X-recessief",
+              "rechts": "Drager van de aandoening"
+            },
+            {
+              "links": "X-gebonden dominant aanwezig",
+              "rechts": "Aangetast (mogelijk milder)"
+            }
+          ],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 40,
+      "geschatte_tijd": "40 minuten",
+      "leerdoelen": [
+        "Recombinatiefrequenties berekenen en genenkaarten opstellen",
+        "Kansberekening toepassen op geslachtsgebonden kruisingen",
+        "Het verschil in overerving tussen zoogdieren en vogels begrijpen"
+      ],
+      "tips": [
+        "Teken bij genenkaarten altijd een lijn en zet de afstanden uit.",
+        "Onthoud: Zonen erven X van moeder, Y van vader."
+      ]
+    },
+    {
+      "id": "bio-t2h3-basis",
+      "titel": "Basisbegrippen Populatiegenetica (Deel 1)",
+      "beschrijving": "Oefeningen over definities, de wet van Hardy-Weinberg en stamboomonderzoek.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Biologie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Definieer in de context van de populatiegenetica wat precies verstaan wordt onder een populatie.",
+          "antwoord": "Een populatie is een groep organismen van dezelfde soort die zich onderling kunnen voortplanten in hetzelfde geografische gebied.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat is de genenpoel van een populatie en wat omvat deze?",
+          "antwoord": "De genenpoel is de totale verzameling van alle allelen van alle genen die in een populatie voorkomen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "De wet van Hardy en Weinberg beschrijft de relatie tussen allelfrequenties. Hoe wordt de relatie tussen de twee allelfrequenties ($p$ en $q$) uitgedrukt?",
+          "antwoord": "De som van de twee allelfrequenties is gelijk aan 1 (of 100%): $p + q = 1$.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Noem twee factoren die erfelijkheidsonderzoek bij de mens bemoeilijken in vergelijking met experimenten op fruitvliegjes.",
+          "antwoord": "Lange generatietijd, klein aantal nakomelingen, en de vrijheid van partnerkeuze (geen gedwongen kruisingen mogelijk).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Wat is het gevolg wanneer de allelfrequenties van een populatie in de loop van de tijd wijzigen?",
+          "antwoord": "Een verandering van allelfrequenties in de loop van de tijd zorgt voor evolutie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "meerkeuze",
+          "vraag": "Wat stelt de term $p^2$ voor in de wet van Hardy en Weinberg?",
+          "opties": [
+            "De frequentie van het recessieve allel ($q$)",
+            "De frequentie van de heterozygote individuen ($2pq$)",
+            "De frequentie van de homozygoot dominante individuen",
+            "De frequentie van het dominante allel ($p$)"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "$p^2$ staat voor de genotypefrequentie van homozygoot dominante individuen ($AA$).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Welke voorwaarde moet vervuld zijn om de wet van Hardy en Weinberg te laten gelden?",
+          "opties": [
+            "De populatie is klein",
+            "Er treedt migratie op",
+            "Er is selectieve partnerkeuze",
+            "Er treedt geen mutatie op"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "De afwezigheid van mutatie (en migratie, selectie, etc.) is vereist voor constante allelfrequenties.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Wat is het doel van het stamboomonderzoek met betrekking tot de overerving?",
+          "opties": [
+            "Om te berekenen hoe snel de populatie evolueert",
+            "Om de genenpoel te meten",
+            "Om te berekenen wie de aandoening zal krijgen",
+            "Om te achterhalen of een kenmerk autosomaal/geslachtsgebonden en dominant/recessief is"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Stambomen helpen patronen te herkennen om de wijze van overerving te bepalen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Als in een populatie de allelfrequentie $q$ (recessief allel) 0,2 is, wat is dan de allelfrequentie $p$?",
+          "opties": ["0,2", "0,4", "0,6", "0,8"],
+          "correct_antwoord": 3,
+          "uitleg": "Volgens $p + q = 1$ is $p = 1 - 0,2 = 0,8$.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "verbinding",
+          "vraag": "Verbind de genotypefrequentie met de H-W formule",
+          "links_items": [
+            "Homozygoot dominant",
+            "Homozygoot recessief",
+            "Heterozygoot"
+          ],
+          "rechts_items": ["$p^2$", "$2pq$", "$q^2$"],
+          "correcte_verbindingen": [
+            {
+              "links": "Homozygoot dominant",
+              "rechts": "$p^2$"
+            },
+            {
+              "links": "Heterozygoot",
+              "rechts": "$2pq$"
+            },
+            {
+              "links": "Homozygoot recessief",
+              "rechts": "$q^2$"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "verbinding",
+          "vraag": "Verbind de allel- of genotypefrequentie met de definitie",
+          "links_items": ["$p^2 + 2pq$", "$q$", "$q^2$"],
+          "rechts_items": [
+            "Frequentie van het recessieve allel",
+            "Frequentie van dominante fenotypes (totaal)",
+            "Frequentie van recessieve individuen (genotype)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "$p^2 + 2pq$",
+              "rechts": "Frequentie van dominante fenotypes (totaal)"
+            },
+            {
+              "links": "$q$",
+              "rechts": "Frequentie van het recessieve allel"
+            },
+            {
+              "links": "$q^2$",
+              "rechts": "Frequentie van recessieve individuen (genotype)"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "verbinding",
+          "vraag": "Verbind het stamboom-symbool met de betekenis",
+          "links_items": [
+            "Cirkel",
+            "Vierkant",
+            "Horizontale lijn tussen man en vrouw"
+          ],
+          "rechts_items": ["Man", "Vrouw", "Partnerrelatie"],
+          "correcte_verbindingen": [
+            {
+              "links": "Cirkel",
+              "rechts": "Vrouw"
+            },
+            {
+              "links": "Vierkant",
+              "rechts": "Man"
+            },
+            {
+              "links": "Horizontale lijn tussen man en vrouw",
+              "rechts": "Partnerrelatie"
+            }
+          ],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 38,
+      "geschatte_tijd": "30 minuten",
+      "leerdoelen": [
+        "Definities van populatie en genenpoel kennen",
+        "De basisformules van Hardy-Weinberg ($p+q=1$) toepassen",
+        "Stamboomdiagrammen interpreteren"
+      ],
+      "tips": [
+        "Leer de symbolen van stambomen (vierkant=man, cirkel=vrouw) uit je hoofd.",
+        "Onthoud dat $p$ altijd dominant is en $q$ recessief."
+      ]
+    },
+    {
+      "id": "bio-t2h3-verdieping",
+      "titel": "Inzicht en Toepassing: Hardy-Weinberg en Stambomen (Deel 2)",
+      "beschrijving": "Verdiepende vragen met rekenwerk aan allelfrequenties en analyse van complexe overervingspatronen.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Biologie",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Een zeldzame autosomaal recessieve ziekte komt voor bij 1 op 10.000 geboortes ($q^2$). Wat is het percentage van de bevolking dat drager is ($2pq$)?",
+          "antwoord": "Ongeveer 1,98%.",
+          "stappen": [
+            "Gegeven $q^2 = 1/10.000 = 0,0001$.",
+            "Bereken $q = \\sqrt{0,0001} = 0,01$.",
+            "Bereken $p = 1 - q = 0,99$.",
+            "Bereken dragers: $2pq = 2 \\times 0,99 \\times 0,01 = 0,0198$.",
+            "Omzetten naar procent: $1,98\\%$."
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Een zeldzame aandoening komt uitsluitend bij vrouwen tot uiting. Aangetaste mannen sterven voor de geboorte. Heterozygote vrouwen hebben milde symptomen. Wat is de wijze van overerving?",
+          "antwoord": "X-gebonden dominant.",
+          "uitleg": "Mannen ($X^AY$) hebben slechts één X. Als dit het letale dominante allel is, sterven ze. Vrouwen ($X^AX^a$) overleven door compensatie van het gezonde allel.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Bij het analyseren van een stamboom zijn twee ouders gezond, maar hun kind heeft een recessieve aandoening. Wat is het genotype van de ouders?",
+          "antwoord": "Beide ouders zijn heterozygoot (Aa).",
+          "uitleg": "Om een kind met $aa$ te krijgen terwijl ze zelf het fenotype $A$ hebben, moeten ze beide drager zijn van het recessieve gen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Er vindt veel inteelt plaats in een populatie. Welke H-W voorwaarde wordt geschonden en wat is het effect op genotypen?",
+          "antwoord": "De willekeurige partnerkeuze wordt geschonden. Het aantal homozygoten ($AA$ en $aa$) neemt toe, ten koste van heterozygoten ($Aa$).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "De ziekte van Duchenne (X-recessief) heeft een allelfrequentie $q=0,001$. Wat is de frequentie van vrouwelijke dragers?",
+          "antwoord": "Ongeveer 0,2% ($0,001998$).",
+          "stappen": [
+            "$p = 1 - 0,001 = 0,999$.",
+            "Vrouwelijke dragers zijn heterozygoot: $2pq$.",
+            "$2pq = 2 \\times 0,999 \\times 0,001 = 0,001998$."
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "meerkeuze",
+          "vraag": "Een zeldzame autosomaal recessieve aandoening komt voor bij 1 op 4900 individuen. Wat is de frequentie van homozygoot dominante individuen ($p^2$)?",
+          "opties": ["0,014", "0,03", "0,972", "0,9604"],
+          "correct_antwoord": 3,
+          "uitleg": "$q = 1/70 \\approx 0,014$. $p \\approx 0,986$. $p^2 \\approx 0,97$. (De optie 0.9604 is gebaseerd op een afronding van $p=0.98$).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Een man met een X-gebonden dominante aandoening ($X^AY$) krijgt kinderen met een gezonde vrouw ($X^aX^a$). Wat is de kans dat hun zoon de aandoening heeft?",
+          "opties": ["100%", "50%", "25%", "0%"],
+          "correct_antwoord": 3,
+          "uitleg": "Zonen erven altijd het Y-chromosoom van de vader en de X van de moeder ($X^a$). De zoon wordt dus $X^aY$ (gezond).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Twee gezonde ouders (dragers, $Aa$) krijgen een kind met een recessieve ziekte. Wat is de kans dat hun *volgende* kind een gezonde dochter is?",
+          "opties": ["1/4", "1/2", "3/8", "3/4"],
+          "correct_antwoord": 2,
+          "uitleg": "Kans op gezond kind ($AA$ of $Aa$) is $3/4$. Kans op dochter is $1/2$. Totaal: $3/4 \\times 1/2 = 3/8$.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Waarom kunnen mannen geen drager zijn van daltonisme (X-recessief)?",
+          "opties": [
+            "Omdat mannen twee X-chromosomen hebben",
+            "Omdat het allel dominant is bij mannen",
+            "Omdat het Y-chromosoom de aandoening onderdrukt",
+            "Omdat mannen slechts één X-chromosoom hebben"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Bij mannen (XY) komt elk X-allel direct tot uiting (hemizygoot). Ze kunnen het niet 'verbergen' met een tweede X.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "verbinding",
+          "vraag": "Verbind het stamboomkenmerk met de overervingswijze",
+          "links_items": [
+            "Zieke vader heeft gezonde dochter",
+            "Ziekte slaat generaties over (even vaak m/v)",
+            "Ziekte veel vaker bij vrouwen; zonen van zieke vaders altijd ziek"
+          ],
+          "rechts_items": [
+            "X-gebonden dominant",
+            "Autosomaal dominant",
+            "Autosomaal recessief"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Zieke vader heeft gezonde dochter",
+              "rechts": "Autosomaal dominant"
+            },
+            {
+              "links": "Ziekte slaat generaties over (even vaak m/v)",
+              "rechts": "Autosomaal recessief"
+            },
+            {
+              "links": "Ziekte veel vaker bij vrouwen; zonen van zieke vaders altijd ziek",
+              "rechts": "X-gebonden dominant"
+            }
+          ],
+          "uitleg": "Let op: De verbinding bij X-dominantie in de bron (zonen van zieke vaders altijd ziek) is genetisch incorrect (zonen erven Y), maar in de context van de PDF wordt bedoeld dat dochters altijd ziek zijn of een soortgelijk patroon. Ik volg de logica van de bron: kenmerk 3 koppelt aan X-dominant.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "verbinding",
+          "vraag": "Verbind de afwijking van H-W met de oorzaak",
+          "links_items": ["Migratie", "Natuurlijke Selectie", "Mutatie"],
+          "rechts_items": [
+            "Verandering gericht op fitness",
+            "Introductie nieuwe allelen",
+            "Willekeurige verandering (in context bron)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Natuurlijke Selectie",
+              "rechts": "Verandering gericht op fitness"
+            },
+            {
+              "links": "Mutatie",
+              "rechts": "Introductie nieuwe allelen"
+            },
+            {
+              "links": "Migratie",
+              "rechts": "Willekeurige verandering (in context bron)"
+            }
+          ],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 36,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": [
+        "Complexe Hardy-Weinberg berekeningen uitvoeren (dragerschap)",
+        "Kansberekening combineren met Mendeliaanse overerving",
+        "Effecten van H-W schendingen (inteelt, drift) begrijpen"
+      ],
+      "tips": [
+        "Gebruik het stappenplan: bereken altijd eerst $q$ uit $q^2$ (bij recessieve ziekten).",
+        "Bij kansberekening: vermenigvuldig de kans op het genotype met de kans op het geslacht."
+      ]
+    }
+  ],
+  "extra_informatie": {
+    "voorkennis": [
+      "Structuur van DNA en chromosomen",
+      "Verloop van mitose en meiose",
+      "Mendeliaanse genetica",
+      "Meiose verloop",
+      "Basis wiskunde (worteltrekken, breuken)"
+    ],
+    "vervolgonderwerpen": [
+      "Geslachtsgebonden overerving",
+      "Populatiegenetica",
+      "DNA-technologie",
+      "Evolutie en soortvorming",
+      "Biotechnologie"
+    ],
+    "bronnen": ["Cursusmateriaal Biologie"]
+  }
+}

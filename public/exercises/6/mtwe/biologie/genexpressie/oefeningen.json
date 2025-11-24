@@ -1,0 +1,1697 @@
+{
+  "vak": "Biologie",
+  "onderdeel": "Genexpressie en DNA als Informatiedrager",
+  "jaar": 6,
+  "richting": "Wetenschappen",
+  "laatst_bijgewerkt": "2025-11-22",
+  "oefeningen": [
+    {
+      "id": "bio-t3h1-basis",
+      "titel": "Basiskennis Genexpressie (Deel 1)",
+      "beschrijving": "Oefeningen over definities van transcriptie, translatie, de genetische code en de experimenten van Griffith.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Biologie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Wat is de definitie van genexpressie, zoals beschreven in de context van albinisme?",
+          "antwoord": "Genexpressie is het proces waarbij de DNA-code wordt gebruikt voor de synthese van eiwitten, wat resulteert in het tot uiting komen van een kenmerk.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat is de functie van een promotor en tot welke categorie DNA behoort deze?",
+          "antwoord": "De promotor is een DNA-sequentie die dient als startplaats voor de transcriptie. Het is een voorbeeld van niet-coderend DNA.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Uit welke twee essentiële stappen bestaat de eiwitsynthese bij prokaryoten?",
+          "antwoord": "De eiwitsynthese bestaat uit de transcriptie (DNA naar mRNA) en de translatie (mRNA naar eiwit).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Wat is een codon en hoeveel nucleotiden omvat het?",
+          "antwoord": "Een codon is een opeenvolging van drie DNA- of RNA-nucleotiden op de coderende streng die overeenstemt met een bepaald aminozuur.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Wat is het genoom van een cel en wat omvat het naast het DNA in de celkern?",
+          "antwoord": "Het genoom bevat alle genetische informatie (alle DNA-sequenties) in een cel. Het omvat ook het DNA in de mitochondriën en chloroplasten.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Welke twee basen komen respectievelijk voor in DNA en RNA die complementair zijn aan elkaar?",
+          "antwoord": "In DNA komt de base Thymine (T) voor, terwijl in RNA op die plaats de base Uracil (U) voorkomt.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Wat was de fundamentele conclusie die Griffith trok uit zijn transformatie-experimenten met pneumokokken?",
+          "antwoord": "Griffith concludeerde dat een bepaalde stof van de door hitte gedode S-pneumokokken een transformatie veroorzaakte in de levende R-pneumokokken, waardoor de R-stam veranderde in een S-stam.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Waar vindt de translatie van mRNA naar eiwit plaats in een eukaryote cel?",
+          "opties": [
+            "In de celkern, gebonden aan het euchromatine",
+            "Exclusief in de mitochondriën",
+            "Buiten de celkern, door ribosomen in het cytoplasma of aan het RER",
+            "Tijdens de initiatie in het spliceosoom"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Translatie gebeurt buiten de celkern, door vrije ribosomen of ribosomen gebonden aan het Ruw Endoplasmatisch Reticulum (RER).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Hoeveel van de 64 verschillende codons coderen daadwerkelijk voor een aminozuur?",
+          "opties": ["3", "20", "61", "64"],
+          "correct_antwoord": 2,
+          "uitleg": "Er zijn 61 aminozuurcodons; de overige 3 zijn stopcodons.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met de introns tijdens het proces van splicing bij eukaryoten?",
+          "opties": [
+            "Ze worden aan elkaar gehecht om het functionele eiwit te vormen",
+            "Ze worden vertaald naar een polypeptide in het cytoplasma",
+            "Ze worden gebruikt om de 5'-cap en de poly-A-staart te vormen",
+            "Ze worden weggeknipt en verwijderd door het spliceosoom"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Introns (niet-coderende delen) worden uit het pre-mRNA geknipt.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "De formule $p^2$ in de wet van Hardy en Weinberg staat voor de frequentie van welk genotype?",
+          "opties": [
+            "Heterozygoot",
+            "Recessief allel ($q$)",
+            "Homozygoot dominante individuen",
+            "Dominant allel ($p$)"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "$p^2$ staat voor de frequentie van homozygoot dominante individuen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Welke streng van het DNA wordt tijdens de transcriptie gebruikt om de RNA-kopie te maken?",
+          "opties": [
+            "De coderende streng (5' naar 3'-streng)",
+            "De replicerende streng",
+            "De template streng (3' naar 5'-streng)",
+            "De anti-parallelle streng (5' naar 3'-streng)"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Transcriptie vindt enkel plaats vanaf de template streng (3' naar 5'-streng).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Welk van de volgende is geen stopcodon?",
+          "opties": ["UAA", "UGA", "UAG", "AUG"],
+          "correct_antwoord": 3,
+          "uitleg": "AUG is het startcodon (dat codeert voor Methionine). UAA, UAG en UGA zijn stopcodons.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Wat is het belangrijkste verschil in de opbouw van een gen en een eiwit?",
+          "opties": [
+            "Genen zijn opgebouwd uit aminozuren, eiwitten uit nucleotiden",
+            "Beide zijn opgebouwd uit dezelfde 20 bouwstenen",
+            "Eiwitten zijn opgebouwd uit 64 verschillende bouwstenen",
+            "Genen (DNA) zijn opgebouwd uit vier soorten nucleotiden, eiwitten uit twintig verschillende aminozuren"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "DNA/Genen hebben 4 nucleotiden (letters: A, T, C, G); Eiwitten hebben 20 aminozuren.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Wat is de genetische diversiteit van een populatie?",
+          "opties": [
+            "De verhouding tussen mannetjes en vrouwtjes",
+            "De totale som van alle genotypefrequenties",
+            "De verscheidenheid aan verschillende allelen die in de genenpoel voorkomen",
+            "De frequentie van het dominante allel"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Hoe meer verschillende allelen in de genenpoel, hoe groter de genetische diversiteit.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Verbind de gebeurtenis met de fase van de eiwitsynthese",
+          "links_items": [
+            "Vorming van polypeptideketen",
+            "Vorming van het startcomplex",
+            "Binding van release factor"
+          ],
+          "rechts_items": ["Initiatie", "Elongatie", "Terminatie"],
+          "correcte_verbindingen": [
+            {
+              "links": "Vorming van polypeptideketen",
+              "rechts": "Elongatie"
+            },
+            {
+              "links": "Vorming van het startcomplex",
+              "rechts": "Initiatie"
+            },
+            {
+              "links": "Binding van release factor",
+              "rechts": "Terminatie"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Verbind de celcomponent met de functie in de translatie",
+          "links_items": ["Ribosoom", "tRNA", "Release factor"],
+          "rechts_items": [
+            "Vertaalt mRNA naar eiwit en houdt mRNA vast",
+            "Brengt het juiste aminozuur naar het ribosoom",
+            "Zorgt voor het loskomen van de polypeptide"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Ribosoom",
+              "rechts": "Vertaalt mRNA naar eiwit en houdt mRNA vast"
+            },
+            {
+              "links": "tRNA",
+              "rechts": "Brengt het juiste aminozuur naar het ribosoom"
+            },
+            {
+              "links": "Release factor",
+              "rechts": "Zorgt voor het loskomen van de polypeptide"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Verbind het type RNA met de rol",
+          "links_items": ["mRNA", "tRNA", "rRNA"],
+          "rechts_items": [
+            "Bevat code voor de synthese van een eiwit",
+            "Brengt aminozuren naar het ribosoom",
+            "Bouwsteen van het ribosoom"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "mRNA",
+              "rechts": "Bevat code voor de synthese van een eiwit"
+            },
+            {
+              "links": "tRNA",
+              "rechts": "Brengt aminozuren naar het ribosoom"
+            },
+            {
+              "links": "rRNA",
+              "rechts": "Bouwsteen van het ribosoom"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Verbind het experiment met de conclusie",
+          "links_items": [
+            "Griffith (1928)",
+            "Avery, MacLeod en McCarty (1944)",
+            "Genregulatie bij prokaryoten"
+          ],
+          "rechts_items": [
+            "Er is een transformerende stof die eigenschappen kan overdragen",
+            "DNA is de transformerende stof (drager van genetische informatie)",
+            "Genen voor functioneel verwante eiwitten liggen samen in een operon"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Griffith (1928)",
+              "rechts": "Er is een transformerende stof die eigenschappen kan overdragen"
+            },
+            {
+              "links": "Avery, MacLeod en McCarty (1944)",
+              "rechts": "DNA is de transformerende stof (drager van genetische informatie)"
+            },
+            {
+              "links": "Genregulatie bij prokaryoten",
+              "rechts": "Genen voor functioneel verwante eiwitten liggen samen in een operon"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Verbind de genoomcomponent met de beschrijving",
+          "links_items": ["Coderend DNA", "Promotor", "Niet-coderend DNA"],
+          "rechts_items": [
+            "Sequentie van DNA dat codeert voor eiwitten",
+            "DNA-sequentie die dient als startplaats voor transcriptie",
+            "Bevat o.a. de genen voor andere types RNA dan mRNA"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Coderend DNA",
+              "rechts": "Sequentie van DNA dat codeert voor eiwitten"
+            },
+            {
+              "links": "Promotor",
+              "rechts": "DNA-sequentie die dient als startplaats voor transcriptie"
+            },
+            {
+              "links": "Niet-coderend DNA",
+              "rechts": "Bevat o.a. de genen voor andere types RNA dan mRNA"
+            }
+          ],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 49,
+      "geschatte_tijd": "30 minuten",
+      "leerdoelen": [
+        "De centrale dogma van de biologie (DNA -> RNA -> Eiwit) begrijpen",
+        "Onderdelen van het genoom en RNA-types onderscheiden",
+        "Basisprincipes van splicing en genexpressie kennen"
+      ],
+      "tips": [
+        "Let op het verschil tussen de template streng en de coderende streng.",
+        "Leer de start- en stopcodons herkennen."
+      ]
+    },
+    {
+      "id": "bio-t3h1-verdieping",
+      "titel": "Inzicht en Toepassing: Genexpressie (Deel 2)",
+      "beschrijving": "Verdiepende vragen over moleculaire mechanismen, operons, alternatieve splicing en Hardy-Weinberg berekeningen.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Biologie",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Een zeldzame autosomale ziekte heeft een frequentie van 1 op 2500. Wat is de kans dat een gezond individu drager is?",
+          "antwoord": "De kans is ongeveer 3,92%.",
+          "stappen": [
+            "Aangetaste individuen ($q^2$) = $1/2500 = 0,0004$",
+            "Allelfrequentie $q = \\sqrt{0,0004} = 0,02$",
+            "Allelfrequentie $p = 1 - 0,02 = 0,98$",
+            "Dragers ($2pq$) = $2 \\times 0,98 \\times 0,02 = 0,0392$ (3,92%)",
+            "Gezonde individuen ($p^2 + 2pq$) = $1 - 0,0004 = 0,9996$",
+            "Kans dat gezond individu drager is: $0,0392 / 0,9996 \\approx 3,92\\%$"
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat is het functionele voordeel van het feit dat de genetische code gedegenereerd is?",
+          "antwoord": "Omdat meerdere codons coderen voor hetzelfde aminozuur, zal een mutatie (puntmutatie) niet altijd leiden tot een verandering van het aminozuur. Dit beschermt tegen negatieve gevolgen (stille mutaties).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "DNA-template: 3'-TACCCGGATCACT-5'. Geef de mRNA sequentie en de coderende DNA-sequentie.",
+          "antwoord": "mRNA: 5'-AUGGGCCUAGUGA-3'. Coderende DNA: 5'-ATGGGCCTAGTGA-3'.",
+          "uitleg": "mRNA is complementair aan de template. De coderende streng is identiek aan mRNA (maar T i.p.v. U).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Hoe noemt men het mechanisme waarbij uit één pre-mRNA verschillende mRNA's gevormd worden en wat is het voordeel?",
+          "antwoord": "Alternatieve splicing. Voordeel: Uit één gen kunnen verschillende eiwitten gevormd worden, wat de genetische efficiëntie verhoogt.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Beschrijf de twee functies van de 5'-cap en de functie van de poly-A-staart.",
+          "antwoord": "5'-cap: Beschermt tegen afbraak en helpt bij transport uit de kern/herkenning door ribosoom. Poly-A-staart: Beschermt pre-mRNA tegen afbraak.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Beschrijf de primaire functie van een operon in prokaryoten.",
+          "antwoord": "Een organisatie van genen voor verwante eiwitten onder één promotor. Dit laat de bacterie toe om genen als groep aan of uit te zetten, wat energie bespaart.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Waarom is posttranslationele modificatie (zoals bij insuline) essentieel?",
+          "antwoord": "De polypeptide uit translatie is vaak niet direct functioneel. Modificaties zorgen voor de juiste opvouwing en activatie van het eiwit.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Welke aminozuurvolgorde ontstaat uit 5'-AUGUUUCGAUUAG-3'? (AUG=Met, UUU=Phe, CGA=Arg, UAG=Stop)",
+          "opties": [
+            "Met - Phe - Arg - Val",
+            "Met - Leu - Arg - Stop",
+            "Met - Phe - Arg",
+            "Met - Phe - Arg - Leu - Stop"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Het ribosoom leest AUG, UUU, CGA. Het vierde codon UAG is een stopcodon en wordt niet vertaald.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Waar bevindt zich de groeiende polypeptideketen vlak voor de vorming van een nieuwe peptidebinding?",
+          "opties": [
+            "Vastgehecht aan het tRNA op de A-plaats",
+            "Vrij in het cytoplasma",
+            "Vastgehecht aan het tRNA op de P-plaats",
+            "Op het anticodon"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De keten zit op de P-plaats (Peptidyl), het nieuwe aminozuur komt op de A-plaats.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat is het belangrijkste kenmerk van het Transcriptoom?",
+          "opties": [
+            "Het is in elke cel identiek",
+            "Het omvat alle DNA",
+            "Het omvat alle eiwitten",
+            "De inhoud is verschillend bij verschillende celtypes en momenten"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Transcriptoom (RNA) en Proteoom (eiwitten) zijn afhankelijk van genexpressie en dus variabel.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Het startcodon AUG heeft een dubbele functie. Welke zijn dit?",
+          "opties": [
+            "Codeert voor Proline en dient als stopcodon",
+            "Codeert voor Glycine en dient als promotor",
+            "Codeert voor Methionine en dient als startcodon",
+            "Codeert voor Alanine en dient als genregulator"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "AUG start de translatie en codeert voor Methionine.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Welke DNA-streng wordt conventioneel gebruikt om de sequentie van een gen weer te geven?",
+          "opties": [
+            "De 3'-5' template streng",
+            "De template streng met uracil",
+            "De 5'-3' coderende streng",
+            "De promotorsequentie"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De sequentie van een gen is per definitie die van de coderende streng (5' naar 3').",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Als Avery enzymen had gebruikt die DNA én RNA afbreken, wat was het resultaat van het experiment?",
+          "opties": [
+            "Transformatie zou doorgaan",
+            "Alleen R-stam overleeft",
+            "Transformatie zou mislukken",
+            "Alleen S-stam overleeft"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Transformatie vereist DNA. Zonder DNA (bron van info) transformeren de bacteriën niet.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Wat is de rol van het anticodon op een tRNA?",
+          "opties": [
+            "Codeert voor het aminozuur",
+            "Vormt een zwavelbrug",
+            "Bindt aan de 5'-cap",
+            "Bindt complementair en anti-parallel aan het codon op het mRNA"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Het anticodon zorgt voor de specifieke binding met het mRNA-codon.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Wat is het effect als RNA-polymerase de sequentie AAUAAA herkent (eukaryoten)?",
+          "opties": [
+            "Ribosoom laat los",
+            "Intronen worden geknipt",
+            "Translatie start",
+            "Het pre-mRNA wordt losgemaakt en poly-A-staart aangehecht"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Dit is het terminatiesignaal voor transcriptie bij eukaryoten.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Verbind de component met de rol in transcriptie-initiatie",
+          "links_items": ["Transcriptiefactoren", "Promotor", "RNA-polymerase"],
+          "rechts_items": [
+            "Opent de DNA-helix en maakt RNA-kopie",
+            "Vormt samen met polymerase het startcomplex",
+            "Bindtplaats voor het gen"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "RNA-polymerase",
+              "rechts": "Opent de DNA-helix en maakt RNA-kopie"
+            },
+            {
+              "links": "Transcriptiefactoren",
+              "rechts": "Vormt samen met polymerase het startcomplex"
+            },
+            {
+              "links": "Promotor",
+              "rechts": "Bindtplaats voor het gen"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Verbind het 'Oom'-niveau met de inhoud",
+          "links_items": ["Proteoom", "Genoom", "Transcriptoom"],
+          "rechts_items": [
+            "Alle RNA in een cel",
+            "Alle DNA-sequenties in een cel",
+            "Alle eiwitten in een cel"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Transcriptoom",
+              "rechts": "Alle RNA in een cel"
+            },
+            {
+              "links": "Genoom",
+              "rechts": "Alle DNA-sequenties in een cel"
+            },
+            {
+              "links": "Proteoom",
+              "rechts": "Alle eiwitten in een cel"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Verbind de splicing component met de rol",
+          "links_items": ["Spliceosoom", "Intron", "Exon"],
+          "rechts_items": [
+            "De niet-coderende stukken die worden weggeknipt",
+            "De coderende stukken van het gen",
+            "Het complex dat introns wegknipt en exons aan elkaar hecht"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Intron",
+              "rechts": "De niet-coderende stukken die worden weggeknipt"
+            },
+            {
+              "links": "Exon",
+              "rechts": "De coderende stukken van het gen"
+            },
+            {
+              "links": "Spliceosoom",
+              "rechts": "Het complex dat introns wegknipt en exons aan elkaar hecht"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Verbind de eigenschap met de genetische code",
+          "links_items": ["Codon AUG", "Universeel", "Gedegenereerd"],
+          "rechts_items": [
+            "Bijna alle organismen gebruiken dezelfde code",
+            "Meerdere codons coderen voor hetzelfde aminozuur",
+            "Wordt vaak als eerste aminozuur verwijderd na translatie"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Universeel",
+              "rechts": "Bijna alle organismen gebruiken dezelfde code"
+            },
+            {
+              "links": "Gedegenereerd",
+              "rechts": "Meerdere codons coderen voor hetzelfde aminozuur"
+            },
+            {
+              "links": "Codon AUG",
+              "rechts": "Wordt vaak als eerste aminozuur verwijderd na translatie"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Verbind het proces met de locatie bij eukaryoten",
+          "links_items": ["Translatie", "Transcriptie", "Splicing"],
+          "rechts_items": [
+            "In de celkern",
+            "In de celkern, tijdens of net na de transcriptie",
+            "In het cytoplasma door vrije ribosomen of RER"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Transcriptie",
+              "rechts": "In de celkern"
+            },
+            {
+              "links": "Splicing",
+              "rechts": "In de celkern, tijdens of net na de transcriptie"
+            },
+            {
+              "links": "Translatie",
+              "rechts": "In het cytoplasma door vrije ribosomen of RER"
+            }
+          ],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 53,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": [
+        "Complexe genregulatie (operons) begrijpen",
+        "Impact van mutaties op eiwitsynthese analyseren",
+        "Kansberekening toepassen op populatiegenetica (dragerschap)"
+      ],
+      "tips": [
+        "Bij Hardy-Weinberg: bereken eerst q, dan p, dan 2pq.",
+        "Onthoud: RNA-polymerase leest 3'-5' maar bouwt 5'-3'."
+      ]
+    },
+    {
+      "id": "bio-t3h2-basis",
+      "titel": "Basiskennis Genregulatie (Deel 1)",
+      "beschrijving": "Oefeningen over definities, het lac-operon, epigenetica en basisbegrippen van translatie.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Biologie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Wat is de functie van een operon bij prokaryoten, zoals E. coli?",
+          "antwoord": "Een operon maakt het mogelijk om een groep genen die coderen voor functioneel verwante eiwitten als geheel tot expressie te brengen, wanneer de leefomstandigheden daarom vragen.",
+          "uitleg": "Het groeperen van genen onder één promotor zorgt voor efficiënte coördinatie.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat gebeurt er met het mRNA en de polypeptideketen tijdens de terminatie van de translatie?",
+          "antwoord": "Een stopcodon bindt met een release factor. Daardoor komen de polypeptide, het tRNA, het mRNA en de release factor los van het ribosoom.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Noem de twee soorten chromatine die men in de celkern kan onderscheiden en geef aan welke van de twee de genen bevat die tot expressie kunnen komen.",
+          "antwoord": "Heterochromatine (compact) en euchromatine (minder compact). De genen die tot expressie kunnen komen, liggen in het euchromatine.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Wat is de functie van histonacetylering (het hechten van een acetylgroep) in de genregulatie bij eukaryoten?",
+          "antwoord": "Acetylering zorgt ervoor dat het chromatine losser wordt, waardoor de genen toegankelijk worden voor transcriptiefactoren en dus tot expressie kunnen komen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Welke moleculaire rol speelt de lactose in het lac-operon?",
+          "antwoord": "Lactose fungeert als een inductor. Het bindt aan de repressor, waardoor deze loskomt van de operator en transcriptie mogelijk wordt.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Wat is een Barr-lichaampje en in welke cellen van de mens is het aanwezig?",
+          "antwoord": "Het Barr-lichaampje is het geïnactiveerde X-chromosoom dat zichtbaar is als sterk gecondenseerd heterochromatine. Het is aanwezig in de lichaamscellen van een vrouw.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Welke component van het lac-operon is de bindingsplaats voor regeleiwitten zoals de repressor?",
+          "opties": [
+            "De promotor",
+            "Het regulatorgen",
+            "De operator",
+            "Het gen Z"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De operator ligt tussen de promotor en de genen en fungeert als 'schakelaar' waar de repressor bindt.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Wat is het effect van DNA-methylering op de genexpressie?",
+          "opties": [
+            "Het maakt het DNA losser",
+            "Het DNA wordt gemakkelijker overgeschreven",
+            "Het gen wordt niet overgeschreven (repressie)",
+            "Het triggert alternatieve splicing"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Methylering maakt het chromatine compacter en blokkeert transcriptie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Waar vindt de regulatie door het spliceosoom (alternatieve splicing) plaats in een eukaryote cel?",
+          "opties": [
+            "In het cytoplasma",
+            "Op het Y-chromosoom",
+            "Op het pre-mRNA in de celkern",
+            "Op het chromatine"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Splicing is een post-transcriptioneel proces dat in de kern gebeurt op het pas gevormde pre-mRNA.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat is het resultaat van RNA-interferentie door miRNA?",
+          "opties": [
+            "Het DNA wordt gemethyleerd",
+            "Het gen wordt geactiveerd",
+            "De expressie wordt beïnvloed door afbraak of blokkering van translatie van mRNA",
+            "De repressor komt los van de operator"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "miRNA bindt aan complementair mRNA en zorgt voor afbraak of stopt de translatie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "verbinding",
+          "vraag": "Verbind de translatiecomponent met zijn actie",
+          "links_items": [
+            "Release factor",
+            "Peptidyl transferase",
+            "Startcodon (AUG)"
+          ],
+          "rechts_items": [
+            "Start de translatie en codeert voor Methionine",
+            "Zorgt voor de groei van de polypeptideketen",
+            "Veroorzaakt het loskomen van de polypeptide"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Startcodon (AUG)",
+              "rechts": "Start de translatie en codeert voor Methionine"
+            },
+            {
+              "links": "Peptidyl transferase",
+              "rechts": "Zorgt voor de groei van de polypeptideketen"
+            },
+            {
+              "links": "Release factor",
+              "rechts": "Veroorzaakt het loskomen van de polypeptide"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "verbinding",
+          "vraag": "Verbind de regulatiemolecule met de functie in het operon",
+          "links_items": ["Inductor", "Activator", "Repressor"],
+          "rechts_items": [
+            "Onderdrukt transcriptie door te binden aan de operator",
+            "Bindt nabij de promotor en bevordert transcriptie",
+            "Bindt aan de repressor waardoor deze loskomt"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Repressor",
+              "rechts": "Onderdrukt transcriptie door te binden aan de operator"
+            },
+            {
+              "links": "Activator",
+              "rechts": "Bindt nabij de promotor en bevordert transcriptie"
+            },
+            {
+              "links": "Inductor",
+              "rechts": "Bindt aan de repressor waardoor deze loskomt"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "verbinding",
+          "vraag": "Verbind de epigenetische modificatie met het effect op chromatine",
+          "links_items": [
+            "DNA-methylering",
+            "Histonacetylering",
+            "Chromatine Remodeling"
+          ],
+          "rechts_items": [
+            "Maakt chromatine compacter (repressie)",
+            "Maakt chromatine losser (activatie)",
+            "Herschikt de structuur"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "DNA-methylering",
+              "rechts": "Maakt chromatine compacter (repressie)"
+            },
+            {
+              "links": "Histonacetylering",
+              "rechts": "Maakt chromatine losser (activatie)"
+            },
+            {
+              "links": "Chromatine Remodeling",
+              "rechts": "Herschikt de structuur"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "verbinding",
+          "vraag": "Verbind de genregulatie met de genetische consequentie",
+          "links_items": [
+            "Alternatieve splicing",
+            "X-inactivatie",
+            "Alternatieve startplaatsen"
+          ],
+          "rechts_items": [
+            "Gelijke expressie van X-chromosomale genen bij mannen en vrouwen",
+            "Vorming van verschillende eiwitten uit één gen",
+            "Vorming van eiwitten met verschillende lengte/functie"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "X-inactivatie",
+              "rechts": "Gelijke expressie van X-chromosomale genen bij mannen en vrouwen"
+            },
+            {
+              "links": "Alternatieve splicing",
+              "rechts": "Vorming van verschillende eiwitten uit één gen"
+            },
+            {
+              "links": "Alternatieve startplaatsen",
+              "rechts": "Vorming van eiwitten met verschillende lengte/functie"
+            }
+          ],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 38,
+      "geschatte_tijd": "30 minuten",
+      "leerdoelen": [
+        "De werking van het lac-operon begrijpen",
+        "Verschil tussen epigenetische modificaties kennen (methylering vs acetylering)",
+        "Terminologie van translatie en genregulatie beheersen"
+      ],
+      "tips": [
+        "Onthoud: Methylering = Mondje dicht (DNA zwijgt), Acetylering = Actief.",
+        "Maak onderscheid tussen regulatie bij prokaryoten (operons) en eukaryoten (chromatine, splicing)."
+      ]
+    },
+    {
+      "id": "bio-t3h2-verdieping",
+      "titel": "Inzicht en Synthese: Regulatie en Expressie (Deel 2)",
+      "beschrijving": "Verdiepende vragen over complexe regulatiemechanismen, X-inactivatie mozaïeken en de invloed van glucose op het lac-operon.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Biologie",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Leg uit waarom de aanwezigheid van enkel lactose leidt tot maximale expressie van het lac-operon, terwijl de aanwezigheid van lactose én glucose leidt tot een lagere expressie.",
+          "antwoord": "Maximale expressie vereist zowel dat de repressor loslaat (door lactose) als dat de activator bindt (door cAMP). Glucose verlaagt cAMP.",
+          "stappen": [
+            "Alleen Lactose: Repressor laat los (inductor). Weinig glucose betekent veel cAMP. cAMP bindt activator -> Maximale transcriptie.",
+            "Lactose + Glucose: Repressor laat los. Veel glucose betekent weinig cAMP. Activator bindt niet -> Matige transcriptie."
+          ],
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat is het effect van X-inactivatie op het fenotype van dochters van een vader met een X-gebonden dominante aandoening, in vergelijking met de vader zelf?",
+          "antwoord": "De dochters zullen vaak mildere symptomen hebben dan de vader.",
+          "uitleg": "De dochters zijn mozaïek: in sommige cellen staat het zieke X-chromosoom 'uit', in andere 'aan'. De vader heeft maar één X, die altijd 'aan' staat in alle cellen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Transcriptiefactoren kunnen ver van de promotor binden. Hoe kunnen ze toch interageren met het startcomplex?",
+          "antwoord": "Het DNA vormt een lus (looping), waardoor de ver verwijderde bindingsplaats fysiek in contact komt met de promotor.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Beschrijf de rol van Chromatine Remodeling Complexen en hoe dit verschilt van histonacetylering.",
+          "antwoord": "Remodeling complexen verplaatsen nucleosomen fysiek langs het DNA om bindingsplaatsen vrij te maken. Acetylering verandert de chemische lading van histonen om de structuur losser te maken.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Bij een X-gebonden recessieve aandoening (zweetklier-anomalie) heeft een heterozygote vrouw zones met en zonder zweetklieren. Verklaar.",
+          "antwoord": "Dit is een gevolg van willekeurige X-inactivatie (mozaïek). In zones zonder zweetklieren is het gezonde X-chromosoom geïnactiveerd en komt het defecte allel tot uiting.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "meerkeuze",
+          "vraag": "Welke combinatie leidt tot volledige onderdrukking (repressie) van de lac-genen?",
+          "opties": [
+            "Lactose aanwezig, glucose afwezig",
+            "Glucose aanwezig, lactose aanwezig",
+            "Lactose afwezig (ongeacht glucose)",
+            "Alleen cAMP aanwezig"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Als lactose afwezig is, bindt de repressor op de operator en blokkeert de transcriptie fysiek.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Als bij een vrouwelijke muis op beide X-chromosomen acetylering mogelijk is, maar de promotor van één X is gemethyleerd, wat is het expressiepatroon?",
+          "opties": [
+            "Beide actief",
+            "Beide inactief",
+            "Slechts één X-chromosoom (het niet-gemethyleerde) komt tot expressie",
+            "De muis is fenotypisch mozaïek"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Methylering is een sterk repressief signaal dat transcriptie blokkeert, zelfs als acetylering mogelijk zou zijn.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Wat is het moleculaire verschil tussen regulatie via miRNA en een repressor?",
+          "opties": [
+            "miRNA regelt transcriptie, repressor regelt translatie",
+            "Repressor werkt alleen in eukaryoten",
+            "Repressor verhindert transcriptie (DNA-niveau); miRNA blokkeert mRNA (RNA-niveau)",
+            "Beide binden aan de promotor"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Repressoren werken in de kern op DNA; miRNA werkt in het cytoplasma op mRNA.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Een schildpadkater (man met oranje en zwarte vlekken) is zeldzaam. Welk genotype heeft deze kater meestal?",
+          "opties": ["XO (Turner)", "YY", "XXY (Klinefelter)", "XY"],
+          "correct_antwoord": 2,
+          "uitleg": "Schildpadkleur vereist twee X-chromosomen (één oranje, één zwart) voor mozaïekpatroon. Een man moet dus XXY zijn.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Als een mutatie in de promotor zorgt voor een sterkere binding van repressoren, wat is het effect?",
+          "opties": [
+            "Expressie neemt toe",
+            "Expressie verandert niet",
+            "Expressie neemt af of stopt",
+            "Alternatieve splicing treedt op"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Een repressor remt. Als hij sterker bindt (of vaker), wordt de remming sterker.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "verbinding",
+          "vraag": "Verbind het regulatieniveau bij eukaryoten met het proces",
+          "links_items": [
+            "Epigenetisch niveau",
+            "Post-transcriptioneel niveau",
+            "Translationeel niveau"
+          ],
+          "rechts_items": [
+            "Histonacetylering",
+            "RNA-interferentie",
+            "Alternatieve splicing"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Epigenetisch niveau",
+              "rechts": "Histonacetylering"
+            },
+            {
+              "links": "Post-transcriptioneel niveau",
+              "rechts": "Alternatieve splicing"
+            },
+            {
+              "links": "Translationeel niveau",
+              "rechts": "RNA-interferentie"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "verbinding",
+          "vraag": "Verbind het lac-operon scenario met het expressieniveau",
+          "links_items": [
+            "Wel Lactose, wel Glucose",
+            "Geen Lactose, wel Glucose",
+            "Wel Lactose, geen Glucose"
+          ],
+          "rechts_items": [
+            "Laag niveau (Repressie)",
+            "Matig niveau (Inductie, geen max activatie)",
+            "Maximaal niveau (Inductie + Activatie)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Geen Lactose, wel Glucose",
+              "rechts": "Laag niveau (Repressie)"
+            },
+            {
+              "links": "Wel Lactose, wel Glucose",
+              "rechts": "Matig niveau (Inductie, geen max activatie)"
+            },
+            {
+              "links": "Wel Lactose, geen Glucose",
+              "rechts": "Maximaal niveau (Inductie + Activatie)"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "verbinding",
+          "vraag": "Verbind de component met de locatie van werking",
+          "links_items": ["Transcriptiefactoren", "Ribosomen", "Spliceosoom"],
+          "rechts_items": [
+            "In de kern",
+            "Cytoplasma",
+            "In de kern, op het DNA (promotor)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Spliceosoom",
+              "rechts": "In de kern"
+            },
+            {
+              "links": "Ribosomen",
+              "rechts": "Cytoplasma"
+            },
+            {
+              "links": "Transcriptiefactoren",
+              "rechts": "In de kern, op het DNA (promotor)"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "verbinding",
+          "vraag": "Verbind de X-inactivatie status met de structuur",
+          "links_items": [
+            "Actief X-chromosoom",
+            "De geïnactiveerde genen",
+            "Geïnactiveerd X-chromosoom"
+          ],
+          "rechts_items": [
+            "Heterochromatine / Barr-lichaampje",
+            "Euchromatine",
+            "Buitenspel gezet"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Geïnactiveerd X-chromosoom",
+              "rechts": "Heterochromatine / Barr-lichaampje"
+            },
+            {
+              "links": "Actief X-chromosoom",
+              "rechts": "Euchromatine"
+            },
+            {
+              "links": "De geïnactiveerde genen",
+              "rechts": "Buitenspel gezet"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "verbinding",
+          "vraag": "Verbind de functie met de rol in de Translatie Initiatie",
+          "links_items": ["Kleine subeenheid", "mRNA", "tRNA"],
+          "rechts_items": [
+            "Bindt aan de grote subeenheid na binding aan startcodon",
+            "Schuift door de kleine subeenheid en draagt de code",
+            "Bindt aan mRNA om de translatie te starten"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "tRNA",
+              "rechts": "Bindt aan de grote subeenheid na binding aan startcodon"
+            },
+            {
+              "links": "mRNA",
+              "rechts": "Schuift door de kleine subeenheid en draagt de code"
+            },
+            {
+              "links": "Kleine subeenheid",
+              "rechts": "Bindt aan mRNA om de translatie te starten"
+            }
+          ],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 43,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": [
+        "Complexe interacties in genregulatie analyseren (glucose/lactose)",
+        "Gevolgen van X-inactivatie voor overerving begrijpen (mozaïek)",
+        "Niveaus van genregulatie (DNA vs RNA vs Eiwit) onderscheiden"
+      ],
+      "tips": [
+        "Gebruik een stroomschema voor het lac-operon: Is er Lactose? -> Repressor weg. Is er Glucose? -> cAMP laag.",
+        "Denk bij X-inactivatie altijd aan 'mozaïek' bij vrouwen/XXY."
+      ]
+    },
+    {
+      "id": "bio-t3h3-basis",
+      "titel": "Basiskennis Mutaties (Deel 1)",
+      "beschrijving": "Oefeningen over definities van mutaties, mutagenen, genoomafwijkingen en DNA-herstel.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Biologie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Definieer het verschil tussen een mutatie en een epigenetische modificatie.",
+          "antwoord": "Mutaties zijn wijzigingen in de nucleotidesequentie van het DNA. Epigenetische modificaties zijn wijzigingen in het methyleringspatroon of histonen zonder de sequentie van het DNA te wijzigen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat is het fundamentele onderscheid tussen 'nature' en 'nurture' in het nature-nurturedebat?",
+          "antwoord": "'Nature' omvat het geheel van de genetische informatie. 'Nurture' omvat de invloed van omgevingsfactoren, zoals stress, voeding of milieufactoren.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Noem de drie categorieën waarin mutaties ingedeeld kunnen worden op basis van het organisatieniveau van de wijziging.",
+          "antwoord": "Genmutaties, Chromosoommutaties en Genoommutaties.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Welke spontane mutatie wordt gekenmerkt door het afsplitsen van een $NH_2$-groep van een base (zoals cytosine) en de omzetting naar uracil?",
+          "antwoord": "Deaminering.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Wat is de functie van de proofreadingactiviteit van DNA-polymerase tijdens de DNA-replicatie?",
+          "antwoord": "DNA-polymerase kan haar eigen werk controleren, een verkeerd ingebouwd nucleotide detecteren en het vervangen door het correcte nucleotide.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Wat is het specifieke gevaar van UV-straling voor het DNA-molecule?",
+          "antwoord": "UV-straling kan chemische bindingen tussen twee naast elkaar liggende thyminebasen veroorzaken, waardoor thyminedimeren gevormd worden.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Leg uit wat de term 'aneuploïdie' betekent in de context van genoommutaties, en noem twee subcategorieën.",
+          "antwoord": "Aneuploïdie is een genoommutatie waarbij een cel een afwijkend aantal chromosomen heeft. Subcategorieën zijn monosomie en trisomie.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "open",
+          "vraag": "Wat is het effect van een nonsense-mutatie op het resulterende eiwit?",
+          "antwoord": "Het resulteert in het ontstaan van een stopcodon in een vroeg stadium, waardoor een te kort (en vaak niet-functioneel) eiwit gevormd wordt.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "open",
+          "vraag": "Wat is de naam van de test die wordt gebruikt om te onderzoeken of stoffen mutageen zijn?",
+          "antwoord": "De Ames-test.",
+          "punten": 1
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Welk type DNA-breuk of fout wordt in het menselijk lichaam hersteld door een eiwit dat thyminedimeren verwijdert?",
+          "opties": [
+            "Deletie door hydrolyse",
+            "Schade door ioniserende straling",
+            "Schade veroorzaakt door UV-straling",
+            "Deaminering van cytosine"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Xeroderma Pigmentosum wordt bijvoorbeeld veroorzaakt door een fout in dit herstelmechanisme voor UV-schade.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Sikkelcelanemie is een klassiek voorbeeld van een genmutatie. Welk type genmutatie ligt aan de basis?",
+          "opties": ["Insertie", "Deletie", "Translocatie", "Substitutie"],
+          "correct_antwoord": 3,
+          "uitleg": "Glutaminezuur wordt vervangen door valine door de wijziging (substitutie) van één basenpaar.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Wat is de primaire oorzaak van genoommutaties, zoals het Syndroom van Down?",
+          "opties": [
+            "Deaminering van basen",
+            "Non-disjunctie tijdens de meiose of mitose",
+            "Vrije radicalen die DNA-strengen breken",
+            "Frameshift-mutaties"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Homologe chromosomen of zusterchromatiden worden niet correct uit elkaar getrokken.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Wat is een 'stille mutatie'?",
+          "opties": [
+            "Een mutatie die leidt tot een eiwit met een verbeterde functie",
+            "Een mutatie die resulteert in een codon voor hetzelfde aminozuur",
+            "Een mutatie die leidt tot een aminozuur met gelijkaardige eigenschappen",
+            "Een mutatie die optreedt in niet-coderend DNA"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Door de gedegenereerde genetische code codeert het nieuwe triplet nog steeds voor hetzelfde aminozuur.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Wat is het gevolg van een translocatie, zoals in het voorbeeld van het Philadelphia-chromosoom?",
+          "opties": [
+            "Een deel van een chromosoom verdwijnt",
+            "Een deel van een chromosoom wordt in omgekeerde oriëntatie teruggeplaatst",
+            "Een segment wordt uitgewisseld tussen twee niet-homologe chromosomen",
+            "Het aantal chromosomen verandert"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Bij het Philadelphia-chromosoom is er uitwisseling tussen chromosoom 9 en 22.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Polyploïdie is zeldzaam bij dieren, maar komt vaak voor bij planten. Welk effect heeft dit vaak op planten?",
+          "opties": [
+            "Ze zijn kleiner en dragen kleinere vruchten",
+            "Ze zijn steriel en planten zich ongeslachtelijk voort",
+            "Ze zijn groter en dragen grotere vruchten",
+            "Ze zijn minder resistent tegen ziektes"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Dit is economisch voordelig in de landbouw.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "meerkeuze",
+          "vraag": "Welk mechanisme is een voorbeeld van spontane mutatie veroorzaakt door een replicatiefout?",
+          "opties": [
+            "Hydrolyse van een base",
+            "Fouten van DNA-polymerase",
+            "Schade door ioniserende straling",
+            "Het ontstaan van een thyminedimeer"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Als DNA-polymerase een verkeerd nucleotide inbouwt en dit niet herstelt, is het een replicatiefout.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Koppel de mutagene factor aan het type schade",
+          "links_items": ["Benzopyreen", "Ioniserende straling", "UV-straling"],
+          "rechts_items": [
+            "Vrije radicalen / breuken in ruggengraat",
+            "Thyminedimeren",
+            "Molecuul dat tussen de basenparen komt te zitten"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Ioniserende straling",
+              "rechts": "Vrije radicalen / breuken in ruggengraat"
+            },
+            {
+              "links": "UV-straling",
+              "rechts": "Thyminedimeren"
+            },
+            {
+              "links": "Benzopyreen",
+              "rechts": "Molecuul dat tussen de basenparen komt te zitten"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Koppel het syndroom aan de genoomafwijking",
+          "links_items": [
+            "Syndroom van Klinefelter",
+            "Syndroom van Down",
+            "Syndroom van Turner"
+          ],
+          "rechts_items": [
+            "Monosomie X (X0)",
+            "Trisomie 21",
+            "Trisomie van geslachtschromosomen (XXY)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Syndroom van Turner",
+              "rechts": "Monosomie X (X0)"
+            },
+            {
+              "links": "Syndroom van Down",
+              "rechts": "Trisomie 21"
+            },
+            {
+              "links": "Syndroom van Klinefelter",
+              "rechts": "Trisomie van geslachtschromosomen (XXY)"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Koppel de genmutatie aan de structurele verandering",
+          "links_items": ["Deletie", "Insertie", "Substitutie"],
+          "rechts_items": [
+            "Eén of meer nucleotiden worden verwijderd",
+            "Eén basenpaar wordt vervangen door een ander",
+            "Eén of meer nucleotiden worden ingevoegd"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Deletie",
+              "rechts": "Eén of meer nucleotiden worden verwijderd"
+            },
+            {
+              "links": "Substitutie",
+              "rechts": "Eén basenpaar wordt vervangen door een ander"
+            },
+            {
+              "links": "Insertie",
+              "rechts": "Eén of meer nucleotiden worden ingevoegd"
+            }
+          ],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 44,
+      "geschatte_tijd": "30 minuten",
+      "leerdoelen": [
+        "Definities van verschillende mutatietypes kennen",
+        "Oorzaken van mutaties (straling, chemisch) benoemen",
+        "Gevolgen van chromosomale afwijkingen (syndromen) begrijpen"
+      ],
+      "tips": [
+        "Leer het verschil tussen gen-, chromosoom- en genoommutaties goed.",
+        "Onthoud de specifieke schade van UV (thyminedimeren)."
+      ]
+    },
+    {
+      "id": "bio-t3h3-verdieping",
+      "titel": "Inzicht en Toepassing: Mutaties (Deel 2)",
+      "beschrijving": "Verdiepende vragen over mechanismen van DNA-schade, erfelijkheid van epigenetica en complexe genetica.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Biologie",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Autisme is deels erfelijk, deels omgeving. Welk onderzoekstype is het meest geschikt om de respectieve bijdragen te kwantificeren en waarom?",
+          "antwoord": "Tweelingstudies. Men vergelijkt eeneiige (100% identiek genoom) met twee-eiige tweelingen (50% identiek). Als concordantie groter is bij eeneiige, wijst dit op een genetische component.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat is de 'herprogrammering' van DNA en tijdens welke twee fases vindt dit plaats? Waarom is dit belangrijk?",
+          "antwoord": "Herprogrammering is het wissen en opnieuw aanbrengen van methyleringen. Dit gebeurt 1) tijdens de eerste week van de embryonale ontwikkeling en 2) tijdens de gametogenese. Hierdoor worden epigenetische modificaties zelden doorgegeven.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Beschrijf hoe hydrolyse van een base kan leiden tot een deletie tijdens DNA-replicatie.",
+          "antwoord": "Hydrolyse verbreekt de binding tussen base en suiker. Bij replicatie ontbreekt de template-informatie op die plek, waardoor DNA-polymerase geen nucleotide inbouwt. De nieuwe streng mist dus een nucleotide (deletie).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Hoe veroorzaakt ioniserende straling DNA-schade en hoe beperkt het lichaam dit?",
+          "antwoord": "Het vormt vrije radicalen die de suikerfosfaatruggengraat breken. Antioxidanten (Vit A, C, E) reageren met radicalen en maken ze onschadelijk.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Waarom is Turner (X0) levensvatbaar en Y0 niet?",
+          "antwoord": "Het X-chromosoom bevat essentiële genen voor cellulaire overleving. Het Y-chromosoom bevat vooral genen voor mannelijkheid en mist deze vitale genen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Leg uit hoe een deletie van drie nucleotiden een verliesmutatie kan zijn zonder een frameshift te veroorzaken.",
+          "antwoord": "Drie nucleotiden vormen één codon. Het leesraam verschuift niet, maar er ontbreekt wel één aminozuur in het eiwit (zoals bij taaislijmziekte). Dit kan de functie van het eiwit vernietigen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Leg het verschil uit tussen deletie en insertie op chromosoomniveau.",
+          "antwoord": "Bij deletie verdwijnt een segment (verlies van info, korter chromosoom). Bij insertie wordt een segment van een ander chromosoom toegevoegd (langer chromosoom, verstoring regulatie).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "open",
+          "vraag": "Hoe leidt de reactie van antioxidanten met vrije radicalen tot schadebeperking, ondanks dat ze zelf radicaal worden?",
+          "antwoord": "De radicaalvorm van het antioxidant is veel minder reactief en schadelijk dan het oorspronkelijke zuurstofradicaal. De schade wordt 'verlegd' naar een veiliger molecuul.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "open",
+          "vraag": "Hoe beïnvloedt alcoholgebruik tijdens de zwangerschap de ontwikkeling van het kind op moleculair niveau?",
+          "antwoord": "Het verstoort het methyleringspatroon tijdens de kwetsbare herprogrammeringsfase in de embryonale ontwikkeling, wat leidt tot blijvende afwijkingen (foetaal alcoholsyndroom).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Waarom is onderzoek naar erfelijke epigenetica bij mensen moeilijker dan bij muizen?",
+          "opties": [
+            "Mensen hebben geen methylering",
+            "Mensen hebben een grotere genetische diversiteit en langere generatietijd",
+            "Mensen zijn polyploïd"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De diversiteit en lange generatietijd maken het isoleren van epigenetische effecten complex.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Wat wordt er gemeten in de Ames-test?",
+          "opties": [
+            "Aantal overlevende bacteriën",
+            "Snelheid van histidine afbraak",
+            "Het aantal bacteriën dat terugmuteert om weer histidine aan te maken"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Men telt de kolonies die weer kunnen groeien zonder histidine (reverse mutation).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Een mutatie verandert codon CCA (Proline) in TCA (Stop). Classificatie?",
+          "opties": [
+            "Substitutie; Winstmutatie",
+            "Insertie; Neutrale mutatie",
+            "Substitutie; Nonsense-mutatie",
+            "Deletie; Missense-mutatie"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Substitutie van C naar T. Resultaat is Stop, dus nonsense.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Non-disjunctie vindt plaats tijdens Meiose II. Wat zijn de gameten?",
+          "opties": [
+            "Twee N+1, twee N-1",
+            "Twee N, één N+1, één N-1",
+            "Alle vier N+1"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Meiose I ging goed (dus 2 cellen met N chromosomen). Meiose II fout in één cel geeft N+1 en N-1. De andere cel deelt normaal naar N en N.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "PKU is genetisch, maar een dieet helpt. Conclusie nature/nurture?",
+          "opties": [
+            "PKU is puur nature",
+            "Nurture (dieet) kan de expressie van nature (genen) modificeren",
+            "Alleen omgeving telt"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Genen bepalen de aanleg, omgeving bepaalt de uiting/ernst.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Valine verandert in Alanine (beide niet-polair). Classificatie?",
+          "opties": ["Nonsense-mutatie", "Neutrale mutatie", "Winstmutatie"],
+          "correct_antwoord": 1,
+          "uitleg": "Omdat de eigenschappen gelijkaardig zijn, blijft de eiwitfunctie vaak behouden (neutraal).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "meerkeuze",
+          "vraag": "Welke mutatie heeft het grootste effect op de rest van het eiwit?",
+          "opties": [
+            "Missense-mutatie",
+            "Substitutie (Stil)",
+            "Frameshift-mutatie"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Een frameshift verandert alle codons na de mutatie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "meerkeuze",
+          "vraag": "Waarom is polyploïdie zeldzaam bij dieren?",
+          "opties": [
+            "Dieren hebben meer chromosomen",
+            "Aneuploïdie/Polyploïdie is bij dieren vaak letaal",
+            "Dieren zijn haploïd"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Dierlijke ontwikkeling luistert zeer nauw; chromosoomafwijkingen zijn vaak fataal.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Verbind de mutatie met de oorzaak",
+          "links_items": [
+            "Vervanging cytosine door uracil",
+            "AT-paar i.p.v. GC-paar (na deaminering)",
+            "Fout van DNA-polymerase",
+            "Mutatie door benzopyreen"
+          ],
+          "rechts_items": [
+            "Deaminering (spontaan)",
+            "Geïnduceerde mutatie",
+            "Spontane mutatie (replicatie)",
+            "Spontane mutatie (gevolg)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Vervanging cytosine door uracil",
+              "rechts": "Deaminering (spontaan)"
+            },
+            {
+              "links": "AT-paar i.p.v. GC-paar (na deaminering)",
+              "rechts": "Spontane mutatie (gevolg)"
+            },
+            {
+              "links": "Fout van DNA-polymerase",
+              "rechts": "Spontane mutatie (replicatie)"
+            },
+            {
+              "links": "Mutatie door benzopyreen",
+              "rechts": "Geïnduceerde mutatie"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Verbind het voorbeeld aan het mutatietype",
+          "links_items": [
+            "Taaislijmziekte (ontbreken Fenylalanine)",
+            "Valine i.p.v. Glutaminezuur",
+            "Vroeg stopcodon",
+            "Invoeging van één nucleotide"
+          ],
+          "rechts_items": [
+            "Deletie van drie nucleotiden",
+            "Frameshift-mutatie",
+            "Nonsense-mutatie",
+            "Missense-mutatie"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Taaislijmziekte (ontbreken Fenylalanine)",
+              "rechts": "Deletie van drie nucleotiden"
+            },
+            {
+              "links": "Valine i.p.v. Glutaminezuur",
+              "rechts": "Missense-mutatie"
+            },
+            {
+              "links": "Vroeg stopcodon",
+              "rechts": "Nonsense-mutatie"
+            },
+            {
+              "links": "Invoeging van één nucleotide",
+              "rechts": "Frameshift-mutatie"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Verbind de fase aan het proces",
+          "links_items": ["Eerste week embryo", "Mitose", "Gameten"],
+          "rechts_items": [
+            "Resultaat van 2e golf herprogrammering",
+            "Epigenetica wordt gekopieerd",
+            "1e golf herprogrammering (wissen)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Gameten",
+              "rechts": "Resultaat van 2e golf herprogrammering"
+            },
+            {
+              "links": "Mitose",
+              "rechts": "Epigenetica wordt gekopieerd"
+            },
+            {
+              "links": "Eerste week embryo",
+              "rechts": "1e golf herprogrammering (wissen)"
+            }
+          ],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 56,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": [
+        "Complexe processen van DNA-herstel en schade uitleggen",
+        "Redeneren over de overerving van epigenetica",
+        "Onderscheid maken tussen verschillende types punt- en frameshiftmutaties"
+      ],
+      "tips": [
+        "Let op het verschil tussen 'neutraal' (geen effect op functie) en 'stil' (geen effect op aminozuur).",
+        "Bij meiose-fouten: teken het schema van non-disjunctie uit."
+      ]
+    }
+  ],
+  "extra_informatie": {
+    "voorkennis": [
+      "Structuur van DNA/RNA",
+      "Celorganellen (kern, ribosoom)",
+      "Transcriptie en translatie basis",
+      "DNA-replicatie",
+      "Meiose en Mitose"
+    ],
+    "vervolgonderwerpen": [
+      "Biotechnologie",
+      "Genmutaties en ziekten",
+      "Evolutietheorie"
+    ],
+    "bronnen": ["Cursusmateriaal Biologie"]
+  }
+}

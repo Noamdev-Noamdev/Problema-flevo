@@ -1,0 +1,522 @@
+{
+  "vak": "Biologie",
+  "onderdeel": "Evolutie: Mechanismen en Theorie",
+  "jaar": 6,
+  "richting": "Wetenschappen",
+  "laatst_bijgewerkt": "2025-11-24",
+  "oefeningen": [
+    {
+      "id": "bio-t5h1-basis",
+      "titel": "Basiskennis Evolutie (Deel 1)",
+      "beschrijving": "Oefeningen over de definitie van evolutie, de vier mechanismen (Mutatie, Selectie, Drift, Gene Flow) en seksuele selectie.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Biologie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Leg uit wat in de biologie wordt verstaan onder 'evolutie'.",
+          "antwoord": "Evolutie is het proces waarbij erfelijke eigenschappen in een populatie veranderen over verschillende generaties heen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Welk mechanisme wordt beschreven als de 'drijvende kracht achter evolutie' (zorgt voor variatie)?",
+          "antwoord": "Mutatie.",
+          "uitleg": "Mutaties zorgen voor de genetische variatie waarop de andere mechanismen, zoals selectie, kunnen inwerken.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Noem de twee situaties die typisch aanleiding geven tot genetische drift, en die leiden tot een verlies aan genetische variatie.",
+          "antwoord": "Het flessenhalseffect en het stichtereffect.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "meerkeuze",
+          "vraag": "Welk concept beschrijft de mechanismen die evolutie veroorzaken (in tegenstelling tot het verloop)?",
+          "opties": ["Evolutie", "Evolutietheorie", "Evolutieverloop"],
+          "correct_antwoord": 1,
+          "uitleg": "De evolutietheorie verklaart *hoe* evolutie werkt (mechanismen).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "meerkeuze",
+          "vraag": "Welk mechanisme is het gevolg van de verspreiding van allelen van één populatie naar een andere door migratie?",
+          "opties": ["Genetische drift", "Gene flow", "Natuurlijke selectie"],
+          "correct_antwoord": 1,
+          "uitleg": "Gene flow is de uitwisseling van genen tussen populaties.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "meerkeuze",
+          "vraag": "Wat is het primaire verschil tussen een neutrale mutatie en een adaptieve mutatie?",
+          "opties": [
+            "Neutraal heeft een nadelig effect; adaptief heeft geen effect.",
+            "Neutraal heeft geen effect op het organisme; adaptief geeft een betere overlevings- of voortplantingskans.",
+            "Neutraal wordt niet overgeërfd."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Adaptieve mutaties verhogen de fitness.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Wat is een gevolg van seksuele selectie waarbij competitie tussen individuen van hetzelfde geslacht optreedt?",
+          "opties": [
+            "Toename van epigenetische modificaties",
+            "Genetisch meeliften",
+            "Seksueel dimorfisme"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Seksueel dimorfisme betekent opvallende uiterlijke verschillen tussen mannetjes en vrouwtjes.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "In welk van de volgende situaties heeft genetische drift de grootste impact?",
+          "opties": [
+            "Een grote populatie met veel migratie.",
+            "Een kleine, geïsoleerde populatie.",
+            "Een populatie waar constante natuurlijke selectie plaatsvindt."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "In kleine populaties speelt toeval (drift) een veel grotere rol.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Wat wordt bedoeld met 'epigenetische modificatie' in de context van evolutie?",
+          "opties": [
+            "Verandering in de nucleotidesequentie van het DNA.",
+            "Aanpassingen aan de genregulatie die overgeërfd kunnen worden.",
+            "Adaptieve mutaties die leiden tot nieuwe allelen."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Epigenetica betreft genregulatie zonder de DNA-code zelf te wijzigen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat is de basis van 'genetisch meeliften' (genetic hitchhiking)?",
+          "opties": [
+            "Een neutrale allel lift mee op de migratie van een populatie.",
+            "Nabijgelegen genen profiteren mee van de natuurlijke selectie van een voordelig allel.",
+            "Vrouwtjes kiezen partners op basis van eigenschappen die niet direct voordelig zijn."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Genen die fysiek dicht bij een gunstig gen liggen, worden vaak samen overgeërfd.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Wat is de rol van het mannetje van de oranje prieelvogel bij het aantrekken van een vrouwtje?",
+          "opties": [
+            "Het bouwt een nest waarin de jongen worden grootgebracht.",
+            "Het bouwt een prieel om het vrouwtje te imponeren.",
+            "Het brengt de jongen in een buidel groot."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Het prieel dient puur om te imponeren en is geen nest.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "verbinding",
+          "vraag": "Match de Term met de Beschrijving",
+          "links_items": ["Evolutieverloop", "Evolutie", "Evolutietheorie"],
+          "rechts_items": [
+            "Het proces waarbij erfelijke eigenschappen in een populatie veranderen",
+            "Beschrijft de mechanismen die evolutie veroorzaken",
+            "Geeft weer hoe een bepaalde soort in de loop van de tijd geëvolueerd is"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Evolutie",
+              "rechts": "Het proces waarbij erfelijke eigenschappen in een populatie veranderen"
+            },
+            {
+              "links": "Evolutietheorie",
+              "rechts": "Beschrijft de mechanismen die evolutie veroorzaken"
+            },
+            {
+              "links": "Evolutieverloop",
+              "rechts": "Geeft weer hoe een bepaalde soort in de loop van de tijd geëvolueerd is"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "verbinding",
+          "vraag": "Match het Mechanisme met zijn Fundamentele Oorzaak",
+          "links_items": ["Genetische Drift", "Seksuele Selectie", "Mutatie"],
+          "rechts_items": [
+            "Zorgt voor nieuwe allelen van een gen",
+            "Veroorzaakt verandering in allelfrequenties louter door toeval",
+            "Gevolg van de strijd om zich voort te planten"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Mutatie",
+              "rechts": "Zorgt voor nieuwe allelen van een gen"
+            },
+            {
+              "links": "Genetische Drift",
+              "rechts": "Veroorzaakt verandering in allelfrequenties louter door toeval"
+            },
+            {
+              "links": "Seksuele Selectie",
+              "rechts": "Gevolg van de strijd om zich voort te planten"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Welk element maakt de overervende stap van Natuurlijke Selectie mogelijk?",
+          "opties": [
+            "Fenotype verschil",
+            "Fitness verschil",
+            "Overerfbare genetische informatie"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De variatie moet erfelijk zijn (genetisch) om in volgende generaties vaker voor te komen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "verbinding",
+          "vraag": "Match het Voorbeeld met het Mechanisme",
+          "links_items": [
+            "Amish-populatie in Pennsylvania",
+            "Gebruik van infrasone geluiden door pauwen",
+            "Overbrengen van allelen door een omgevallen boom over de rivier"
+          ],
+          "rechts_items": [
+            "Gene Flow",
+            "Stichtereffect (Drift)",
+            "Seksuele Selectie"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Amish-populatie in Pennsylvania",
+              "rechts": "Stichtereffect (Drift)"
+            },
+            {
+              "links": "Gebruik van infrasone geluiden door pauwen",
+              "rechts": "Seksuele Selectie"
+            },
+            {
+              "links": "Overbrengen van allelen door een omgevallen boom over de rivier",
+              "rechts": "Gene Flow"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "meerkeuze",
+          "vraag": "Welk dier illustreert de paradox waarbij de mannelijke investering in het nageslacht zo hoog is dat het mannetje kieskeurig is?",
+          "opties": ["Pauw", "Alligatorschildpad", "Mormonenkrekel"],
+          "correct_antwoord": 2,
+          "uitleg": "Het mannetje van de Mormonenkrekel investeert ongeveer 30% van zijn lichaamsgewicht in een pakketje voor het vrouwtje.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "meerkeuze",
+          "vraag": "Wat is een van de belangrijkste functies van slangengif dat via mutatie is ontstaan?",
+          "opties": [
+            "Enkel doden",
+            "Enkel voortplanting",
+            "Doden én vertering"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Slangen slikken hun prooi volledig in, waardoor het gif helpt bij de vertering van binnenuit.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "open",
+          "vraag": "Benoem de twee componenten van seksuele selectie.",
+          "antwoord": "1. Keuze van het ene geslacht voor een partner uit het andere geslacht (meestal vrouwelijke keuze). 2. Competitie tussen individuen van hetzelfde geslacht (meestal mannetjes).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "meerkeuze",
+          "vraag": "Horizontale Genoverdracht: Een stukje DNA dat in het genoom van plaats kan wisselen en soms via een vector naar een ander organisme overgebracht wordt, heet een:",
+          "opties": ["Allel", "Transposon (Springend Gen)", "Nucleotide"],
+          "correct_antwoord": 1,
+          "uitleg": "Transposons kunnen zichzelf verplaatsen binnen het genoom.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "meerkeuze",
+          "vraag": "Wat is de primaire functie van de roze, wormachtige tong van de alligatorschildpad?",
+          "opties": [
+            "Territorium afbakenen",
+            "Voedsel lokken (vissen)",
+            "Wonden likken"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Dit is een voorbeeld van een adaptieve mutatie om te jagen.",
+          "punten": 2
+        }
+      ],
+      "totaal_punten": 46,
+      "geschatte_tijd": "30 minuten",
+      "leerdoelen": [
+        "Definities van evolutiemechanismen beheersen",
+        "Verschil tussen theorie en verloop begrijpen",
+        "Voorbeelden van seksuele selectie en adaptatie herkennen"
+      ],
+      "tips": [
+        "Bij seksuele selectie: bedenk wie de grootste investering doet (eicel vs zaadcel) om te bepalen wie kiest.",
+        "Gene flow = migratie; Genetische drift = toeval/kleine populatie."
+      ]
+    },
+    {
+      "id": "bio-t5h1-verdieping",
+      "titel": "Inzicht en Toepassing: Evolutie (Deel 2)",
+      "beschrijving": "Verdiepende vragen over de invloed van gene flow, fitness, epigenetica op lange termijn en scenario-analyses.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Biologie",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Een nieuw fossiel van een menselijke voorouder trekt de evolutietheorie niet in twijfel, maar kan wel het evolutieverloop vertragen of aanpassen. Verklaar dit onderscheid.",
+          "antwoord": "De evolutietheorie (het proces en de mechanismen zoals selectie) staat vast door bewijs. Een nieuw fossiel geeft enkel meer inzicht in de historische sequentie (het verloop) van de soort, maar verandert niets aan het feit dat evolutie plaatsvindt.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Beschrijf een situatie waarin Gene Flow de natuurlijke selectie voor een adaptieve eigenschap in een populatie kan vertragen of tegenwerken.",
+          "antwoord": "Als een populatie A selecteert op een bepaalde eigenschap (bv. felle kleur), maar er is constante migratie (Gene Flow) vanuit populatie B die deze eigenschap niet heeft, dan 'verdunt' de instroom van onaangepaste allelen het effect van de selectie.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "De beerdiertjes (Tardigrada) kunnen extreme omstandigheden overleven ($-200^{\\circ}C$, vacuüm). Verklaar waarom dit fenomeen een sterke indicatie is van adaptieve mutaties.",
+          "antwoord": "Adaptieve mutaties (winstmutaties) verhogen de overlevingskans (fitness). Het overleven in zulke dodelijke niches is een direct gevolg van specifieke aanpassingen die de fitness verhogen; zonder deze mutaties zou selectie hen niet hebben laten overleven.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Leg uit waarom seksuele selectie bij de pauw niet kan leiden tot een staart die onbeperkt groeit. Betrek hierbij het concept van 'fitness'.",
+          "antwoord": "Evolutie is een compromis. Een grotere staart verhoogt de voortplantingskans (seksuele selectie), maar verlaagt de overlevingskans (natuurlijke selectie/predatie). De totale fitness is de balans; als de staart te groot wordt, daalt de overleving te sterk en stopt de groei.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "meerkeuze",
+          "vraag": "Als de Amish-populatie (gesticht door slechts drie echtparen) geen Gene Flow toelaat, welk mechanisme is dan primair verantwoordelijk voor de afwijking van de Hardy-Weinberg-wet?",
+          "opties": [
+            "Natuurlijke selectie",
+            "Seksuele selectie",
+            "Genetische drift"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Door het stichtereffect en afwezigheid van genenuitwisseling, bepaalt toeval de allelfrequenties.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "meerkeuze",
+          "vraag": "Een plantenpopulatie verplaatst zich naar een kouder gebied en ontwikkelt een lichtere vacht (minder pigment voordelig). Welk begrip beschrijft dit fenomeen?",
+          "opties": [
+            "Genetische drift",
+            "Natuurlijke selectie",
+            "Seksuele selectie"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De veranderende omgeving (temperatuur) beïnvloedt de fitness, wat leidt tot selectie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Welke bewering over de rol van mutatie en epigenetische modificatie in de langetermijnevolutie is correct?",
+          "opties": [
+            "Epigenetische modificaties zijn de drijvende kracht op lange termijn.",
+            "Epigenetische modificaties hebben slechts invloed op enkele generaties, terwijl genetische variatie door mutatie evolutie op lange termijn bepaalt.",
+            "Mutaties zijn altijd adaptief."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Epigenetica is vaak tijdelijk; DNA-mutaties zijn permanent en drijven evolutie over eonen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "In het Lenski-experiment werden bacteriën elke 500 generaties ingevroren. Wat was het doel?",
+          "opties": [
+            "Om de bacteriën te doden.",
+            "Om een 'genetische tijdcapsule' te creëren om vergelijkingen te maken met de oorspronkelijke populatie.",
+            "Om het flessenhalseffect te veroorzaken."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Zo kon men de geëvolueerde versie later direct vergelijken met de voorouder.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Waarom zijn vrouwen over het algemeen kieskeuriger bij partnerkeuze dan mannen?",
+          "opties": [
+            "Mannen zijn genetisch homogener.",
+            "Vrouwelijke organismen steken meestal meer energie in de voortplanting (grote eicellen/dracht).",
+            "Vrouwen zijn sterker."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De hogere investering maakt de 'kosten' van een verkeerde partnerkeuze groter voor het vrouwtje.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Welke twee mechanismen beïnvloeden de genetische samenstelling louter door toeval?",
+          "opties": [
+            "Mutatie en Natuurlijke Selectie",
+            "Genetische Drift en Mutatie",
+            "Gene Flow en Seksuele Selectie"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Mutaties ontstaan willekeurig en Drift is statistisch toeval. Selectie is gericht.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Bij Noordelijke zeeolifanten vechten mannetjes om territorium; vrouwtjes paren met de winnaar. Welke vorm van seksuele selectie domineert?",
+          "opties": [
+            "Vrouwelijke keuze",
+            "Competitie tussen mannetjes",
+            "Seksueel kannibalisme"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Hoewel de winnaar wordt gekozen, is de drijvende kracht de fysieke strijd tussen de mannen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Anolis hagedissen op verschillende eilanden vertonen vergelijkbare aanpassingen aan dezelfde niches. Wat is de conclusie?",
+          "opties": [
+            "Er was sprake van Gene Flow.",
+            "De natuurlijke selectie was gelijkaardig en leidde tot convergente evolutie.",
+            "Ze stammen af van één voorouder."
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Onafhankelijke ontwikkeling van dezelfde kenmerken door gelijke omgevingsdruk heet convergente evolutie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "open",
+          "vraag": "Zet de elementen van natuurlijke selectie in de juiste chronologische volgorde: 1. Fenotype met hogere fitness komt vaker voor. 2. Er is een verschil in overerfbaar fenotype. 3. Fenotypes hebben een verschillende fitness.",
+          "antwoord": "2 -> 3 -> 1. (Eerst variatie, dan selectie op fitness, dan verandering in populatie).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "verbinding",
+          "vraag": "Analyseer welk type Genetische Drift van toepassing is",
+          "links_items": [
+            "De wisent (Europese bizon) werd bijna uitgeroeid; alle huidige dieren stammen af van 12 individuen.",
+            "Een klein aantal bacteriën wordt in een nieuw labo geïntroduceerd om een cultuur te starten."
+          ],
+          "rechts_items": ["Flessenhalseffect", "Stichtereffect"],
+          "correcte_verbindingen": [
+            {
+              "links": "De wisent (Europese bizon) werd bijna uitgeroeid; alle huidige dieren stammen af van 12 individuen.",
+              "rechts": "Flessenhalseffect"
+            },
+            {
+              "links": "Een klein aantal bacteriën wordt in een nieuw labo geïntroduceerd om een cultuur te starten.",
+              "rechts": "Stichtereffect"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "open",
+          "vraag": "Wat is de tegenstelling tussen vrouwelijke keuze en competitie tussen mannetjes in seksuele selectie?",
+          "antwoord": "Bij vrouwelijke keuze selecteert het vrouwtje op basis van eigenschappen. Bij competitie vechten mannetjes onderling om de toegang tot vrouwtjes. Ze werken samen om de genenpoel te verfijnen, maar het mechanisme verschilt (keuze vs strijd).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "open",
+          "vraag": "Lenski's E. coli groeide plots sneller op citroenzuur. Welke essentiële voorwaarde was vervuld voor natuurlijke selectie?",
+          "antwoord": "De mutatie moest leiden tot een hogere fitness (betere groei) onder de gegeven omstandigheden. Hierdoor kwam dit nieuwe allel in volgende generaties vaker voor.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "open",
+          "vraag": "Waarom heeft overerving van epigenetische modificaties geen invloed op evolutie op lange termijn?",
+          "antwoord": "Omdat epigenetische aanpassingen meestal slechts enkele generaties standhouden en omkeerbaar zijn, in tegenstelling tot genetische mutaties die permanent in het DNA vastliggen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "open",
+          "vraag": "Welke eigenschappen van bloemen dienen als 'indicatie van fitness' voor bestuivers?",
+          "antwoord": "Symmetrie, bloeiwijze en nectarproductie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "open",
+          "vraag": "Hoe kan Horizontale Genoverdracht (HGO) de resistentie tegen antibiotica versnellen?",
+          "antwoord": "HGO (bv. via conjugatie) laat bacteriën toe om resistentiegenen direct uit te wisselen met buren (zelfs andere soorten), wat veel sneller gaat dan wachten op overerving van generatie op generatie (verticale overdracht).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "open",
+          "vraag": "Hoe beïnvloedt de afwezigheid van Gene Flow in de Amish-populatie de werking van Genetische Drift?",
+          "antwoord": "De afwezigheid van Gene Flow versterkt Drift. Normaal brengt migratie nieuwe allelen in. Zonder dit blijft de populatie genetisch geïsoleerd en behouden de allelen van de kleine stichtersgroep hun ongewone frequenties.",
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 60,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": [
+        "Complexe scenario's van drift en selectie analyseren",
+        "Rol van genenuitwisseling (HGO/Gene Flow) in adaptatie begrijpen",
+        "Kritisch nadenken over fitness en compromissen in evolutie"
+      ],
+      "tips": [
+        "Gebruik de 'fitness'-check: draagt de eigenschap bij aan overleving of voortplanting in DIE omgeving?",
+        "Maak onderscheid tussen korte termijn (epigenetica) en lange termijn (DNA mutaties)."
+      ]
+    }
+  ],
+  "extra_informatie": {
+    "voorkennis": ["Genetica (Mendel/DNA)", "Basisbegrippen ecologie"],
+    "vervolgonderwerpen": ["Soortvorming (speciatie)", "Fylogenie"],
+    "bronnen": ["Cursusmateriaal Biologie"]
+  }
+}
