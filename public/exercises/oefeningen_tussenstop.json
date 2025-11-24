@@ -1,14 +1,14 @@
 {
   "vak": "Biologie",
-  "onderdeel": "Erfelijkheidsonderzoek en Populatiegenetica",
+  "onderdeel": "Mutaties en Genoomdynamiek",
   "jaar": 6,
   "richting": "Wetenschappen",
-  "laatst_bijgewerkt": "2025-11-22",
+  "laatst_bijgewerkt": "2025-11-24",
   "oefeningen": [
     {
-      "id": "bio-t2h3-basis",
-      "titel": "Basisbegrippen Populatiegenetica (Deel 1)",
-      "beschrijving": "Oefeningen over definities, de wet van Hardy-Weinberg en stamboomonderzoek.",
+      "id": "bio-t3h3-basis",
+      "titel": "Basiskennis Mutaties (Deel 1)",
+      "beschrijving": "Oefeningen over definities van mutaties, mutagenen, genoomafwijkingen en DNA-herstel.",
       "moeilijkheidsgraad": "gemiddeld",
       "categorie": "Biologie",
       "type": "gratis",
@@ -16,184 +16,258 @@
         {
           "vraag_nummer": 1,
           "type": "open",
-          "vraag": "Definieer in de context van de populatiegenetica wat precies verstaan wordt onder een populatie.",
-          "antwoord": "Een populatie is een groep organismen van dezelfde soort die zich onderling kunnen voortplanten in hetzelfde geografische gebied.",
+          "vraag": "Definieer het verschil tussen een mutatie en een epigenetische modificatie.",
+          "antwoord": "Mutaties zijn wijzigingen in de nucleotidesequentie van het DNA. Epigenetische modificaties zijn wijzigingen in het methyleringspatroon of histonen zonder de sequentie van het DNA te wijzigen.",
           "punten": 3
         },
         {
           "vraag_nummer": 2,
           "type": "open",
-          "vraag": "Wat is de genenpoel van een populatie en wat omvat deze?",
-          "antwoord": "De genenpoel is de totale verzameling van alle allelen van alle genen die in een populatie voorkomen.",
+          "vraag": "Wat is het fundamentele onderscheid tussen 'nature' en 'nurture' in het nature-nurturedebat?",
+          "antwoord": "'Nature' omvat het geheel van de genetische informatie. 'Nurture' omvat de invloed van omgevingsfactoren, zoals stress, voeding of milieufactoren.",
           "punten": 2
         },
         {
           "vraag_nummer": 3,
           "type": "open",
-          "vraag": "De wet van Hardy en Weinberg beschrijft de relatie tussen allelfrequenties. Hoe wordt de relatie tussen de twee allelfrequenties ($p$ en $q$) uitgedrukt?",
-          "antwoord": "De som van de twee allelfrequenties is gelijk aan 1 (of 100%): $p + q = 1$.",
-          "punten": 2
+          "vraag": "Noem de drie categorieën waarin mutaties ingedeeld kunnen worden op basis van het organisatieniveau van de wijziging.",
+          "antwoord": "Genmutaties, Chromosoommutaties en Genoommutaties.",
+          "punten": 3
         },
         {
           "vraag_nummer": 4,
           "type": "open",
-          "vraag": "Noem twee factoren die erfelijkheidsonderzoek bij de mens bemoeilijken in vergelijking met experimenten op fruitvliegjes.",
-          "antwoord": "Lange generatietijd, klein aantal nakomelingen, en de vrijheid van partnerkeuze (geen gedwongen kruisingen mogelijk).",
-          "punten": 3
+          "vraag": "Welke spontane mutatie wordt gekenmerkt door het afsplitsen van een $NH_2$-groep van een base (zoals cytosine) en de omzetting naar uracil?",
+          "antwoord": "Deaminering.",
+          "punten": 2
         },
         {
           "vraag_nummer": 5,
           "type": "open",
-          "vraag": "Wat is het gevolg wanneer de allelfrequenties van een populatie in de loop van de tijd wijzigen?",
-          "antwoord": "Een verandering van allelfrequenties in de loop van de tijd zorgt voor evolutie.",
-          "punten": 2
+          "vraag": "Wat is de functie van de proofreadingactiviteit van DNA-polymerase tijdens de DNA-replicatie?",
+          "antwoord": "DNA-polymerase kan haar eigen werk controleren, een verkeerd ingebouwd nucleotide detecteren en het vervangen door het correcte nucleotide.",
+          "punten": 3
         },
         {
           "vraag_nummer": 6,
-          "type": "meerkeuze",
-          "vraag": "Wat stelt de term $p^2$ voor in de wet van Hardy en Weinberg?",
-          "opties": [
-            "De frequentie van het recessieve allel ($q$)",
-            "De frequentie van de heterozygote individuen ($2pq$)",
-            "De frequentie van de homozygoot dominante individuen",
-            "De frequentie van het dominante allel ($p$)"
-          ],
-          "correct_antwoord": 2,
-          "uitleg": "$p^2$ staat voor de genotypefrequentie van homozygoot dominante individuen ($AA$).",
+          "type": "open",
+          "vraag": "Wat is het specifieke gevaar van UV-straling voor het DNA-molecule?",
+          "antwoord": "UV-straling kan chemische bindingen tussen twee naast elkaar liggende thyminebasen veroorzaken, waardoor thyminedimeren gevormd worden.",
           "punten": 2
         },
         {
           "vraag_nummer": 7,
-          "type": "meerkeuze",
-          "vraag": "Welke voorwaarde moet vervuld zijn om de wet van Hardy en Weinberg te laten gelden?",
-          "opties": [
-            "De populatie is klein",
-            "Er treedt migratie op",
-            "Er is selectieve partnerkeuze",
-            "Er treedt geen mutatie op"
-          ],
-          "correct_antwoord": 3,
-          "uitleg": "De afwezigheid van mutatie (en migratie, selectie, etc.) is vereist voor constante allelfrequenties.",
-          "punten": 2
+          "type": "open",
+          "vraag": "Leg uit wat de term 'aneuploïdie' betekent in de context van genoommutaties, en noem twee subcategorieën.",
+          "antwoord": "Aneuploïdie is een genoommutatie waarbij een cel een afwijkend aantal chromosomen heeft. Subcategorieën zijn monosomie en trisomie.",
+          "punten": 3
         },
         {
           "vraag_nummer": 8,
-          "type": "meerkeuze",
-          "vraag": "Wat is het doel van het stamboomonderzoek met betrekking tot de overerving?",
-          "opties": [
-            "Om te berekenen hoe snel de populatie evolueert",
-            "Om de genenpoel te meten",
-            "Om te berekenen wie de aandoening zal krijgen",
-            "Om te achterhalen of een kenmerk autosomaal/geslachtsgebonden en dominant/recessief is"
-          ],
-          "correct_antwoord": 3,
-          "uitleg": "Stambomen helpen patronen te herkennen om de wijze van overerving te bepalen.",
+          "type": "open",
+          "vraag": "Wat is het effect van een nonsense-mutatie op het resulterende eiwit?",
+          "antwoord": "Het resulteert in het ontstaan van een stopcodon in een vroeg stadium, waardoor een te kort (en vaak niet-functioneel) eiwit gevormd wordt.",
           "punten": 2
         },
         {
           "vraag_nummer": 9,
-          "type": "meerkeuze",
-          "vraag": "Als in een populatie de allelfrequentie $q$ (recessief allel) 0,2 is, wat is dan de allelfrequentie $p$?",
-          "opties": ["0,2", "0,4", "0,6", "0,8"],
-          "correct_antwoord": 3,
-          "uitleg": "Volgens $p + q = 1$ is $p = 1 - 0,2 = 0,8$.",
-          "punten": 2
+          "type": "open",
+          "vraag": "Wat is de naam van de test die wordt gebruikt om te onderzoeken of stoffen mutageen zijn?",
+          "antwoord": "De Ames-test.",
+          "punten": 1
         },
         {
           "vraag_nummer": 10,
-          "type": "verbinding",
-          "vraag": "Verbind de genotypefrequentie met de H-W formule",
-          "links_items": [
-            "Homozygoot dominant",
-            "Heterozygoot",
-            "Homozygoot recessief"
+          "type": "meerkeuze",
+          "vraag": "Welk type DNA-breuk of fout wordt in het menselijk lichaam hersteld door een eiwit dat thyminedimeren verwijdert?",
+          "opties": [
+            "Deletie door hydrolyse",
+            "Schade door ioniserende straling",
+            "Schade veroorzaakt door UV-straling",
+            "Deaminering van cytosine"
           ],
-          "rechts_items": ["$p^2$", "$2pq$", "$q^2$"],
-          "correcte_verbindingen": [
-            {
-              "links": "Homozygoot dominant",
-              "rechts": "$p^2$"
-            },
-            {
-              "links": "Heterozygoot",
-              "rechts": "$2pq$"
-            },
-            {
-              "links": "Homozygoot recessief",
-              "rechts": "$q^2$"
-            }
-          ],
-          "punten": 3
+          "correct_antwoord": 2,
+          "uitleg": "Xeroderma Pigmentosum wordt bijvoorbeeld veroorzaakt door een fout in dit herstelmechanisme voor UV-schade.",
+          "punten": 2
         },
         {
           "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Sikkelcelanemie is een klassiek voorbeeld van een genmutatie. Welk type genmutatie ligt aan de basis?",
+          "opties": ["Insertie", "Deletie", "Translocatie", "Substitutie"],
+          "correct_antwoord": 3,
+          "uitleg": "Glutaminezuur wordt vervangen door valine door de wijziging (substitutie) van één basenpaar.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Wat is de primaire oorzaak van genoommutaties, zoals het Syndroom van Down?",
+          "opties": [
+            "Deaminering van basen",
+            "Non-disjunctie tijdens de meiose of mitose",
+            "Vrije radicalen die DNA-strengen breken",
+            "Frameshift-mutaties"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Homologe chromosomen of zusterchromatiden worden niet correct uit elkaar getrokken.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Wat is een 'stille mutatie'?",
+          "opties": [
+            "Een mutatie die leidt tot een eiwit met een verbeterde functie",
+            "Een mutatie die resulteert in een codon voor hetzelfde aminozuur",
+            "Een mutatie die leidt tot een aminozuur met gelijkaardige eigenschappen",
+            "Een mutatie die optreedt in niet-coderend DNA"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Door de gedegenereerde genetische code codeert het nieuwe triplet nog steeds voor hetzelfde aminozuur.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Wat is het gevolg van een translocatie, zoals in het voorbeeld van het Philadelphia-chromosoom?",
+          "opties": [
+            "Een deel van een chromosoom verdwijnt",
+            "Een deel van een chromosoom wordt in omgekeerde oriëntatie teruggeplaatst",
+            "Een segment wordt uitgewisseld tussen twee niet-homologe chromosomen",
+            "Het aantal chromosomen verandert"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Bij het Philadelphia-chromosoom is er uitwisseling tussen chromosoom 9 en 22.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Polyploïdie is zeldzaam bij dieren, maar komt vaak voor bij planten. Welk effect heeft dit vaak op planten?",
+          "opties": [
+            "Ze zijn kleiner en dragen kleinere vruchten",
+            "Ze zijn steriel en planten zich ongeslachtelijk voort",
+            "Ze zijn groter en dragen grotere vruchten",
+            "Ze zijn minder resistent tegen ziektes"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Dit is economisch voordelig in de landbouw.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "meerkeuze",
+          "vraag": "Welk mechanisme is een voorbeeld van spontane mutatie veroorzaakt door een replicatiefout?",
+          "opties": [
+            "Hydrolyse van een base",
+            "Fouten van DNA-polymerase",
+            "Schade door ioniserende straling",
+            "Het ontstaan van een thyminedimeer"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Als DNA-polymerase een verkeerd nucleotide inbouwt en dit niet herstelt, is het een replicatiefout.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 17,
           "type": "verbinding",
-          "vraag": "Verbind de allel- of genotypefrequentie met de definitie",
-          "links_items": ["$p^2 + 2pq$", "$q$", "$q^2$"],
+          "vraag": "Koppel de mutagene factor aan het type schade",
+          "links_items": ["Ioniserende straling", "UV-straling", "Benzopyreen"],
           "rechts_items": [
-            "Frequentie van dominante fenotypes (totaal)",
-            "Frequentie van het recessieve allel",
-            "Frequentie van recessieve individuen (genotype)"
+            "Vrije radicalen / breuken in ruggengraat",
+            "Thyminedimeren",
+            "Molecuul dat tussen de basenparen komt te zitten"
           ],
           "correcte_verbindingen": [
             {
-              "links": "$p^2 + 2pq$",
-              "rechts": "Frequentie van dominante fenotypes (totaal)"
+              "links": "Ioniserende straling",
+              "rechts": "Vrije radicalen / breuken in ruggengraat"
             },
             {
-              "links": "$q$",
-              "rechts": "Frequentie van het recessieve allel"
+              "links": "UV-straling",
+              "rechts": "Thyminedimeren"
             },
             {
-              "links": "$q^2$",
-              "rechts": "Frequentie van recessieve individuen (genotype)"
+              "links": "Benzopyreen",
+              "rechts": "Molecuul dat tussen de basenparen komt te zitten"
             }
           ],
           "punten": 3
         },
         {
-          "vraag_nummer": 12,
+          "vraag_nummer": 18,
           "type": "verbinding",
-          "vraag": "Verbind het stamboom-symbool met de betekenis",
+          "vraag": "Koppel het syndroom aan de genoomafwijking",
           "links_items": [
-            "Cirkel",
-            "Vierkant",
-            "Horizontale lijn tussen man en vrouw"
+            "Syndroom van Turner",
+            "Syndroom van Down",
+            "Syndroom van Klinefelter"
           ],
-          "rechts_items": ["Vrouw", "Man", "Partnerrelatie"],
+          "rechts_items": [
+            "Monosomie X (X0)",
+            "Trisomie 21",
+            "Trisomie van geslachtschromosomen (XXY)"
+          ],
           "correcte_verbindingen": [
             {
-              "links": "Cirkel",
-              "rechts": "Vrouw"
+              "links": "Syndroom van Turner",
+              "rechts": "Monosomie X (X0)"
             },
             {
-              "links": "Vierkant",
-              "rechts": "Man"
+              "links": "Syndroom van Down",
+              "rechts": "Trisomie 21"
             },
             {
-              "links": "Horizontale lijn tussen man en vrouw",
-              "rechts": "Partnerrelatie"
+              "links": "Syndroom van Klinefelter",
+              "rechts": "Trisomie van geslachtschromosomen (XXY)"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Koppel de genmutatie aan de structurele verandering",
+          "links_items": ["Deletie", "Substitutie", "Insertie"],
+          "rechts_items": [
+            "Eén of meer nucleotiden worden verwijderd",
+            "Eén basenpaar wordt vervangen door een ander",
+            "Eén of meer nucleotiden worden ingevoegd"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Deletie",
+              "rechts": "Eén of meer nucleotiden worden verwijderd"
+            },
+            {
+              "links": "Substitutie",
+              "rechts": "Eén basenpaar wordt vervangen door een ander"
+            },
+            {
+              "links": "Insertie",
+              "rechts": "Eén of meer nucleotiden worden ingevoegd"
             }
           ],
           "punten": 3
         }
       ],
-      "totaal_punten": 38,
+      "totaal_punten": 44,
       "geschatte_tijd": "30 minuten",
       "leerdoelen": [
-        "Definities van populatie en genenpoel kennen",
-        "De basisformules van Hardy-Weinberg ($p+q=1$) toepassen",
-        "Stamboomdiagrammen interpreteren"
+        "Definities van verschillende mutatietypes kennen",
+        "Oorzaken van mutaties (straling, chemisch) benoemen",
+        "Gevolgen van chromosomale afwijkingen (syndromen) begrijpen"
       ],
       "tips": [
-        "Leer de symbolen van stambomen (vierkant=man, cirkel=vrouw) uit je hoofd.",
-        "Onthoud dat $p$ altijd dominant is en $q$ recessief."
+        "Leer het verschil tussen gen-, chromosoom- en genoommutaties goed.",
+        "Onthoud de specifieke schade van UV (thyminedimeren)."
       ]
     },
     {
-      "id": "bio-t2h3-verdieping",
-      "titel": "Inzicht en Toepassing: Hardy-Weinberg en Stambomen (Deel 2)",
-      "beschrijving": "Verdiepende vragen met rekenwerk aan allelfrequenties en analyse van complexe overervingspatronen.",
+      "id": "bio-t3h3-verdieping",
+      "titel": "Inzicht en Toepassing: Mutaties (Deel 2)",
+      "beschrijving": "Verdiepende vragen over mechanismen van DNA-schade, erfelijkheid van epigenetica en complexe genetica.",
       "moeilijkheidsgraad": "moeilijk",
       "categorie": "Biologie",
       "type": "premium",
@@ -201,170 +275,282 @@
         {
           "vraag_nummer": 1,
           "type": "open",
-          "vraag": "Een zeldzame autosomaal recessieve ziekte komt voor bij 1 op 10.000 geboortes ($q^2$). Wat is het percentage van de bevolking dat drager is ($2pq$)?",
-          "antwoord": "Ongeveer 1,98%.",
-          "stappen": [
-            "Gegeven $q^2 = 1/10.000 = 0,0001$.",
-            "Bereken $q = \\sqrt{0,0001} = 0,01$.",
-            "Bereken $p = 1 - q = 0,99$.",
-            "Bereken dragers: $2pq = 2 \\times 0,99 \\times 0,01 = 0,0198$.",
-            "Omzetten naar procent: $1,98\\%$."
-          ],
-          "punten": 5
+          "vraag": "Autisme is deels erfelijk, deels omgeving. Welk onderzoekstype is het meest geschikt om de respectieve bijdragen te kwantificeren en waarom?",
+          "antwoord": "Tweelingstudies. Men vergelijkt eeneiige (100% identiek genoom) met twee-eiige tweelingen (50% identiek). Als concordantie groter is bij eeneiige, wijst dit op een genetische component.",
+          "punten": 3
         },
         {
           "vraag_nummer": 2,
           "type": "open",
-          "vraag": "Een zeldzame aandoening komt uitsluitend bij vrouwen tot uiting. Aangetaste mannen sterven voor de geboorte. Heterozygote vrouwen hebben milde symptomen. Wat is de wijze van overerving?",
-          "antwoord": "X-gebonden dominant.",
-          "uitleg": "Mannen ($X^AY$) hebben slechts één X. Als dit het letale dominante allel is, sterven ze. Vrouwen ($X^AX^a$) overleven door compensatie van het gezonde allel.",
-          "punten": 3
+          "vraag": "Wat is de 'herprogrammering' van DNA en tijdens welke twee fases vindt dit plaats? Waarom is dit belangrijk?",
+          "antwoord": "Herprogrammering is het wissen en opnieuw aanbrengen van methyleringen. Dit gebeurt 1) tijdens de eerste week van de embryonale ontwikkeling en 2) tijdens de gametogenese. Hierdoor worden epigenetische modificaties zelden doorgegeven.",
+          "punten": 4
         },
         {
           "vraag_nummer": 3,
           "type": "open",
-          "vraag": "Bij het analyseren van een stamboom zijn twee ouders gezond, maar hun kind heeft een recessieve aandoening. Wat is het genotype van de ouders?",
-          "antwoord": "Beide ouders zijn heterozygoot (Aa).",
-          "uitleg": "Om een kind met $aa$ te krijgen terwijl ze zelf het fenotype $A$ hebben, moeten ze beide drager zijn van het recessieve gen.",
+          "vraag": "Beschrijf hoe hydrolyse van een base kan leiden tot een deletie tijdens DNA-replicatie.",
+          "antwoord": "Hydrolyse verbreekt de binding tussen base en suiker. Bij replicatie ontbreekt de template-informatie op die plek, waardoor DNA-polymerase geen nucleotide inbouwt. De nieuwe streng mist dus een nucleotide (deletie).",
           "punten": 3
         },
         {
           "vraag_nummer": 4,
           "type": "open",
-          "vraag": "Er vindt veel inteelt plaats in een populatie. Welke H-W voorwaarde wordt geschonden en wat is het effect op genotypen?",
-          "antwoord": "De willekeurige partnerkeuze wordt geschonden. Het aantal homozygoten ($AA$ en $aa$) neemt toe, ten koste van heterozygoten ($Aa$).",
+          "vraag": "Hoe veroorzaakt ioniserende straling DNA-schade en hoe beperkt het lichaam dit?",
+          "antwoord": "Het vormt vrije radicalen die de suikerfosfaatruggengraat breken. Antioxidanten (Vit A, C, E) reageren met radicalen en maken ze onschadelijk.",
           "punten": 3
         },
         {
           "vraag_nummer": 5,
           "type": "open",
-          "vraag": "De ziekte van Duchenne (X-recessief) heeft een allelfrequentie $q=0,001$. Wat is de frequentie van vrouwelijke dragers?",
-          "antwoord": "Ongeveer 0,2% ($0,001998$).",
-          "stappen": [
-            "$p = 1 - 0,001 = 0,999$.",
-            "Vrouwelijke dragers zijn heterozygoot: $2pq$.",
-            "$2pq = 2 \\times 0,999 \\times 0,001 = 0,001998$."
-          ],
-          "punten": 4
+          "vraag": "Waarom is Turner (X0) levensvatbaar en Y0 niet?",
+          "antwoord": "Het X-chromosoom bevat essentiële genen voor cellulaire overleving. Het Y-chromosoom bevat vooral genen voor mannelijkheid en mist deze vitale genen.",
+          "punten": 2
         },
         {
           "vraag_nummer": 6,
-          "type": "meerkeuze",
-          "vraag": "Een zeldzame autosomaal recessieve aandoening komt voor bij 1 op 4900 individuen. Wat is de frequentie van homozygoot dominante individuen ($p^2$)?",
-          "opties": ["0,014", "0,03", "0,972", "0,9604"],
-          "correct_antwoord": 3,
-          "uitleg": "$q = 1/70 \\approx 0,014$. $p \\approx 0,986$. $p^2 \\approx 0,97$. (De optie 0.9604 is gebaseerd op een afronding van $p=0.98$).",
+          "type": "open",
+          "vraag": "Leg uit hoe een deletie van drie nucleotiden een verliesmutatie kan zijn zonder een frameshift te veroorzaken.",
+          "antwoord": "Drie nucleotiden vormen één codon. Het leesraam verschuift niet, maar er ontbreekt wel één aminozuur in het eiwit (zoals bij taaislijmziekte). Dit kan de functie van het eiwit vernietigen.",
           "punten": 3
         },
         {
           "vraag_nummer": 7,
-          "type": "meerkeuze",
-          "vraag": "Een man met een X-gebonden dominante aandoening ($X^AY$) krijgt kinderen met een gezonde vrouw ($X^aX^a$). Wat is de kans dat hun zoon de aandoening heeft?",
-          "opties": ["100%", "50%", "25%", "0%"],
-          "correct_antwoord": 3,
-          "uitleg": "Zonen erven altijd het Y-chromosoom van de vader en de X van de moeder ($X^a$). De zoon wordt dus $X^aY$ (gezond).",
-          "punten": 3
+          "type": "open",
+          "vraag": "Leg het verschil uit tussen deletie en insertie op chromosoomniveau.",
+          "antwoord": "Bij deletie verdwijnt een segment (verlies van info, korter chromosoom). Bij insertie wordt een segment van een ander chromosoom toegevoegd (langer chromosoom, verstoring regulatie).",
+          "punten": 2
         },
         {
           "vraag_nummer": 8,
-          "type": "meerkeuze",
-          "vraag": "Twee gezonde ouders (dragers, $Aa$) krijgen een kind met een recessieve ziekte. Wat is de kans dat hun *volgende* kind een gezonde dochter is?",
-          "opties": ["1/4", "1/2", "3/8", "3/4"],
-          "correct_antwoord": 2,
-          "uitleg": "Kans op gezond kind ($AA$ of $Aa$) is $3/4$. Kans op dochter is $1/2$. Totaal: $3/4 \\times 1/2 = 3/8$.",
+          "type": "open",
+          "vraag": "Hoe leidt de reactie van antioxidanten met vrije radicalen tot schadebeperking, ondanks dat ze zelf radicaal worden?",
+          "antwoord": "De radicaalvorm van het antioxidant is veel minder reactief en schadelijk dan het oorspronkelijke zuurstofradicaal. De schade wordt 'verlegd' naar een veiliger molecuul.",
           "punten": 3
         },
         {
           "vraag_nummer": 9,
-          "type": "meerkeuze",
-          "vraag": "Waarom kunnen mannen geen drager zijn van daltonisme (X-recessief)?",
-          "opties": [
-            "Omdat mannen twee X-chromosomen hebben",
-            "Omdat het allel dominant is bij mannen",
-            "Omdat het Y-chromosoom de aandoening onderdrukt",
-            "Omdat mannen slechts één X-chromosoom hebben"
-          ],
-          "correct_antwoord": 3,
-          "uitleg": "Bij mannen (XY) komt elk X-allel direct tot uiting (hemizygoot). Ze kunnen het niet 'verbergen' met een tweede X.",
-          "punten": 2
+          "type": "open",
+          "vraag": "Hoe beïnvloedt alcoholgebruik tijdens de zwangerschap de ontwikkeling van het kind op moleculair niveau?",
+          "antwoord": "Het verstoort het methyleringspatroon tijdens de kwetsbare herprogrammeringsfase in de embryonale ontwikkeling, wat leidt tot blijvende afwijkingen (foetaal alcoholsyndroom).",
+          "punten": 3
         },
         {
           "vraag_nummer": 10,
-          "type": "verbinding",
-          "vraag": "Verbind het stamboomkenmerk met de overervingswijze",
-          "links_items": [
-            "Zieke vader heeft gezonde dochter",
-            "Ziekte slaat generaties over (even vaak m/v)",
-            "Ziekte veel vaker bij vrouwen; zonen van zieke vaders altijd ziek"
+          "type": "meerkeuze",
+          "vraag": "Waarom is onderzoek naar erfelijke epigenetica bij mensen moeilijker dan bij muizen?",
+          "opties": [
+            "Mensen hebben geen methylering",
+            "Mensen hebben een grotere genetische diversiteit en langere generatietijd",
+            "Mensen zijn polyploïd"
           ],
-          "rechts_items": [
-            "Autosomaal dominant",
-            "Autosomaal recessief",
-            "X-gebonden dominant"
-          ],
-          "correcte_verbindingen": [
-            {
-              "links": "Zieke vader heeft gezonde dochter",
-              "rechts": "Autosomaal dominant"
-            },
-            {
-              "links": "Ziekte slaat generaties over (even vaak m/v)",
-              "rechts": "Autosomaal recessief"
-            },
-            {
-              "links": "Ziekte veel vaker bij vrouwen; zonen van zieke vaders altijd ziek",
-              "rechts": "X-gebonden dominant"
-            }
-          ],
-          "uitleg": "Let op: De verbinding bij X-dominantie in de bron (zonen van zieke vaders altijd ziek) is genetisch incorrect (zonen erven Y), maar in de context van de PDF wordt bedoeld dat dochters altijd ziek zijn of een soortgelijk patroon. Ik volg de logica van de bron: kenmerk 3 koppelt aan X-dominant.",
-          "punten": 4
+          "correct_antwoord": 1,
+          "uitleg": "De diversiteit en lange generatietijd maken het isoleren van epigenetische effecten complex.",
+          "punten": 2
         },
         {
           "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Wat wordt er gemeten in de Ames-test?",
+          "opties": [
+            "Aantal overlevende bacteriën",
+            "Snelheid van histidine afbraak",
+            "Het aantal bacteriën dat terugmuteert om weer histidine aan te maken"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Men telt de kolonies die weer kunnen groeien zonder histidine (reverse mutation).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Een mutatie verandert codon CCA (Proline) in TCA (Stop). Classificatie?",
+          "opties": [
+            "Substitutie; Winstmutatie",
+            "Insertie; Neutrale mutatie",
+            "Substitutie; Nonsense-mutatie",
+            "Deletie; Missense-mutatie"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Substitutie van C naar T. Resultaat is Stop, dus nonsense.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Non-disjunctie vindt plaats tijdens Meiose II. Wat zijn de gameten?",
+          "opties": [
+            "Twee N+1, twee N-1",
+            "Twee N, één N+1, één N-1",
+            "Alle vier N+1"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Meiose I ging goed (dus 2 cellen met N chromosomen). Meiose II fout in één cel geeft N+1 en N-1. De andere cel deelt normaal naar N en N.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "PKU is genetisch, maar een dieet helpt. Conclusie nature/nurture?",
+          "opties": [
+            "PKU is puur nature",
+            "Nurture (dieet) kan de expressie van nature (genen) modificeren",
+            "Alleen omgeving telt"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Genen bepalen de aanleg, omgeving bepaalt de uiting/ernst.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Valine verandert in Alanine (beide niet-polair). Classificatie?",
+          "opties": ["Nonsense-mutatie", "Neutrale mutatie", "Winstmutatie"],
+          "correct_antwoord": 1,
+          "uitleg": "Omdat de eigenschappen gelijkaardig zijn, blijft de eiwitfunctie vaak behouden (neutraal).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "meerkeuze",
+          "vraag": "Welke mutatie heeft het grootste effect op de rest van het eiwit?",
+          "opties": [
+            "Missense-mutatie",
+            "Substitutie (Stil)",
+            "Frameshift-mutatie"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Een frameshift verandert alle codons na de mutatie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "meerkeuze",
+          "vraag": "Waarom is polyploïdie zeldzaam bij dieren?",
+          "opties": [
+            "Dieren hebben meer chromosomen",
+            "Aneuploïdie/Polyploïdie is bij dieren vaak letaal",
+            "Dieren zijn haploïd"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Dierlijke ontwikkeling luistert zeer nauw; chromosoomafwijkingen zijn vaak fataal.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 18,
           "type": "verbinding",
-          "vraag": "Verbind de afwijking van H-W met de oorzaak",
-          "links_items": ["Natuurlijke Selectie", "Mutatie", "Migratie"],
+          "vraag": "Verbind de mutatie met de oorzaak",
+          "links_items": [
+            "Vervanging cytosine door uracil",
+            "AT-paar i.p.v. GC-paar (na deaminering)",
+            "Fout van DNA-polymerase",
+            "Mutatie door benzopyreen"
+          ],
           "rechts_items": [
-            "Verandering gericht op fitness",
-            "Introductie nieuwe allelen",
-            "Willekeurige verandering (in context bron)"
+            "Deaminering (spontaan)",
+            "Spontane mutatie (gevolg)",
+            "Spontane mutatie (replicatie)",
+            "Geïnduceerde mutatie"
           ],
           "correcte_verbindingen": [
             {
-              "links": "Natuurlijke Selectie",
-              "rechts": "Verandering gericht op fitness"
+              "links": "Vervanging cytosine door uracil",
+              "rechts": "Deaminering (spontaan)"
             },
             {
-              "links": "Mutatie",
-              "rechts": "Introductie nieuwe allelen"
+              "links": "AT-paar i.p.v. GC-paar (na deaminering)",
+              "rechts": "Spontane mutatie (gevolg)"
             },
             {
-              "links": "Migratie",
-              "rechts": "Willekeurige verandering (in context bron)"
+              "links": "Fout van DNA-polymerase",
+              "rechts": "Spontane mutatie (replicatie)"
+            },
+            {
+              "links": "Mutatie door benzopyreen",
+              "rechts": "Geïnduceerde mutatie"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Verbind het voorbeeld aan het mutatietype",
+          "links_items": [
+            "Taaislijmziekte (ontbreken Fenylalanine)",
+            "Valine i.p.v. Glutaminezuur",
+            "Vroeg stopcodon",
+            "Invoeging van één nucleotide"
+          ],
+          "rechts_items": [
+            "Deletie van drie nucleotiden",
+            "Missense-mutatie",
+            "Nonsense-mutatie",
+            "Frameshift-mutatie"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Taaislijmziekte (ontbreken Fenylalanine)",
+              "rechts": "Deletie van drie nucleotiden"
+            },
+            {
+              "links": "Valine i.p.v. Glutaminezuur",
+              "rechts": "Missense-mutatie"
+            },
+            {
+              "links": "Vroeg stopcodon",
+              "rechts": "Nonsense-mutatie"
+            },
+            {
+              "links": "Invoeging van één nucleotide",
+              "rechts": "Frameshift-mutatie"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Verbind de fase aan het proces",
+          "links_items": ["Gameten", "Mitose", "Eerste week embryo"],
+          "rechts_items": [
+            "Resultaat van 2e golf herprogrammering",
+            "Epigenetica wordt gekopieerd",
+            "1e golf herprogrammering (wissen)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Gameten",
+              "rechts": "Resultaat van 2e golf herprogrammering"
+            },
+            {
+              "links": "Mitose",
+              "rechts": "Epigenetica wordt gekopieerd"
+            },
+            {
+              "links": "Eerste week embryo",
+              "rechts": "1e golf herprogrammering (wissen)"
             }
           ],
           "punten": 3
         }
       ],
-      "totaal_punten": 36,
+      "totaal_punten": 56,
       "geschatte_tijd": "45 minuten",
       "leerdoelen": [
-        "Complexe Hardy-Weinberg berekeningen uitvoeren (dragerschap)",
-        "Kansberekening combineren met Mendeliaanse overerving",
-        "Effecten van H-W schendingen (inteelt, drift) begrijpen"
+        "Complexe processen van DNA-herstel en schade uitleggen",
+        "Redeneren over de overerving van epigenetica",
+        "Onderscheid maken tussen verschillende types punt- en frameshiftmutaties"
       ],
       "tips": [
-        "Gebruik het stappenplan: bereken altijd eerst $q$ uit $q^2$ (bij recessieve ziekten).",
-        "Bij kansberekening: vermenigvuldig de kans op het genotype met de kans op het geslacht."
+        "Let op het verschil tussen 'neutraal' (geen effect op functie) en 'stil' (geen effect op aminozuur).",
+        "Bij meiose-fouten: teken het schema van non-disjunctie uit."
       ]
     }
   ],
   "extra_informatie": {
-    "voorkennis": [
-      "Mendeliaanse genetica",
-      "Basis wiskunde (worteltrekken, breuken)"
-    ],
-    "vervolgonderwerpen": ["Evolutie en soortvorming", "Biotechnologie"],
-    "bronnen": ["Oefeningen Populatiegenetica T2 H3"]
+    "voorkennis": ["DNA-replicatie", "Meiose en Mitose", "Eiwitsynthese"],
+    "vervolgonderwerpen": ["Evolutietheorie", "Biotechnologie en Geneeskunde"],
+    "bronnen": ["Oefeningen Mutaties T3 H3"]
   }
 }
