@@ -1,14 +1,14 @@
 {
   "vak": "Biologie",
-  "onderdeel": "Mutaties en Genoomdynamiek",
+  "onderdeel": "Biotechnologische Technieken",
   "jaar": 6,
   "richting": "Wetenschappen",
   "laatst_bijgewerkt": "2025-11-24",
   "oefeningen": [
     {
-      "id": "bio-t3h3-basis",
-      "titel": "Basiskennis Mutaties (Deel 1)",
-      "beschrijving": "Oefeningen over definities van mutaties, mutagenen, genoomafwijkingen en DNA-herstel.",
+      "id": "bio-t4h2-basis",
+      "titel": "Basiskennis Technieken (Deel 1)",
+      "beschrijving": "Oefeningen over PCR, gelelektroforese, sequencing en basisbegrippen van kloneren.",
       "moeilijkheidsgraad": "gemiddeld",
       "categorie": "Biologie",
       "type": "gratis",
@@ -16,258 +16,278 @@
         {
           "vraag_nummer": 1,
           "type": "open",
-          "vraag": "Definieer het verschil tussen een mutatie en een epigenetische modificatie.",
-          "antwoord": "Mutaties zijn wijzigingen in de nucleotidesequentie van het DNA. Epigenetische modificaties zijn wijzigingen in het methyleringspatroon of histonen zonder de sequentie van het DNA te wijzigen.",
+          "vraag": "Wat is de functie van een primer in de Polymerase Chain Reaction (PCR)?",
+          "antwoord": "Een primer is een korte enkelstrengige DNA-streng die aan het enkelstrengige DNA bindt. DNA-polymerase heeft dit nodig omdat het alleen een bestaande keten kan verlengen. De twee primers bepalen het begin en einde van het te kopiëren fragment.",
           "punten": 3
         },
         {
           "vraag_nummer": 2,
           "type": "open",
-          "vraag": "Wat is het fundamentele onderscheid tussen 'nature' en 'nurture' in het nature-nurturedebat?",
-          "antwoord": "'Nature' omvat het geheel van de genetische informatie. 'Nurture' omvat de invloed van omgevingsfactoren, zoals stress, voeding of milieufactoren.",
+          "vraag": "Waarom is het noodzakelijk om een kleurstof toe te voegen aan het DNA-staal voordat het aan de gel wordt toegevoegd bij DNA-gelelektroforese?",
+          "antwoord": "Het DNA zelf is niet zichtbaar. De kleurstof dient om het verloop van de gelelektroforese te kunnen volgen (zodat het staal niet uit de gel loopt).",
           "punten": 2
         },
         {
           "vraag_nummer": 3,
           "type": "open",
-          "vraag": "Noem de drie categorieën waarin mutaties ingedeeld kunnen worden op basis van het organisatieniveau van de wijziging.",
-          "antwoord": "Genmutaties, Chromosoommutaties en Genoommutaties.",
-          "punten": 3
+          "vraag": "Beschrijf kort wat een Genetisch Gemodificeerd Organisme (GGO) is in de context van recombinant DNA-technologie.",
+          "antwoord": "Een GGO is een organisme waarvan het genoom is veranderd, meestal door het te verrijken met genen van een ander organisme via biotechnologische technieken.",
+          "punten": 2
         },
         {
           "vraag_nummer": 4,
           "type": "open",
-          "vraag": "Welke spontane mutatie wordt gekenmerkt door het afsplitsen van een $NH_2$-groep van een base (zoals cytosine) en de omzetting naar uracil?",
-          "antwoord": "Deaminering.",
-          "punten": 2
+          "vraag": "Welke techniek wordt specifiek gebruikt om de nucleotidevolgorde in een DNA-streng te bepalen?",
+          "antwoord": "DNA-sequencing.",
+          "punten": 1
         },
         {
           "vraag_nummer": 5,
           "type": "open",
-          "vraag": "Wat is de functie van de proofreadingactiviteit van DNA-polymerase tijdens de DNA-replicatie?",
-          "antwoord": "DNA-polymerase kan haar eigen werk controleren, een verkeerd ingebouwd nucleotide detecteren en het vervangen door het correcte nucleotide.",
+          "vraag": "Wat is de betekenis van de term 'sticky ends' die ontstaan na het knippen van DNA met restrictie-enzymen?",
+          "antwoord": "Sticky ends zijn uitstekende enkelstrengige uiteinden van DNA. Ze heten zo omdat ze gemakkelijk kunnen binden met complementaire stukjes DNA door middel van waterstofbruggen.",
           "punten": 3
         },
         {
           "vraag_nummer": 6,
           "type": "open",
-          "vraag": "Wat is het specifieke gevaar van UV-straling voor het DNA-molecule?",
-          "antwoord": "UV-straling kan chemische bindingen tussen twee naast elkaar liggende thyminebasen veroorzaken, waardoor thyminedimeren gevormd worden.",
+          "vraag": "Geef twee medische toepassingen van de CRISPR-Cas gene editing-techniek.",
+          "antwoord": "De behandeling van genetische ziekten zoals tyrosinemie en sikkelcelanemie.",
           "punten": 2
         },
         {
           "vraag_nummer": 7,
           "type": "open",
-          "vraag": "Leg uit wat de term 'aneuploïdie' betekent in de context van genoommutaties, en noem twee subcategorieën.",
-          "antwoord": "Aneuploïdie is een genoommutatie waarbij een cel een afwijkend aantal chromosomen heeft. Subcategorieën zijn monosomie en trisomie.",
+          "vraag": "Noem twee redenen waarom biotechnologen vaak organismen gebruiken die ze modelorganismen noemen in plaats van de mens.",
+          "antwoord": "Modelorganismen hebben vaak een korte generatietijd, een relatief eenvoudig genoom, en zijn goedkoop in grote aantallen te kweken.",
           "punten": 3
         },
         {
           "vraag_nummer": 8,
-          "type": "open",
-          "vraag": "Wat is het effect van een nonsense-mutatie op het resulterende eiwit?",
-          "antwoord": "Het resulteert in het ontstaan van een stopcodon in een vroeg stadium, waardoor een te kort (en vaak niet-functioneel) eiwit gevormd wordt.",
+          "type": "meerkeuze",
+          "vraag": "Welke component zorgt ervoor dat de gelelektroforese succesvol DNA-fragmenten kan scheiden?",
+          "opties": [
+            "De DNA-ladder",
+            "De positieve lading van de fosfaatgroepen",
+            "De nucleotiden in de gel",
+            "De weerstand van de gelporiën die kleinere fragmenten sneller doorlaten dan grotere fragmenten"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Het principe berust op grootte: kleine fragmenten ondervinden minder weerstand en migreren sneller.",
           "punten": 2
         },
         {
           "vraag_nummer": 9,
-          "type": "open",
-          "vraag": "Wat is de naam van de test die wordt gebruikt om te onderzoeken of stoffen mutageen zijn?",
-          "antwoord": "De Ames-test.",
-          "punten": 1
+          "type": "meerkeuze",
+          "vraag": "Hoe wordt het proces genoemd waarbij bacteriën DNA dat buiten de cel ligt opnemen en integreren in hun genoom of plasmide?",
+          "opties": ["Transductie", "Conjugatie", "Kloneren", "Transformatie"],
+          "correct_antwoord": 3,
+          "uitleg": "Transformatie is de opname van 'naakt' DNA uit de omgeving.",
+          "punten": 2
         },
         {
           "vraag_nummer": 10,
           "type": "meerkeuze",
-          "vraag": "Welk type DNA-breuk of fout wordt in het menselijk lichaam hersteld door een eiwit dat thyminedimeren verwijdert?",
+          "vraag": "Welk enzym wordt in de RT-PCR-test gebruikt om de genetische informatie van een RNA-virus (zoals hiv) eerst om te zetten in copyDNA (cDNA)?",
           "opties": [
-            "Deletie door hydrolyse",
-            "Schade door ioniserende straling",
-            "Schade veroorzaakt door UV-straling",
-            "Deaminering van cytosine"
+            "Taq-DNA-polymerase",
+            "DNA-ligase",
+            "Reverse-transcriptase (RT)",
+            "Cas-nuclease"
           ],
           "correct_antwoord": 2,
-          "uitleg": "Xeroderma Pigmentosum wordt bijvoorbeeld veroorzaakt door een fout in dit herstelmechanisme voor UV-schade.",
+          "uitleg": "Reverse-transcriptase schrijft RNA om naar DNA.",
           "punten": 2
         },
         {
           "vraag_nummer": 11,
           "type": "meerkeuze",
-          "vraag": "Sikkelcelanemie is een klassiek voorbeeld van een genmutatie. Welk type genmutatie ligt aan de basis?",
-          "opties": ["Insertie", "Deletie", "Translocatie", "Substitutie"],
-          "correct_antwoord": 3,
-          "uitleg": "Glutaminezuur wordt vervangen door valine door de wijziging (substitutie) van één basenpaar.",
+          "vraag": "Bij welk type kloneren wordt een celkern van een volwassen huidcel overgebracht in een eicel waarvan de kern verwijderd is (zoals schaap Dolly)?",
+          "opties": [
+            "Moleculair kloneren",
+            "Natuurlijk kloneren",
+            "Reproductief kloneren",
+            "Therapeutisch kloneren"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Het doel is een nieuw organisme creëren (reproductie).",
           "punten": 2
         },
         {
           "vraag_nummer": 12,
           "type": "meerkeuze",
-          "vraag": "Wat is de primaire oorzaak van genoommutaties, zoals het Syndroom van Down?",
+          "vraag": "Wat is een belangrijk nadeel van de klassieke Sanger sequencingmethode vergeleken met Next Generation Sequencing (NGS)?",
           "opties": [
-            "Deaminering van basen",
-            "Non-disjunctie tijdens de meiose of mitose",
-            "Vrije radicalen die DNA-strengen breken",
-            "Frameshift-mutaties"
+            "De methode is te duur",
+            "De methode vereist fluorescerende merkers",
+            "De methode liet slechts toe om de sequentie van één DNA-staal tegelijk te bepalen",
+            "De methode gebruikt geen DNA-polymerase"
           ],
-          "correct_antwoord": 1,
-          "uitleg": "Homologe chromosomen of zusterchromatiden worden niet correct uit elkaar getrokken.",
+          "correct_antwoord": 2,
+          "uitleg": "NGS kan miljoenen fragmenten parallel sequencen (massively parallel), Sanger slechts één.",
           "punten": 2
         },
         {
           "vraag_nummer": 13,
           "type": "meerkeuze",
-          "vraag": "Wat is een 'stille mutatie'?",
-          "opties": [
-            "Een mutatie die leidt tot een eiwit met een verbeterde functie",
-            "Een mutatie die resulteert in een codon voor hetzelfde aminozuur",
-            "Een mutatie die leidt tot een aminozuur met gelijkaardige eigenschappen",
-            "Een mutatie die optreedt in niet-coderend DNA"
-          ],
-          "correct_antwoord": 1,
-          "uitleg": "Door de gedegenereerde genetische code codeert het nieuwe triplet nog steeds voor hetzelfde aminozuur.",
+          "vraag": "Hoe noemt men de specifieke, korte DNA-sequentie die in het CRISPR-register is opgeslagen en die afkomstig is van een eerdere virale infectie?",
+          "opties": ["Cas-gen", "tracrRNA", "Gids-RNA", "Spacer DNA"],
+          "correct_antwoord": 3,
+          "uitleg": "Spacer DNA is het stukje viraal DNA dat als geheugen wordt opgeslagen.",
           "punten": 2
         },
         {
           "vraag_nummer": 14,
           "type": "meerkeuze",
-          "vraag": "Wat is het gevolg van een translocatie, zoals in het voorbeeld van het Philadelphia-chromosoom?",
-          "opties": [
-            "Een deel van een chromosoom verdwijnt",
-            "Een deel van een chromosoom wordt in omgekeerde oriëntatie teruggeplaatst",
-            "Een segment wordt uitgewisseld tussen twee niet-homologe chromosomen",
-            "Het aantal chromosomen verandert"
-          ],
-          "correct_antwoord": 2,
-          "uitleg": "Bij het Philadelphia-chromosoom is er uitwisseling tussen chromosoom 9 en 22.",
+          "vraag": "Bij de NIPT-test wordt het risico op het syndroom van Down opgespoord door te bepalen of er in het foetale DNA te veel fragmenten aanwezig zijn van welk type molecule?",
+          "opties": ["Plasmiden", "Chromosoom", "Spacer DNA", "Gids-RNA"],
+          "correct_antwoord": 1,
+          "uitleg": "Trisomie 21 betekent een extra chromosoom 21, dus relatief meer DNA-fragmenten van dit chromosoom.",
           "punten": 2
         },
         {
           "vraag_nummer": 15,
-          "type": "meerkeuze",
-          "vraag": "Polyploïdie is zeldzaam bij dieren, maar komt vaak voor bij planten. Welk effect heeft dit vaak op planten?",
-          "opties": [
-            "Ze zijn kleiner en dragen kleinere vruchten",
-            "Ze zijn steriel en planten zich ongeslachtelijk voort",
-            "Ze zijn groter en dragen grotere vruchten",
-            "Ze zijn minder resistent tegen ziektes"
+          "type": "verbinding",
+          "vraag": "Koppel de term aan het bijbehorende wetenschappelijke figuur",
+          "links_items": [
+            "Ontwikkelaar van PCR",
+            "Ontwikkelaar van klassieke sequencing"
           ],
-          "correct_antwoord": 2,
-          "uitleg": "Dit is economisch voordelig in de landbouw.",
+          "rechts_items": ["Kary Banks Mullis", "Frederick Sanger"],
+          "correcte_verbindingen": [
+            {
+              "links": "Ontwikkelaar van PCR",
+              "rechts": "Kary Banks Mullis"
+            },
+            {
+              "links": "Ontwikkelaar van klassieke sequencing",
+              "rechts": "Frederick Sanger"
+            }
+          ],
           "punten": 2
         },
         {
           "vraag_nummer": 16,
-          "type": "meerkeuze",
-          "vraag": "Welk mechanisme is een voorbeeld van spontane mutatie veroorzaakt door een replicatiefout?",
-          "opties": [
-            "Hydrolyse van een base",
-            "Fouten van DNA-polymerase",
-            "Schade door ioniserende straling",
-            "Het ontstaan van een thyminedimeer"
+          "type": "verbinding",
+          "vraag": "Koppel de DNA-manipulatietechniek aan zijn beschreven doel",
+          "links_items": ["DNA-gelelektroforese", "PCR"],
+          "rechts_items": [
+            "Het scheiden van DNA-fragmenten op basis van grootte",
+            "Het vermeerderen van een specifiek DNA-fragment"
           ],
-          "correct_antwoord": 1,
-          "uitleg": "Als DNA-polymerase een verkeerd nucleotide inbouwt en dit niet herstelt, is het een replicatiefout.",
+          "correcte_verbindingen": [
+            {
+              "links": "DNA-gelelektroforese",
+              "rechts": "Het scheiden van DNA-fragmenten op basis van grootte"
+            },
+            {
+              "links": "PCR",
+              "rechts": "Het vermeerderen van een specifiek DNA-fragment"
+            }
+          ],
           "punten": 2
         },
         {
           "vraag_nummer": 17,
           "type": "verbinding",
-          "vraag": "Koppel de mutagene factor aan het type schade",
-          "links_items": ["Ioniserende straling", "UV-straling", "Benzopyreen"],
+          "vraag": "Koppel het type kloneren aan de beschreven methode/resultaat",
+          "links_items": ["Natuurlijk kloneren", "Moleculair kloneren"],
           "rechts_items": [
-            "Vrije radicalen / breuken in ruggengraat",
-            "Thyminedimeren",
-            "Molecuul dat tussen de basenparen komt te zitten"
+            "Aardbeien vormen bovengrondse nieuwe stengels waar identieke planten aan groeien",
+            "Gebruik van transgene bacteriën om grote hoeveelheden insuline te produceren"
           ],
           "correcte_verbindingen": [
             {
-              "links": "Ioniserende straling",
-              "rechts": "Vrije radicalen / breuken in ruggengraat"
+              "links": "Natuurlijk kloneren",
+              "rechts": "Aardbeien vormen bovengrondse nieuwe stengels waar identieke planten aan groeien"
             },
             {
-              "links": "UV-straling",
-              "rechts": "Thyminedimeren"
-            },
-            {
-              "links": "Benzopyreen",
-              "rechts": "Molecuul dat tussen de basenparen komt te zitten"
+              "links": "Moleculair kloneren",
+              "rechts": "Gebruik van transgene bacteriën om grote hoeveelheden insuline te produceren"
             }
           ],
-          "punten": 3
+          "punten": 2
         },
         {
           "vraag_nummer": 18,
           "type": "verbinding",
-          "vraag": "Koppel het syndroom aan de genoomafwijking",
-          "links_items": [
-            "Syndroom van Turner",
-            "Syndroom van Down",
-            "Syndroom van Klinefelter"
-          ],
+          "vraag": "Koppel het DNA-technologische element aan de bron",
+          "links_items": ["Taq-DNA-polymerase", "Restrictie-enzymen"],
           "rechts_items": [
-            "Monosomie X (X0)",
-            "Trisomie 21",
-            "Trisomie van geslachtschromosomen (XXY)"
+            "Geïsoleerd uit de bacterie Thermus aquaticus",
+            "Worden van nature door bacteriën gebruikt als verdedigingsmechanisme"
           ],
           "correcte_verbindingen": [
             {
-              "links": "Syndroom van Turner",
-              "rechts": "Monosomie X (X0)"
+              "links": "Taq-DNA-polymerase",
+              "rechts": "Geïsoleerd uit de bacterie Thermus aquaticus"
             },
             {
-              "links": "Syndroom van Down",
-              "rechts": "Trisomie 21"
-            },
-            {
-              "links": "Syndroom van Klinefelter",
-              "rechts": "Trisomie van geslachtschromosomen (XXY)"
+              "links": "Restrictie-enzymen",
+              "rechts": "Worden van nature door bacteriën gebruikt als verdedigingsmechanisme"
             }
           ],
-          "punten": 3
+          "punten": 2
         },
         {
           "vraag_nummer": 19,
           "type": "verbinding",
-          "vraag": "Koppel de genmutatie aan de structurele verandering",
-          "links_items": ["Deletie", "Substitutie", "Insertie"],
+          "vraag": "Koppel de toepassing van DNA-gelelektroforese aan de type sporen",
+          "links_items": ["Ouderschapsbepaling", "Daderidentificatie"],
           "rechts_items": [
-            "Eén of meer nucleotiden worden verwijderd",
-            "Eén basenpaar wordt vervangen door een ander",
-            "Eén of meer nucleotiden worden ingevoegd"
+            "DNA-fragmenten van moeder, kind en potentiële vader",
+            "DNA-fragmenten uit sperma, bloed, haar of speeksel"
           ],
           "correcte_verbindingen": [
             {
-              "links": "Deletie",
-              "rechts": "Eén of meer nucleotiden worden verwijderd"
+              "links": "Ouderschapsbepaling",
+              "rechts": "DNA-fragmenten van moeder, kind en potentiële vader"
             },
             {
-              "links": "Substitutie",
-              "rechts": "Eén basenpaar wordt vervangen door een ander"
-            },
-            {
-              "links": "Insertie",
-              "rechts": "Eén of meer nucleotiden worden ingevoegd"
+              "links": "Daderidentificatie",
+              "rechts": "DNA-fragmenten uit sperma, bloed, haar of speeksel"
             }
           ],
-          "punten": 3
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Koppel de component van de PCR aan zijn bouwsteen",
+          "links_items": ["DNA-streng", "Primer"],
+          "rechts_items": [
+            "Desoxynucleotiden (dNTP's)",
+            "Korte enkelstrengige DNA-fragmenten (20-30 nucleotiden)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "DNA-streng",
+              "rechts": "Desoxynucleotiden (dNTP's)"
+            },
+            {
+              "links": "Primer",
+              "rechts": "Korte enkelstrengige DNA-fragmenten (20-30 nucleotiden)"
+            }
+          ],
+          "punten": 2
         }
       ],
       "totaal_punten": 44,
-      "geschatte_tijd": "30 minuten",
+      "geschatte_tijd": "35 minuten",
       "leerdoelen": [
-        "Definities van verschillende mutatietypes kennen",
-        "Oorzaken van mutaties (straling, chemisch) benoemen",
-        "Gevolgen van chromosomale afwijkingen (syndromen) begrijpen"
+        "De stappen van PCR en gelelektroforese beschrijven",
+        "Verschillen tussen kloneringstypes kennen",
+        "Basisprincipes van CRISPR en sequencing begrijpen"
       ],
       "tips": [
-        "Leer het verschil tussen gen-, chromosoom- en genoommutaties goed.",
-        "Onthoud de specifieke schade van UV (thyminedimeren)."
+        "Leer het verschil tussen de termen 'primer', 'probe' en 'spacer'.",
+        "Onthoud dat DNA negatief geladen is en naar de positieve pool migreert."
       ]
     },
     {
-      "id": "bio-t3h3-verdieping",
-      "titel": "Inzicht en Toepassing: Mutaties (Deel 2)",
-      "beschrijving": "Verdiepende vragen over mechanismen van DNA-schade, erfelijkheid van epigenetica en complexe genetica.",
+      "id": "bio-t4h2-verdieping",
+      "titel": "Inzicht en Toepassing: Technieken (Deel 2)",
+      "beschrijving": "Verdiepende vragen over PCR-efficiëntie, forensisch onderzoek, qPCR-mechanismen en vectorgebruik.",
       "moeilijkheidsgraad": "moeilijk",
       "categorie": "Biologie",
       "type": "premium",
@@ -275,282 +295,305 @@
         {
           "vraag_nummer": 1,
           "type": "open",
-          "vraag": "Autisme is deels erfelijk, deels omgeving. Welk onderzoekstype is het meest geschikt om de respectieve bijdragen te kwantificeren en waarom?",
-          "antwoord": "Tweelingstudies. Men vergelijkt eeneiige (100% identiek genoom) met twee-eiige tweelingen (50% identiek). Als concordantie groter is bij eeneiige, wijst dit op een genetische component.",
-          "punten": 3
+          "vraag": "Leg uit waarom de eerste twee cycli van PCR inefficiënt zijn voor de productie van DNA-fragmenten van de exact gewenste lengte.",
+          "antwoord": "Na de eerste cyclus zijn de nieuwe strengen nog te lang, omdat de primer enkel het startpunt bepaalt en niet het eindpunt. Pas na de tweede cyclus ontstaan strengen die aan één kant correct zijn afgelijnd. De exacte lengte verschijnt pas in de derde cyclus.",
+          "punten": 4
         },
         {
           "vraag_nummer": 2,
           "type": "open",
-          "vraag": "Wat is de 'herprogrammering' van DNA en tijdens welke twee fases vindt dit plaats? Waarom is dit belangrijk?",
-          "antwoord": "Herprogrammering is het wissen en opnieuw aanbrengen van methyleringen. Dit gebeurt 1) tijdens de eerste week van de embryonale ontwikkeling en 2) tijdens de gametogenese. Hierdoor worden epigenetische modificaties zelden doorgegeven.",
-          "punten": 4
+          "vraag": "Beschrijf het stappenplan dat je als forensisch onderzoeker volgt om een dader te identificeren met behulp van DNA (van PCR tot Identificatie).",
+          "antwoord": "1. Vermeerdering (PCR): Vermenigvuldig markers van stalen (verdachten + plaats delict). 2. Scheiding (Gelelektroforese): Scheid fragmenten op grootte. 3. Analyse: Maak bandjespatronen zichtbaar. 4. Identificatie: Match het unieke bandenpatroon van de verdachte met het spoor.",
+          "punten": 5
         },
         {
           "vraag_nummer": 3,
           "type": "open",
-          "vraag": "Beschrijf hoe hydrolyse van een base kan leiden tot een deletie tijdens DNA-replicatie.",
-          "antwoord": "Hydrolyse verbreekt de binding tussen base en suiker. Bij replicatie ontbreekt de template-informatie op die plek, waardoor DNA-polymerase geen nucleotide inbouwt. De nieuwe streng mist dus een nucleotide (deletie).",
-          "punten": 3
+          "vraag": "Leg het fundamentele verschil uit in hoe Sanger sequencing en Next Generation Sequencing (NGS) de resultaten visualiseren.",
+          "antwoord": "Sanger: Stopt synthese met stopnucleotiden (ddNTP's) en scheidt fragmenten via elektroforese om af te lezen. NGS: Bepaalt sequentie direct tijdens de synthese door bij elke inbouwstap het fluorescentiesignaal te meten, zonder elektroforese.",
+          "punten": 4
         },
         {
           "vraag_nummer": 4,
           "type": "open",
-          "vraag": "Hoe veroorzaakt ioniserende straling DNA-schade en hoe beperkt het lichaam dit?",
-          "antwoord": "Het vormt vrije radicalen die de suikerfosfaatruggengraat breken. Antioxidanten (Vit A, C, E) reageren met radicalen en maken ze onschadelijk.",
+          "vraag": "Waarom zijn restrictie-enzymen specifiek bij bacteriën de basis geworden voor moderne DNA-manipulatie?",
+          "antwoord": "Het zijn eiwitten die bacteriën van nature gebruiken als verdediging tegen virussen. Ze knippen DNA op zeer specifieke sequenties, wat wetenschappers in staat stelde om voor het eerst heel gericht DNA te knippen.",
           "punten": 3
         },
         {
           "vraag_nummer": 5,
           "type": "open",
-          "vraag": "Waarom is Turner (X0) levensvatbaar en Y0 niet?",
-          "antwoord": "Het X-chromosoom bevat essentiële genen voor cellulaire overleving. Het Y-chromosoom bevat vooral genen voor mannelijkheid en mist deze vitale genen.",
-          "punten": 2
+          "vraag": "Waarom is een DNA-ligase vereist nadat men met succes sticky ends heeft samengevoegd?",
+          "antwoord": "De sticky ends vormen wel waterstofbruggen (tussen basen), maar de ruggengraat (suiker-fosfaatverbinding) is nog verbroken. Ligase herstelt deze covalente verbindingen om de plasmide te sluiten en te stabiliseren.",
+          "punten": 3
         },
         {
           "vraag_nummer": 6,
           "type": "open",
-          "vraag": "Leg uit hoe een deletie van drie nucleotiden een verliesmutatie kan zijn zonder een frameshift te veroorzaken.",
-          "antwoord": "Drie nucleotiden vormen één codon. Het leesraam verschuift niet, maar er ontbreekt wel één aminozuur in het eiwit (zoals bij taaislijmziekte). Dit kan de functie van het eiwit vernietigen.",
+          "vraag": "Hoe functioneert het CRISPR-register als een 'geheugenbank' tegen toekomstige infecties?",
+          "antwoord": "Bij een eerste infectie wordt een stukje viraal DNA (spacer) opgeslagen in het register. Bij een volgende infectie wordt dit afgeschreven naar RNA, dat samen met Cas9 het virus herkent en uitschakelt.",
           "punten": 3
         },
         {
           "vraag_nummer": 7,
           "type": "open",
-          "vraag": "Leg het verschil uit tussen deletie en insertie op chromosoomniveau.",
-          "antwoord": "Bij deletie verdwijnt een segment (verlies van info, korter chromosoom). Bij insertie wordt een segment van een ander chromosoom toegevoegd (langer chromosoom, verstoring regulatie).",
+          "vraag": "Bij DNA-gelelektroforese migreert de aangebrachte kleurstof sneller door de gel dan de DNA-fragmenten. Waarom is dit nuttig?",
+          "antwoord": "De kleurstof dient als indicator. Omdat hij het snelst is, weet de onderzoeker dat zolang de kleurstof nog in de gel zit, de DNA-fragmenten er ook nog in zitten en niet verloren zijn gegaan.",
           "punten": 2
         },
         {
           "vraag_nummer": 8,
-          "type": "open",
-          "vraag": "Hoe leidt de reactie van antioxidanten met vrije radicalen tot schadebeperking, ondanks dat ze zelf radicaal worden?",
-          "antwoord": "De radicaalvorm van het antioxidant is veel minder reactief en schadelijk dan het oorspronkelijke zuurstofradicaal. De schade wordt 'verlegd' naar een veiliger molecuul.",
-          "punten": 3
+          "type": "meerkeuze",
+          "vraag": "Een onderzoeker voert een PCR-test uit, maar de primer annealing vindt plaats bij $80^{\\circ}C$. Wat is het effect?",
+          "opties": [
+            "De elongatiefase verloopt sneller",
+            "De primers binden perfect",
+            "De DNA-dubbelstrengen zijn al gescheiden, maar de temperatuur is te hoog voor primer-aanhechting",
+            "Taq-polymerase denatureert"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Annealing vereist een lagere temperatuur ($40-60^{\\circ}C$). Bij $80^{\\circ}C$ is het te heet voor waterstofbruggen tussen primer en template.",
+          "punten": 2
         },
         {
           "vraag_nummer": 9,
-          "type": "open",
-          "vraag": "Hoe beïnvloedt alcoholgebruik tijdens de zwangerschap de ontwikkeling van het kind op moleculair niveau?",
-          "antwoord": "Het verstoort het methyleringspatroon tijdens de kwetsbare herprogrammeringsfase in de embryonale ontwikkeling, wat leidt tot blijvende afwijkingen (foetaal alcoholsyndroom).",
+          "type": "meerkeuze",
+          "vraag": "Wat is de reden dat de Taq-DNA-polymerase in de qPCR de reporter en quencher van elkaar scheidt?",
+          "opties": [
+            "Hitte van $72^{\\circ}C$ verdampt de probe",
+            "Het enzym breekt de probe af terwijl het de streng verlengt",
+            "De quencher bindt aan de polymerase",
+            "De reporter stopt de synthese"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Tijdens elongatie komt de polymerase de probe tegen en breekt deze af, waardoor de reporter vrijkomt en fluorescentie uitzendt.",
           "punten": 3
         },
         {
           "vraag_nummer": 10,
           "type": "meerkeuze",
-          "vraag": "Waarom is onderzoek naar erfelijke epigenetica bij mensen moeilijker dan bij muizen?",
+          "vraag": "Wat is het geschatte risico op borstkanker voor een vrouw met een BRCA1-afwijking vergeleken met iemand zonder?",
           "opties": [
-            "Mensen hebben geen methylering",
-            "Mensen hebben een grotere genetische diversiteit en langere generatietijd",
-            "Mensen zijn polyploïd"
+            "13% vs. 60-80%",
+            "60-80% vs. ongeveer 13%",
+            "20-40% vs. 1,5%",
+            "Het risico is gelijk"
           ],
           "correct_antwoord": 1,
-          "uitleg": "De diversiteit en lange generatietijd maken het isoleren van epigenetische effecten complex.",
+          "uitleg": "BRCA1-mutaties verhogen het risico aanzienlijk naar 60-80%.",
           "punten": 2
         },
         {
           "vraag_nummer": 11,
           "type": "meerkeuze",
-          "vraag": "Wat wordt er gemeten in de Ames-test?",
+          "vraag": "Waarom is het toevoegen van een buffer aan de elektroforesekamer cruciaal?",
           "opties": [
-            "Aantal overlevende bacteriën",
-            "Snelheid van histidine afbraak",
-            "Het aantal bacteriën dat terugmuteert om weer histidine aan te maken"
+            "Voor kleuring",
+            "Als DNA-ladder",
+            "Om strengen gescheiden te houden",
+            "Om de elektrische stroom te geleiden"
           ],
-          "correct_antwoord": 2,
-          "uitleg": "Men telt de kolonies die weer kunnen groeien zonder histidine (reverse mutation).",
+          "correct_antwoord": 3,
+          "uitleg": "Zonder ionen in de buffer is er geen stroomgeleiding en migreert het DNA niet.",
           "punten": 2
         },
         {
           "vraag_nummer": 12,
           "type": "meerkeuze",
-          "vraag": "Een mutatie verandert codon CCA (Proline) in TCA (Stop). Classificatie?",
+          "vraag": "Welk type DNA-technologie heeft als doel de DNA-sequentie te manipuleren door nucleotiden toe te voegen, te vervangen of te verwijderen?",
           "opties": [
-            "Substitutie; Winstmutatie",
-            "Insertie; Neutrale mutatie",
-            "Substitutie; Nonsense-mutatie",
-            "Deletie; Missense-mutatie"
+            "Recombinant DNA",
+            "PCR",
+            "DNA-sequencing",
+            "Gene editing"
           ],
-          "correct_antwoord": 2,
-          "uitleg": "Substitutie van C naar T. Resultaat is Stop, dus nonsense.",
+          "correct_antwoord": 3,
+          "uitleg": "Gene editing (zoals CRISPR) is specifiek gericht op het herschrijven/aanpassen van de code in de cel.",
           "punten": 2
         },
         {
           "vraag_nummer": 13,
           "type": "meerkeuze",
-          "vraag": "Non-disjunctie vindt plaats tijdens Meiose II. Wat zijn de gameten?",
+          "vraag": "Waarom kan genoom-sequencing leiden tot nieuwe geneesmiddelen?",
           "opties": [
-            "Twee N+1, twee N-1",
-            "Twee N, één N+1, één N-1",
-            "Alle vier N+1"
+            "Het vermenigvuldigt fragmenten",
+            "Het creëert GGO's",
+            "Omdat onderzoekers willen achterhalen welke rol genen vervullen in biologische processen",
+            "Omdat sequenties van alle micro-organismen bekend zijn"
           ],
-          "correct_antwoord": 1,
-          "uitleg": "Meiose I ging goed (dus 2 cellen met N chromosomen). Meiose II fout in één cel geeft N+1 en N-1. De andere cel deelt normaal naar N en N.",
-          "punten": 3
+          "correct_antwoord": 2,
+          "uitleg": "Inzicht in de functie van genen (en fouten daarin) is de basis voor gerichte therapie.",
+          "punten": 2
         },
         {
           "vraag_nummer": 14,
           "type": "meerkeuze",
-          "vraag": "PKU is genetisch, maar een dieet helpt. Conclusie nature/nurture?",
+          "vraag": "Waarom is het fruitvliegje een geschikter modelorganisme dan de mens?",
           "opties": [
-            "PKU is puur nature",
-            "Nurture (dieet) kan de expressie van nature (genen) modificeren",
-            "Alleen omgeving telt"
+            "Leeft in de bodem",
+            "Is een prokaryoot",
+            "Heeft slechts 4 chromosomen en een levenscyclus van twee weken",
+            "Heeft 959 cellen"
           ],
-          "correct_antwoord": 1,
-          "uitleg": "Genen bepalen de aanleg, omgeving bepaalt de uiting/ernst.",
+          "correct_antwoord": 2,
+          "uitleg": "De eenvoud en snelheid van voortplanting maken genetisch onderzoek efficiënt.",
           "punten": 2
         },
         {
           "vraag_nummer": 15,
-          "type": "meerkeuze",
-          "vraag": "Valine verandert in Alanine (beide niet-polair). Classificatie?",
-          "opties": ["Nonsense-mutatie", "Neutrale mutatie", "Winstmutatie"],
-          "correct_antwoord": 1,
-          "uitleg": "Omdat de eigenschappen gelijkaardig zijn, blijft de eiwitfunctie vaak behouden (neutraal).",
-          "punten": 2
+          "type": "verbinding",
+          "vraag": "Koppel de overdrachtswijze aan het type vector",
+          "links_items": [
+            "Conjugatie",
+            "Transductie",
+            "Kunstmatige genoverdracht"
+          ],
+          "rechts_items": [
+            "Plasmiden",
+            "Bacteriofagen (virussen)",
+            "Liposomen, micro-injectie of gouden bolletjes"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Conjugatie",
+              "rechts": "Plasmiden"
+            },
+            {
+              "links": "Transductie",
+              "rechts": "Bacteriofagen (virussen)"
+            },
+            {
+              "links": "Kunstmatige genoverdracht",
+              "rechts": "Liposomen, micro-injectie of gouden bolletjes"
+            }
+          ],
+          "punten": 3
         },
         {
           "vraag_nummer": 16,
-          "type": "meerkeuze",
-          "vraag": "Welke mutatie heeft het grootste effect op de rest van het eiwit?",
-          "opties": [
-            "Missense-mutatie",
-            "Substitutie (Stil)",
-            "Frameshift-mutatie"
+          "type": "verbinding",
+          "vraag": "Koppel het type DNA-sequentie aan de rol in CRISPR",
+          "links_items": ["Cas-genen", "tracrRNA"],
+          "rechts_items": [
+            "Coderen voor het knipenzym (Cas-nucleasen)",
+            "Houdt het CRISPR-RNA op zijn plaats in het Cas9-eiwit"
           ],
-          "correct_antwoord": 2,
-          "uitleg": "Een frameshift verandert alle codons na de mutatie.",
+          "correcte_verbindingen": [
+            {
+              "links": "Cas-genen",
+              "rechts": "Coderen voor het knipenzym (Cas-nucleasen)"
+            },
+            {
+              "links": "tracrRNA",
+              "rechts": "Houdt het CRISPR-RNA op zijn plaats in het Cas9-eiwit"
+            }
+          ],
           "punten": 2
         },
         {
           "vraag_nummer": 17,
-          "type": "meerkeuze",
-          "vraag": "Waarom is polyploïdie zeldzaam bij dieren?",
-          "opties": [
-            "Dieren hebben meer chromosomen",
-            "Aneuploïdie/Polyploïdie is bij dieren vaak letaal",
-            "Dieren zijn haploïd"
+          "type": "verbinding",
+          "vraag": "Koppel het modelorganisme aan zijn eigenschap",
+          "links_items": ["Rondworm", "Zebravis"],
+          "rechts_items": [
+            "Eenvoudige anatomie (959 cellen), cel-differentiatie bekend",
+            "Transparante embryo's, ideaal voor ontwikkelingsstudie"
           ],
-          "correct_antwoord": 1,
-          "uitleg": "Dierlijke ontwikkeling luistert zeer nauw; chromosoomafwijkingen zijn vaak fataal.",
+          "correcte_verbindingen": [
+            {
+              "links": "Rondworm",
+              "rechts": "Eenvoudige anatomie (959 cellen), cel-differentiatie bekend"
+            },
+            {
+              "links": "Zebravis",
+              "rechts": "Transparante embryo's, ideaal voor ontwikkelingsstudie"
+            }
+          ],
           "punten": 2
         },
         {
           "vraag_nummer": 18,
           "type": "verbinding",
-          "vraag": "Verbind de mutatie met de oorzaak",
-          "links_items": [
-            "Vervanging cytosine door uracil",
-            "AT-paar i.p.v. GC-paar (na deaminering)",
-            "Fout van DNA-polymerase",
-            "Mutatie door benzopyreen"
-          ],
+          "vraag": "Koppel het ddNTP aan het eindresultaat (Sanger)",
+          "links_items": ["ddGTP", "ddATP"],
           "rechts_items": [
-            "Deaminering (spontaan)",
-            "Spontane mutatie (gevolg)",
-            "Spontane mutatie (replicatie)",
-            "Geïnduceerde mutatie"
+            "Fragmenten eindigen op Guanine (G)",
+            "Fragmenten eindigen op Adenine (A)"
           ],
           "correcte_verbindingen": [
             {
-              "links": "Vervanging cytosine door uracil",
-              "rechts": "Deaminering (spontaan)"
+              "links": "ddGTP",
+              "rechts": "Fragmenten eindigen op Guanine (G)"
             },
             {
-              "links": "AT-paar i.p.v. GC-paar (na deaminering)",
-              "rechts": "Spontane mutatie (gevolg)"
-            },
-            {
-              "links": "Fout van DNA-polymerase",
-              "rechts": "Spontane mutatie (replicatie)"
-            },
-            {
-              "links": "Mutatie door benzopyreen",
-              "rechts": "Geïnduceerde mutatie"
+              "links": "ddATP",
+              "rechts": "Fragmenten eindigen op Adenine (A)"
             }
           ],
-          "punten": 4
+          "punten": 2
         },
         {
           "vraag_nummer": 19,
           "type": "verbinding",
-          "vraag": "Verbind het voorbeeld aan het mutatietype",
-          "links_items": [
-            "Taaislijmziekte (ontbreken Fenylalanine)",
-            "Valine i.p.v. Glutaminezuur",
-            "Vroeg stopcodon",
-            "Invoeging van één nucleotide"
-          ],
+          "vraag": "Koppel het proces aan de genetische basis",
+          "links_items": ["Reproductief kloneren", "Recombinant DNA"],
           "rechts_items": [
-            "Deletie van drie nucleotiden",
-            "Missense-mutatie",
-            "Nonsense-mutatie",
-            "Frameshift-mutatie"
+            "Genetisch identieke kopieën van een organisme creëren",
+            "Genen van een ander organisme inbrengen (GGO)"
           ],
           "correcte_verbindingen": [
             {
-              "links": "Taaislijmziekte (ontbreken Fenylalanine)",
-              "rechts": "Deletie van drie nucleotiden"
+              "links": "Reproductief kloneren",
+              "rechts": "Genetisch identieke kopieën van een organisme creëren"
             },
             {
-              "links": "Valine i.p.v. Glutaminezuur",
-              "rechts": "Missense-mutatie"
-            },
-            {
-              "links": "Vroeg stopcodon",
-              "rechts": "Nonsense-mutatie"
-            },
-            {
-              "links": "Invoeging van één nucleotide",
-              "rechts": "Frameshift-mutatie"
+              "links": "Recombinant DNA",
+              "rechts": "Genen van een ander organisme inbrengen (GGO)"
             }
           ],
-          "punten": 4
+          "punten": 2
         },
         {
           "vraag_nummer": 20,
           "type": "verbinding",
-          "vraag": "Verbind de fase aan het proces",
-          "links_items": ["Gameten", "Mitose", "Eerste week embryo"],
+          "vraag": "Koppel het segment in een plasmide aan de rol",
+          "links_items": ["Resistentiegen", "Donor-DNA"],
           "rechts_items": [
-            "Resultaat van 2e golf herprogrammering",
-            "Epigenetica wordt gekopieerd",
-            "1e golf herprogrammering (wissen)"
+            "Zorgt voor overleving bij behandeling met antibioticum",
+            "Het gewenste stukje materiaal dat een nuttige eigenschap codeert"
           ],
           "correcte_verbindingen": [
             {
-              "links": "Gameten",
-              "rechts": "Resultaat van 2e golf herprogrammering"
+              "links": "Resistentiegen",
+              "rechts": "Zorgt voor overleving bij behandeling met antibioticum"
             },
             {
-              "links": "Mitose",
-              "rechts": "Epigenetica wordt gekopieerd"
-            },
-            {
-              "links": "Eerste week embryo",
-              "rechts": "1e golf herprogrammering (wissen)"
+              "links": "Donor-DNA",
+              "rechts": "Het gewenste stukje materiaal dat een nuttige eigenschap codeert"
             }
           ],
-          "punten": 3
+          "punten": 2
         }
       ],
-      "totaal_punten": 56,
+      "totaal_punten": 50,
       "geschatte_tijd": "45 minuten",
       "leerdoelen": [
-        "Complexe processen van DNA-herstel en schade uitleggen",
-        "Redeneren over de overerving van epigenetica",
-        "Onderscheid maken tussen verschillende types punt- en frameshiftmutaties"
+        "Inzicht in technische nuances van PCR en Sequencing",
+        "Medische en forensische toepassingen verklaren",
+        "Vectorsystemen en hun specificaties begrijpen"
       ],
       "tips": [
-        "Let op het verschil tussen 'neutraal' (geen effect op functie) en 'stil' (geen effect op aminozuur).",
-        "Bij meiose-fouten: teken het schema van non-disjunctie uit."
+        "Analyseer het PCR-proces stap voor stap om de 'inefficiëntie' in het begin te snappen.",
+        "Vergeet niet dat qPCR fluorescentie gebruikt om *tijdens* het proces te meten."
       ]
     }
   ],
   "extra_informatie": {
-    "voorkennis": ["DNA-replicatie", "Meiose en Mitose", "Eiwitsynthese"],
-    "vervolgonderwerpen": ["Evolutietheorie", "Biotechnologie en Geneeskunde"],
-    "bronnen": ["Oefeningen Mutaties T3 H3"]
+    "voorkennis": ["Structuur van DNA", "Eiwitsynthese"],
+    "vervolgonderwerpen": [
+      "Biotechnologie in de industrie",
+      "Genetische manipulatie ethiek"
+    ],
+    "bronnen": ["Oefeningen Biotechnologische Technieken T4 H2"]
   }
 }

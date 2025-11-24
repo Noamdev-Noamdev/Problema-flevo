@@ -1,0 +1,1206 @@
+{
+  "vak": "Biologie",
+  "onderdeel": "Biotechnologie: Toepassingen en Ethiek",
+  "jaar": 6,
+  "richting": "Wetenschappen",
+  "laatst_bijgewerkt": "2025-11-24",
+  "oefeningen": [
+    {
+      "id": "bio-t4h1-basis",
+      "titel": "Basiskennis Biotechnologie (Deel 1)",
+      "beschrijving": "Oefeningen over de definities, kleuren van biotechnologie (rood, groen, wit, blauw) en basisbegrippen zoals GGO en transgenese.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Biologie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Wat is de oorsprong van het woord 'Biotechnologie'?",
+          "antwoord": "Het woord is afgeleid van de Griekse woorden Bios ('leven') en Technikos ('gebruik').",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Noem de twee belangrijkste beperkingen van het 'veredelen' van planten en dieren (klassieke biotechnologie).",
+          "antwoord": "1. De soortbarrière maakt het kruisen van twee verschillende soorten in principe niet mogelijk. 2. Het kan generaties lang duren voordat men variëteiten verkrijgt met enkel de gewenste eigenschappen (ongewenste eigenschappen komen vaak mee).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Wanneer spreken we van een genetisch gemodificeerd organisme (ggo)?",
+          "antwoord": "Een ggo is een organisme dat genetisch is aangepast door DNA-technologie of gentechnologie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Geef een concreet voorbeeld van Rode Biotechnologie dat is toegespitst op de biofarmaceutische industrie.",
+          "antwoord": "De productie van menselijke insuline door genetisch gewijzigde bacteriën.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Welk percentage ggo's in verwerkt voedsel in Europa vereist volgens de regelgeving een vermelding op het etiket?",
+          "antwoord": "Als het percentage hoger is dan 0,9%.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Welke grondstof wordt in de petrochemie gebruikt voor plastics, en door welke (duurzamere) grondstof kan deze worden vervangen dankzij Witte Biotechnologie?",
+          "antwoord": "De traditionele grondstof is aardolie. Witte biotechnologie maakt vervanging mogelijk door stro of overschotten uit de landbouw.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Wat is de specifieke functie van de spike-eiwitten van het COVID-virus bij mRNA-vaccins?",
+          "antwoord": "mRNA-vaccins bevatten de informatie om deze spike-eiwitten aan te maken. Het immuunsysteem herkent deze eiwitten als lichaamsvreemd en maakt er antistoffen tegen aan.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "open",
+          "vraag": "Welke term wordt gebruikt voor de ethische tak van de filosofie die zich bezighoudt met menselijke ingrepen in biologische systemen?",
+          "antwoord": "Bio-ethiek.",
+          "punten": 1
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Welke van de volgende toepassingen behoort tot de Klassieke Biotechnologie?",
+          "opties": [
+            "Het kweken van algen als biobrandstof",
+            "De productie van menselijke insuline door bacteriën",
+            "De ontwikkeling van een mRNA-vaccin",
+            "Het bereiden van voedsel (zoals kaas) met behulp van micro-organismen"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Het gebruik van micro-organismen om voedsel te bereiden bestaat al eeuwen en valt onder klassieke biotechnologie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Welk type ggo wordt gecreëerd wanneer wetenschappers een gen uit narcissen toevoegen aan rijst om Gouden Rijst te ontwikkelen?",
+          "opties": [
+            "Cisgeen organisme",
+            "Transgeen organisme",
+            "Polyploïd organisme",
+            "Autotroof organisme"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Transgene organismen bezitten erfelijk materiaal van een andere soort (hier narcissen in rijst).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Welk toepassingsgebied van biotechnologie richt zich op een efficiënte en duurzame vorm van visserij en aquacultuur?",
+          "opties": [
+            "Rode biotechnologie",
+            "Groene biotechnologie",
+            "Witte biotechnologie",
+            "Blauwe biotechnologie"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Blauwe biotechnologie is gericht op mariene hulpbronnen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Wat is de primaire reden waarom wetenschappers een droogtebestendige maïssoort ontwikkelden?",
+          "opties": [
+            "Om de eiwitsynthese in de maïs te versnellen",
+            "Om de plant in een 'overlevingsmodus' te brengen bij weinig neerslag",
+            "Om het metabolisme van de plant te versnellen",
+            "Om de smaak van de maïs te verbeteren"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Het gen zorgt voor meer ethyleenproductie, wat de plant in een overlevingsmodus brengt.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Wat wordt er binnen de Witte Biotechnologie uit landbouwoverschotten (zoals stro) gehaald om bio-ethanol te maken?",
+          "opties": [
+            "Vetten",
+            "Polysachariden uit de celwanden",
+            "DNA",
+            "mRNA"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De polysachariden worden door ggo's omgezet tot suikers en vervolgens bio-ethanol.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Welk type biotechnologie wordt gebruikt om planten toxines te laten aanmaken die insecten verlammen?",
+          "opties": [
+            "Witte biotechnologie",
+            "Blauwe biotechnologie",
+            "Groene biotechnologie",
+            "Rode biotechnologie"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Dit is een toepassing gericht op landbouw en plaagbestrijding (Groen).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Waarop is moderne biotechnologie, in tegenstelling tot klassieke biotechnologie, specifiek gericht?",
+          "opties": [
+            "Het selectief kruisen van planten",
+            "Het rechtstreeks sleutelen aan het DNA van een organisme",
+            "Het gebruik van micro-organismen in voedselbereiding",
+            "Het observeren van celprocessen"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Moderne biotechnologie grijpt direct in op het erfelijk materiaal (DNA-technologie).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "meerkeuze",
+          "vraag": "Wat is een voorbeeld van een ethische vraag rond eugenetica binnen de Rode Biotechnologie?",
+          "opties": [
+            "Is het toegelaten om baby's te selecteren op uiterlijke kenmerken?",
+            "Leidt het gebruik van ggo's tot milieuvriendelijkere landbouw?",
+            "Wordt de privacy voldoende beschermd bij DNA-databanken?",
+            "Wat zijn de kosten van multinationale productie?"
+          ],
+          "correct_antwoord": 0,
+          "uitleg": "Selectie op uiterlijke kenmerken is een kernvraag binnen eugenetica (rasverbetering).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Koppel het biotechnologisch type aan de juiste beschrijving",
+          "links_items": [
+            "Moderne Biotechnologie",
+            "Klassieke Biotechnologie",
+            "Gentechnologie"
+          ],
+          "rechts_items": [
+            "Beperkt door de soortbarrière",
+            "Maakt de overdracht van genen tussen soorten mogelijk",
+            "Synoniem voor DNA-technologie"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Klassieke Biotechnologie",
+              "rechts": "Beperkt door de soortbarrière"
+            },
+            {
+              "links": "Moderne Biotechnologie",
+              "rechts": "Maakt de overdracht van genen tussen soorten mogelijk"
+            },
+            {
+              "links": "Gentechnologie",
+              "rechts": "Synoniem voor DNA-technologie"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Koppel het type GGO aan de juiste omschrijving",
+          "links_items": ["Transgeen organisme", "Cisgeen organisme"],
+          "rechts_items": [
+            "Erfelijk materiaal van dezelfde soort wordt toegevoegd",
+            "Erfelijk materiaal van een andere soort wordt ontvangen"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Cisgeen organisme",
+              "rechts": "Erfelijk materiaal van dezelfde soort wordt toegevoegd"
+            },
+            {
+              "links": "Transgeen organisme",
+              "rechts": "Erfelijk materiaal van een andere soort wordt ontvangen"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Koppel de kleur van de biotechnologie aan het focusdomein",
+          "links_items": ["Wit", "Blauw", "Groen", "Rood"],
+          "rechts_items": [
+            "Gezondheidszorg",
+            "Landbouw en voedingsindustrie",
+            "Visserij en aquacultuur",
+            "Industriële productie van chemische stoffen"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Rood",
+              "rechts": "Gezondheidszorg"
+            },
+            {
+              "links": "Groen",
+              "rechts": "Landbouw en voedingsindustrie"
+            },
+            {
+              "links": "Blauw",
+              "rechts": "Visserij en aquacultuur"
+            },
+            {
+              "links": "Wit",
+              "rechts": "Industriële productie van chemische stoffen"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Koppel het ethische debat aan het relevante concept",
+          "links_items": [
+            "Babyselectie op uiterlijke kenmerken",
+            "DNA-databanken",
+            "Proefvelden vernield door activisten"
+          ],
+          "rechts_items": [
+            "Privacybescherming",
+            "GGO's in de landbouw",
+            "Eugenetica (Rasverbetering)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Babyselectie op uiterlijke kenmerken",
+              "rechts": "Eugenetica (Rasverbetering)"
+            },
+            {
+              "links": "DNA-databanken",
+              "rechts": "Privacybescherming"
+            },
+            {
+              "links": "Proefvelden vernield door activisten",
+              "rechts": "GGO's in de landbouw"
+            }
+          ],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 50,
+      "geschatte_tijd": "30 minuten",
+      "leerdoelen": [
+        "Onderscheid maken tussen klassieke en moderne biotechnologie",
+        "De vier kleuren van biotechnologie en hun toepassingen kennen",
+        "Definities van ggo, cisgeen en transgeen begrijpen"
+      ],
+      "tips": [
+        "Onthoud de kleuren: Rood=bloed/gezondheid, Groen=planten, Wit=industrie/labjas, Blauw=water.",
+        "Let op het verschil tussen cisgeen (zelfde soort) en transgeen (andere soort)."
+      ]
+    },
+    {
+      "id": "bio-t4h1-verdieping",
+      "titel": "Inzicht en Ethiek: Biotechnologie (Deel 2)",
+      "beschrijving": "Verdiepende vragen over maatschappelijke acceptatie, complexe toepassingen (Gouden Rijst, mRNA) en ethische dilemma's.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Biologie",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Wat waren de twee belangrijkste problemen bij de introductie van Gouden Rijst, die aantonen dat biotechnologische ontwikkeling een lang proces is?",
+          "antwoord": "1. Langdurige goedkeuring: Het duurde tot 2018 voordat het officieel als ggo werd goedgekeurd. 2. Bereiken van de doelgroep: Distributie- en acceptatieproblemen in ontwikkelingslanden.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Leg het inzichtelijke verschil uit tussen cisgenese en het klassieke 'veredelen' van appelvariëteiten.",
+          "antwoord": "Klassiek veredelen duurt generaties en draagt ook ongewenste genen over. Cisgenese brengt enkel het gewenste gen (van dezelfde soort) gericht en snel over zonder ongewenste eigenschappen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Geef een inzichtelijke verklaring waarom Rode Biotechnologie een breed draagvlak kent, terwijl Groene Biotechnologie vaak omstreden is.",
+          "antwoord": "Rood dient de directe menselijke gezondheid (genezing, vaccins) en wordt daarom geaccepteerd. Groen roept zorgen op over milieu-impact, biodiversiteit, macht van multinationals en het aanpassen van basisvoedsel.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Hoe kan de ontwikkeling van droogtebestendige maïs de landbouw ethisch minder controversieel maken?",
+          "antwoord": "Het vermindert de noodzaak om te oogsten in kwetsbare ecosystemen en verhoogt voedselzekerheid in tijden van klimaatverandering. Dit is een antwoord op een mondiale crisis, wat de acceptatie verhoogt t.o.v. puur commerciële ggo's.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Waarom wordt de werking van mRNA-vaccins tot de moderne biotechnologie gerekend, hoewel het niet direct DNA manipuleert?",
+          "antwoord": "De techniek is gebaseerd op fundamentele moleculaire kennis van transcriptie en translatie (eiwitsynthese) en behoort tot de DNA-/gentechnologie die sinds de jaren 70 is ontwikkeld.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Welke rol spelen de genetisch gemodificeerde micro-organismen in Witte Biotechnologie bij de productie van bio-ethanol uit stro?",
+          "antwoord": "De ggo's produceren specifieke enzymen die de complexe polysachariden uit celwanden efficiënt afbreken tot suikers, wat noodzakelijk is voor industriële productie.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Welke tegengestelde waarden staan tegenover elkaar in het debat over Gouden Rijst (Nobelprijswinnaars vs. Greenpeace)?",
+          "antwoord": "Wetenschappers benadrukken het maatschappelijk voordeel (bestrijden van blindheid/sterfte). Activisten hanteren het voorzichtigheidsprincipe en focussen op onbekende risico's voor milieu en gezondheid.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "open",
+          "vraag": "In welk groter ethisch debat valt de vraag: 'Hebben mensen met een handicap niet evenveel recht om ter wereld te komen?'",
+          "antwoord": "Dit valt onder eugenetica. De zorg is dat selectie tegen ziektes kan leiden tot selectie op sociale/uiterlijke kenmerken, wat diversiteit en het recht op leven bedreigt.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Wat is de meest inzichtelijke reden waarom de EU-regelgeving met betrekking tot GGO's als een van de strengste ter wereld wordt beschouwd?",
+          "opties": [
+            "De EU kan geen droogteresistente gewassen produceren",
+            "De EU focust enkel op Blauwe Biotechnologie",
+            "De EU eist strenge bewijslast over onschadelijkheid voor mens, dier en milieu",
+            "De EU wil import uit Amerika verbieden"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Het voorzichtigheidsprincipe vereist bewijs van onschadelijkheid vóór toelating.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Waarom worden fluorescerende schapen in de bron genoemd in de context van het maatschappelijk debat?",
+          "opties": [
+            "Om de noodzaak voor DNA-databanken te illustreren",
+            "Om aan te tonen dat DNA-databanken het ethisch kader bepalen",
+            "Om te wijzen op 'spectaculaire, populistische veranderingen' die ethische vragen oproepen",
+            "Om een nieuwe toepassing binnen Blauwe Biotechnologie te tonen"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Dergelijke toepassingen hebben vaak geen therapeutisch nut en voeden de discussie over grenzen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Welke toepassing is het meest direct gericht op het bestrijden van de noodzaak tot het gebruik van insecticiden?",
+          "opties": [
+            "mRNA-vaccins",
+            "Algen als biobrandstof",
+            "Inbrengen van een bacterieel gen dat een toxine aanmaakt in een plant",
+            "Synthese van plastics"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Door het ingebrachte gen maakt de plant zelf een stof die insecten verlamt.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Welke uitdaging is typisch verbonden aan Witte Biotechnologie?",
+          "opties": [
+            "Beperkingen in aquacultuur",
+            "Ethische bezwaren rond eugenetica",
+            "De ontwikkeling van het proces van synthese op industriële schaal",
+            "Mislukte oogsten voorkomen"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Opschaling van laboratorium naar fabriek is cruciaal voor industriële biotechnologie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Wat is de meest fundamentele kennis die moderne biotechnologie mogelijk heeft gemaakt?",
+          "opties": [
+            "Ontdekking van micro-organismen",
+            "Kennis over DNA, eiwitsynthese en DNA-replicatie",
+            "Ontdekking van mRNA",
+            "Kennis over polysachariden"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Inzicht in de centrale dogma en replicatie liet toe om gericht in te grijpen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "In welk debatdeel valt het probleem van hoge kosten en multinationals bij Gouden Rijst?",
+          "opties": [
+            "Gebrek aan diversiteit",
+            "Babyselectie",
+            "Economische en sociale gevolgen van grootschalige productie",
+            "Impact van aquacultuur"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De machtsconcentratie en kosten zijn sociaal-economische aspecten van het debat.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Als in een bananensoort genen uit de bananensoort zelf worden ingebracht voor ziekteresistentie, wat is dit?",
+          "opties": [
+            "Transgenese en Rode BT",
+            "Cisgenese en Groene BT",
+            "Transgenese en Klassieke BT",
+            "Cisgenese en Witte BT"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Zelfde soort = Cisgenese. Voedsel/planten = Groene BT.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "meerkeuze",
+          "vraag": "Welke toepassing van Blauwe Biotechnologie wordt onderzocht als producent van biobrandstoffen?",
+          "opties": [
+            "Genetisch gemodificeerde vissen",
+            "Mariene hulpbronnen algemeen",
+            "Het kweken van algen",
+            "Efficiënte visserij"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Algen kunnen biomassa produceren die omgezet wordt in brandstof.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Koppel de term aan het bijbehorende ethische/wettelijke kader",
+          "links_items": ["DNA-technologie", "DNA-databanken", "Eugenetica"],
+          "rechts_items": [
+            "Rasverbetering",
+            "Vereist een duidelijk wettelijk en ethisch kader",
+            "Vormen een privacyvraagstuk in forensisch onderzoek"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Eugenetica",
+              "rechts": "Rasverbetering"
+            },
+            {
+              "links": "DNA-technologie",
+              "rechts": "Vereist een duidelijk wettelijk en ethisch kader"
+            },
+            {
+              "links": "DNA-databanken",
+              "rechts": "Vormen een privacyvraagstuk in forensisch onderzoek"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Koppel het doel aan de DNA-technologie die het best de soortbarrière overbrugt",
+          "links_items": [
+            "Menselijke insuline door bacteriën",
+            "Resistentie van appelvariëteiten",
+            "Fluorescerende schapen met kwalgen"
+          ],
+          "rechts_items": [
+            "Cisgenese (Groene BT)",
+            "Transgenese",
+            "Transgenese (Rode BT)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Menselijke insuline door bacteriën",
+              "rechts": "Transgenese (Rode BT)"
+            },
+            {
+              "links": "Resistentie van appelvariëteiten",
+              "rechts": "Cisgenese (Groene BT)"
+            },
+            {
+              "links": "Fluorescerende schapen met kwalgen",
+              "rechts": "Transgenese"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Koppel de biotechnologische tak aan de bijdrage aan duurzaamheid",
+          "links_items": [
+            "Groene BT (toxine aanmaak)",
+            "Witte BT (plastics)",
+            "Blauwe BT (aquacultuur)"
+          ],
+          "rechts_items": [
+            "Spreekt de aardolievoorraden niet aan",
+            "Draagt bij aan een duurzame vorm van visserij",
+            "Vermindert het gebruik van insecticiden"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Groene BT (toxine aanmaak)",
+              "rechts": "Vermindert het gebruik van insecticiden"
+            },
+            {
+              "links": "Witte BT (plastics)",
+              "rechts": "Spreekt de aardolievoorraden niet aan"
+            },
+            {
+              "links": "Blauwe BT (aquacultuur)",
+              "rechts": "Draagt bij aan een duurzame vorm van visserij"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Koppel de historische periode aan de ontwikkeling",
+          "links_items": ["1982", "Sinds jaren 1970", "2011", "Eeuwenlang"],
+          "rechts_items": [
+            "Klassieke BT (voedselbereiding)",
+            "Moderne BT (gericht ingrijpen erfelijk materiaal)",
+            "Insuline door bacteriën",
+            "Hoogtepunt debat (vernieling proefveld)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Eeuwenlang",
+              "rechts": "Klassieke BT (voedselbereiding)"
+            },
+            {
+              "links": "Sinds jaren 1970",
+              "rechts": "Moderne BT (gericht ingrijpen erfelijk materiaal)"
+            },
+            {
+              "links": "1982",
+              "rechts": "Insuline door bacteriën"
+            },
+            {
+              "links": "2011",
+              "rechts": "Hoogtepunt debat (vernieling proefveld)"
+            }
+          ],
+          "punten": 4
+        }
+      ],
+      "totaal_punten": 62,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": [
+        "Complexe maatschappelijke debatten rond ggo's analyseren",
+        "Argumenteren voor/tegen toepassingen vanuit ethisch perspectief",
+        "Details van specifieke cases (Gouden Rijst, Bio-ethanol) beheersen"
+      ],
+      "tips": [
+        "Focus op het 'waarom' bij ethische vragen (waarom is groen controversieel en rood niet?).",
+        "Gebruik de specifieke voorbeelden (insuline, maïs, gouden rijst) om je argumenten te onderbouwen."
+      ]
+    },
+    {
+      "id": "bio-t4h2-basis",
+      "titel": "Basiskennis Technieken (Deel 1)",
+      "beschrijving": "Oefeningen over PCR, gelelektroforese, sequencing en basisbegrippen van kloneren.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Biologie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Wat is de functie van een primer in de Polymerase Chain Reaction (PCR)?",
+          "antwoord": "Een primer is een korte enkelstrengige DNA-streng die aan het enkelstrengige DNA bindt. DNA-polymerase heeft dit nodig omdat het alleen een bestaande keten kan verlengen. De twee primers bepalen het begin en einde van het te kopiëren fragment.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Waarom is het noodzakelijk om een kleurstof toe te voegen aan het DNA-staal voordat het aan de gel wordt toegevoegd bij DNA-gelelektroforese?",
+          "antwoord": "Het DNA zelf is niet zichtbaar. De kleurstof dient om het verloop van de gelelektroforese te kunnen volgen (zodat het staal niet uit de gel loopt).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Beschrijf kort wat een Genetisch Gemodificeerd Organisme (GGO) is in de context van recombinant DNA-technologie.",
+          "antwoord": "Een GGO is een organisme waarvan het genoom is veranderd, meestal door het te verrijken met genen van een ander organisme via biotechnologische technieken.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Welke techniek wordt specifiek gebruikt om de nucleotidevolgorde in een DNA-streng te bepalen?",
+          "antwoord": "DNA-sequencing.",
+          "punten": 1
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Wat is de betekenis van de term 'sticky ends' die ontstaan na het knippen van DNA met restrictie-enzymen?",
+          "antwoord": "Sticky ends zijn uitstekende enkelstrengige uiteinden van DNA. Ze heten zo omdat ze gemakkelijk kunnen binden met complementaire stukjes DNA door middel van waterstofbruggen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Geef twee medische toepassingen van de CRISPR-Cas gene editing-techniek.",
+          "antwoord": "De behandeling van genetische ziekten zoals tyrosinemie en sikkelcelanemie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Noem twee redenen waarom biotechnologen vaak organismen gebruiken die ze modelorganismen noemen in plaats van de mens.",
+          "antwoord": "Modelorganismen hebben vaak een korte generatietijd, een relatief eenvoudig genoom, en zijn goedkoop in grote aantallen te kweken.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Welke component zorgt ervoor dat de gelelektroforese succesvol DNA-fragmenten kan scheiden?",
+          "opties": [
+            "De DNA-ladder",
+            "De positieve lading van de fosfaatgroepen",
+            "De nucleotiden in de gel",
+            "De weerstand van de gelporiën die kleinere fragmenten sneller doorlaten dan grotere fragmenten"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Het principe berust op grootte: kleine fragmenten ondervinden minder weerstand en migreren sneller.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Hoe wordt het proces genoemd waarbij bacteriën DNA dat buiten de cel ligt opnemen en integreren in hun genoom of plasmide?",
+          "opties": ["Transductie", "Conjugatie", "Kloneren", "Transformatie"],
+          "correct_antwoord": 3,
+          "uitleg": "Transformatie is de opname van 'naakt' DNA uit de omgeving.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Welk enzym wordt in de RT-PCR-test gebruikt om de genetische informatie van een RNA-virus (zoals hiv) eerst om te zetten in copyDNA (cDNA)?",
+          "opties": [
+            "Taq-DNA-polymerase",
+            "DNA-ligase",
+            "Reverse-transcriptase (RT)",
+            "Cas-nuclease"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Reverse-transcriptase schrijft RNA om naar DNA.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Bij welk type kloneren wordt een celkern van een volwassen huidcel overgebracht in een eicel waarvan de kern verwijderd is (zoals schaap Dolly)?",
+          "opties": [
+            "Moleculair kloneren",
+            "Natuurlijk kloneren",
+            "Reproductief kloneren",
+            "Therapeutisch kloneren"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Het doel is een nieuw organisme creëren (reproductie).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Wat is een belangrijk nadeel van de klassieke Sanger sequencingmethode vergeleken met Next Generation Sequencing (NGS)?",
+          "opties": [
+            "De methode is te duur",
+            "De methode vereist fluorescerende merkers",
+            "De methode liet slechts toe om de sequentie van één DNA-staal tegelijk te bepalen",
+            "De methode gebruikt geen DNA-polymerase"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "NGS kan miljoenen fragmenten parallel sequencen (massively parallel), Sanger slechts één.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Hoe noemt men de specifieke, korte DNA-sequentie die in het CRISPR-register is opgeslagen en die afkomstig is van een eerdere virale infectie?",
+          "opties": ["Cas-gen", "tracrRNA", "Gids-RNA", "Spacer DNA"],
+          "correct_antwoord": 3,
+          "uitleg": "Spacer DNA is het stukje viraal DNA dat als geheugen wordt opgeslagen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Bij de NIPT-test wordt het risico op het syndroom van Down opgespoord door te bepalen of er in het foetale DNA te veel fragmenten aanwezig zijn van welk type molecule?",
+          "opties": ["Plasmiden", "Chromosoom", "Spacer DNA", "Gids-RNA"],
+          "correct_antwoord": 1,
+          "uitleg": "Trisomie 21 betekent een extra chromosoom 21, dus relatief meer DNA-fragmenten van dit chromosoom.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "verbinding",
+          "vraag": "Koppel de term aan het bijbehorende wetenschappelijke figuur",
+          "links_items": [
+            "Ontwikkelaar van PCR",
+            "Ontwikkelaar van klassieke sequencing"
+          ],
+          "rechts_items": ["Kary Banks Mullis", "Frederick Sanger"],
+          "correcte_verbindingen": [
+            {
+              "links": "Ontwikkelaar van PCR",
+              "rechts": "Kary Banks Mullis"
+            },
+            {
+              "links": "Ontwikkelaar van klassieke sequencing",
+              "rechts": "Frederick Sanger"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Koppel de DNA-manipulatietechniek aan zijn beschreven doel",
+          "links_items": ["DNA-gelelektroforese", "PCR"],
+          "rechts_items": [
+            "Het scheiden van DNA-fragmenten op basis van grootte",
+            "Het vermeerderen van een specifiek DNA-fragment"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "DNA-gelelektroforese",
+              "rechts": "Het scheiden van DNA-fragmenten op basis van grootte"
+            },
+            {
+              "links": "PCR",
+              "rechts": "Het vermeerderen van een specifiek DNA-fragment"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Koppel het type kloneren aan de beschreven methode/resultaat",
+          "links_items": ["Moleculair kloneren", "Natuurlijk kloneren"],
+          "rechts_items": [
+            "Aardbeien vormen bovengrondse nieuwe stengels waar identieke planten aan groeien",
+            "Gebruik van transgene bacteriën om grote hoeveelheden insuline te produceren"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Natuurlijk kloneren",
+              "rechts": "Aardbeien vormen bovengrondse nieuwe stengels waar identieke planten aan groeien"
+            },
+            {
+              "links": "Moleculair kloneren",
+              "rechts": "Gebruik van transgene bacteriën om grote hoeveelheden insuline te produceren"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Koppel het DNA-technologische element aan de bron",
+          "links_items": ["Restrictie-enzymen", "Taq-DNA-polymerase"],
+          "rechts_items": [
+            "Geïsoleerd uit de bacterie Thermus aquaticus",
+            "Worden van nature door bacteriën gebruikt als verdedigingsmechanisme"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Taq-DNA-polymerase",
+              "rechts": "Geïsoleerd uit de bacterie Thermus aquaticus"
+            },
+            {
+              "links": "Restrictie-enzymen",
+              "rechts": "Worden van nature door bacteriën gebruikt als verdedigingsmechanisme"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Koppel de toepassing van DNA-gelelektroforese aan de type sporen",
+          "links_items": ["Daderidentificatie", "Ouderschapsbepaling"],
+          "rechts_items": [
+            "DNA-fragmenten van moeder, kind en potentiële vader",
+            "DNA-fragmenten uit sperma, bloed, haar of speeksel"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Ouderschapsbepaling",
+              "rechts": "DNA-fragmenten van moeder, kind en potentiële vader"
+            },
+            {
+              "links": "Daderidentificatie",
+              "rechts": "DNA-fragmenten uit sperma, bloed, haar of speeksel"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Koppel de component van de PCR aan zijn bouwsteen",
+          "links_items": ["DNA-streng", "Primer"],
+          "rechts_items": [
+            "Desoxynucleotiden (dNTP's)",
+            "Korte enkelstrengige DNA-fragmenten (20-30 nucleotiden)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "DNA-streng",
+              "rechts": "Desoxynucleotiden (dNTP's)"
+            },
+            {
+              "links": "Primer",
+              "rechts": "Korte enkelstrengige DNA-fragmenten (20-30 nucleotiden)"
+            }
+          ],
+          "punten": 2
+        }
+      ],
+      "totaal_punten": 44,
+      "geschatte_tijd": "35 minuten",
+      "leerdoelen": [
+        "De stappen van PCR en gelelektroforese beschrijven",
+        "Verschillen tussen kloneringstypes kennen",
+        "Basisprincipes van CRISPR en sequencing begrijpen"
+      ],
+      "tips": [
+        "Leer het verschil tussen de termen 'primer', 'probe' en 'spacer'.",
+        "Onthoud dat DNA negatief geladen is en naar de positieve pool migreert."
+      ]
+    },
+    {
+      "id": "bio-t4h2-verdieping",
+      "titel": "Inzicht en Toepassing: Technieken (Deel 2)",
+      "beschrijving": "Verdiepende vragen over PCR-efficiëntie, forensisch onderzoek, qPCR-mechanismen en vectorgebruik.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Biologie",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Leg uit waarom de eerste twee cycli van PCR inefficiënt zijn voor de productie van DNA-fragmenten van de exact gewenste lengte.",
+          "antwoord": "Na de eerste cyclus zijn de nieuwe strengen nog te lang, omdat de primer enkel het startpunt bepaalt en niet het eindpunt. Pas na de tweede cyclus ontstaan strengen die aan één kant correct zijn afgelijnd. De exacte lengte verschijnt pas in de derde cyclus.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Beschrijf het stappenplan dat je als forensisch onderzoeker volgt om een dader te identificeren met behulp van DNA (van PCR tot Identificatie).",
+          "antwoord": "1. Vermeerdering (PCR): Vermenigvuldig markers van stalen (verdachten + plaats delict). 2. Scheiding (Gelelektroforese): Scheid fragmenten op grootte. 3. Analyse: Maak bandjespatronen zichtbaar. 4. Identificatie: Match het unieke bandenpatroon van de verdachte met het spoor.",
+          "punten": 5
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Leg het fundamentele verschil uit in hoe Sanger sequencing en Next Generation Sequencing (NGS) de resultaten visualiseren.",
+          "antwoord": "Sanger: Stopt synthese met stopnucleotiden (ddNTP's) en scheidt fragmenten via elektroforese om af te lezen. NGS: Bepaalt sequentie direct tijdens de synthese door bij elke inbouwstap het fluorescentiesignaal te meten, zonder elektroforese.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Waarom zijn restrictie-enzymen specifiek bij bacteriën de basis geworden voor moderne DNA-manipulatie?",
+          "antwoord": "Het zijn eiwitten die bacteriën van nature gebruiken als verdediging tegen virussen. Ze knippen DNA op zeer specifieke sequenties, wat wetenschappers in staat stelde om voor het eerst heel gericht DNA te knippen.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Waarom is een DNA-ligase vereist nadat men met succes sticky ends heeft samengevoegd?",
+          "antwoord": "De sticky ends vormen wel waterstofbruggen (tussen basen), maar de ruggengraat (suiker-fosfaatverbinding) is nog verbroken. Ligase herstelt deze covalente verbindingen om de plasmide te sluiten en te stabiliseren.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Hoe functioneert het CRISPR-register als een 'geheugenbank' tegen toekomstige infecties?",
+          "antwoord": "Bij een eerste infectie wordt een stukje viraal DNA (spacer) opgeslagen in het register. Bij een volgende infectie wordt dit afgeschreven naar RNA, dat samen met Cas9 het virus herkent en uitschakelt.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Bij DNA-gelelektroforese migreert de aangebrachte kleurstof sneller door de gel dan de DNA-fragmenten. Waarom is dit nuttig?",
+          "antwoord": "De kleurstof dient als indicator. Omdat hij het snelst is, weet de onderzoeker dat zolang de kleurstof nog in de gel zit, de DNA-fragmenten er ook nog in zitten en niet verloren zijn gegaan.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Een onderzoeker voert een PCR-test uit, maar de primer annealing vindt plaats bij $80^{\\circ}C$. Wat is het effect?",
+          "opties": [
+            "De elongatiefase verloopt sneller",
+            "De primers binden perfect",
+            "De DNA-dubbelstrengen zijn al gescheiden, maar de temperatuur is te hoog voor primer-aanhechting",
+            "Taq-polymerase denatureert"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Annealing vereist een lagere temperatuur ($40-60^{\\circ}C$). Bij $80^{\\circ}C$ is het te heet voor waterstofbruggen tussen primer en template.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Wat is de reden dat de Taq-DNA-polymerase in de qPCR de reporter en quencher van elkaar scheidt?",
+          "opties": [
+            "Hitte van $72^{\\circ}C$ verdampt de probe",
+            "Het enzym breekt de probe af terwijl het de streng verlengt",
+            "De quencher bindt aan de polymerase",
+            "De reporter stopt de synthese"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Tijdens elongatie komt de polymerase de probe tegen en breekt deze af, waardoor de reporter vrijkomt en fluorescentie uitzendt.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat is het geschatte risico op borstkanker voor een vrouw met een BRCA1-afwijking vergeleken met iemand zonder?",
+          "opties": [
+            "13% vs. 60-80%",
+            "60-80% vs. ongeveer 13%",
+            "20-40% vs. 1,5%",
+            "Het risico is gelijk"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "BRCA1-mutaties verhogen het risico aanzienlijk naar 60-80%.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Waarom is het toevoegen van een buffer aan de elektroforesekamer cruciaal?",
+          "opties": [
+            "Voor kleuring",
+            "Als DNA-ladder",
+            "Om strengen gescheiden te houden",
+            "Om de elektrische stroom te geleiden"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Zonder ionen in de buffer is er geen stroomgeleiding en migreert het DNA niet.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Welk type DNA-technologie heeft als doel de DNA-sequentie te manipuleren door nucleotiden toe te voegen, te vervangen of te verwijderen?",
+          "opties": [
+            "Recombinant DNA",
+            "PCR",
+            "DNA-sequencing",
+            "Gene editing"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Gene editing (zoals CRISPR) is specifiek gericht op het herschrijven/aanpassen van de code in de cel.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Waarom kan genoom-sequencing leiden tot nieuwe geneesmiddelen?",
+          "opties": [
+            "Het vermenigvuldigt fragmenten",
+            "Het creëert GGO's",
+            "Omdat onderzoekers willen achterhalen welke rol genen vervullen in biologische processen",
+            "Omdat sequenties van alle micro-organismen bekend zijn"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Inzicht in de functie van genen (en fouten daarin) is de basis voor gerichte therapie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Waarom is het fruitvliegje een geschikter modelorganisme dan de mens?",
+          "opties": [
+            "Leeft in de bodem",
+            "Is een prokaryoot",
+            "Heeft slechts 4 chromosomen en een levenscyclus van twee weken",
+            "Heeft 959 cellen"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De eenvoud en snelheid van voortplanting maken genetisch onderzoek efficiënt.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "verbinding",
+          "vraag": "Koppel de overdrachtswijze aan het type vector",
+          "links_items": [
+            "Transductie",
+            "Kunstmatige genoverdracht",
+            "Conjugatie"
+          ],
+          "rechts_items": [
+            "Plasmiden",
+            "Bacteriofagen (virussen)",
+            "Liposomen, micro-injectie of gouden bolletjes"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Conjugatie",
+              "rechts": "Plasmiden"
+            },
+            {
+              "links": "Transductie",
+              "rechts": "Bacteriofagen (virussen)"
+            },
+            {
+              "links": "Kunstmatige genoverdracht",
+              "rechts": "Liposomen, micro-injectie of gouden bolletjes"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Koppel het type DNA-sequentie aan de rol in CRISPR",
+          "links_items": ["Cas-genen", "tracrRNA"],
+          "rechts_items": [
+            "Coderen voor het knipenzym (Cas-nucleasen)",
+            "Houdt het CRISPR-RNA op zijn plaats in het Cas9-eiwit"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Cas-genen",
+              "rechts": "Coderen voor het knipenzym (Cas-nucleasen)"
+            },
+            {
+              "links": "tracrRNA",
+              "rechts": "Houdt het CRISPR-RNA op zijn plaats in het Cas9-eiwit"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Koppel het modelorganisme aan zijn eigenschap",
+          "links_items": ["Zebravis", "Rondworm"],
+          "rechts_items": [
+            "Eenvoudige anatomie (959 cellen), cel-differentiatie bekend",
+            "Transparante embryo's, ideaal voor ontwikkelingsstudie"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Rondworm",
+              "rechts": "Eenvoudige anatomie (959 cellen), cel-differentiatie bekend"
+            },
+            {
+              "links": "Zebravis",
+              "rechts": "Transparante embryo's, ideaal voor ontwikkelingsstudie"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Koppel het ddNTP aan het eindresultaat (Sanger)",
+          "links_items": ["ddATP", "ddGTP"],
+          "rechts_items": [
+            "Fragmenten eindigen op Guanine (G)",
+            "Fragmenten eindigen op Adenine (A)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "ddGTP",
+              "rechts": "Fragmenten eindigen op Guanine (G)"
+            },
+            {
+              "links": "ddATP",
+              "rechts": "Fragmenten eindigen op Adenine (A)"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Koppel het proces aan de genetische basis",
+          "links_items": ["Recombinant DNA", "Reproductief kloneren"],
+          "rechts_items": [
+            "Genetisch identieke kopieën van een organisme creëren",
+            "Genen van een ander organisme inbrengen (GGO)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Reproductief kloneren",
+              "rechts": "Genetisch identieke kopieën van een organisme creëren"
+            },
+            {
+              "links": "Recombinant DNA",
+              "rechts": "Genen van een ander organisme inbrengen (GGO)"
+            }
+          ],
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Koppel het segment in een plasmide aan de rol",
+          "links_items": ["Donor-DNA", "Resistentiegen"],
+          "rechts_items": [
+            "Zorgt voor overleving bij behandeling met antibioticum",
+            "Het gewenste stukje materiaal dat een nuttige eigenschap codeert"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Resistentiegen",
+              "rechts": "Zorgt voor overleving bij behandeling met antibioticum"
+            },
+            {
+              "links": "Donor-DNA",
+              "rechts": "Het gewenste stukje materiaal dat een nuttige eigenschap codeert"
+            }
+          ],
+          "punten": 2
+        }
+      ],
+      "totaal_punten": 50,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": [
+        "Inzicht in technische nuances van PCR en Sequencing",
+        "Medische en forensische toepassingen verklaren",
+        "Vectorsystemen en hun specificaties begrijpen"
+      ],
+      "tips": [
+        "Analyseer het PCR-proces stap voor stap om de 'inefficiëntie' in het begin te snappen.",
+        "Vergeet niet dat qPCR fluorescentie gebruikt om *tijdens* het proces te meten."
+      ]
+    }
+  ],
+  "extra_informatie": {
+    "voorkennis": ["Basis DNA en Eiwitsynthese", "Ecologie basisbegrippen"],
+    "vervolgonderwerpen": [
+      "Duurzaamheidswetenschappen",
+      "Genetische manipulatie ethiek"
+    ],
+    "bronnen": ["Cursusmateriaal Biologie"]
+  }
+}

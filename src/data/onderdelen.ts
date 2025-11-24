@@ -125,6 +125,8 @@ export const onderdelenConfig: OnderdelenConfig = {
     { id: "voortplanting", name: "Voortplanting", description: "Menselijke voortplanting en ontwikkeling", jaar: 6 },
     { id: "genetica", name: "Genetica", description: "Basisprincipes van erfelijkheid", jaar: 6 },
     { id: "genexpressie", name: "Genexpressie", description: "Hoe genen tot expressie komen", jaar: 6 },
+    { id: "biotechnologie", name: "Biotechnologie", description: "Toepassingen van biotechnologie in de geneeskunde en landbouw", jaar: 6 },
+    { id: "evolutie", name: "Evolutie", description: "Mechanismen van evolutie en natuurlijke selectie", jaar: 6 },
   ]
 
 };
