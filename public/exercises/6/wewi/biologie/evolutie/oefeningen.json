@@ -512,11 +512,1380 @@
         "Gebruik de 'fitness'-check: draagt de eigenschap bij aan overleving of voortplanting in DIE omgeving?",
         "Maak onderscheid tussen korte termijn (epigenetica) en lange termijn (DNA mutaties)."
       ]
+    },
+    {
+      "id": "bio-t5h2-basis",
+      "titel": "Basiskennis Evolutiegeschiedenis (Deel 1)",
+      "beschrijving": "Oefeningen over Darwin, Lamarck, fossielen, anatomische bewijzen en dateringsmethoden.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Biologie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Wat zijn de vier kernbegrippen die de basis vormen voor Darwins evolutietheorie door natuurlijke selectie?",
+          "antwoord": "1. Overproductie (meer nakomelingen dan ouders). 2. Strijd om het bestaan (struggle for life). 3. Variatie binnen de soort. 4. Erfelijkheid van gunstige eigenschappen.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Noem drie verschillende domeinen van de wetenschap die argumenten leveren voor evolutie, anders dan de paleontologie.",
+          "antwoord": "Mogelijke antwoorden: Kunstmatige selectie, Embryologie, Anatomie, Biogeografie, Recente observaties, Moleculaire biologie.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Wat is het verschil tussen een rudimentair kenmerk en een pseudogen?",
+          "antwoord": "Een rudimentair kenmerk is een anatomische structuur die zijn functie verloor (bv. staartbeen). Een pseudogen is een stuk DNA (gen) dat inactief is geworden door mutatie (een 'fossiel' gen).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Welke twee principes stelde Lamarck voorop in zijn evolutietheorie?",
+          "antwoord": "1. Gebruik en onbruik van organen (verandering door omgeving/behoefte). 2. De erfelijkheid van verworven eigenschappen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Wat toont het langlopende experiment met de zilvervossen in Siberië aan met betrekking tot evolutie?",
+          "antwoord": "Dat kunstmatige selectie (selecteren op tamheid) op korte tijd kan leiden tot grote uiterlijke veranderingen (domesticatiesyndroom), veel sneller dan natuurlijke selectie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "meerkeuze",
+          "vraag": "De theorie van Alfred Russel Wallace over natuurlijke selectie kwam tot stand:",
+          "opties": [
+            "In samenwerking met Charles Darwin",
+            "Onafhankelijk van Charles Darwin",
+            "Voorafgaand aan de theorie van Jean-Baptiste Lamarck",
+            "Na het uitkomen van On the Origin of Species"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Wallace kwam onafhankelijk van Darwin tot hetzelfde principe, wat Darwin aanspoorde om te publiceren.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Welke methode wordt aanbevolen om de ouderdom van zeer oude fossielen (miljoenen jaren) te bepalen?",
+          "opties": [
+            "Gidsfossielen dateren",
+            "Kalium-argonmethode",
+            "Analyse van DNA-afbraak",
+            "Vergelijking met het actualiteitsprincipe"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "C-14 werkt maar tot 60.000 jaar; voor miljoenen jaren gebruikt men isotopen met een langere halfwaardetijd zoals Kalium-Argon.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Welk concept beschrijft het ontstaan van gelijkaardige aanpassingen in niet-verwante groepen (bv. miereneters bij buideldieren en placentale zoogdieren)?",
+          "opties": [
+            "Homologie",
+            "Genetische drift",
+            "Convergente evolutie",
+            "Mutatie"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Convergente evolutie is het ontstaan van analoge structuren door gelijke omgevingsdruk.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Wat is de belangrijkste reden waarom de betrouwbaarheid van DNA-analyse daalt naarmate fossielen ouder worden?",
+          "opties": [
+            "Het radioactief verval van C-14 stopt",
+            "De chromosomen bevatten minder informatie",
+            "Het DNA breekt met de tijd meer af en verandert chemisch",
+            "De genetische drift neemt toe"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "DNA degradeert en ondergaat chemische veranderingen na de dood.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat wordt bedoeld met de term 'strijd om het bestaan' (struggle for life)?",
+          "opties": [
+            "Fysiek gevecht om leiderschap",
+            "Competitie om beperkte bronnen door overproductie van nakomelingen",
+            "Interne levenskracht (Lamarck)",
+            "Afname van lichaamsdelen door onbruik"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Er zijn meer nakomelingen dan er middelen zijn, wat leidt tot competitie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Welk concept is direct in strijd met het basisidee van Lamarck dat verworven eigenschappen erfelijk zijn?",
+          "opties": [
+            "Gene flow",
+            "Mutatie",
+            "Natuurlijke selectie",
+            "Weismann's theorie (erfelijkheid enkel via geslachtscellen)"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Weismann bewees dat veranderingen in lichaamscellen niet worden doorgegeven aan nakomelingen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "De verspreiding van organismen op aarde (biogeografie) komt overeen met welke geologische theorie?",
+          "opties": [
+            "Het actualiteitsprincipe",
+            "Spontane generatie",
+            "Continentendrift (platentektoniek)",
+            "Mendeliaanse overerving"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De beweging van continenten verklaart waarom bepaalde groepen (zoals buideldieren) geïsoleerd raakten.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Welk type fossiel toont kenmerken van zowel de vooroudergroep als de groep die eruit ontstaan is?",
+          "opties": [
+            "Gidsfossiel",
+            "Rudimentair fossiel",
+            "Overgangsfossiel",
+            "Continue reeks"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Een voorbeeld is Archaeopteryx (kenmerken van reptiel en vogel).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Wat is de functie van de halters (omgevormde achtervleugels) bij de reuzenlangpootmug?",
+          "opties": [
+            "Voortbeweging",
+            "Evenwicht en vluchtstabilisatie",
+            "Vertering",
+            "Bescherming"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Ze fungeren als gyroscopen voor stabiliteit.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Welke structuur bij de mens is een voorbeeld van homologie met andere gewervelden?",
+          "opties": [
+            "De appendix",
+            "Het knipvlies",
+            "De vijfvingerige ledematen (pentadactyl)",
+            "Kippenvel"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Het basisbouwplan van de arm/hand is gelijk bij mensen, walvissen, vleermuizen, etc.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Koppel de historische figuur aan zijn bijdrage",
+          "links_items": [
+            "Georges-Louis Leclerc de Buffon",
+            "Hugo de Vries",
+            "Carolus Linnaeus",
+            "Jean-Baptiste Lamarck"
+          ],
+          "rechts_items": [
+            "Eerste volledige evolutietheorie (verworven eigenschappen)",
+            "Classificatie (Homo sapiens bij dieren)",
+            "Ontdekte mutatie als drijvende kracht",
+            "Stelde voor dat organismen veranderen (variatie)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Jean-Baptiste Lamarck",
+              "rechts": "Eerste volledige evolutietheorie (verworven eigenschappen)"
+            },
+            {
+              "links": "Carolus Linnaeus",
+              "rechts": "Classificatie (Homo sapiens bij dieren)"
+            },
+            {
+              "links": "Hugo de Vries",
+              "rechts": "Ontdekte mutatie als drijvende kracht"
+            },
+            {
+              "links": "Georges-Louis Leclerc de Buffon",
+              "rechts": "Stelde voor dat organismen veranderen (variatie)"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Koppel het bewijs aan de discipline",
+          "links_items": [
+            "Bekkenresten bij walvissen",
+            "DNA-vergelijking loopvogels",
+            "Verspreiding buideldieren",
+            "Tenenreductie paardachtigen"
+          ],
+          "rechts_items": [
+            "Anatomie (Rudimentair)",
+            "Paleontologie (Continue reeks)",
+            "Moleculaire biologie",
+            "Biogeografie"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Bekkenresten bij walvissen",
+              "rechts": "Anatomie (Rudimentair)"
+            },
+            {
+              "links": "DNA-vergelijking loopvogels",
+              "rechts": "Moleculaire biologie"
+            },
+            {
+              "links": "Verspreiding buideldieren",
+              "rechts": "Biogeografie"
+            },
+            {
+              "links": "Tenenreductie paardachtigen",
+              "rechts": "Paleontologie (Continue reeks)"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Koppel de dateringsmethode aan de toepassing",
+          "links_items": ["Kalium-argon", "Koolstof-14", "Gidsfossielen"],
+          "rechts_items": [
+            "Relatief jonge fossielen (tot 60.000 jaar)",
+            "Ouderdom van aardlaag bepalen via typische soorten",
+            "Zeer oude fossielen (miljoenen jaren)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Koolstof-14",
+              "rechts": "Relatief jonge fossielen (tot 60.000 jaar)"
+            },
+            {
+              "links": "Gidsfossielen",
+              "rechts": "Ouderdom van aardlaag bepalen via typische soorten"
+            },
+            {
+              "links": "Kalium-argon",
+              "rechts": "Zeer oude fossielen (miljoenen jaren)"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Koppel de recente observatie aan de oorzaak",
+          "links_items": [
+            "Kortere vleugels zwaluwen",
+            "Zelfbestuiving viooltjes",
+            "Minder nectar viooltjes",
+            "Domesticatiesyndroom vossen"
+          ],
+          "rechts_items": [
+            "Energiebesparing door gebrek aan kruisbestuiving",
+            "Selectie op tamheid door mens",
+            "Afname bestuivende insecten",
+            "Toename wegverkeer"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Kortere vleugels zwaluwen",
+              "rechts": "Toename wegverkeer"
+            },
+            {
+              "links": "Zelfbestuiving viooltjes",
+              "rechts": "Afname bestuivende insecten"
+            },
+            {
+              "links": "Minder nectar viooltjes",
+              "rechts": "Energiebesparing door gebrek aan kruisbestuiving"
+            },
+            {
+              "links": "Domesticatiesyndroom vossen",
+              "rechts": "Selectie op tamheid door mens"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Koppel de term aan de definitie",
+          "links_items": ["Homologie", "Analogie", "Rudimentair"],
+          "rechts_items": [
+            "Gelijkenis in functie door onafhankelijke evolutie",
+            "Gelijkenis in bouw door gemeenschappelijke voorouder",
+            "Kenmerk dat functie verloor"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Analogie",
+              "rechts": "Gelijkenis in functie door onafhankelijke evolutie"
+            },
+            {
+              "links": "Homologie",
+              "rechts": "Gelijkenis in bouw door gemeenschappelijke voorouder"
+            },
+            {
+              "links": "Rudimentair",
+              "rechts": "Kenmerk dat functie verloor"
+            }
+          ],
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 54,
+      "geschatte_tijd": "35 minuten",
+      "leerdoelen": [
+        "Historische ontwikkeling van de evolutietheorie kennen",
+        "Verschillende categorieën van bewijs (fossielen, DNA, anatomie) begrijpen",
+        "Verschil tussen homologie en analogie toepassen"
+      ],
+      "tips": [
+        "Homologie = zelfde voorouder, andere functie (vb. arm en vleugel). Analogie = andere voorouder, zelfde functie (vb. vleugel insect en vogel).",
+        "Koolstof-14 is enkel voor jonge fossielen (denk aan 'korte' halveringstijd)."
+      ]
+    },
+    {
+      "id": "bio-t5h2-verdieping",
+      "titel": "Inzicht en Analyse: Evolutiebewijzen (Deel 2)",
+      "beschrijving": "Verdiepende vragen over embryologie, walvisevolutie, continentendrift en de moderne synthese.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Biologie",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Leg uit hoe de embryonale ontwikkeling van gewervelde dieren (kieuwbogen) een argument is voor een gemeenschappelijke voorouder. Welk concept is hierbij betrokken?",
+          "antwoord": "Embryo's van gewervelden (vis, mens, vogel) vertonen in het beginstadium kieuwbogen. Bij vissen worden dit kieuwen, bij mensen andere structuren (kaken/oor). Deze overeenkomst in bouwplan wijst op homologie en een gemeenschappelijke oorsprong.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat is het fundamentele verschil in de verklaring voor de lange giraffennek tussen Lamarck en Darwin?",
+          "antwoord": "Lamarck: Giraffen strekken hun nek tijdens hun leven en geven die verworven lengte door. Darwin: Er is variatie; giraffen met toevallig langere nekken overleven beter (selectie) en planten zich voort.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Waarom kunnen amfibieën moeilijk vulkanische eilanden bereiken en hoe steunt dit de evolutietheorie?",
+          "antwoord": "Amfibieën drogen uit in zout water. Hun afwezigheid op oceanische eilanden toont aan dat verspreiding beperkt wordt door barrières, en dat soorten op eilanden niet zomaar 'ontstaan' maar er moeten geraken (biogeografie).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Wat wordt met atavisme bedoeld en wat is de relatie met rudimentaire kenmerken?",
+          "antwoord": "Atavisme is het plotseling terugkeren van een voorouderlijk kenmerk (dat normaal onderdrukt is). Het bewijst dat de genetische code voor oude kenmerken (die vaak rudimentair zijn geworden) nog steeds in het DNA aanwezig is.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Beschrijf de evolutie van walvisachtigen aan de hand van skeletveranderingen.",
+          "antwoord": "1. Voorouder was landdier. 2. Aanpassing aan water (Ambulocetus). 3. Verlies achterpoten/bekken komt los van wervelkolom (betere staartbeweging). 4. Huidige walvissen hebben nog rudimentaire bekkenresten.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Hoe ondersteunt de dominantie van buideldieren in Australië de theorie van continentendrift?",
+          "antwoord": "Australië splitste af voordat placentale zoogdieren dominant werden. Door de isolatie konden buideldieren daar overleven en diversifiëren zonder concurrentie van placentale zoogdieren.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Leg aan de hand van het paard uit wat een 'continue reeks' is.",
+          "antwoord": "Een reeks fossielen die geleidelijke verandering toont. Bij het paard: toename in grootte, reductie van tenen naar één hoef, en aanpassing van tanden aan gras eten.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "open",
+          "vraag": "Waarom levert moleculaire biologie (DNA) de sterkste bewijzen voor evolutie?",
+          "antwoord": "Het laat toe verwantschap exact te meten (aantal verschillen), tijdstippen van splitsing te berekenen (moleculaire klok) en bevestigt dat al het leven dezelfde universele genetische code gebruikt.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "open",
+          "vraag": "De krokodilijsvis heeft kleurloos bloed maar bezit een inactief hemoglobinegen (pseudogen). Wat leert dit ons?",
+          "antwoord": "Dat de voorouder wél hemoglobine had. Door aanpassing aan koud, zuurstofrijk water werd hemoglobine overbodig en muteerde het gen tot een pseudogen (verlies van functie zonder nadeel).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "open",
+          "vraag": "Geef een voorbeeld van recente evolutie door selectiedruk van de mens/omgeving.",
+          "antwoord": "Klifzwaluwen in Nebraska: Door toename van verkeer overleefden vogels met kortere, wendbaardere vleugels vaker, waardoor de gemiddelde vleugellengte in de populatie afnam.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Welk orgaan bij de mens is rudimentair voor vertering maar speelt een rol in immuniteit?",
+          "opties": [
+            "Staartbeen",
+            "Oorspieren",
+            "Appendix (blinde darm)",
+            "Lange handpalmspier"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De appendix is een restand van de blindedarm die bij planteneters groter is.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Vogelvleugels en libellenvleugels hebben dezelfde functie maar een andere bouw/oorsprong. Ze zijn:",
+          "opties": ["Homoloog", "Rudimentair", "Analoog", "Convergent"],
+          "correct_antwoord": 2,
+          "uitleg": "Analogie wijst op onafhankelijke evolutie naar dezelfde functie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "Viooltjes schakelen over op zelfbestuiving door gebrek aan insecten. Welk principe geldt?",
+          "opties": [
+            "Genetische drift",
+            "Natuurlijke selectie",
+            "Mutatie",
+            "Kunstmatige selectie"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Het is een aanpassing aan de omgeving (gebrek aan bestuivers) die fitness verhoogt.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "De evolutie van het paard van bosdier (4 tenen) naar graslanddier (1 hoef) illustreert:",
+          "opties": [
+            "Toename complexiteit",
+            "Convergente evolutie",
+            "Aanpassing aan veranderende omgeving (Natuurlijke selectie)",
+            "Erfelijkheid van verworven eigenschappen"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Het anatomische verloop volgt de ecologische verandering van habitat.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Wie zorgden voor de moderne synthese (Darwin + Mendel)?",
+          "opties": [
+            "Sutton & De Vries",
+            "Huxley & Mayr",
+            "Hardy & Weinberg",
+            "Fisher & Wright"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Zij combineerden genetica en evolutie in de 20e eeuw.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Koppel de vroege denker aan zijn idee",
+          "links_items": [
+            "Aristoteles",
+            "Ibn-Khaldun",
+            "Zhuang Zhou",
+            "Anaximander"
+          ],
+          "rechts_items": [
+            "Spontane generatie",
+            "Mens komt voort uit vissen",
+            "Transmutatie (soorten veranderen)",
+            "Leven uit mineralen -> plant -> dier"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Aristoteles",
+              "rechts": "Spontane generatie"
+            },
+            {
+              "links": "Anaximander",
+              "rechts": "Mens komt voort uit vissen"
+            },
+            {
+              "links": "Zhuang Zhou",
+              "rechts": "Transmutatie (soorten veranderen)"
+            },
+            {
+              "links": "Ibn-Khaldun",
+              "rechts": "Leven uit mineralen -> plant -> dier"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Koppel het mechanisme aan de definitie",
+          "links_items": [
+            "Genetische drift",
+            "Natuurlijke selectie",
+            "Variatie",
+            "Mutatie"
+          ],
+          "rechts_items": [
+            "Toevallige genetische verandering (drijvende kracht)",
+            "Verschil in kenmerken binnen een soort",
+            "Selectie van best aangepaste door omgeving",
+            "Toevallige verandering in allelfrequenties (kleine populatie)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Mutatie",
+              "rechts": "Toevallige genetische verandering (drijvende kracht)"
+            },
+            {
+              "links": "Variatie",
+              "rechts": "Verschil in kenmerken binnen een soort"
+            },
+            {
+              "links": "Natuurlijke selectie",
+              "rechts": "Selectie van best aangepaste door omgeving"
+            },
+            {
+              "links": "Genetische drift",
+              "rechts": "Toevallige verandering in allelfrequenties (kleine populatie)"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Koppel de structuur aan het concept",
+          "links_items": [
+            "Voorpoot walvis en mens",
+            "Vleugel vleermuis en arm mens",
+            "Tong buidel- en placentale miereneter",
+            "Spieren voor kippenvel"
+          ],
+          "rechts_items": [
+            "Homologie",
+            "Rudimentair kenmerk",
+            "Homologie",
+            "Convergente evolutie"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Voorpoot walvis en mens",
+              "rechts": "Homologie"
+            },
+            {
+              "links": "Vleugel vleermuis en arm mens",
+              "rechts": "Homologie"
+            },
+            {
+              "links": "Tong buidel- en placentale miereneter",
+              "rechts": "Convergente evolutie"
+            },
+            {
+              "links": "Spieren voor kippenvel",
+              "rechts": "Rudimentair kenmerk"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Koppel gebeurtenis aan effect (biogeografie)",
+          "links_items": [
+            "Australië drijft weg (Jura)",
+            "Pangea aaneengesloten",
+            "Pangea breekt",
+            "Placentale zoogdieren ontstaan elders (Krijt)"
+          ],
+          "rechts_items": [
+            "Continenten scheiden",
+            "Grootste variatie buideldieren door isolatie",
+            "Verspreiding overal mogelijk",
+            "Verdringen niet-placentale zoogdieren op andere continenten"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Pangea breekt",
+              "rechts": "Continenten scheiden"
+            },
+            {
+              "links": "Australië drijft weg (Jura)",
+              "rechts": "Grootste variatie buideldieren door isolatie"
+            },
+            {
+              "links": "Pangea aaneengesloten",
+              "rechts": "Verspreiding overal mogelijk"
+            },
+            {
+              "links": "Placentale zoogdieren ontstaan elders (Krijt)",
+              "rechts": "Verdringen niet-placentale zoogdieren op andere continenten"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Koppel de term aan de figuur (Specialisatie)",
+          "links_items": [
+            "Mutatietheorie",
+            "Actualiteitsprincipe",
+            "Strijd om het bestaan",
+            "Biogeografie"
+          ],
+          "rechts_items": [
+            "Alfred Russel Wallace",
+            "Charles Lyell",
+            "Hugo de Vries",
+            "Thomas Robert Malthus"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Biogeografie",
+              "rechts": "Alfred Russel Wallace"
+            },
+            {
+              "links": "Actualiteitsprincipe",
+              "rechts": "Charles Lyell"
+            },
+            {
+              "links": "Mutatietheorie",
+              "rechts": "Hugo de Vries"
+            },
+            {
+              "links": "Strijd om het bestaan",
+              "rechts": "Thomas Robert Malthus"
+            }
+          ],
+          "punten": 4
+        }
+      ],
+      "totaal_punten": 65,
+      "geschatte_tijd": "45 minuten",
+      "leerdoelen": [
+        "Inzicht in complexe evolutionaire processen (walvis, paard)",
+        "Relatie tussen geologie (platentektoniek) en biologie begrijpen",
+        "Kritisch vergelijken van evolutietheorieën (Lamarck vs Darwin)"
+      ],
+      "tips": [
+        "Bij biogeografie: let op de tijdslijn (wanneer splitste het continent vs wanneer ontstond de diergroep).",
+        "Homologie = zelfde bouwplan (verwantschap). Convergentie = zelfde functie door milieu (geen verwantschap)."
+      ]
+    },
+    {
+      "id": "bio-t5h3-basis",
+      "titel": "Basiskennis Soortvorming (Deel 1)",
+      "beschrijving": "Oefeningen over het soortconcept, isolatiemechanismen, menselijke evolutie en geologische mijlpalen.",
+      "moeilijkheidsgraad": "gemiddeld",
+      "categorie": "Biologie",
+      "type": "gratis",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Wat zijn de twee criteria waarop het soortconcept is gebaseerd, volgens de meest gebruikte definitie?",
+          "antwoord": "Morfologie (uiterlijke kenmerken) en reproductieve isolatie (vruchtbare nakomelingen kunnen krijgen).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Wat is de belangrijkste oorzaak van allopatrische isolatie, en noem een voorbeeld van een natuurlijke barrière.",
+          "antwoord": "Oorzaak: Splitsing van een populatie in twee geografisch gescheiden groepen. Voorbeeld: Bergketens of rivieren (zoals de Congorivier bij chimpansees en bonobo's).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Wat is de betekenis van de afkorting LUCA in de context van de evolutie van het leven?",
+          "antwoord": "Last Universal Common Ancestor (laatste universele gemeenschappelijke voorouder).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "Welke geologische periode wordt gekenmerkt door de zogenaamde 'Cambrische explosie', en wat gebeurde er tijdens deze explosie?",
+          "antwoord": "Het Cambrium (539-485 miljoen jaar geleden). Er ontstonden bijna alle stammen van de dieren op relatief korte tijd.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Wat is het primaire effect van introgressie op de genetische samenstelling van een soort?",
+          "antwoord": "Het verhoogt de genetische variatie doordat allelen van de ene soort via hybriden in de andere soort terechtkomen.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "meerkeuze",
+          "vraag": "De moderne mens draagt, door introgressie, DNA van welke uitgestorven mensensoort in zich?",
+          "opties": [
+            "Australopithecus africanus",
+            "Homo habilis",
+            "Neanderthaler (Homo neanderthalensis)",
+            "Homo erectus"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De huidige mens met Europese of Oost-Aziatische voorouders draagt ongeveer 1,5% tot 8% Neanderthaler-DNA.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "meerkeuze",
+          "vraag": "Welke geologische periode werd afgesloten met de grootste massa-extinctie, waarbij 90-95% van de mariene soorten uitstierf?",
+          "opties": ["Devoon", "Trias", "Perm", "Krijt"],
+          "correct_antwoord": 2,
+          "uitleg": "De Perm-extinctie was de grootste in de geschiedenis van de aarde.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "meerkeuze",
+          "vraag": "Welk type isolatie treedt op wanneer zaadcellen van de ene soort chemisch niet kunnen binden op de receptor van de eicel van de andere soort?",
+          "opties": [
+            "Morfologische isolatie",
+            "Temporele isolatie",
+            "Habitat isolatie",
+            "Gametische isolatie"
+          ],
+          "correct_antwoord": 3,
+          "uitleg": "Dit is een chemische onverenigbaarheid van de gameten.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "meerkeuze",
+          "vraag": "Welk type isolatie wordt geïllustreerd door twee soorten stinkdieren die in hetzelfde gebied leven, maar waarvan de ene in de winter paart en de andere in de zomer?",
+          "opties": [
+            "Gedragsisolatie",
+            "Temporele isolatie",
+            "Morfologische isolatie",
+            "Habitatisolatie"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Het verschil in tijdstip (seizoen) maakt het temporele isolatie.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "meerkeuze",
+          "vraag": "Wat was de belangrijkste verandering in het skelet van de mensachtigen die het mogelijk maakte om rechtop te lopen?",
+          "opties": [
+            "De ontwikkeling van grijpvoeten",
+            "De verschuiving van de achterhoofdsopening naar een centrale positie aan de onderkant van de schedel",
+            "De groei van lange, slingerende armen",
+            "De ontwikkeling van de opponeerbare grote teen"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Hierdoor kwam het hoofd in balans bovenop de wervelkolom te rusten.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Wat is de primaire oorzaak van de toename van zuurstofgas in de oceanen en de atmosfeer tijdens het Precambrium?",
+          "opties": [
+            "De Cambrische Explosie",
+            "De endosymbiose",
+            "Fotosynthese door cyanobacteriën",
+            "De vorming van de ozonlaag"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Cyanobacteriën produceerden zuurstof als bijproduct van fotosynthese.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "Hoe wordt een populatie genoemd die uiterlijke verschillen vertoont en geografisch gescheiden is van andere populaties van dezelfde soort?",
+          "opties": [
+            "Ras",
+            "Polymorfisme",
+            "Geografische ondersoort",
+            "Hybride"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Bijvoorbeeld de Siberische tijger (Panthera tigris altaica).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "In welke geologische periode ontstonden de eerste primaten?",
+          "opties": ["Carboon", "Krijt", "Paleogeen", "Neogeen"],
+          "correct_antwoord": 2,
+          "uitleg": "Het Paleogeen is de periode van 66 tot 23 miljoen jaar geleden.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Welk kenmerk maakte de voortplanting van de eerste reptielen op het land onafhankelijk van water?",
+          "opties": [
+            "De ontwikkeling van een snavel",
+            "De vorming van een eischaal die interne bevruchting vereiste",
+            "Het verlies van de vacht",
+            "De ontwikkeling van een S-vormige wervelkolom"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Het amniotische ei met schaal beschermt tegen uitdroging.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Wat is de definitie van polymorfisme binnen een soort?",
+          "opties": [
+            "Het ontstaan van een hybride door introgressie",
+            "Een toename van het hersenvolume",
+            "Organismen die uiterlijk verschillen maar toch tot dezelfde soort behoren",
+            "De splitsing van een populatie door een geografische barrière"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Denk aan kleurvariaties binnen één soort (bv. zwarte panter vs luipaard).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Koppel de vorm van sympatrische isolatie aan de juiste beschrijving",
+          "links_items": [
+            "Habitatisolatie",
+            "Temporele isolatie",
+            "Morfologische isolatie",
+            "Gedragsisolatie"
+          ],
+          "rechts_items": [
+            "Voorkeur voor een aparte habitat binnen hetzelfde gebied",
+            "Variatie in paringsrituelen",
+            "Variatie in de bouw van de voortplantingsorganen",
+            "Variatie in het tijdstip van voortplanting"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Habitatisolatie",
+              "rechts": "Voorkeur voor een aparte habitat binnen hetzelfde gebied"
+            },
+            {
+              "links": "Gedragsisolatie",
+              "rechts": "Variatie in paringsrituelen"
+            },
+            {
+              "links": "Morfologische isolatie",
+              "rechts": "Variatie in de bouw van de voortplantingsorganen"
+            },
+            {
+              "links": "Temporele isolatie",
+              "rechts": "Variatie in het tijdstip van voortplanting"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Koppel de menselijke adaptatie aan de anatomische verandering",
+          "links_items": [
+            "Passage van de baby door het bekken",
+            "Lopen als schokdemper",
+            "Vroege geboorte",
+            "Stabieler lopen"
+          ],
+          "rechts_items": [
+            "De wervelkolom werd S-vormig",
+            "De knieën en voeten kwamen dichter bij elkaar te staan (valgushoek)",
+            "Het bekken kantelde en werd smaller (komvormig)",
+            "De voetboog ontstaat (Fout in bron: deze optie bleef leeg/foutief, hier logisch ingevuld)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Lopen als schokdemper",
+              "rechts": "De wervelkolom werd S-vormig"
+            },
+            {
+              "links": "Stabieler lopen",
+              "rechts": "De knieën en voeten kwamen dichter bij elkaar te staan (valgushoek)"
+            },
+            {
+              "links": "Vroege geboorte",
+              "rechts": "Het bekken kantelde en werd smaller (komvormig)"
+            },
+            {
+              "links": "Passage van de baby door het bekken",
+              "rechts": "De voetboog ontstaat (Fout in bron: deze optie bleef leeg/foutief, hier logisch ingevuld)"
+            }
+          ],
+          "uitleg": "In de bron was de laatste koppeling niet expliciet, maar op basis van anatomie hoort 'voetboog' bij schokdemper/lopen en bekken bij geboorte.",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Koppel de vroege evolutionaire gebeurtenis aan de geologische periode",
+          "links_items": [
+            "Ontstaan eerste eukaryote cellen",
+            "Ontstaan eerste zaadplanten/reuzeninsecten",
+            "Ontstaan eerste landplanten/longvissen",
+            "Dominantie dinosauriërs/eerste zoogdieren"
+          ],
+          "rechts_items": ["Jura", "Carboon", "Precambrium", "Siluur"],
+          "correcte_verbindingen": [
+            {
+              "links": "Ontstaan eerste eukaryote cellen",
+              "rechts": "Precambrium"
+            },
+            {
+              "links": "Ontstaan eerste zaadplanten/reuzeninsecten",
+              "rechts": "Carboon"
+            },
+            {
+              "links": "Ontstaan eerste landplanten/longvissen",
+              "rechts": "Siluur"
+            },
+            {
+              "links": "Dominantie dinosauriërs/eerste zoogdieren",
+              "rechts": "Jura"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Koppel het dier aan de vorm van reproductieve isolatie",
+          "links_items": [
+            "Bastaardkikker",
+            "Boorvlieg",
+            "Muilezel",
+            "Galago's (Halfapen)"
+          ],
+          "rechts_items": [
+            "Isolatie na bevruchting (onvruchtbaar)",
+            "Habitatisolatie",
+            "Morfologische isolatie",
+            "Introgressie"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Bastaardkikker",
+              "rechts": "Introgressie"
+            },
+            {
+              "links": "Boorvlieg",
+              "rechts": "Habitatisolatie"
+            },
+            {
+              "links": "Muilezel",
+              "rechts": "Isolatie na bevruchting (onvruchtbaar)"
+            },
+            {
+              "links": "Galago's (Halfapen)",
+              "rechts": "Morfologische isolatie"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Koppel de denker aan het idee",
+          "links_items": [
+            "Ibn-Khaldun",
+            "Anaximander van Milete",
+            "Urey & Miller",
+            "Peter & Rosemary Grant"
+          ],
+          "rechts_items": [
+            "Chemische evolutie (oeratmosfeer)",
+            "Verklaring soortvorming darwinvinken",
+            "Mens kwam voort uit vissen",
+            "Reeks van mineralen tot dieren"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Urey & Miller",
+              "rechts": "Chemische evolutie (oeratmosfeer)"
+            },
+            {
+              "links": "Peter & Rosemary Grant",
+              "rechts": "Verklaring soortvorming darwinvinken"
+            },
+            {
+              "links": "Anaximander van Milete",
+              "rechts": "Mens kwam voort uit vissen"
+            },
+            {
+              "links": "Ibn-Khaldun",
+              "rechts": "Reeks van mineralen tot dieren"
+            }
+          ],
+          "punten": 4
+        }
+      ],
+      "totaal_punten": 57,
+      "geschatte_tijd": "40 minuten",
+      "leerdoelen": [
+        "Definities van isolatiemechanismen kennen",
+        "Mijlpalen in de geologische tijdschaal plaatsen",
+        "Anatomische veranderingen in de menselijke evolutie begrijpen"
+      ],
+      "tips": [
+        "Onthoud: Allopatrisch = geografisch gescheiden, Sympatrisch = zelfde gebied.",
+        "Leer de volgorde van de periodes: Precambrium -> Cambrium -> Siluur -> Carboon -> Trias -> Jura -> Krijt -> Paleogeen."
+      ]
+    },
+    {
+      "id": "bio-t5h3-verdieping",
+      "titel": "Inzicht en Analyse: Soortvorming (Deel 2)",
+      "beschrijving": "Verdiepende vragen over stichtereffecten, menselijke fysiologie en complexe isolatiemechanismen.",
+      "moeilijkheidsgraad": "moeilijk",
+      "categorie": "Biologie",
+      "type": "premium",
+      "vragen": [
+        {
+          "vraag_nummer": 1,
+          "type": "open",
+          "vraag": "Leg uit waarom de menselijke zwangerschap als 'vroeggeboorte' kan worden beschouwd en welke skeletadaptatie dit noodzakelijk maakt.",
+          "antwoord": "Door het rechtop lopen kantelde het bekken en werd de opening smaller. Om de baby door het bekken te laten passen, moet deze geboren worden voordat de hersenen/hoofd volledig volgroeid zijn (na 9 maanden i.p.v. 21).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 2,
+          "type": "open",
+          "vraag": "Waarom is het reproductieve soortconcept moeilijk toepasbaar op prokaryoten?",
+          "antwoord": "Prokaryoten planten zich ongeslachtelijk voort. Het concept van 'vruchtbare nakomelingen krijgen via seksuele reproductie' is dus niet relevant. Indeling gebeurt op basis van DNA en morfologie.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 3,
+          "type": "open",
+          "vraag": "Beschrijf hoe het stichtereffect en allopatrische isolatie leidden tot de diversiteit aan vanga's op Madagaskar.",
+          "antwoord": "Een kleine groep (stichters) raakte geïsoleerd op Madagaskar (allopatrisch). Door nieuwe selectiedruk in verschillende niches (schors, kikkers eten) en mutaties ontstonden nieuwe soorten (adaptieve radiatie).",
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 4,
+          "type": "open",
+          "vraag": "De olifantsvis verbruikt 60% van zijn energie voor zijn hersenen. Hoe linkt dit aan de menselijke evolutie en vuurgebruik?",
+          "antwoord": "Grote hersenen zijn energetisch duur (mens: 20%). Dit ondersteunt de hypothese dat de mens voedsel moest koken om efficiënter energie op te nemen om dit grote brein te kunnen 'betalen'.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 5,
+          "type": "open",
+          "vraag": "Hoe beïnvloedden klimaatschommelingen in het Krijt de evolutie, en wat beëindigde deze periode?",
+          "antwoord": "Afwisseling van warm/koud selecteerde voor warmbloedigheid (dinosauriërs/zoogdieren). De periode eindigde met een massa-extinctie door een meteorietinslag en vulkanisme.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 6,
+          "type": "open",
+          "vraag": "Waarom is de muilezel een voorbeeld van isolatie NA bevruchting en niet van gametische isolatie?",
+          "antwoord": "Omdat bevruchting wél plaatsvindt en er een levend jong geboren wordt (dus geen gametisch probleem). De barrière is dat de nakomeling steriel is.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 7,
+          "type": "open",
+          "vraag": "Wat is het verschil tussen een 'ras' en een 'geografische ondersoort' qua ontstaansgeschiedenis?",
+          "antwoord": "Een geografische ondersoort ontstaat door natuurlijke selectie en isolatie. Een ras is het resultaat van menselijk ingrijpen (fokken/kunstmatige selectie).",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 8,
+          "type": "open",
+          "vraag": "Hoe spreekt polymorfisme het morfologische soortconcept tegen?",
+          "antwoord": "Het morfologische concept kijkt naar uiterlijk. Polymorfe dieren (zoals verschillende kleurvormen) zien er anders uit, maar zijn genetisch dezelfde soort. Dit toont de beperking van puur op uiterlijk afgaan.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 9,
+          "type": "open",
+          "vraag": "Hoe verkregen bastaardkikkers (mengvormen) een grotere fitness waardoor ze oudersoorten verdrongen?",
+          "antwoord": "Door introgressie nam de genetische variatie toe. Deze grotere variatie maakte hen beter aangepast aan de omgeving dan de zuivere oudersoorten.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 10,
+          "type": "open",
+          "vraag": "Wat leert het TKTL1-gen ons over de evolutie van het menselijk brein t.o.v. Neanderthalers?",
+          "antwoord": "Een klein verschil (één aminozuur) in dit gen zorgde bij de moderne mens voor meer zenuwcelgroei. Dit toont aan dat kleine genetische wijzigingen grote gevolgen kunnen hebben voor hersenvolume.",
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 11,
+          "type": "meerkeuze",
+          "vraag": "Welke aanpassing aan de voet is een direct gevolg van het verlies van de opponeerbare grote teen?",
+          "opties": [
+            "Het verdwijnen van de S-vormige wervelkolom",
+            "Het ontstaan van een groter afduwoppervlak tijdens het lopen",
+            "De verplaatsing van de knieën dichter bij elkaar",
+            "De ontwikkeling van het driekleurenzicht"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De grote teen kwam in lijn met de andere tenen te liggen, wat essentieel is voor de afzet bij bipedalisme.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 12,
+          "type": "meerkeuze",
+          "vraag": "De overgang amfibie-reptiel installeerde welke vorm van isolatie?",
+          "opties": [
+            "Gametische isolatie (chemische onverenigbaarheid)",
+            "Morfologische isolatie",
+            "Temporele isolatie",
+            "Isolatie na bevruchting"
+          ],
+          "correct_antwoord": 0,
+          "uitleg": "De overgang naar interne bevruchting en landleven maakte voortplanting met waterafhankelijke amfibieën onmogelijk (gameten sterven/binden niet).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 13,
+          "type": "meerkeuze",
+          "vraag": "De snelle evolutie van Darwinvinken door droogte is een voorbeeld van:",
+          "opties": [
+            "Versnelde genetische drift",
+            "Natuurlijke selectie op snavelgrootte door schaarste",
+            "Aanpassing van snavelvorm aan zang",
+            "Geografische isolatie binnen enkele jaren"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "De droogte selecteerde direct op vogels die de harde zaden konden kraken.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 14,
+          "type": "meerkeuze",
+          "vraag": "Welke periode zag de opkomst van naaktzadige planten en de eerste dinosauriërs?",
+          "opties": ["Carboon", "Trias", "Jura", "Paleogeen"],
+          "correct_antwoord": 1,
+          "uitleg": "Het Trias is het begin van het Mesozoïcum (tijdperk van reptielen/dinosauriërs).",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Welke eigenschap van de boombewonende voorouder vergemakkelijkte later spraak?",
+          "opties": [
+            "Driekleurenzicht",
+            "Opponeerbare grote teen",
+            "Een platte borstkas met schoudergewricht aan buitenzijde",
+            "Grijpvoeten"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Dit liet toe om ademhaling en armbeweging te ontkoppelen, wat nodig is voor spraakcontrole.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 16,
+          "type": "verbinding",
+          "vraag": "Koppel de reproductieve barrière aan de fase",
+          "links_items": ["Onvruchtbare hybride", "Gedragsisolatie"],
+          "rechts_items": [
+            "Pre-zygotisch (vóór bevruchting)",
+            "Post-zygotisch (na bevruchting)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Gedragsisolatie",
+              "rechts": "Pre-zygotisch (vóór bevruchting)"
+            },
+            {
+              "links": "Onvruchtbare hybride",
+              "rechts": "Post-zygotisch (na bevruchting)"
+            }
+          ],
+          "punten": 3
+        },
+        {
+          "vraag_nummer": 17,
+          "type": "verbinding",
+          "vraag": "Koppel de hypothese over rechtop lopen aan de selectiedruk",
+          "links_items": [
+            "Savannehypothese",
+            "Dragenhypothese",
+            "Wadenhypothese",
+            "Boshyphothese"
+          ],
+          "rechts_items": [
+            "Noodzaak grote afstanden afleggen (voedsel)",
+            "Rechtop lopen in bomen (zoals orang-oetans)",
+            "Voordeel bij voedsel zoeken in water",
+            "Handen vrij om voedsel/baby te dragen"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Savannehypothese",
+              "rechts": "Noodzaak grote afstanden afleggen (voedsel)"
+            },
+            {
+              "links": "Boshyphothese",
+              "rechts": "Rechtop lopen in bomen (zoals orang-oetans)"
+            },
+            {
+              "links": "Wadenhypothese",
+              "rechts": "Voordeel bij voedsel zoeken in water"
+            },
+            {
+              "links": "Dragenhypothese",
+              "rechts": "Handen vrij om voedsel/baby te dragen"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 18,
+          "type": "verbinding",
+          "vraag": "Rangschik de gebeurtenissen chronologisch (Oud naar Nieuw)",
+          "links_items": [
+            "Landplanten/longvissen",
+            "Vogels/Pterosauriërs",
+            "Ontstaan eukaryote cellen",
+            "Cambrische explosie"
+          ],
+          "rechts_items": [
+            "1 (Oudste, Precambrium)",
+            "2 (Cambrium)",
+            "3 (Siluur/Devoon)",
+            "4 (Recentste, Jura)"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Ontstaan eukaryote cellen",
+              "rechts": "1 (Oudste, Precambrium)"
+            },
+            {
+              "links": "Cambrische explosie",
+              "rechts": "2 (Cambrium)"
+            },
+            {
+              "links": "Landplanten/longvissen",
+              "rechts": "3 (Siluur/Devoon)"
+            },
+            {
+              "links": "Vogels/Pterosauriërs",
+              "rechts": "4 (Recentste, Jura)"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 19,
+          "type": "verbinding",
+          "vraag": "Koppel de huidaanpassing aan het voordeel",
+          "links_items": [
+            "Frontale oogstand",
+            "Toename zweetklieren",
+            "Driekleurenzicht",
+            "Verlies vacht"
+          ],
+          "rechts_items": [
+            "Afvoer verdampt zweet (koeling)",
+            "Voorkomen oververhitting bij jacht",
+            "Rijp fruit zien",
+            "Dieptezicht"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Verlies vacht",
+              "rechts": "Afvoer verdampt zweet (koeling)"
+            },
+            {
+              "links": "Toename zweetklieren",
+              "rechts": "Voorkomen oververhitting bij jacht"
+            },
+            {
+              "links": "Driekleurenzicht",
+              "rechts": "Rijp fruit zien"
+            },
+            {
+              "links": "Frontale oogstand",
+              "rechts": "Dieptezicht"
+            }
+          ],
+          "punten": 4
+        },
+        {
+          "vraag_nummer": 20,
+          "type": "verbinding",
+          "vraag": "Koppel het isolatiemechanisme bij Darwinvinken aan de oorzaak",
+          "links_items": [
+            "Gedragsisolatie (Zang)",
+            "Morfologische isolatie (Snavel)"
+          ],
+          "rechts_items": [
+            "Variatie in snavel leidde tot ander voortplantingsgedrag",
+            "Zangvoorkeur zorgt voor isolatie tussen lijnen"
+          ],
+          "correcte_verbindingen": [
+            {
+              "links": "Morfologische isolatie (Snavel)",
+              "rechts": "Variatie in snavel leidde tot ander voortplantingsgedrag"
+            },
+            {
+              "links": "Gedragsisolatie (Zang)",
+              "rechts": "Zangvoorkeur zorgt voor isolatie tussen lijnen"
+            }
+          ],
+          "uitleg": "De morfologie (snavel) beïnvloedt de zang, en de zang zorgt voor de gedragsisolatie.",
+          "punten": 3
+        }
+      ],
+      "totaal_punten": 65,
+      "geschatte_tijd": "50 minuten",
+      "leerdoelen": [
+        "Inzicht in de fysiologische en anatomische kosten van evolutie (brein vs bekken)",
+        "Chronologie van het leven op aarde beheersen",
+        "Interactie tussen morfologie en gedrag bij soortvorming begrijpen"
+      ],
+      "tips": [
+        "Gebruik de 'kosten-baten' analyse bij vragen over hersenvolume en bipedalisme.",
+        "Onthoud: Pre-zygotisch = geen bevruchting; Post-zygotisch = wel bevruchting, maar problemen met nakomeling."
+      ]
     }
   ],
   "extra_informatie": {
-    "voorkennis": ["Genetica (Mendel/DNA)", "Basisbegrippen ecologie"],
-    "vervolgonderwerpen": ["Soortvorming (speciatie)", "Fylogenie"],
+    "voorkennis": [
+      "Genetica (Mendel/DNA)",
+      "Basisbegrippen ecologie",
+      "Aardrijkskunde (platentektoniek)",
+      "Basis anatomie mens"
+    ],
+    "vervolgonderwerpen": ["Soortvorming (speciatie)", "Fylogenie", "Ecologie"],
     "bronnen": ["Cursusmateriaal Biologie"]
   }
 }

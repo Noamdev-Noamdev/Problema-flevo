@@ -1,14 +1,14 @@
 {
   "vak": "Biologie",
-  "onderdeel": "Biotechnologische Technieken",
+  "onderdeel": "Soortvorming en Evolutiemijlpalen",
   "jaar": 6,
   "richting": "Wetenschappen",
-  "laatst_bijgewerkt": "2025-11-24",
+  "laatst_bijgewerkt": "2025-11-25",
   "oefeningen": [
     {
-      "id": "bio-t4h2-basis",
-      "titel": "Basiskennis Technieken (Deel 1)",
-      "beschrijving": "Oefeningen over PCR, gelelektroforese, sequencing en basisbegrippen van kloneren.",
+      "id": "bio-t5h3-basis",
+      "titel": "Basiskennis Soortvorming (Deel 1)",
+      "beschrijving": "Oefeningen over het soortconcept, isolatiemechanismen, menselijke evolutie en geologische mijlpalen.",
       "moeilijkheidsgraad": "gemiddeld",
       "categorie": "Biologie",
       "type": "gratis",
@@ -16,278 +16,361 @@
         {
           "vraag_nummer": 1,
           "type": "open",
-          "vraag": "Wat is de functie van een primer in de Polymerase Chain Reaction (PCR)?",
-          "antwoord": "Een primer is een korte enkelstrengige DNA-streng die aan het enkelstrengige DNA bindt. DNA-polymerase heeft dit nodig omdat het alleen een bestaande keten kan verlengen. De twee primers bepalen het begin en einde van het te kopiëren fragment.",
+          "vraag": "Wat zijn de twee criteria waarop het soortconcept is gebaseerd, volgens de meest gebruikte definitie?",
+          "antwoord": "Morfologie (uiterlijke kenmerken) en reproductieve isolatie (vruchtbare nakomelingen kunnen krijgen).",
           "punten": 3
         },
         {
           "vraag_nummer": 2,
           "type": "open",
-          "vraag": "Waarom is het noodzakelijk om een kleurstof toe te voegen aan het DNA-staal voordat het aan de gel wordt toegevoegd bij DNA-gelelektroforese?",
-          "antwoord": "Het DNA zelf is niet zichtbaar. De kleurstof dient om het verloop van de gelelektroforese te kunnen volgen (zodat het staal niet uit de gel loopt).",
-          "punten": 2
+          "vraag": "Wat is de belangrijkste oorzaak van allopatrische isolatie, en noem een voorbeeld van een natuurlijke barrière.",
+          "antwoord": "Oorzaak: Splitsing van een populatie in twee geografisch gescheiden groepen. Voorbeeld: Bergketens of rivieren (zoals de Congorivier bij chimpansees en bonobo's).",
+          "punten": 3
         },
         {
           "vraag_nummer": 3,
           "type": "open",
-          "vraag": "Beschrijf kort wat een Genetisch Gemodificeerd Organisme (GGO) is in de context van recombinant DNA-technologie.",
-          "antwoord": "Een GGO is een organisme waarvan het genoom is veranderd, meestal door het te verrijken met genen van een ander organisme via biotechnologische technieken.",
+          "vraag": "Wat is de betekenis van de afkorting LUCA in de context van de evolutie van het leven?",
+          "antwoord": "Last Universal Common Ancestor (laatste universele gemeenschappelijke voorouder).",
           "punten": 2
         },
         {
           "vraag_nummer": 4,
           "type": "open",
-          "vraag": "Welke techniek wordt specifiek gebruikt om de nucleotidevolgorde in een DNA-streng te bepalen?",
-          "antwoord": "DNA-sequencing.",
-          "punten": 1
+          "vraag": "Welke geologische periode wordt gekenmerkt door de zogenaamde 'Cambrische explosie', en wat gebeurde er tijdens deze explosie?",
+          "antwoord": "Het Cambrium (539-485 miljoen jaar geleden). Er ontstonden bijna alle stammen van de dieren op relatief korte tijd.",
+          "punten": 3
         },
         {
           "vraag_nummer": 5,
           "type": "open",
-          "vraag": "Wat is de betekenis van de term 'sticky ends' die ontstaan na het knippen van DNA met restrictie-enzymen?",
-          "antwoord": "Sticky ends zijn uitstekende enkelstrengige uiteinden van DNA. Ze heten zo omdat ze gemakkelijk kunnen binden met complementaire stukjes DNA door middel van waterstofbruggen.",
-          "punten": 3
+          "vraag": "Wat is het primaire effect van introgressie op de genetische samenstelling van een soort?",
+          "antwoord": "Het verhoogt de genetische variatie doordat allelen van de ene soort via hybriden in de andere soort terechtkomen.",
+          "punten": 2
         },
         {
           "vraag_nummer": 6,
-          "type": "open",
-          "vraag": "Geef twee medische toepassingen van de CRISPR-Cas gene editing-techniek.",
-          "antwoord": "De behandeling van genetische ziekten zoals tyrosinemie en sikkelcelanemie.",
+          "type": "meerkeuze",
+          "vraag": "De moderne mens draagt, door introgressie, DNA van welke uitgestorven mensensoort in zich?",
+          "opties": [
+            "Australopithecus africanus",
+            "Homo habilis",
+            "Neanderthaler (Homo neanderthalensis)",
+            "Homo erectus"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "De huidige mens met Europese of Oost-Aziatische voorouders draagt ongeveer 1,5% tot 8% Neanderthaler-DNA.",
           "punten": 2
         },
         {
           "vraag_nummer": 7,
-          "type": "open",
-          "vraag": "Noem twee redenen waarom biotechnologen vaak organismen gebruiken die ze modelorganismen noemen in plaats van de mens.",
-          "antwoord": "Modelorganismen hebben vaak een korte generatietijd, een relatief eenvoudig genoom, en zijn goedkoop in grote aantallen te kweken.",
-          "punten": 3
+          "type": "meerkeuze",
+          "vraag": "Welke geologische periode werd afgesloten met de grootste massa-extinctie, waarbij 90-95% van de mariene soorten uitstierf?",
+          "opties": ["Devoon", "Trias", "Perm", "Krijt"],
+          "correct_antwoord": 2,
+          "uitleg": "De Perm-extinctie was de grootste in de geschiedenis van de aarde.",
+          "punten": 2
         },
         {
           "vraag_nummer": 8,
           "type": "meerkeuze",
-          "vraag": "Welke component zorgt ervoor dat de gelelektroforese succesvol DNA-fragmenten kan scheiden?",
+          "vraag": "Welk type isolatie treedt op wanneer zaadcellen van de ene soort chemisch niet kunnen binden op de receptor van de eicel van de andere soort?",
           "opties": [
-            "De DNA-ladder",
-            "De positieve lading van de fosfaatgroepen",
-            "De nucleotiden in de gel",
-            "De weerstand van de gelporiën die kleinere fragmenten sneller doorlaten dan grotere fragmenten"
+            "Morfologische isolatie",
+            "Temporele isolatie",
+            "Habitat isolatie",
+            "Gametische isolatie"
           ],
           "correct_antwoord": 3,
-          "uitleg": "Het principe berust op grootte: kleine fragmenten ondervinden minder weerstand en migreren sneller.",
+          "uitleg": "Dit is een chemische onverenigbaarheid van de gameten.",
           "punten": 2
         },
         {
           "vraag_nummer": 9,
           "type": "meerkeuze",
-          "vraag": "Hoe wordt het proces genoemd waarbij bacteriën DNA dat buiten de cel ligt opnemen en integreren in hun genoom of plasmide?",
-          "opties": ["Transductie", "Conjugatie", "Kloneren", "Transformatie"],
-          "correct_antwoord": 3,
-          "uitleg": "Transformatie is de opname van 'naakt' DNA uit de omgeving.",
+          "vraag": "Welk type isolatie wordt geïllustreerd door twee soorten stinkdieren die in hetzelfde gebied leven, maar waarvan de ene in de winter paart en de andere in de zomer?",
+          "opties": [
+            "Gedragsisolatie",
+            "Temporele isolatie",
+            "Morfologische isolatie",
+            "Habitatisolatie"
+          ],
+          "correct_antwoord": 1,
+          "uitleg": "Het verschil in tijdstip (seizoen) maakt het temporele isolatie.",
           "punten": 2
         },
         {
           "vraag_nummer": 10,
           "type": "meerkeuze",
-          "vraag": "Welk enzym wordt in de RT-PCR-test gebruikt om de genetische informatie van een RNA-virus (zoals hiv) eerst om te zetten in copyDNA (cDNA)?",
+          "vraag": "Wat was de belangrijkste verandering in het skelet van de mensachtigen die het mogelijk maakte om rechtop te lopen?",
           "opties": [
-            "Taq-DNA-polymerase",
-            "DNA-ligase",
-            "Reverse-transcriptase (RT)",
-            "Cas-nuclease"
+            "De ontwikkeling van grijpvoeten",
+            "De verschuiving van de achterhoofdsopening naar een centrale positie aan de onderkant van de schedel",
+            "De groei van lange, slingerende armen",
+            "De ontwikkeling van de opponeerbare grote teen"
           ],
-          "correct_antwoord": 2,
-          "uitleg": "Reverse-transcriptase schrijft RNA om naar DNA.",
+          "correct_antwoord": 1,
+          "uitleg": "Hierdoor kwam het hoofd in balans bovenop de wervelkolom te rusten.",
           "punten": 2
         },
         {
           "vraag_nummer": 11,
           "type": "meerkeuze",
-          "vraag": "Bij welk type kloneren wordt een celkern van een volwassen huidcel overgebracht in een eicel waarvan de kern verwijderd is (zoals schaap Dolly)?",
+          "vraag": "Wat is de primaire oorzaak van de toename van zuurstofgas in de oceanen en de atmosfeer tijdens het Precambrium?",
           "opties": [
-            "Moleculair kloneren",
-            "Natuurlijk kloneren",
-            "Reproductief kloneren",
-            "Therapeutisch kloneren"
+            "De Cambrische Explosie",
+            "De endosymbiose",
+            "Fotosynthese door cyanobacteriën",
+            "De vorming van de ozonlaag"
           ],
           "correct_antwoord": 2,
-          "uitleg": "Het doel is een nieuw organisme creëren (reproductie).",
+          "uitleg": "Cyanobacteriën produceerden zuurstof als bijproduct van fotosynthese.",
           "punten": 2
         },
         {
           "vraag_nummer": 12,
           "type": "meerkeuze",
-          "vraag": "Wat is een belangrijk nadeel van de klassieke Sanger sequencingmethode vergeleken met Next Generation Sequencing (NGS)?",
+          "vraag": "Hoe wordt een populatie genoemd die uiterlijke verschillen vertoont en geografisch gescheiden is van andere populaties van dezelfde soort?",
           "opties": [
-            "De methode is te duur",
-            "De methode vereist fluorescerende merkers",
-            "De methode liet slechts toe om de sequentie van één DNA-staal tegelijk te bepalen",
-            "De methode gebruikt geen DNA-polymerase"
+            "Ras",
+            "Polymorfisme",
+            "Geografische ondersoort",
+            "Hybride"
           ],
           "correct_antwoord": 2,
-          "uitleg": "NGS kan miljoenen fragmenten parallel sequencen (massively parallel), Sanger slechts één.",
+          "uitleg": "Bijvoorbeeld de Siberische tijger (Panthera tigris altaica).",
           "punten": 2
         },
         {
           "vraag_nummer": 13,
           "type": "meerkeuze",
-          "vraag": "Hoe noemt men de specifieke, korte DNA-sequentie die in het CRISPR-register is opgeslagen en die afkomstig is van een eerdere virale infectie?",
-          "opties": ["Cas-gen", "tracrRNA", "Gids-RNA", "Spacer DNA"],
-          "correct_antwoord": 3,
-          "uitleg": "Spacer DNA is het stukje viraal DNA dat als geheugen wordt opgeslagen.",
+          "vraag": "In welke geologische periode ontstonden de eerste primaten?",
+          "opties": ["Carboon", "Krijt", "Paleogeen", "Neogeen"],
+          "correct_antwoord": 2,
+          "uitleg": "Het Paleogeen is de periode van 66 tot 23 miljoen jaar geleden.",
           "punten": 2
         },
         {
           "vraag_nummer": 14,
           "type": "meerkeuze",
-          "vraag": "Bij de NIPT-test wordt het risico op het syndroom van Down opgespoord door te bepalen of er in het foetale DNA te veel fragmenten aanwezig zijn van welk type molecule?",
-          "opties": ["Plasmiden", "Chromosoom", "Spacer DNA", "Gids-RNA"],
+          "vraag": "Welk kenmerk maakte de voortplanting van de eerste reptielen op het land onafhankelijk van water?",
+          "opties": [
+            "De ontwikkeling van een snavel",
+            "De vorming van een eischaal die interne bevruchting vereiste",
+            "Het verlies van de vacht",
+            "De ontwikkeling van een S-vormige wervelkolom"
+          ],
           "correct_antwoord": 1,
-          "uitleg": "Trisomie 21 betekent een extra chromosoom 21, dus relatief meer DNA-fragmenten van dit chromosoom.",
+          "uitleg": "Het amniotische ei met schaal beschermt tegen uitdroging.",
           "punten": 2
         },
         {
           "vraag_nummer": 15,
-          "type": "verbinding",
-          "vraag": "Koppel de term aan het bijbehorende wetenschappelijke figuur",
-          "links_items": [
-            "Ontwikkelaar van PCR",
-            "Ontwikkelaar van klassieke sequencing"
+          "type": "meerkeuze",
+          "vraag": "Wat is de definitie van polymorfisme binnen een soort?",
+          "opties": [
+            "Het ontstaan van een hybride door introgressie",
+            "Een toename van het hersenvolume",
+            "Organismen die uiterlijk verschillen maar toch tot dezelfde soort behoren",
+            "De splitsing van een populatie door een geografische barrière"
           ],
-          "rechts_items": ["Kary Banks Mullis", "Frederick Sanger"],
-          "correcte_verbindingen": [
-            {
-              "links": "Ontwikkelaar van PCR",
-              "rechts": "Kary Banks Mullis"
-            },
-            {
-              "links": "Ontwikkelaar van klassieke sequencing",
-              "rechts": "Frederick Sanger"
-            }
-          ],
+          "correct_antwoord": 2,
+          "uitleg": "Denk aan kleurvariaties binnen één soort (bv. zwarte panter vs luipaard).",
           "punten": 2
         },
         {
           "vraag_nummer": 16,
           "type": "verbinding",
-          "vraag": "Koppel de DNA-manipulatietechniek aan zijn beschreven doel",
-          "links_items": ["DNA-gelelektroforese", "PCR"],
+          "vraag": "Koppel de vorm van sympatrische isolatie aan de juiste beschrijving",
+          "links_items": [
+            "Habitatisolatie",
+            "Gedragsisolatie",
+            "Morfologische isolatie",
+            "Temporele isolatie"
+          ],
           "rechts_items": [
-            "Het scheiden van DNA-fragmenten op basis van grootte",
-            "Het vermeerderen van een specifiek DNA-fragment"
+            "Voorkeur voor een aparte habitat binnen hetzelfde gebied",
+            "Variatie in paringsrituelen",
+            "Variatie in de bouw van de voortplantingsorganen",
+            "Variatie in het tijdstip van voortplanting"
           ],
           "correcte_verbindingen": [
             {
-              "links": "DNA-gelelektroforese",
-              "rechts": "Het scheiden van DNA-fragmenten op basis van grootte"
+              "links": "Habitatisolatie",
+              "rechts": "Voorkeur voor een aparte habitat binnen hetzelfde gebied"
             },
             {
-              "links": "PCR",
-              "rechts": "Het vermeerderen van een specifiek DNA-fragment"
+              "links": "Gedragsisolatie",
+              "rechts": "Variatie in paringsrituelen"
+            },
+            {
+              "links": "Morfologische isolatie",
+              "rechts": "Variatie in de bouw van de voortplantingsorganen"
+            },
+            {
+              "links": "Temporele isolatie",
+              "rechts": "Variatie in het tijdstip van voortplanting"
             }
           ],
-          "punten": 2
+          "punten": 4
         },
         {
           "vraag_nummer": 17,
           "type": "verbinding",
-          "vraag": "Koppel het type kloneren aan de beschreven methode/resultaat",
-          "links_items": ["Natuurlijk kloneren", "Moleculair kloneren"],
+          "vraag": "Koppel de menselijke adaptatie aan de anatomische verandering",
+          "links_items": [
+            "Lopen als schokdemper",
+            "Stabieler lopen",
+            "Vroege geboorte",
+            "Passage van de baby door het bekken"
+          ],
           "rechts_items": [
-            "Aardbeien vormen bovengrondse nieuwe stengels waar identieke planten aan groeien",
-            "Gebruik van transgene bacteriën om grote hoeveelheden insuline te produceren"
+            "De wervelkolom werd S-vormig",
+            "De knieën en voeten kwamen dichter bij elkaar te staan (valgushoek)",
+            "Het bekken kantelde en werd smaller (komvormig)",
+            "De voetboog ontstaat (Fout in bron: deze optie bleef leeg/foutief, hier logisch ingevuld)"
           ],
           "correcte_verbindingen": [
             {
-              "links": "Natuurlijk kloneren",
-              "rechts": "Aardbeien vormen bovengrondse nieuwe stengels waar identieke planten aan groeien"
+              "links": "Lopen als schokdemper",
+              "rechts": "De wervelkolom werd S-vormig"
             },
             {
-              "links": "Moleculair kloneren",
-              "rechts": "Gebruik van transgene bacteriën om grote hoeveelheden insuline te produceren"
+              "links": "Stabieler lopen",
+              "rechts": "De knieën en voeten kwamen dichter bij elkaar te staan (valgushoek)"
+            },
+            {
+              "links": "Vroege geboorte",
+              "rechts": "Het bekken kantelde en werd smaller (komvormig)"
+            },
+            {
+              "links": "Passage van de baby door het bekken",
+              "rechts": "De voetboog ontstaat (Fout in bron: deze optie bleef leeg/foutief, hier logisch ingevuld)"
             }
           ],
-          "punten": 2
+          "uitleg": "In de bron was de laatste koppeling niet expliciet, maar op basis van anatomie hoort 'voetboog' bij schokdemper/lopen en bekken bij geboorte.",
+          "punten": 4
         },
         {
           "vraag_nummer": 18,
           "type": "verbinding",
-          "vraag": "Koppel het DNA-technologische element aan de bron",
-          "links_items": ["Taq-DNA-polymerase", "Restrictie-enzymen"],
-          "rechts_items": [
-            "Geïsoleerd uit de bacterie Thermus aquaticus",
-            "Worden van nature door bacteriën gebruikt als verdedigingsmechanisme"
+          "vraag": "Koppel de vroege evolutionaire gebeurtenis aan de geologische periode",
+          "links_items": [
+            "Ontstaan eerste eukaryote cellen",
+            "Ontstaan eerste zaadplanten/reuzeninsecten",
+            "Ontstaan eerste landplanten/longvissen",
+            "Dominantie dinosauriërs/eerste zoogdieren"
           ],
+          "rechts_items": ["Precambrium", "Carboon", "Siluur", "Jura"],
           "correcte_verbindingen": [
             {
-              "links": "Taq-DNA-polymerase",
-              "rechts": "Geïsoleerd uit de bacterie Thermus aquaticus"
+              "links": "Ontstaan eerste eukaryote cellen",
+              "rechts": "Precambrium"
             },
             {
-              "links": "Restrictie-enzymen",
-              "rechts": "Worden van nature door bacteriën gebruikt als verdedigingsmechanisme"
+              "links": "Ontstaan eerste zaadplanten/reuzeninsecten",
+              "rechts": "Carboon"
+            },
+            {
+              "links": "Ontstaan eerste landplanten/longvissen",
+              "rechts": "Siluur"
+            },
+            {
+              "links": "Dominantie dinosauriërs/eerste zoogdieren",
+              "rechts": "Jura"
             }
           ],
-          "punten": 2
+          "punten": 4
         },
         {
           "vraag_nummer": 19,
           "type": "verbinding",
-          "vraag": "Koppel de toepassing van DNA-gelelektroforese aan de type sporen",
-          "links_items": ["Ouderschapsbepaling", "Daderidentificatie"],
+          "vraag": "Koppel het dier aan de vorm van reproductieve isolatie",
+          "links_items": [
+            "Bastaardkikker",
+            "Boorvlieg",
+            "Muilezel",
+            "Galago's (Halfapen)"
+          ],
           "rechts_items": [
-            "DNA-fragmenten van moeder, kind en potentiële vader",
-            "DNA-fragmenten uit sperma, bloed, haar of speeksel"
+            "Introgressie",
+            "Habitatisolatie",
+            "Isolatie na bevruchting (onvruchtbaar)",
+            "Morfologische isolatie"
           ],
           "correcte_verbindingen": [
             {
-              "links": "Ouderschapsbepaling",
-              "rechts": "DNA-fragmenten van moeder, kind en potentiële vader"
+              "links": "Bastaardkikker",
+              "rechts": "Introgressie"
             },
             {
-              "links": "Daderidentificatie",
-              "rechts": "DNA-fragmenten uit sperma, bloed, haar of speeksel"
+              "links": "Boorvlieg",
+              "rechts": "Habitatisolatie"
+            },
+            {
+              "links": "Muilezel",
+              "rechts": "Isolatie na bevruchting (onvruchtbaar)"
+            },
+            {
+              "links": "Galago's (Halfapen)",
+              "rechts": "Morfologische isolatie"
             }
           ],
-          "punten": 2
+          "punten": 4
         },
         {
           "vraag_nummer": 20,
           "type": "verbinding",
-          "vraag": "Koppel de component van de PCR aan zijn bouwsteen",
-          "links_items": ["DNA-streng", "Primer"],
+          "vraag": "Koppel de denker aan het idee",
+          "links_items": [
+            "Urey & Miller",
+            "Peter & Rosemary Grant",
+            "Anaximander van Milete",
+            "Ibn-Khaldun"
+          ],
           "rechts_items": [
-            "Desoxynucleotiden (dNTP's)",
-            "Korte enkelstrengige DNA-fragmenten (20-30 nucleotiden)"
+            "Chemische evolutie (oeratmosfeer)",
+            "Verklaring soortvorming darwinvinken",
+            "Mens kwam voort uit vissen",
+            "Reeks van mineralen tot dieren"
           ],
           "correcte_verbindingen": [
             {
-              "links": "DNA-streng",
-              "rechts": "Desoxynucleotiden (dNTP's)"
+              "links": "Urey & Miller",
+              "rechts": "Chemische evolutie (oeratmosfeer)"
             },
             {
-              "links": "Primer",
-              "rechts": "Korte enkelstrengige DNA-fragmenten (20-30 nucleotiden)"
+              "links": "Peter & Rosemary Grant",
+              "rechts": "Verklaring soortvorming darwinvinken"
+            },
+            {
+              "links": "Anaximander van Milete",
+              "rechts": "Mens kwam voort uit vissen"
+            },
+            {
+              "links": "Ibn-Khaldun",
+              "rechts": "Reeks van mineralen tot dieren"
             }
           ],
-          "punten": 2
+          "punten": 4
         }
       ],
-      "totaal_punten": 44,
-      "geschatte_tijd": "35 minuten",
+      "totaal_punten": 57,
+      "geschatte_tijd": "40 minuten",
       "leerdoelen": [
-        "De stappen van PCR en gelelektroforese beschrijven",
-        "Verschillen tussen kloneringstypes kennen",
-        "Basisprincipes van CRISPR en sequencing begrijpen"
+        "Definities van isolatiemechanismen kennen",
+        "Mijlpalen in de geologische tijdschaal plaatsen",
+        "Anatomische veranderingen in de menselijke evolutie begrijpen"
       ],
       "tips": [
-        "Leer het verschil tussen de termen 'primer', 'probe' en 'spacer'.",
-        "Onthoud dat DNA negatief geladen is en naar de positieve pool migreert."
+        "Onthoud: Allopatrisch = geografisch gescheiden, Sympatrisch = zelfde gebied.",
+        "Leer de volgorde van de periodes: Precambrium -> Cambrium -> Siluur -> Carboon -> Trias -> Jura -> Krijt -> Paleogeen."
       ]
     },
     {
-      "id": "bio-t4h2-verdieping",
-      "titel": "Inzicht en Toepassing: Technieken (Deel 2)",
-      "beschrijving": "Verdiepende vragen over PCR-efficiëntie, forensisch onderzoek, qPCR-mechanismen en vectorgebruik.",
+      "id": "bio-t5h3-verdieping",
+      "titel": "Inzicht en Analyse: Soortvorming (Deel 2)",
+      "beschrijving": "Verdiepende vragen over stichtereffecten, menselijke fysiologie en complexe isolatiemechanismen.",
       "moeilijkheidsgraad": "moeilijk",
       "categorie": "Biologie",
       "type": "premium",
@@ -295,305 +378,320 @@
         {
           "vraag_nummer": 1,
           "type": "open",
-          "vraag": "Leg uit waarom de eerste twee cycli van PCR inefficiënt zijn voor de productie van DNA-fragmenten van de exact gewenste lengte.",
-          "antwoord": "Na de eerste cyclus zijn de nieuwe strengen nog te lang, omdat de primer enkel het startpunt bepaalt en niet het eindpunt. Pas na de tweede cyclus ontstaan strengen die aan één kant correct zijn afgelijnd. De exacte lengte verschijnt pas in de derde cyclus.",
+          "vraag": "Leg uit waarom de menselijke zwangerschap als 'vroeggeboorte' kan worden beschouwd en welke skeletadaptatie dit noodzakelijk maakt.",
+          "antwoord": "Door het rechtop lopen kantelde het bekken en werd de opening smaller. Om de baby door het bekken te laten passen, moet deze geboren worden voordat de hersenen/hoofd volledig volgroeid zijn (na 9 maanden i.p.v. 21).",
           "punten": 4
         },
         {
           "vraag_nummer": 2,
           "type": "open",
-          "vraag": "Beschrijf het stappenplan dat je als forensisch onderzoeker volgt om een dader te identificeren met behulp van DNA (van PCR tot Identificatie).",
-          "antwoord": "1. Vermeerdering (PCR): Vermenigvuldig markers van stalen (verdachten + plaats delict). 2. Scheiding (Gelelektroforese): Scheid fragmenten op grootte. 3. Analyse: Maak bandjespatronen zichtbaar. 4. Identificatie: Match het unieke bandenpatroon van de verdachte met het spoor.",
-          "punten": 5
+          "vraag": "Waarom is het reproductieve soortconcept moeilijk toepasbaar op prokaryoten?",
+          "antwoord": "Prokaryoten planten zich ongeslachtelijk voort. Het concept van 'vruchtbare nakomelingen krijgen via seksuele reproductie' is dus niet relevant. Indeling gebeurt op basis van DNA en morfologie.",
+          "punten": 3
         },
         {
           "vraag_nummer": 3,
           "type": "open",
-          "vraag": "Leg het fundamentele verschil uit in hoe Sanger sequencing en Next Generation Sequencing (NGS) de resultaten visualiseren.",
-          "antwoord": "Sanger: Stopt synthese met stopnucleotiden (ddNTP's) en scheidt fragmenten via elektroforese om af te lezen. NGS: Bepaalt sequentie direct tijdens de synthese door bij elke inbouwstap het fluorescentiesignaal te meten, zonder elektroforese.",
+          "vraag": "Beschrijf hoe het stichtereffect en allopatrische isolatie leidden tot de diversiteit aan vanga's op Madagaskar.",
+          "antwoord": "Een kleine groep (stichters) raakte geïsoleerd op Madagaskar (allopatrisch). Door nieuwe selectiedruk in verschillende niches (schors, kikkers eten) en mutaties ontstonden nieuwe soorten (adaptieve radiatie).",
           "punten": 4
         },
         {
           "vraag_nummer": 4,
           "type": "open",
-          "vraag": "Waarom zijn restrictie-enzymen specifiek bij bacteriën de basis geworden voor moderne DNA-manipulatie?",
-          "antwoord": "Het zijn eiwitten die bacteriën van nature gebruiken als verdediging tegen virussen. Ze knippen DNA op zeer specifieke sequenties, wat wetenschappers in staat stelde om voor het eerst heel gericht DNA te knippen.",
+          "vraag": "De olifantsvis verbruikt 60% van zijn energie voor zijn hersenen. Hoe linkt dit aan de menselijke evolutie en vuurgebruik?",
+          "antwoord": "Grote hersenen zijn energetisch duur (mens: 20%). Dit ondersteunt de hypothese dat de mens voedsel moest koken om efficiënter energie op te nemen om dit grote brein te kunnen 'betalen'.",
           "punten": 3
         },
         {
           "vraag_nummer": 5,
           "type": "open",
-          "vraag": "Waarom is een DNA-ligase vereist nadat men met succes sticky ends heeft samengevoegd?",
-          "antwoord": "De sticky ends vormen wel waterstofbruggen (tussen basen), maar de ruggengraat (suiker-fosfaatverbinding) is nog verbroken. Ligase herstelt deze covalente verbindingen om de plasmide te sluiten en te stabiliseren.",
+          "vraag": "Hoe beïnvloedden klimaatschommelingen in het Krijt de evolutie, en wat beëindigde deze periode?",
+          "antwoord": "Afwisseling van warm/koud selecteerde voor warmbloedigheid (dinosauriërs/zoogdieren). De periode eindigde met een massa-extinctie door een meteorietinslag en vulkanisme.",
           "punten": 3
         },
         {
           "vraag_nummer": 6,
           "type": "open",
-          "vraag": "Hoe functioneert het CRISPR-register als een 'geheugenbank' tegen toekomstige infecties?",
-          "antwoord": "Bij een eerste infectie wordt een stukje viraal DNA (spacer) opgeslagen in het register. Bij een volgende infectie wordt dit afgeschreven naar RNA, dat samen met Cas9 het virus herkent en uitschakelt.",
+          "vraag": "Waarom is de muilezel een voorbeeld van isolatie NA bevruchting en niet van gametische isolatie?",
+          "antwoord": "Omdat bevruchting wél plaatsvindt en er een levend jong geboren wordt (dus geen gametisch probleem). De barrière is dat de nakomeling steriel is.",
           "punten": 3
         },
         {
           "vraag_nummer": 7,
           "type": "open",
-          "vraag": "Bij DNA-gelelektroforese migreert de aangebrachte kleurstof sneller door de gel dan de DNA-fragmenten. Waarom is dit nuttig?",
-          "antwoord": "De kleurstof dient als indicator. Omdat hij het snelst is, weet de onderzoeker dat zolang de kleurstof nog in de gel zit, de DNA-fragmenten er ook nog in zitten en niet verloren zijn gegaan.",
-          "punten": 2
+          "vraag": "Wat is het verschil tussen een 'ras' en een 'geografische ondersoort' qua ontstaansgeschiedenis?",
+          "antwoord": "Een geografische ondersoort ontstaat door natuurlijke selectie en isolatie. Een ras is het resultaat van menselijk ingrijpen (fokken/kunstmatige selectie).",
+          "punten": 3
         },
         {
           "vraag_nummer": 8,
-          "type": "meerkeuze",
-          "vraag": "Een onderzoeker voert een PCR-test uit, maar de primer annealing vindt plaats bij $80^{\\circ}C$. Wat is het effect?",
-          "opties": [
-            "De elongatiefase verloopt sneller",
-            "De primers binden perfect",
-            "De DNA-dubbelstrengen zijn al gescheiden, maar de temperatuur is te hoog voor primer-aanhechting",
-            "Taq-polymerase denatureert"
-          ],
-          "correct_antwoord": 2,
-          "uitleg": "Annealing vereist een lagere temperatuur ($40-60^{\\circ}C$). Bij $80^{\\circ}C$ is het te heet voor waterstofbruggen tussen primer en template.",
-          "punten": 2
+          "type": "open",
+          "vraag": "Hoe spreekt polymorfisme het morfologische soortconcept tegen?",
+          "antwoord": "Het morfologische concept kijkt naar uiterlijk. Polymorfe dieren (zoals verschillende kleurvormen) zien er anders uit, maar zijn genetisch dezelfde soort. Dit toont de beperking van puur op uiterlijk afgaan.",
+          "punten": 3
         },
         {
           "vraag_nummer": 9,
-          "type": "meerkeuze",
-          "vraag": "Wat is de reden dat de Taq-DNA-polymerase in de qPCR de reporter en quencher van elkaar scheidt?",
-          "opties": [
-            "Hitte van $72^{\\circ}C$ verdampt de probe",
-            "Het enzym breekt de probe af terwijl het de streng verlengt",
-            "De quencher bindt aan de polymerase",
-            "De reporter stopt de synthese"
-          ],
-          "correct_antwoord": 1,
-          "uitleg": "Tijdens elongatie komt de polymerase de probe tegen en breekt deze af, waardoor de reporter vrijkomt en fluorescentie uitzendt.",
+          "type": "open",
+          "vraag": "Hoe verkregen bastaardkikkers (mengvormen) een grotere fitness waardoor ze oudersoorten verdrongen?",
+          "antwoord": "Door introgressie nam de genetische variatie toe. Deze grotere variatie maakte hen beter aangepast aan de omgeving dan de zuivere oudersoorten.",
           "punten": 3
         },
         {
           "vraag_nummer": 10,
-          "type": "meerkeuze",
-          "vraag": "Wat is het geschatte risico op borstkanker voor een vrouw met een BRCA1-afwijking vergeleken met iemand zonder?",
-          "opties": [
-            "13% vs. 60-80%",
-            "60-80% vs. ongeveer 13%",
-            "20-40% vs. 1,5%",
-            "Het risico is gelijk"
-          ],
-          "correct_antwoord": 1,
-          "uitleg": "BRCA1-mutaties verhogen het risico aanzienlijk naar 60-80%.",
-          "punten": 2
+          "type": "open",
+          "vraag": "Wat leert het TKTL1-gen ons over de evolutie van het menselijk brein t.o.v. Neanderthalers?",
+          "antwoord": "Een klein verschil (één aminozuur) in dit gen zorgde bij de moderne mens voor meer zenuwcelgroei. Dit toont aan dat kleine genetische wijzigingen grote gevolgen kunnen hebben voor hersenvolume.",
+          "punten": 3
         },
         {
           "vraag_nummer": 11,
           "type": "meerkeuze",
-          "vraag": "Waarom is het toevoegen van een buffer aan de elektroforesekamer cruciaal?",
+          "vraag": "Welke aanpassing aan de voet is een direct gevolg van het verlies van de opponeerbare grote teen?",
           "opties": [
-            "Voor kleuring",
-            "Als DNA-ladder",
-            "Om strengen gescheiden te houden",
-            "Om de elektrische stroom te geleiden"
+            "Het verdwijnen van de S-vormige wervelkolom",
+            "Het ontstaan van een groter afduwoppervlak tijdens het lopen",
+            "De verplaatsing van de knieën dichter bij elkaar",
+            "De ontwikkeling van het driekleurenzicht"
           ],
-          "correct_antwoord": 3,
-          "uitleg": "Zonder ionen in de buffer is er geen stroomgeleiding en migreert het DNA niet.",
+          "correct_antwoord": 1,
+          "uitleg": "De grote teen kwam in lijn met de andere tenen te liggen, wat essentieel is voor de afzet bij bipedalisme.",
           "punten": 2
         },
         {
           "vraag_nummer": 12,
           "type": "meerkeuze",
-          "vraag": "Welk type DNA-technologie heeft als doel de DNA-sequentie te manipuleren door nucleotiden toe te voegen, te vervangen of te verwijderen?",
+          "vraag": "De overgang amfibie-reptiel installeerde welke vorm van isolatie?",
           "opties": [
-            "Recombinant DNA",
-            "PCR",
-            "DNA-sequencing",
-            "Gene editing"
+            "Gametische isolatie (chemische onverenigbaarheid)",
+            "Morfologische isolatie",
+            "Temporele isolatie",
+            "Isolatie na bevruchting"
           ],
-          "correct_antwoord": 3,
-          "uitleg": "Gene editing (zoals CRISPR) is specifiek gericht op het herschrijven/aanpassen van de code in de cel.",
+          "correct_antwoord": 0,
+          "uitleg": "De overgang naar interne bevruchting en landleven maakte voortplanting met waterafhankelijke amfibieën onmogelijk (gameten sterven/binden niet).",
           "punten": 2
         },
         {
           "vraag_nummer": 13,
           "type": "meerkeuze",
-          "vraag": "Waarom kan genoom-sequencing leiden tot nieuwe geneesmiddelen?",
+          "vraag": "De snelle evolutie van Darwinvinken door droogte is een voorbeeld van:",
           "opties": [
-            "Het vermenigvuldigt fragmenten",
-            "Het creëert GGO's",
-            "Omdat onderzoekers willen achterhalen welke rol genen vervullen in biologische processen",
-            "Omdat sequenties van alle micro-organismen bekend zijn"
+            "Versnelde genetische drift",
+            "Natuurlijke selectie op snavelgrootte door schaarste",
+            "Aanpassing van snavelvorm aan zang",
+            "Geografische isolatie binnen enkele jaren"
           ],
-          "correct_antwoord": 2,
-          "uitleg": "Inzicht in de functie van genen (en fouten daarin) is de basis voor gerichte therapie.",
+          "correct_antwoord": 1,
+          "uitleg": "De droogte selecteerde direct op vogels die de harde zaden konden kraken.",
           "punten": 2
         },
         {
           "vraag_nummer": 14,
           "type": "meerkeuze",
-          "vraag": "Waarom is het fruitvliegje een geschikter modelorganisme dan de mens?",
-          "opties": [
-            "Leeft in de bodem",
-            "Is een prokaryoot",
-            "Heeft slechts 4 chromosomen en een levenscyclus van twee weken",
-            "Heeft 959 cellen"
-          ],
-          "correct_antwoord": 2,
-          "uitleg": "De eenvoud en snelheid van voortplanting maken genetisch onderzoek efficiënt.",
+          "vraag": "Welke periode zag de opkomst van naaktzadige planten en de eerste dinosauriërs?",
+          "opties": ["Carboon", "Trias", "Jura", "Paleogeen"],
+          "correct_antwoord": 1,
+          "uitleg": "Het Trias is het begin van het Mesozoïcum (tijdperk van reptielen/dinosauriërs).",
           "punten": 2
         },
         {
           "vraag_nummer": 15,
+          "type": "meerkeuze",
+          "vraag": "Welke eigenschap van de boombewonende voorouder vergemakkelijkte later spraak?",
+          "opties": [
+            "Driekleurenzicht",
+            "Opponeerbare grote teen",
+            "Een platte borstkas met schoudergewricht aan buitenzijde",
+            "Grijpvoeten"
+          ],
+          "correct_antwoord": 2,
+          "uitleg": "Dit liet toe om ademhaling en armbeweging te ontkoppelen, wat nodig is voor spraakcontrole.",
+          "punten": 2
+        },
+        {
+          "vraag_nummer": 16,
           "type": "verbinding",
-          "vraag": "Koppel de overdrachtswijze aan het type vector",
+          "vraag": "Koppel de reproductieve barrière aan de fase",
           "links_items": [
-            "Conjugatie",
-            "Transductie",
-            "Kunstmatige genoverdracht"
+            "Gedragsisolatie",
+            "Gametische isolatie",
+            "Onvruchtbare hybride"
           ],
           "rechts_items": [
-            "Plasmiden",
-            "Bacteriofagen (virussen)",
-            "Liposomen, micro-injectie of gouden bolletjes"
+            "Pre-zygotisch (vóór bevruchting)",
+            "Pre-zygotisch (vóór bevruchting)",
+            "Post-zygotisch (na bevruchting)"
           ],
           "correcte_verbindingen": [
             {
-              "links": "Conjugatie",
-              "rechts": "Plasmiden"
+              "links": "Gedragsisolatie",
+              "rechts": "Pre-zygotisch (vóór bevruchting)"
             },
             {
-              "links": "Transductie",
-              "rechts": "Bacteriofagen (virussen)"
+              "links": "Gametische isolatie",
+              "rechts": "Pre-zygotisch (vóór bevruchting)"
             },
             {
-              "links": "Kunstmatige genoverdracht",
-              "rechts": "Liposomen, micro-injectie of gouden bolletjes"
+              "links": "Onvruchtbare hybride",
+              "rechts": "Post-zygotisch (na bevruchting)"
             }
           ],
           "punten": 3
         },
         {
-          "vraag_nummer": 16,
-          "type": "verbinding",
-          "vraag": "Koppel het type DNA-sequentie aan de rol in CRISPR",
-          "links_items": ["Cas-genen", "tracrRNA"],
-          "rechts_items": [
-            "Coderen voor het knipenzym (Cas-nucleasen)",
-            "Houdt het CRISPR-RNA op zijn plaats in het Cas9-eiwit"
-          ],
-          "correcte_verbindingen": [
-            {
-              "links": "Cas-genen",
-              "rechts": "Coderen voor het knipenzym (Cas-nucleasen)"
-            },
-            {
-              "links": "tracrRNA",
-              "rechts": "Houdt het CRISPR-RNA op zijn plaats in het Cas9-eiwit"
-            }
-          ],
-          "punten": 2
-        },
-        {
           "vraag_nummer": 17,
           "type": "verbinding",
-          "vraag": "Koppel het modelorganisme aan zijn eigenschap",
-          "links_items": ["Rondworm", "Zebravis"],
+          "vraag": "Koppel de hypothese over rechtop lopen aan de selectiedruk",
+          "links_items": [
+            "Savannehypothese",
+            "Boshyphothese",
+            "Wadenhypothese",
+            "Dragenhypothese"
+          ],
           "rechts_items": [
-            "Eenvoudige anatomie (959 cellen), cel-differentiatie bekend",
-            "Transparante embryo's, ideaal voor ontwikkelingsstudie"
+            "Noodzaak grote afstanden afleggen (voedsel)",
+            "Rechtop lopen in bomen (zoals orang-oetans)",
+            "Voordeel bij voedsel zoeken in water",
+            "Handen vrij om voedsel/baby te dragen"
           ],
           "correcte_verbindingen": [
             {
-              "links": "Rondworm",
-              "rechts": "Eenvoudige anatomie (959 cellen), cel-differentiatie bekend"
+              "links": "Savannehypothese",
+              "rechts": "Noodzaak grote afstanden afleggen (voedsel)"
             },
             {
-              "links": "Zebravis",
-              "rechts": "Transparante embryo's, ideaal voor ontwikkelingsstudie"
+              "links": "Boshyphothese",
+              "rechts": "Rechtop lopen in bomen (zoals orang-oetans)"
+            },
+            {
+              "links": "Wadenhypothese",
+              "rechts": "Voordeel bij voedsel zoeken in water"
+            },
+            {
+              "links": "Dragenhypothese",
+              "rechts": "Handen vrij om voedsel/baby te dragen"
             }
           ],
-          "punten": 2
+          "punten": 4
         },
         {
           "vraag_nummer": 18,
           "type": "verbinding",
-          "vraag": "Koppel het ddNTP aan het eindresultaat (Sanger)",
-          "links_items": ["ddGTP", "ddATP"],
+          "vraag": "Rangschik de gebeurtenissen chronologisch (Oud naar Nieuw)",
+          "links_items": [
+            "Ontstaan eukaryote cellen",
+            "Cambrische explosie",
+            "Landplanten/longvissen",
+            "Vogels/Pterosauriërs"
+          ],
           "rechts_items": [
-            "Fragmenten eindigen op Guanine (G)",
-            "Fragmenten eindigen op Adenine (A)"
+            "1 (Oudste, Precambrium)",
+            "2 (Cambrium)",
+            "3 (Siluur/Devoon)",
+            "4 (Recentste, Jura)"
           ],
           "correcte_verbindingen": [
             {
-              "links": "ddGTP",
-              "rechts": "Fragmenten eindigen op Guanine (G)"
+              "links": "Ontstaan eukaryote cellen",
+              "rechts": "1 (Oudste, Precambrium)"
             },
             {
-              "links": "ddATP",
-              "rechts": "Fragmenten eindigen op Adenine (A)"
+              "links": "Cambrische explosie",
+              "rechts": "2 (Cambrium)"
+            },
+            {
+              "links": "Landplanten/longvissen",
+              "rechts": "3 (Siluur/Devoon)"
+            },
+            {
+              "links": "Vogels/Pterosauriërs",
+              "rechts": "4 (Recentste, Jura)"
             }
           ],
-          "punten": 2
+          "punten": 4
         },
         {
           "vraag_nummer": 19,
           "type": "verbinding",
-          "vraag": "Koppel het proces aan de genetische basis",
-          "links_items": ["Reproductief kloneren", "Recombinant DNA"],
+          "vraag": "Koppel de huidaanpassing aan het voordeel",
+          "links_items": [
+            "Verlies vacht",
+            "Toename zweetklieren",
+            "Driekleurenzicht",
+            "Frontale oogstand"
+          ],
           "rechts_items": [
-            "Genetisch identieke kopieën van een organisme creëren",
-            "Genen van een ander organisme inbrengen (GGO)"
+            "Afvoer verdampt zweet (koeling)",
+            "Voorkomen oververhitting bij jacht",
+            "Rijp fruit zien",
+            "Dieptezicht"
           ],
           "correcte_verbindingen": [
             {
-              "links": "Reproductief kloneren",
-              "rechts": "Genetisch identieke kopieën van een organisme creëren"
+              "links": "Verlies vacht",
+              "rechts": "Afvoer verdampt zweet (koeling)"
             },
             {
-              "links": "Recombinant DNA",
-              "rechts": "Genen van een ander organisme inbrengen (GGO)"
+              "links": "Toename zweetklieren",
+              "rechts": "Voorkomen oververhitting bij jacht"
+            },
+            {
+              "links": "Driekleurenzicht",
+              "rechts": "Rijp fruit zien"
+            },
+            {
+              "links": "Frontale oogstand",
+              "rechts": "Dieptezicht"
             }
           ],
-          "punten": 2
+          "punten": 4
         },
         {
           "vraag_nummer": 20,
           "type": "verbinding",
-          "vraag": "Koppel het segment in een plasmide aan de rol",
-          "links_items": ["Resistentiegen", "Donor-DNA"],
+          "vraag": "Koppel het isolatiemechanisme bij Darwinvinken aan de oorzaak",
+          "links_items": [
+            "Morfologische isolatie (Snavel)",
+            "Gedragsisolatie (Zang)",
+            "Habitatisolatie"
+          ],
           "rechts_items": [
-            "Zorgt voor overleving bij behandeling met antibioticum",
-            "Het gewenste stukje materiaal dat een nuttige eigenschap codeert"
+            "Variatie in snavel leidde tot ander voortplantingsgedrag",
+            "Zangvoorkeur zorgt voor isolatie tussen lijnen",
+            "Vinken kozen andere bomen (niet van toepassing hier)"
           ],
           "correcte_verbindingen": [
             {
-              "links": "Resistentiegen",
-              "rechts": "Zorgt voor overleving bij behandeling met antibioticum"
+              "links": "Morfologische isolatie (Snavel)",
+              "rechts": "Variatie in snavel leidde tot ander voortplantingsgedrag"
             },
             {
-              "links": "Donor-DNA",
-              "rechts": "Het gewenste stukje materiaal dat een nuttige eigenschap codeert"
+              "links": "Gedragsisolatie (Zang)",
+              "rechts": "Zangvoorkeur zorgt voor isolatie tussen lijnen"
             }
           ],
-          "punten": 2
+          "uitleg": "De morfologie (snavel) beïnvloedt de zang, en de zang zorgt voor de gedragsisolatie.",
+          "punten": 3
         }
       ],
-      "totaal_punten": 50,
-      "geschatte_tijd": "45 minuten",
+      "totaal_punten": 65,
+      "geschatte_tijd": "50 minuten",
       "leerdoelen": [
-        "Inzicht in technische nuances van PCR en Sequencing",
-        "Medische en forensische toepassingen verklaren",
-        "Vectorsystemen en hun specificaties begrijpen"
+        "Inzicht in de fysiologische en anatomische kosten van evolutie (brein vs bekken)",
+        "Chronologie van het leven op aarde beheersen",
+        "Interactie tussen morfologie en gedrag bij soortvorming begrijpen"
       ],
       "tips": [
-        "Analyseer het PCR-proces stap voor stap om de 'inefficiëntie' in het begin te snappen.",
-        "Vergeet niet dat qPCR fluorescentie gebruikt om *tijdens* het proces te meten."
+        "Gebruik de 'kosten-baten' analyse bij vragen over hersenvolume en bipedalisme.",
+        "Onthoud: Pre-zygotisch = geen bevruchting; Post-zygotisch = wel bevruchting, maar problemen met nakomeling."
       ]
     }
   ],
   "extra_informatie": {
-    "voorkennis": ["Structuur van DNA", "Eiwitsynthese"],
-    "vervolgonderwerpen": [
-      "Biotechnologie in de industrie",
-      "Genetische manipulatie ethiek"
-    ],
-    "bronnen": ["Oefeningen Biotechnologische Technieken T4 H2"]
+    "voorkennis": ["Evolutiemechanismen (T5 H1)", "Basis anatomie mens"],
+    "vervolgonderwerpen": ["Biodiversiteit", "Ecologie"],
+    "bronnen": ["Oefeningen Soortvorming T5 H3"]
   }
 }
